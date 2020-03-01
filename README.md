@@ -1,5 +1,5 @@
 # Guide_ResolCo_coherence
-# Mis à jour le 01-03-2020
+### Mis à jour le 01-03-2020
 
 Dossier contenant le fichier .html, le fichier .css et le dossier avec les images pour l'annotation des chaînes. 
 
