@@ -11,3 +11,8 @@ Le dossier "images" contient les images qui figurent dans le guide. Le dossier c
 Le sous-dossier "img_exemples" contient les captures d'écran insérées dans le guide pour illustrer les différents cas de figure. 
 
 Si vous les téléchargez, les deux fichiers et le dossier "images" doivent se trouver dans un même dossier. 
+
+Le dossier "glozz_files" contient deux fichiers : 
+ - resolco_coherence.aam : modèle d'annotation mis à jour le 30-03-2020
+ - resolco_coherence.as : feuille de style pour l'annotation mis à jour le 30-03-2020
+ 
