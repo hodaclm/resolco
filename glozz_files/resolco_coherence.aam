@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotationModel>
+
+	<units>
+		<type name="ER_ELLE">
+			<featureSet>
+				<feature name="type">
+					<value type="free" default="ER_elle" />
+				</feature>
+				<feature name="incertitude">
+				<possibleValues default="Non">
+						<value>Non</value>
+						<value>Sur la délimitation</value>
+						<value>Sur le rattachement</value>
+						<value>Sur les deux</value>
+				</possibleValues>
+				</feature>
+				<feature name="commentaire">
+				<value type="free" default="" />
+				</feature>
+				<feature name="type_annotation">
+				<value type="free" default="manuel" />
+				</feature>
+			</featureSet>
+		</type>
+		
+		<type name="ER_IL">
+			<featureSet>
+				<feature name="type">
+					<value type="free" default="ER_il" />
+				</feature>
+				<feature name="incertitude">
+				<possibleValues default="Non">
+						<value>Non</value>
+						<value>Sur la délimitation</value>
+						<value>Sur le rattachement</value>
+						<value>Sur les deux</value>
+				</possibleValues>
+				</feature>
+				<feature name="commentaire">
+				<value type="free" default="" />
+				</feature>
+				<feature name="type_annotation">
+				<value type="free" default="manuel" />
+				</feature>
+			</featureSet>
+		</type>
+		
+		<type name="ER_ENFANTS">
+			<featureSet>
+				<feature name="type">
+					<value type="free" default="ER_les_enfants" />
+				</feature>
+				<feature name="incertitude">
+				<possibleValues default="Non">
+						<value>Non</value>
+						<value>Sur la délimitation</value>
+						<value>Sur le rattachement</value>
+						<value>Sur les deux</value>
+				</possibleValues>
+				</feature>
+				<feature name="commentaire">
+				<value type="free" default="" />
+				</feature>
+				<feature name="type_annotation">
+				<value type="free" default="manuel" />
+				</feature>
+			</featureSet>
+		</type>
+		
+		
+		<type name="Il_impersonnel">
+			<featureSet>
+				<feature name="type">
+					<value type="free" default="il_impoersonnel" />
+				</feature>
+			</featureSet>
+		</type>
+		
+		<type name="phraseConsigne">
+			<featureSet/>
+		</type>
+	</units>
+	
+	<relations>
+		<type name="coreference">
+		<featureSet> 
+			<feature name="type">
+				<value type="free" default=""/>
+			</feature>
+		</featureSet>	
+		</type>
+		
+	</relations>
+	
+</annotationModel>	
