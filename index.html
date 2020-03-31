@@ -553,20 +553,17 @@ cliquez sur <b>"Options/Préférence"</b> et décochez la case <b>"Load last job
 	<h3>4.2.2. <a name="step" id="step">Jouer avec les styles</a></h3>
 			<div3>
 					<p>
-					Pour chaque &eacute;tape, vous pouvez d&eacute;cider de masquer vos annotations pr&eacute;c&eacute;dentes en masquant le style concern&eacute; ou en masquant au cas par cas les annotations via l'outil d'exploration <em>'Annotation as text'</em> (voir explication <a href="#annotationAstext">ici</a>)</p>
+					Vous pouvez d&eacute;cider de masquer vos annotations pr&eacute;c&eacute;dentes en masquant le style concern&eacute; ou en masquant au cas par cas les annotations via l'outil d'exploration <em>'Annotation as text'</em> (voir explication <a href="#annotationAstext">ici</a>)</p>
 		<p>Vous pouvez, &agrave; tout moment et selon votre convenance, modifier le jeu de couleur ou choisir de ne pas colorer tel ou tel type d'indice. Pour ce faire, ouvrez le style ecalm.as et cliquez sur l'indice dont la couleur est &agrave; modifier, ou cochez la case <i>Hide</i> pour ne plus voir son surlignement.</p>
 		<p class="comment"><b>ATTENTION!!</b> Il se peut que <b>plusieurs fenêtres <i>Style Editor</i> soient ouvertes simultan&eacute;ment</b> (si vous avez &agrave; chaque fois cliqu&eacute; sur le bouton <img src="images/interface_icon/styleEditor-24x24.png" align="absmiddle"/>). Du coup, vos modifications peuvent ne pas prendre effet. Pour &ecirc;tre s&ucirc;r de modifier le 'bon' jeu de style, v&eacute;rifiez dans la barre des t&acirc;ches qu'un seul <img src="images/java.png" height="18" align="absmiddle"/> appara&icirc;t. Si plusieurs fen&ecirc;tres sont ouvertes, fermez les toutes pour n'en laisser qu'une sur laquelle vous ferez vos modifications (que vous pourrez sauvegarder en cliquant, dans la fen&ecirc;tre <em>Style Editor</em>, sur le bouton <img src="images/interface_icon/save-24x24.png" height="18" align="absmiddle"/>).</p>
 
 	</div3>
-			<h3>4.2.4. <a name="cue" id="cue">Valider, supprimer, cr&eacute;er des unités</a></h3>
+			<h3>4.2.4. <a name="cue" id="cue">Valider, supprimer, cr&eacute;er des annotations</a></h3>
 			<div3>
-				<p>
-				Cette phase de l'annotation consiste &agrave; associer &agrave; chaque unit&eacute; annot&eacute;e les indices qui ont servi &agrave; la rep&eacute;rer. Lors de cette phase, vous serez amen&eacute;s &agrave; effectuer trois types d'op&eacute;rations : valider, modifier ou cr&eacute;er des indices.
-				</p>
+				
 	<ul>
-					<li><b>validation d'un <!-- première version indice-candidat-->indice pr&eacute;marqu&eacute; :</b> lorsque l'<!-- première version indice-candidat-->indice (color&eacute;) est bien un indice sur lequel vous vous &ecirc;tes appuy&eacute; pour identifier un objet, vous devez rattacher cet indice &agrave; la structure qu'il signale en l'incluant dans le sch&eacute;ma correspondant (voir section suivante <a href="#schema">4.2.5</a>). Si les &eacute;l&eacute;ments color&eacute;s incluent trop d'&eacute;l&eacute;ments ou n'incluent pas l'ensemble des &eacute;l&eacute;ments pertinents, il vous faut <em>red&eacute;limiter</em> l'indice (voir la section <a href="#edit">4.2.6</a>).</li>
-					<li><b>cr&eacute;ation d'un indice :</b> tout indice vous paraissant significatif doit &ecirc;tre associ&eacute; au sch&eacute;ma qu'il signale. Pour cela il faut cr&eacute;er une nouvelle unit&eacute; de type <code>indice</code> (voir section <a href="#add">4.2.3</a>). Une fois cette unit&eacute; indice cr&eacute;&eacute;e, il faut renseigner la nature de cet indice dans la zone mod&egrave;le de l'interface (exemple : nom propre r&eacute;p&eacute;t&eacute;, changement de temps verbal, parall&eacute;lisme, <!-- première version construction spéciale-->etc.). Ensuite, il reste &agrave; rattacher cette unit&eacute;-indice au sch&eacute;ma concern&eacute; (voir section suivante <a href="#schema">4.2.5</a>).</li>
-					<li><b>suppression d'un indice <!-- première version indice-candidat-->:</b> les indices pr&eacute;marqu&eacute;s jugés non pertinents sont simplement laiss&eacute;s tels quels<!-- première version , sans rattach&eacute;ement &agrave;u sch&eacute;ma en cours d'annotation-->. <!-- ajout Mai novembre 2010-->Les indices créés par l'annotateur mais jugés au final non pertinents devront être supprimés (voir section <a href="#supprUnit">4.2.6</a>).<!-- fin ajout Mai--></li>
+					<li><b>invalidation d'une unité maillon pr&eacute;marqu&eacute; :</b> lorsqu'un maillon  (color&eacute;) n'est pas un maillon d'une des CR à annoter, vous devez supprimer cette annotation en suivant la procédure indiquée en section <a href="#supprUnit">4.2.6</a></li>
+					<li><b>cr&eacute;ation d'une unité maillon :</b> tout maillon d'une des CR à annoter doit donner lieu à la création d'unité de type <i>elle</i>, <i>il</i> ou <i>les enfants</i> (voir section <a href="#add">4.2.3</a>). Une fois cette unit&eacute; cr&eacute;&eacute;e, il faut renseigner certaines caractéristiques  dans la zone mod&egrave;le de l'interface. Pour enregistrer les caractéristiques, il faut appuyer sur "entrée" une fois le champ rempli.</li>
 	</ul>
 	</div3>
 	
@@ -594,8 +591,6 @@ ces <em>glue notes</em> ou les supprimer, une par une ou toutes ensemble. </p>
 		<li class="tocline"><a href="#modifUnit">Modifier la d&eacute;limitation d'une unit&eacute;</a></li>
 		<li class="tocline"><a href="#modifTypunit">Modifier le type d'une unit&eacute;</a></li>
 		<li class="tocline"><a href="#supprUnit">Supprimer une unit&eacute;</a></li>
-		<li class="tocline"><a href="#modifSchema">Modifier la composition d'un sch&eacute;ma</a></li>
-		<li class="tocline"><a href="#supprSchema">Supprimer un sch&eacute;ma</a></li>
 	</ul>
 </div>	
 <div3>
@@ -640,7 +635,7 @@ ces <em>glue notes</em> ou les supprimer, une par une ou toutes ensemble. </p>
 								</li>
 							</ol>
 						</div4>
-						<h4><a name="supprUnit"></a>Supprimer une unit&eacute; et son annotation</h4>
+						<h4><a name="supprUnit"></a>Supprimer une unit&eacute;</h4>
 					<div4>
 						<ol>
 							<li>
@@ -654,64 +649,7 @@ ces <em>glue notes</em> ou les supprimer, une par une ou toutes ensemble. </p>
 							</li>
 						</ol>
 					</div4>
-					<h4><a name="modifSchema"></a>Modifier la composition d'un sch&eacute;ma</h4>
-					<div4>
-								<ol>
-								<li>
-									Cliquez sur <img src="images/interface_icon/schema-32x32.png" alt="schema" align="absmiddle" height="24"/> (<span class="bouton">Schema</span>). Une bo&icirc;te de dialogue appara&icirc;t dans laquelle vous cliquez sur <img src="images/interface_icon/schema-edit-32x32.png" alt="schema edit" align="absmiddle" height="24"/>.
-								</li>
-							<li>
-								<p><a name="select_obj"></a><em>S&eacute;lectionnez le sch&eacute;ma</em> &agrave; modifier en cliquant dessus. Les lignes encadrant le sch&eacute;ma s&eacute;lectionn&eacute; se changent en pointill&eacute;s rouges.</p>
-
-							</li>
-			<li> </li>
-			</ol>
-		<ul>
-							<li>
-									<em>Pour enlever une unit&eacute;</em> : 
-				<ol>
-					<li>Cliquez sur <img src="images/interface_icon/schema-removeUnit-32x32.png" alt="schema remove unit" align="absmiddle" height="24"/>  dans la bo&icirc;te &agrave; outils d&eacute;di&eacute;e &agrave;  l'&eacute;dition des sch&eacute;mas</li>
-					<li>
-						<p>Cliquez dans la zone texte sur l'unit&eacute; &agrave; enlever </p>
-						<a name="AnnotationText"></a>
-					</li>
-					</ol>
-				</li>
-							<li>
-									<em>Pour ajouter une unit&eacute;</em> : 
-				<ol>
-					<li>Cliquez sur <img src="images/interface_icon/schema-addUnit-32x32.png" alt="schema add unit" align="absmiddle" height="24"/>  dans la bo&icirc;te de dialogue d&eacute;di&eacute;e &agrave;  l'&eacute;dition des sch&eacute;mas</li>
-					<li>Cliquez dans la zone texte sur l'unit&eacute; &agrave; ajouter
-						</li>
-					</ol>
-				</li>
-		</ul>
-								<div class="comment"><a name="annotationAstext"></a>
-							<p>Vous pouvez v&eacute;rifier votre action en observant ce qui se passe dans la bo&icirc;te <em>Annotation as Text</em> (pour activer cette fonction, cliquez dans la barre d'outils sur <span class="bouton">Tools</span> puis <span class="bouton">Annotation as Text</span>). Vous acc&egrave;derez ainsi &agrave; une vision list&eacute;e de toutes les annotations (sch&eacute;mas, unit&eacute;s, relations). Cette fen&ecirc;tre vous permet &eacute;galement de naviguer d'annotation en annotation dans la zone texte par un simple clic sur l'annotation d&eacute;sir&eacute;e.</p>
-						<p>REMARQUE : Cette fen&ecirc;tre peut s'av&eacute;rer g&ecirc;nante parce qu'elle pousse vers le bas la fen&ecirc;tre du mod&egrave;le d'annotation par exemple. Vous pouvez alors d&eacute;placer les diff&eacute;rentes bo&icirc;tes &agrave; outils en effectuant un clic maintenu sur la barre verticale gauche de la bo&icirc;te et en la d&eacute;pla&ccedil;ant o&ugrave; vous le souhaitez. <img src="images/AnnotationText.png" align="top"/>.</p>
-							<p>Pour fermer cette bo&icirc;te, cliquez sur la croix en haut &agrave; droite.</p>
-					</div>
-	</div4>
-					<h4><a name="supprSchema"></a>Supprimer un sch&eacute;ma</h4>
-					<div4>
 			
-						<ol>
-							<li>
-									cliquez sur le bouton <img src="images/interface_icon/schema-edit-32x32.png" alt="schema_unit" align="absmiddle" height="24"/> (<span class="bouton">Edit/Delete Units</span>);
-							</li>
-							<li>
-									s&eacute;lectionnez le sch&eacute;ma &agrave; modifier en cliquant dessus (il peut parfois &ecirc;tre pr&eacute;f&eacute;rable d'utiliser la bo&icirc;te &agrave; outils <em>Annotation as Text</em>, voir <a href="#AnnotationText">ici</a>);
-							</li>
-							<li>
-									<p>appuyez sur la touche <span class="bouton">Suppr</span> du clavier, le sch&eacute;ma et son annotation sont supprim&eacute;s.</p>
-						<p class="comment">
-Supprimer un sch&eacute;ma n'entra&icirc;ne aucunement la suppression de ses unit&eacute;s composantes.</p>
-
-							</li>
-						</ol>
-			
-			
-					</div4>
 				</div3>
 				<h3>4.2.7. <a name="save" id="save">Enregistrer les annotations</a></h3>
 				<div3>
