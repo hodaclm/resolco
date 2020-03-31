@@ -139,12 +139,112 @@ a.button_nav {
   margin: 0px 10px;
 }
 
+/*Dedicated parameters*/
+span.term { font-style: italic; color: rgb(0, 0, 192) }
+code {
+color: green;
+font-family: monospace;
+font-size: medium;
+font-weight: bold;
+}
+
+.bouton  {
+padding: 1px;
+border: solid black;
+border-width: 1px;
+margin-left: 0;
+margin-right: 0;
+background-color: #CCCCCC;
+font-weight: bold;
+font-size: x-small;
+font-family: Arial;
+}
+
+code.greenmono {
+color: green;
+font-family: monospace;
+font-weight: bold;
+}
+
+.exemple {
+padding: 10px;
+border: solid #5D5D5D;
+border-width: 2px;
+color: #405d5b;
+font-weight: normal;
+font-size: small;
+margin-right: 5%;
+margin-left: 5%;
+text-align: justify;
+}
+
+.amorce  {
+background-color: rgb(255,0,255);
+}
+
+.item  {
+padding: 0px;
+border-top: dotted;
+border-bottom: dotted;
+border-left: solid;
+border-right: solid;
+border-top-width: 1px;
+border-bottom-width: 1px;
+border-left-width: 3px;
+border-right-width: 3px;
+margin-left: 0;
+margin-right: 0;
+background-color: rgb(255,255,0);
+}
+.cloture  {
+background-color: rgb(255,165,0);
+}
+.indice_CR  {
+margin-left: 0;
+margin-right: 0;
+background-color: gold;
+}
+.indiceAutre  {
+margin-left: 0;
+margin-right: 0;
+background-color: rgb(30, 144, 255);
+}
+.titlinex  {
+font-weight: bold;
+}
+.ex_head  {
+font-weight: bold;
+color: #14a799;
+margin-top: 2; 
+margin-bottom: 0 
+}
+.ex_foot  {
+font-weight: normal;
+font-size: small;
+margin-top: 0; 
+margin-bottom: 0;
+text-align: center;
+color: green;
+}
 
 
+img {
+color: white;
+border: none;
+}
 
+div.contents {
+background-color: rgb(204,204,255);
+padding: 0.5em;
+border: none;
+margin-right: 5%;
+}
 
+.tocline { list-style: none; }
 
-
-
-
-
+.comment {  
+  background-color: #ADD8E6;
+  border: dotted;
+  border-color: #FFFFFF;
+  border-width: 5px;
+}
