@@ -2,6 +2,7 @@
 ### Mis à jour le 30-03-2020
 
 Dossier contenant le fichier .html, le fichier .css et le dossier avec les images pour l'annotation des chaînes. 
+Voir le guide en preview : https://hodaclm.github.io/resolco/
 
 Le fichier .html contient le guide d'annotation en cours de rédaction. La dernière version du guide, avec inclusion des captures d'écran pour certains cas de figure est le fichier nommé "canevas_annotation_ReolCo_161219_Version_CaputresEcran.html".
 
