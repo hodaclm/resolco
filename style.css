@@ -2,9 +2,10 @@
 /* Basic parameters */
 
 body {
-	width: 95%;
-	padding:0;
-	margin:5%;
+	width: 90%;
+	padding: 0.5em;
+	margin-left: 5%;
+	margin-right: 5%;
 	margin-bottom: 30px;
 	background: white;
 	text-align : justify
@@ -27,7 +28,6 @@ div, p, li{
   font-size: 14px;
   color: black;
   text-align : justify; 
-  
 }
 
 h1 {
@@ -178,40 +178,13 @@ margin-left: 5%;
 text-align: justify;
 }
 
-.amorce  {
-background-color: rgb(255,0,255);
-}
 
-.item  {
-padding: 0px;
-border-top: dotted;
-border-bottom: dotted;
-border-left: solid;
-border-right: solid;
-border-top-width: 1px;
-border-bottom-width: 1px;
-border-left-width: 3px;
-border-right-width: 3px;
-margin-left: 0;
-margin-right: 0;
-background-color: rgb(255,255,0);
-}
-.cloture  {
-background-color: rgb(255,165,0);
-}
 .indice_CR  {
 margin-left: 0;
 margin-right: 0;
 background-color: gold;
 }
-.indiceAutre  {
-margin-left: 0;
-margin-right: 0;
-background-color: rgb(30, 144, 255);
-}
-.titlinex  {
-font-weight: bold;
-}
+
 .ex_head  {
 font-weight: bold;
 color: #14a799;
@@ -235,9 +208,7 @@ border: none;
 
 div.contents {
 background-color: rgb(204,204,255);
-padding: 0.5em;
 border: none;
-margin-right: 5%;
 }
 
 .tocline { list-style: none; }
