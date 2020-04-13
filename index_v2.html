@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link href="style.css" type="text/css" rel="stylesheet">	
+	<title>Guide d'annotation</title>
+</head>
+<body>
+<center>
+<table width="100%">
+  <tr>
+    <td width=15%"><img width="50%" src="images/ecrire_avril.png" title="ecrire"/></td>
+    <td width=30%"><p><img src="images/logo.png" title="ResolCo"/></p>
+	    <h1 align="center"><font size="+3">Guide d'annotation ResolCo</font></h1>
+    </td>  
+    <td width=15%"><img width="100%" src="images/Ecalm_logo.png" title="Ecalm"/></td>    
+   </tr>
+</table>
+
+</center>
+
+
+		<h2 class="notoc">
+			<a id="toc" name="toc">Sommaire</a>
+		</h2>
+		<div class="contents">
+			<ul class="toc">
+				<li class="tocline">1. <a href="#introduction">Introduction</a>
+					<ul class="toc">
+						<li class="tocline">
+							1.1 <a href="#consigne">Description de la consigne</a>
+						</li>
+						<li class="tocline">
+							1.2 <a href="#objets_ident_caract">Objets à identifier et caracteriser</a>
+						</li>
+						<li class="tocline">
+							1.3 <a href="#utilisation_guide">Utilisation du guide d'annotation</a>
+						</li>
+					</ul>
+				</li>
+				
+				<li class="tocline">2. <a href="#CR">Les chaînes de référence (<abbr title="chaines_reference">CR</abbr>)</a>
+				<ul class="toc">
+					<li class="tocline">
+						2.1 <a href="#CR_maillon">Les maillons</a>
+					</li>
+					<li class="tocline">
+					2.2 <a href="#annotation_maillons">Annotation des maillons</a></li>
+				</ul>
+				
+				
+				</li>
+				
+			 <li class="tocline">3. <a href="#annotation">Proc&eacute;dure d'annotation</a>
+					<ul class="toc">
+					<li class="tocline">3.1 <a href="#interface">Interface d'annotation</a>
+						</li>
+					<li class="tocline">3.2 <a href="#procedure">Etapes de l'annotation dans l'interface</a>
+						</li>
+					</ul>
+				</li>
+				
+			
+			</ul>
+		</div>
+		
+<h1>
+<a name="introduction" id="introduction" href="#toc">1. Introduction</a>
+</h1>
+<div1>
+<p>Ce guide s’inscrit dans un projet ANR : le projet <a href="http://e-calm.huma-num.fr/le-projet/">É-clam</a>. Ce projet vise à structurer et mettre à disposition de la communauté scientifique un vaste corpus d’écrits d’élèves et d’étudiants. En participant à la tâche d'annotation de ce corpus, vous contribuez à ce projet.</p>
+<h2>
+<a name="consigne" id="consigne" href="#toc">1.1 Description de la consigne</a>
+</h2>
+
+<div2>	
+
+<p>
+Ce guide décrit la tâche d'annotation des productions écrites issues de l'un des corpus du projet : le corpus Résolco ("Résolution de problèmes de cohésion textuelle"). Il s’agit d’un corpus composé de plusieurs centaines de textes d’élèves de niveaux scolaires différents répondant à une même consigne d'écriture. Cette consigne est la suivante :
+</p>		
+	<div class="exemple">
+	<p>
+	Racontez une histoire dans laquelle vous insèrerez séparément et dans l’ordre donné les trois phrases suivantes :
+	<br/>
+	<br/>
+	<span style="color : red">Elle</span> habitait dans <span style="color : #4d81b5">cette maison</span> depuis longtemps. (P1)<br/>
+	<span style="color : #f8892e">Il</span> se retourna en entendant <span style="color : #0d9526">ce grand bruit</span>. (P2)<br/>
+	<u>Depuis cette aventure</u>, <span style="color: #d8d205">les enfants</span> ne sortent plus <span style="color : #9c07f4">la nuit</span>. (P3)
+	</p>
+	</div>
+
+<p>
+L'objectif de cette consigne est d'amener les élèves à résoudre plusieurs anaphores référentielles et donc à introduire, dans les interstices des trois phrases imposées, les référents des expressions référentielles de la consigne :
+<ul>
+	<li>les référents des pronoms personnels : <span style="color : red">Elle</span> et <span style="color : #f8892e">Il</span></li>
+	<li>les référents des syntagmes nominaux comportant un déterminant démonstratif : <span style="color : #4d81b5">cette maison</span> et <span style="color : #0d9526">ce grand bruit</span></li>
+	<li>le réferent du syntagme nominal comportant un article défini pluriel : <span style="color: #d8d205">les enfants</span></li>
+</ul>
+</p>
+<p>La résolution de ces anaphores pourra être effectuée par des enchaînements locaux entre phrases successives ou bien mettre en jeu des chaînes de référence plus longues. Les distances entre reprise anaphorique et terme source seront donc variées. 
+</p>
+<h2>
+<a name="objets_ident_caract" id="objets_ident_caract" href="#toc">1.2 Objets à identifier et caractériser</a>
+</h2>
+<p>
+La tâche d'annotation que vous allez effectuer a pour objectif d'identifier les expressions référentielles donnant accès aux référents humains contenus dans les trois phrases de la consigne et de lister les moyens que les élèves utilisent pour construire les chaînes de référence, le cas échéant. La tâche vise donc l'annotation des expressions référentielles concernant les trois référents humains de la consigne, à savoir <i>elle</i>, <i>il</i> et <i>les enfants</i> et vise à identifier/repérer et à annoter dans les textes les expressions qui coréfèrent à ces trois référents.
+</p>
+<p>
+Dans les textes que vous allez annoter, certaines expressions linguistiques ont fait l'objet d'une préannotation. Il s'agit d'expressions qui, parce qu'elles sont considérées comme potentiellement référentielles et qu'elles peuvent de ce fait constituer de possibles maillons de chaînes de référence, ont été automatiquement préannotées. Ces expressions, nous les appellerons des <b>maillons-candidats</b>.
+</p>
+</div2>
+</div1>
+	
+<h1>
+<a name="CR" id="CR" href="#toc">2. Les chaînes de référence <abbr title="chaines_reference">CR</abbr></a>
+</h1>
+<div1>
+<div2>
+<div3>
+<p>
+Une <abbr title="chaines_reference">CR</abbr> est constituée par l’ensemble des expressions référentielles ou <b>maillons</b> qui renvoient à un même référent.
+</p/
+<p>
+Le texte produit par un élève de 3e en suivant la consigne ci-dessus fournit une première illustration des notions de CR et de maillons.
+</p>
+</div3>
+
+	<div class="exemple">
+	Dans une petite ville de Vendée, vivait <span class="indice_CR">une jeune fille du nom de  Marie</span>. <span class="indice_CR">Celle-ci</span> avait 15 ans et <span class="indice_CR">allait</span> comme tous les enfants de <span class="indice_CR">son</span>  âge au collège, <span class="indice_CR">elle</span> était en 3e. <span class="indice_CR">Ses</span> journées étaient planifiées  à la minutes près. Le lever s'effectuait à 8h, à 9h les cours commençaient.  L'après-midi à 17h cours de piano jusqu'à 18h, à 18h30   <span class="indice_CR">Marie</span> devait se rendre pendant 1h30  à <span class="indice_CR">ses</span> leçons de  natation. Mais heureusement pour <span class="indice_CR">la jeune fille</span> les longues et  terribles journées qu'<span class="indice_CR">elle</span> devait subir au quotidien se terminaient  à 21h30 après le diner de famille. <span class="indice_CR">Marie</span> pouvait donc se  réfugier dans la chambre de <span class="indice_CR">sa</span> grande maison rouge. <span class="indice_CR">Elle</span>  habitait  dans cette maison depuis longtemps. Plus précisément  depuis <span class="indice_CR">ses</span> 3 ans. (Désormais) la maison de <span class="indice_CR">ses</span> premiers pas et  de <span class="indice_CR">ses</span> premiers cris <span class="indice_CR">lui</span> était inconnue. 
+	<br/>
+	<span class="indice_CR">Marie</span> cachait un secret aux membres de <span class="indice_CR">sa</span> famille. En effet <span class="indice_CR">la  jeune fille</span> sortait en cachette 1 fois par semaine de la demeure où <span class="indice_CR">elle</span> habitait  pour retrouver <span class="indice_CR">son</span> meilleur ami. Leur rendez-vous hebdomadaire se  déroulait dans un petit bar du coin le "Flammes". Mais cette  soirée allait  être différente de toutes les autres qu'ils avaient  pu organiser auparavant.
+	<br/>
+	Comme chaque mercredi <span class="indice_CR">Marie</span> retrouva Jonas à 22h, ensemble ils  commendaient ensuite une boisson préférée. 
+	<br/>
+	[CO-3e-2018-FSBJC6-D1-R7-V1_T]</div>
+
+<div3>
+<p>
+Dans ce texte, les maillons de la chaîne renvoyant au pronom <i>elle</i> de la consigne et dont la première mention est l'expression référentielle <i>une jeune fille du nom de Marie</i> sont surlignés en <span class="indice_CR">jaune</span>. Parmi ces maillons, on trouve les expressions référentielles suivantes :
+<ul>
+	<li>nom propre : <i>Marie</i></li>
+	<li>pronoms : <i>celle-ci</i>, <i>elle</i>, <i>lui</i></li>
+	<li>syntagmes nominaux définis : <i>la jeune fille</i></li>
+	<li>syntagmes nominaux indéfinis : <i>une jeune fille du nom de Marie</i></li>
+</ul>
+</p>
+<p>
+Parmi les éléments surlignés, on trouve également :
+</p>
+<ul>
+	<li>des déterminants possessifs : <i>ses</i>, <i>sa</i>, <i>son</i></li>
+	<li>un verbe : <i>allait</i>.
+</ul>
+<p>Les déterminants possessifs surlignés sont ceux qui coréfèrent au possesseur <i>Marie</i>. Dans ce cas, on voit que l'on ne considère que le déterminant comme constitutif du maillon.
+Le verbe <i>allait</i>, coordonné avec <i>avait</i>, est surligné pour indiquer que son sujet est le même que celui du verbe <i>avait</i>.
+</p>
+
+<p>Dans ce texte, la totalité des maillons de la CR a été annotée.
+</p>
+
+</div3>
+
+<h2><a name="CR_maillon" href="#toc">2.1 Délimitation des maillons</a></h2>
+<div3>
+<p>	
+L'objectif de cette section est de décrire et d'illustrer la diversité des unités linguistiques susceptibles de constituer les maillons d'une CR. Les illustrations proposées sont issues de textes rédigés par des élèves.
+Chaque exemple a été extrait de l'interface glozz (dont l'utilisation pour l'annotation est décrite plus loin) pour illustrer un type particulier de maillon. Par conséquent, dans les exemples fournis seul le type de maillon illustré sera annoté, et ce, y compris dans les cas où les exemples proposés contiennent d'autres type de maillons. 
+</p>
+		
+<h4>Syntagmes nominaux</h4>
+<p>
+Les syntagmes nominaux indéfinis, définis, démonstratifs (ex.: <i>une fille</i>, <i>la fille</i>, <i>cette fille</i>) sont annotés quand ils réfèrent à un des trois référents humains considérés.
+Lorsque des modifieurs (antéposés ou postposés au nom ou au groupe nominal) sont présents, on les inclut dans la délimition du maillon. Ces modifieurs peuvent être :
+</p>
+	<ul>
+	<li>des adjectifs : l'adjectif <i>jeune</i> est inclus dans le maillon <i>la jeune fille</i> <!--(<i>une jeune fille</i>, <i>la jeune fille</i>, <i>cette jeune fille</i>, <i>le chat noir</i>) --> 
+		<div class="exemple">
+			<img src="images/img_exemples/CO-3e-2018-FSBJC6-D1-R5-V1_adjectif.png" title="adj" style="width : 70%" />
+			[CO-3e-2018-FSBJC6-D1-R5-V1]
+		</div>
+	</li>
+	<li>des compléments du nom, quelle que soit la préposition : le syntagme prépositionnel <i>de 80 ans</i> est inclus dans le maillon <i>une jeune femme</i>
+		<div class="exemple">
+			<img src="images/img_exemples/CO-3e-2018-FSBJC6-D1-R4-V1_complement_du_nom.png" title="coplement_nom" style="width : 70%" />
+			[CO-3e-2018-FSBJC6-D1-R4-V1]
+		</div>
+	</li>
+	<li>des noms épithètes</li>
+<p>
+<br/><span style="color:red"> Ajouter nos propres exemples du type "ma petite soeur Marie"
+</span>
+</p>
+	<li>des participes, passés ou présents, avec leurs éventuels compléments :</li>
+<p>
+<br/><span style="color:red"> Ajouter nos propres exemples du type "Le président élu", "Le président élu par le peuple français avec 66,1 % des voix
+</span>
+</p>
+	<li>des propositions relatives : lorsque le nom ou le groupe nominal composant un maillon est suivi d'une proposition relative, on annote <b>uniquement</b> le pronom relatif. Autrement dit, dans ce cas, on n'inclut pas l'ensemble de la proposition relative dans les limites du maillon.
+		<div class="exemple">
+			<img src="images/img_exemples/CO-3e-2018-VTAC305-D1-R9-V1_relative.png" title="relative" style="width : 70%" />
+			[CO-3e-2018-VTAC305-D1-R9-V1]
+		</div>
+	</li>
+	</ul>
+</p>
+<p>Dans le cas où il y a plusieurs modifieurs, ces derniers sont inclus dans la délimitation du maillon. 
+		<div class="exemple">
+			<img src="images/img_exemples/CO-3e-2018-FSBJC6-D1-R4-V1_plusieurs_modifieurs.png" title="plusieurs_modifieurs" style="width : 70%" />
+			[CO-3e-2018-FSBJC6-D1-R4-V1]
+		</div>
+<br/><span style="color:red">je mettrais aussi un exemple où il y a plusieurs modifieurs post-posés si on en a... </span></p>
+			    
+<p>Les modifieurs des syntagmes nominaux peuvent se trouver en apposition. Pour identifier une apposition, on se fonde généralement sur la ponctuation, considèrant qu'il y a une apposition lorsqu'il y a une virgule.
+Cependant, dans la mesure où les textes annotés sont des textes produits par des apprenants dans lesquels l'usage de la ponctuation n'est pas encore complètement stabilisé, on ne peut pas s'appuyer de manière fiable sur la virgule pour repérer les appositions.
+Les appositions seront donc incluses dans la délimitation des maillons qu'elles soient (<i>âgée de 15 ans</i>) ou non (<i>nommée Christine</i>) signalées par une virgule.
+		<div class="exemple">	
+			<img src="images/img_exemples/CO-3e-2016-VTAC305-D1-R18-V1_plusieurs_modifieurs.png" title="plusieurs_modifieurs" style="width : 70%" />
+			[CO-3e-2016-VTAC305-D1-R18-V1]
+		</div>
+		<div class="exemple">
+			<img src="images/img_exemples/CO-3e-2016-VTAC305-D1-R23-V1_apposition.png" title="apposition" style="width : 70%" />
+			[CO-3e-2016-VTAC305-D1-R23-V1]
+		</div>
+
+<br/><span style="color:red"> Propositions à discuter
+</span></p>	
+<p>
+Théoriquement, les expressions qui sont employées en <i>mention</i> ne peuvent pas constituer les maillons d'une CR car elles ne référent pas, dans la mesure où le référent d'une expression utilisée en <i>mention</i> n'est autre que l'expression elle-même. Par conséquent, lorsqu'elles sont en mention, les expressions ne devraient pas annotées.
+Cependant, et en particulier pour simplifier l'annotation, nous considèrerons ces expressions comme référentielles. Elles seront donc considérées comme des modifieurs du nom et feront partie intégrante du maillon. En d'autres termes, elles seront annotées de la même manière que les appositions.
+Ainsi, dans les deux exemples ci-dessus, on annotera :
+<ul>
+<li><i>Marie</i>, qui est en mention, de la même manière que <i>agée de 15 ans</i>. Ce nom propre fait donc partie du même maillon.</li>
+<li><i>Chrisitine</i>, qui se trouve également en mention, fera également partie du même maillon que <i>une femme nommée</i></li>
+</ul>
+</p>
+
+<p>
+Certaines copies contiennent des titres. Dans ces titres, peuvent figurer des maillons. Le cas échéant, une expression se trouvant dans un titre sera considérée comme référentielle et annotée comme maillon.
+</p>
+<p>
+<br/><span style="color:red"> Ajouter nos propres exemples
+</span>
+</p>
+
+<p>Les expressions génériques référent et peuvent elles-aussi constituer les maillons d'une CR. Le syntagme nominal <i>les enfants</i> de la consigne est susceptible d'être interprété comme générique et renvoyer alors aux enfants en général ou comme spécifique et renvoyer dans ce cas aux enfants de l'histoire. Dans les deux cas, l'expression sera annotée comme un maillon de la CR.
+</p>
+<p>
+<br/><span style="color:red"> Ajouter nos propres exemples
+</span>
+</p>
+<p><span style="color:red"> On fait comment s'il y a deux CR différentes pour les enfants ? ex.: copie CO-3e-2018-FSBJC6-D1-R13-V1_T_normalised.ac : il y a 'les enfants' de l'histoire de l'élève et 'les enfants' de l'histoire dans l'histoire. 
+</span></p>
+
+<h4>Syntagmes nominaux coordonnés</h4>
+<p>Dans le cas où deux ou plusieurs syntagmes nominaux sont coordonnés, on annotera non seulement chacun des syntagmes isolément mais aussi le groupe formé par ces syntagmes coordonnés.
+</p>
+<p><span style="color:red"> On annote le groupe que si les deux deviennent 'les enfants' ? On pourrait prévoir la possibilité d'ajouter une unité 'groupe' comme on a fait avec Laura, pour signaler que 'elle' ou 'il' sont repris dans un groupe même si ce groupe ne correspond pas à 'les enfants' ? Et pour les syntagmes pris individuellement on les prend que si le référent est 'elle' 'il' ou 'les enfants' ? peut-être à expliciter ce qu'on fait si on a le cas ou un de deux noms n'est ni 'elle' ni 'il' ni 'les enfants' ? </span></p>
+			  
+<!--<div class="exemple">[[Pierre]i et [Marie]j]k iront faire [les courses]l. </div>-->
+	<div class="exemple">
+		<img src="images/img_exemples/CO-3e-2018-FSBJC6-D1-R10-V1_noms_coordonnes.png" title="noms_coordonnes" style="width : 70%" />
+		[CO-3e-2016-FSBJC6-D1-R10-V1]
+	</div>
+
+<br/><span style="color:red"> trouver un autre exemple pour coordination (moins compliqué et l’annoter)
+</span></p>
+
+
+<p>Dans le cas de la coordination de syntagmes, il arrive que le verbe soit au singulier, notamment avec la conjonction <i>ou</i>. Dans ce cas, on n'annote pas le groupe mais seulement les syntagmes pris séparémentment.
+</p>
+<p>
+<br/><span style="color:red"> Ajouter nos propres exemples du type "Pierre ou Marie ira faire les courses"
+</span>
+</p>
+
+<!--
+<p><span style="color : red">Est-ce que ça vaut pour les textes des enfants ?</span>
+<br/><span style="color : red">Est-ce que l'on annote le groupe seulement s'il y a coréférence avec <i>les enfants</i> ?</span></p>
+-->
+
+<h4>Syntagmes nominaux non exprimés</h4>
+<p>Il est fréquent, en particulier dans les cas de coordination, que le sujet ne soit exprimé qu'une seule fois. Si le second verbe coordonné n'est pas précédé de son sujet, alors on annote uniquement le verbe.
+</p>
+<p>
+<br/><span style="color:red"> Ajouter nos propres exemples"
+<br/><span style="color:red"> Ajouter nos propres exemples"
+</span>
+</p>
+<p><span style="color:red">Quelle délimitation de l'unité lorsqu'il y a un temps composé, une négation etc. ? </span></p>
+<!--
+<p>Il y a aussi sujet zéro dans le cas de l'impératif (guide Democrat, p 21)</p>
+<div class="exemple">[Ferme]<sub>i</sub> [la porte]<sub>j</sub></div>
+-->
+
+<h4>Possessifs</h4>
+<p>Les déterminants possessifs coréfèrent au possesseur. Seul le déterminant est délimité comme maillon (<i>son</i>, <i>sa</i>).
+</p>
+	<div class="exemple">	
+			<img src="images/img_exemples/CO-3e-2016-VTAC305-D1-R18-V1_plusieurs_modifieurs.png" title="plusieurs_modifieurs" style="width : 70%" />
+			[CO-3e-2016-VTAC305-D1-R18-V1]
+	</div>
+	<div class="exemple">
+		<img src="images/img_exemples/CO-3e-2016-VTAC305-D1-R10-V1_possessif.png" title="possessif" style="width : 70%" />
+		[CO-3e-2016-VTAC305-D1-R10-V1]
+	</div>
+
+<br/><span style="color:red"> trouver un autre exemple car celui-ci est ambigü
+</span></p>
+
+<p>Le nom ou le groupe nominal précédé d'un possessif constitue une expression référentielle distincte, qui ne sera annotée que si elle coréfère à un des trois référents humains (<i>il</i>, <i>elle</i> ou <i>les enfants</i>).
+</p>
+<br/><span style="color:red"> Illustrer ce cas de figure ?
+</span></p>
+
+<br/><span style="color:red"> Ajouter un autre cas de figure qu'on voit dans l'exemple suivant :
+Puis une voiture arrivait et s'arrêtait devant Tina et Hawk. La portière s'ouvre et c'était le père de  Tina.
+pour montrer qu'on annote [de Tina] comme coréférent à Tina si Tina est un maillon de la chaîne <i>elle</i>
+
+
+<h4>Pronoms</h4>
+<p>On annote les pronoms personnels ainsi que les démonstratifs. Les pronoms réfléchis en revanche ne sont pas annotés.
+</p>
+<br/><span style="color:red"> Ajouter nos propres exemples
+</span></p>	
+<!--<br/>[Macron] i , (le) président de [la République] j , a prononcé [un discours] k</div>-->
+
+<h4>Discours direct</h4>
+<p>On considère que le passage au discours direct ne constitue pas une rupture de la chaîne. Ainsi on annote <i>moi</i> comme un maillon de la CR de <i>Jeane</i>, de même que chacune des occurrences du pronom personnel <i>je</i> qui suivent.
+</p>
+<br/><span style="color:red">Bien fixer comment  gérer les passages au discours direct ou indirect (ex. R10) ?
+</span></p>
+
+	<div class="exemple">
+		<img src="images/img_exemples/CO-3e-2018-FSBJC6-D1-R10-V1_discours_direct.png" title="noms_coordonnes" style="width : 70%" />
+		[CO-3e-2016-FSBJC6-D1-R10-V1]
+	</div>
+
+<h4>Noms propres</h4>
+<p>Lorsque l'expression référentielle renvoyant à un nom humain prend la forme d'un nom propre, celui-ci peut se réaliser sous la forme d'un nom propre complet, composé d'un nom et d'un prénom (<i>Zack Ston</i>), du prénom seul (<i>Zack</i>) ou uniquement du nom de famille (<i>Ston</i>).
+</p>  
+	<h3><a name="CR_illustration"></a>Illustration</h3>
+<p>Pour ce qui concerne l'annotation des NPP complet, le nom et le prénom constituent la même unité (voir section unités). Il se peut qu'ils soient annoté séparemment lors du prémarquage automatique, comme le montre la figure ci-dessous.
+</p> 
+	<p class="ex_head">
+	Délimitation des noms propres complets prémarqués automatiquement  
+	</p>
+	 <div class="exemple">
+	 <img src="images/delimitationNPP_complet.png" title="delimitationNPP" style="width : 70%" />
+	 [CO-3e-2018-FSBJC6-D1-R9-V1_T]
+	 </div>
+
+<p>
+Dans ce cas l'annotateur doit : 
+	 <span style="color : red">à décider</span><br/>
+	 <ul>
+		<li>Créer une nouvelle unité constituée du nom propre complet et c'est cette nouvelle unité qui sera rattaché au schéma ; </li>
+		<li>Supprimer une des deux unités prémarquées et rédélimiter l'autre unité en incluant nom et prénom.</li>
+	 </ul>
+</p>
+	 
+<!--
+<div class="exemple">[Les chats] i miaulent. [Un chat] i , [ça] i miaule. [Le chat] i , quand [il] i a faim,
+miaule.</div>	
+-->
+<!--
+	<h4>Les attributs</h4>
+	<p>Tous les attributs nominaux sont annotés comme des expressions référentielles (Guide Democrat, p. 15)</p>
+	<div class="exemple">
+	[Marie]i est [vendeuse dans [une boulangerie]j]i. 
+	<br/>[Londres]<sub>i</sub> est [la capitale de [l’Angleterre]<sub>j</sub>]<sub>i</sub>.
+	<br/>[Louis]<sub>i</sub> était en réalité [ce fameux colonel]<sub>j</sub> [dont]<sub>j</sub> [il]<sub>k</sub> avait tant entendu parler.
+	<br/> ajouter exemple tiré des textes ResolCo que nous avons annoté
+	</div>
+	<p><span style="color : red">modifier exemple : on utilise les crochet ou autre mise en forme ? </span>
+	</p>
+-->
+<!--	
+	[Pomme]i s’écrit avec [deux m]j. [C’]iest [un mot complexe]i. (mot utilisé en mention)
+	<br/>[Paul]i, nommé [Pierre]j chez [les Grecs]k... 
+	<br/>[Il]i s’appelle [Charlemagne]j.
+	<br/>[On]i [l’]j a appelé [Charlemagne]k. (terme pas coréférent à l'objet)
+	</div>
+-->
+<!--	
+	<p>Si le pronom relatif n'a pas d'antécédent, on annote toute la relative.</p>
+	<div class="exemple">[Qui dort]i dîne.</div>
+	<p>On annote toute la relative quand un pronom démonstratif n'a pas d'antécédent et la référence est construite via la relative qui le suit.</p>
+	<div class="exemple">[Il] i a [tout ce que [l’on] j peut attendre d’[un conseiller] k ] l .
+<br/>[Deux hommes] i étaient devant [lui] j . [Celui qui avait [la sacoche] l ] k
+s’appelait Malcolm.</div>
+<p>Même chose pour le pronom <i>un</i> suivi d'un relatfi (guide Democrat, p. 21)</p>
+<div class="exemple">Il y [en] i a [un qui dort] j .</div>
+-->
+
+<p>
+<br/><span style="color:red"> Faire figurer ce qui suit dans la partie annotation proprement dite
+</span>
+</p>
+<h4>Incertitude</h4>
+<p>Pour plusieurs raisons, il n'est pas toujours facile de déterminer quel est le référent d'une expression référentielle.
+Il peut notamment y avoir dans le contexte plusieurs expressions disponibles pour un même référent.
+C'est le cas ci-dessous où le possessif <i>sa</i> peut coréférer à <i>la vieille femme</i> ou à <i>elle</i>.
+Dans ce cas, on fera un choix et on annotera uniquement l'expression qui paraît la plus cohérente pour construire l'interprétation, en lui attribuant toutefois une étiquette signalant l'incertitude.
+</p>
+<p><span style="color:red">On utilise les traits associés à chaque unité et on indique une 'incertitude sur le rattachement'</span></p>
+
+<div class="exemple">
+		<img src="images/img_exemples/CO-3e-2016-VTAC305-D1-R10-V1_possessif.png" title="possessif" style="width : 70%" />
+		[CO-3e-2016-VTAC305-D1-R10-V1]
+	</div>
+
+</div3>
+</div2>
+</div1>		
+	
+
+	<h2><a name="CR_maillon" href="#toc">2.2 Procédure d'annotation des maillons</a></h2>
+	
+		<p>
+		L'objectif de l'annotation que vous allez réaliser est double. Il s'agit :
+		</p>
+			<ol>
+				<li>d'identifier et délimiter les <em>maillons qui composent les CR</em> de <i>elle</i>, <i>il</i> et <i>les enfants</i> voir section <a href="#add">3.2.3</a>;</li>
+				
+				<li>d'associer ces expressions à une même chaîne (section <a href="#rel">3.2.4</a>);</li>
+			</ol>
+<div3>
+<p>La figure suivante fournit une illustration - pour le même texte que celui que nous venons de commenter - de ce qu'on a appelé les "maillons-candidats". Il s'agit d'éléments qui ont fait l'objet d'une préannotation et qui apparaissent colorés en bleu dans le texte. 
+		</p>
+		<div class="exemple">
+		<img src="images/maillons_candidats.png" title="maillons_candidats" style="width : 70%" />
+		[CO-3e-2018-FSBJC6-D1-R7-V1_T]
+		</div>
+		<p>Les éléments susceptibles d'avoir fait l'objet d'une préannotation sont les suivants :
+		<ul>
+			<li>noms propres</li>
+			<li>pronoms personnels de 3<sup>e</sup> personne</li>
+			<li>pronoms démonstratifs</li>
+			<li>syntagmes nominaux possessifs</li>
+			<li>syntagmes nominaux démonstratifs</li>
+			<li>syntagmes nominaux indéfinis</li>	
+			<li>syntagmes nominaux numéraux</li>
+			<!--à confirmer-->
+			<li>syntagmes dont la tête lexicale réitère un nom déjà mentionné</li>
+			<li>reprises lexicales des noms présents dans le titre</li>	
+	</ul>
+	Ces éléments sont ceux qui peuvent être présentés à l'annotateur comme des candidats au statut de maillon.
+	</p>
+	
+</div3>
+	<h3><a name="CT_test"></a>Tests</h3>
+	<div3>
+		<p>
+	Lors de l'annotation, en tant qu'annotateur vous pourrez être amenés à :
+	<ul>
+		<li><b>valider</b> les maillons-candidats</li>
+		<li><b>supprimer</b> les maillons-candidats</li>
+		<li><b>ajouter</b> tous les maillons pertinents pour constituer la chaîne de référence considérée</li>
+	</ul>
+	Pour vous vous permettre de décider si vous allez valider ou supprimer les maillons-candidats, nous vous suggérons de vous demander si les expressions préannotées sont effectivement coréférentielles ou non.
+	Pour répondre à cette question, vous pouvez tenter de les substituer par l'expression référentielle complète. L'impossibilité d'une telle substitution amène à conclure à la non coréférentialité.
+	mettre un exemple
+		</p>	
+	</div3>		
+	
+	<h4>Annoter une <abbr title="chaines_reference">CR</abbr></h4>
+		<div4>
+		<p>
+			Pour annoter une CR, vous pouvez procéder de la manière suivante :
+			<ul>
+			<li>il <b>valide</b> les maillons-candidats quand ceux-ci lui paraissent pertinents</li>
+			<li>il <b>supprime</b> les maillons-candidats quand ceux-ci ne sont pas considérés comme pertinents</li>
+			<li>il <b>ajoute</b> tous les maillons pertinents pour constituer la chaîne de référence considérée</li>
+			</ul>
+		</p>
+		</div4>
+	
+	
+	<h2><a name="annotation_maillons" href="#toc">2.2 Annotation des maillons</a></h2>
+	<div3>
+	<p>
+	Une fois identifiés et délimités l'ensemble des maillons de la CR, la tâche suivante consiste à relier ces maillons entre eux.</li>
+	</ul>
+	</p>
+	
+	<h1>
+	<a name="procedure_annotation" id="procedure_annotation">3. Utilisation de Glozz</a>
+	</h1>
+
+	<div1>
+	
+		<p>
+		L'annotation des CR se fait en délimitant et qualifiant toutes les <em>UNITÉS</em> (<img src="images/interface_icon/unit.png" align="absmiddle" height="18"/>) qui correspondent aux expressions référentielles référant aux réfénets humains mentionnés dans les phrases consignes, à savoir <i>elle</i>, <i>il</i> et <i>les enfants</i>.</p>
+<p>Afin de faciliter l'annotation, un certain nombre d'éléments ont été préannotés automatiquement. L'annotation consiste donc valider ou non ces maillons préannotés et à ajouter ceux que le système de prémarquage n'a pas pu détecter.</p>
+		<p>Trois types d'<em>UNITÉS</em> sont à distinguer&nbsp;:
+		<ul>
+			<li>Les mentions de <i>elle</i></li>
+			<li>Les mentions de <i>il</i></li>
+			<li>Les mentions de <i>les enfants</i></li>
+		</ul>
+			</p>
+	
+	<h2>
+	<a name="interface" id="interface" href="#toc">3.1. Interface d'annotation</a>
+	</h2>
+	<div2>
+		<p>Pour effectuer l'annotation vous allez utiliser l'interface d'annotation Glozz.</p>
+		<h4>Télécharger Glozz</h4>
+		<p>Pour télécharger le logiciel il faut se rendre sur le site suivant <a href="http://glozz.free.fr/">http://glozz.free.fr/</a> et remplir les champs proposés dans la section "Download Glozz". 
+	<br/>Il faudra également suivre les indications pour demander une clé d'accès à Glozz, sans laquelle vous ne pourrez pas annoter. 
+	Si vous avez des difficultés à trouver ces indications sur le site, suivez les informations ci-dessous : </p>
+<div class="exemple">
+	Envoyer un mail à yann.mathet@unicaen.fr  et antoine.widlocher@unicaen.fr   
+	<br/><b>Objet du mail :</b> Glozz 
+<br/><b>Texte :</b>  vous devez indiquer votre souhait d'effectuer l'accès à Glozz et donner votre username. Pour communiquer l'username que vous avez choisi d'utiliser vous devez indiquer dans le corps du mail : <br/>
+<b>Login : votre username</b> 
+</div>
+<p>Pour installer le logiciel suivez les indications présentes sur le site et sur le manuel : <a href="http://glozz.free.fr/glozzManual_1_0.pdf">http://glozz.free.fr/glozzManual_1_0.pdf</a></p>
+
+<h4>Lancer Glozz</h4>
+<p>Une fois l'installation terminée, vous pouvez lancer Glozz. Pour ce faire, vous avez plusieures possibilités : 
+<ul>
+	<li><b>Sous Windows :</b> vous pouvez lancer le logiciel en faisant un double clic sur le fichier <b>«StartGlozz.bat»</b> ;</li>
+	<li><b>Sous linux ou mac :</b> vous pouvez lancer le logiciel :</li>
+	<ul>
+		<li>soit en faisant un double clic sur le fichier <b>«glozz-platform.jar»</b> ;</li>
+		<li>soit en utilisant le terminal, via la ligne de commande suivante : <b>java -jar <i>(chemin pour arriver à votre dossier Glozz)</i>/glozz-platform dist-2.1/glozz-platform.jar</b> <br/>
+		Si vous avez besoin de donner plus de mémoire au logiciel, vous pouvez utiliser la ligne de commande suivante :  
+		<b>java -Xmx1G -jar <i>(chemin pour arriver à votre dossier Glozz)</i>/glozz-platform dist-2.1/glozz-platform.jar</b> <br/> À vous de voir si ouvrir Glozz en lui attribuant plus de mémoire.
+	</li>
+	</ul>
+
+</ul>
+
+<h4>Paramètres</h4>
+<p>
+<ol>
+<li>Pour éviter des problèmes de mémoire lors du demarrage de Glozz, nous vous conseillons de modifier le paramétrage qui prévoit de recharger le dernier travail à chaque démarrage du logiciel dès la première utilisation de la plateforme d'annotation, surtout si vous travaillez sur des gros fichiers. Pour ce faire, une fois que Glozz aura demarré, 
+cliquez sur <b>"Options/Préférence"</b> et décochez la case <b>"Load last job automatically on launch"</b>.</li>
+<li>Ensuite, allez sur l'onglet <b>"Viewer"</b> et décochez <b>"Show unstyled annotaitons"</b>.</li>
+<li>Si vous le souhaitez, vous pouvez régler la taille d'affichage du corpus et la taille de l'espacement entre les lignes du texte. Pour ce faire vous devez rester sur l'onglet <b>"Viewer"</b>.</li>
+<ul>
+<li>Pour modifier la taille d'affichage du texte, vous devez régler la case <b>"Main viewer font size (corpus reload required"</b>. Vous pouvez choisir <i>"small</i>, <i>"medium"</i>, <i>"large"</i> ou <i>"huge"</i>.</li>
+<li>Pour modifier la taille de l'espacement entre les lignes, vous devez régler la case <b>"Main viewer line spacing (corpus reload required)"</b>.  Vous pouvez choisir <i>"small</i>, <i>"medium"</i>, <i>"large"</i> ou <i>"huge"</i>. </li> 
+</ul>
+<p>Pour que les modifications soient prises en compte il est nécessaire de re-importer le fichier que vous voulez annoter. Si vous ne l’avez pas importé, il suffit de le faire après avoir modifié les paramètres</p>
+</ol>
+ </p>
+ 
+<h4>Les éléments de l'interface</h4> 
+		<p>
+		Toutes les pocédures d'annotation se font avec l'interface d'annotation dans laquelle nous distinguons 7 éléménts :
+		</p>
+		<p>
+		<img src="images/interface_details_more.png" alt="interface_details" width="700"/>
+		</p>
+	</div2>
+	<h2>
+	<a name="procedure" id="procedure" href="#toc">3.2. Etapes de l'annotation dans l'interface</a>
+	</h2>
+	<div class="contents">
+		<ul class="toc">
+			<li class="tocline">3.2.1 <a href="#load">Charger les textes &agrave; annoter</a> <img src="images/interface_icon/open-24x24.png" align="absmiddle"/></li>
+			<li class="tocline">3.2.2 <a href="#step">Distinguer plusieurs &eacute;tapes d'annotation et jouer avec les styles</a></li>
+			<li class="tocline">3.2.4 <a href="#cue">Valider, supprimer, cr&eacute;er des unités (maillons)</a></li>
+			<li class="tocline">3.2.6 <a href="#edit">Modifier et supprimer une annotation</a> <img src="images/interface_icon/add-edit.png" align="absmiddle"/></li>
+			<li class="tocline">3.2.7 <a href="#save">Enregistrer les annotations</a> <img src="images/interface_icon/save-24x24.png" align="absmiddle"/></li>
+			<li class="tocline">3.2.8<a href="#incertitude">Gestion de l'incertitude</a> </li>
+		</ul>
+	</div>		
+	<div2>
+			<h3>3.2.1. <a name="load" id="load">Charger les textes &agrave; annoter</a></h3>
+							<div3>
+<p>Une fois l'interface ouverte, voici les proc&eacute;dures &agrave; effectuer pour charger les
+	fichiers n&eacute;cessaires &agrave; l'annotation :
+			</p><ol>
+		<li>
+		<p>
+		Charger le document &agrave; annoter en cliquant sur le bouton <img src="images/interface_icon/open-24x24.png" align="absmiddle"/>
+		(<span class="bouton">Open corpus</span>) situ&eacute; dans la barre d'outils.
+		</p>
+										<p>Deux &eacute;l&eacute;ments doivent &ecirc;tre charg&eacute;s :</p><ul>
+		<li>
+		le texte (fichier avec extension <b>.ac</b> comme
+		<i><b>a</b>nnodis <b>c</b>orpus</i>), normalement situ&eacute; dans le dossier /data/corpus.</li>
+		<li>
+		<p>
+		ses annotations (fichier avec extension <b>.aa</b>
+		comme <i><b>a</b>nnodis <b>a</b>nnotation</i>), normalement situ&eacute;es dans le dossier /data/annotations.</p>
+		<p class="comment">Vous pouvez &eacute;galement charger un
+		fichier contenant des annotations que vous avez r&eacute;alis&eacute;es et sauvegard&eacute;es (voir la section <a href="#save">4.2.7.</a>).
+		</p>
+		</li>
+		</ul>
+			
+		<p>
+		Bien entendu, les deux &eacute;l&eacute;ments doivent porter le m&ecirc;me nom, hormis leur extension (<i>e.g.</i> avicenne_TEIP5.ac et
+		avicenne_TEIP5.aa).
+		</p>
+		</li>
+		<li>
+		<p>
+		Charger la feuille de style qui permet de colorer dans le ruban et la
+		zone texte les indices pr&eacute;marqu&eacute;s et les annotations associ&eacute;es au document.
+		Pour ce faire, cliquer sur le bouton <img src="images/interface_icon/styleEditor-24x24.png" align="absmiddle"/>
+		(<span class="bouton">Style editor</span>) situ&eacute; dans la barre d'outil, puis sur le bouton <img src="images/interface_icon/open-24x24.png" align="absmiddle"/> (<span class="bouton">Open style</span>) dans la fen&ecirc;tre concern&eacute;e. Le fichier de base pour le marquage macro se trouve dans le fichier <em>data/styles/macro.as</em>
+		</p>
+									
+		</li>
+		<li> 
+		<p>
+		Charger le mod&egrave;le d'annotation en cliquant sur le bouton <img src="images/interface_icon/open-24x24.png" align="absmiddle"/> (<span class="bouton">LAM</span>) dans la zone mod&egrave;le (&agrave; droite de la zone texte). Pour l'annotation macro, charger le mod&egrave;le <em>data/annotationModels/macro.aam</em>. Les diff&eacute;rents &eacute;l&eacute;ments du mod&egrave;le apparaissent alors dans la zone mod&egrave;le.
+		</p>
+		<p>
+		<img src="images/interface_focus_LAM.png" height="40"/>
+		</p>
+		</li>
+		</ol>
+	</div3>
+				
+	<h3>4.2.2. <a name="step" id="step">Jouer avec les styles</a></h3>
+			<div3>
+					<p>
+					Vous pouvez d&eacute;cider de masquer vos annotations pr&eacute;c&eacute;dentes en masquant le style concern&eacute; ou en masquant au cas par cas les annotations via l'outil d'exploration <em>'Annotation as text'</em> (voir explication <a href="#annotationAstext">ici</a>)</p>
+		<p>Vous pouvez, &agrave; tout moment et selon votre convenance, modifier le jeu de couleur ou choisir de ne pas colorer tel ou tel type d'indice. Pour ce faire, ouvrez le style ecalm.as et cliquez sur l'indice dont la couleur est &agrave; modifier, ou cochez la case <i>Hide</i> pour ne plus voir son surlignement.</p>
+		<p class="comment"><b>ATTENTION!!</b> Il se peut que <b>plusieurs fenêtres <i>Style Editor</i> soient ouvertes simultan&eacute;ment</b> (si vous avez &agrave; chaque fois cliqu&eacute; sur le bouton <img src="images/interface_icon/styleEditor-24x24.png" align="absmiddle"/>). Du coup, vos modifications peuvent ne pas prendre effet. Pour &ecirc;tre s&ucirc;r de modifier le 'bon' jeu de style, v&eacute;rifiez dans la barre des t&acirc;ches qu'un seul <img src="images/java.png" height="18" align="absmiddle"/> appara&icirc;t. Si plusieurs fen&ecirc;tres sont ouvertes, fermez les toutes pour n'en laisser qu'une sur laquelle vous ferez vos modifications (que vous pourrez sauvegarder en cliquant, dans la fen&ecirc;tre <em>Style Editor</em>, sur le bouton <img src="images/interface_icon/save-24x24.png" height="18" align="absmiddle"/>).</p>
+
+	</div3>
+			<h3>4.2.4. <a name="cue" id="cue">Valider, supprimer, cr&eacute;er des annotations</a></h3>
+			<div3>
+				
+	<ul>
+					<li><b>invalidation d'une unité maillon pr&eacute;marqu&eacute; :</b> lorsqu'un maillon  (color&eacute;) n'est pas un maillon d'une des CR à annoter, vous devez supprimer cette annotation en suivant la procédure indiquée en section <a href="#supprUnit">4.2.6</a></li>
+					<li><b>cr&eacute;ation d'une unité maillon :</b> tout maillon d'une des CR à annoter doit donner lieu à la création d'unité de type <i>elle</i>, <i>il</i> ou <i>les enfants</i> (voir section <a href="#add">4.2.3</a>). Une fois cette unit&eacute; cr&eacute;&eacute;e, il faut renseigner certaines caractéristiques  dans la zone mod&egrave;le de l'interface. Pour enregistrer les caractéristiques, il faut appuyer sur "entrée" une fois le champ rempli.</li>
+	</ul>
+	</div3>
+	
+	
+						
+						<div class="comment">
+							<p><em>
+								Les glue notes
+							</em></p>
+							<p>
+À tout moment, il est possible d'associer un commentaire &agrave; une
+annotation ou &agrave; n'importe quelle position dans le texte par le biais de <em>glue note</em><img src="images/interface_icon/flag-32x32.png" alt="glue_note" align="absmiddle" height="24"/>. 
+							</p>
+							<p>
+								Pour cela, cliquer sur l'ic&ocirc;ne <img src="images/interface_icon/flag-32x32.png" alt="glue_note" align="absmiddle" height="24"/>
+et remplissez le cadre jaune qui s'affiche. Vous pouvez ensuite &eacute;diter
+ces <em>glue notes</em> ou les supprimer, une par une ou toutes ensemble. </p>
+							
+						</div>
+					</div3>
+
+					<h3>4.2.6. <a name="edit" id="edit">Modifier et supprimer une annotation</a></h3>
+<div class="contents">
+	<ul class="toc">
+		<li class="tocline"><a href="#modifUnit">Modifier la d&eacute;limitation d'une unit&eacute;</a></li>
+		<li class="tocline"><a href="#modifTypunit">Modifier le type d'une unit&eacute;</a></li>
+		<li class="tocline"><a href="#supprUnit">Supprimer une unit&eacute;</a></li>
+	</ul>
+</div>	
+<div3>
+						<p>
+							À tout moment il est possible modifier ou supprimer une annotation en choisissant le mode ad&eacute;quat dans la zone &eacute;dition.
+						<img src="images/interface_focus_edit.png" ,="" align="top" height="40"/>
+						</p>
+	<p>
+		<ul>
+		</ul>
+	</p>
+	<h4><a name="modifUnit"></a>Modifier la d&eacute;limitation d'une unit&eacute;</h4>
+						<div4>
+							<ol>
+								<li>
+									cliquez sur <img src="images/interface_icon/unit-edit-32x32.png" alt="edit_unit" align="absmiddle" height="24"/> (<span class="bouton">Edit/Delete Units</span>);
+								</li>
+							<li>
+								<p><a name="select_obj"></a><em>s&eacute;lectionnez l'unit&eacute;</em> &agrave; modifier en cliquant dessus. Les lignes d&eacute;limitant l'unit&eacute; se changent en pointill&eacute;s rouges et deux petits ronds apparaissent aux bornes initiale et finale.</p>
+								<p class="comment"> Lorsque le curseur de la souris passe sur une unit&eacute; annot&eacute;e, celle-ci change de couleur. En pr&eacute;sence d'<em>unit&eacute;s superpos&eacute;es</em>, toutes les unit&eacute;s concern&eacute;es changent de couleur. Pour s&eacute;lectionner une unit&eacute; lorsque les unit&eacute;s superpos&eacute;es ont les m&ecirc;mes limites, il faut cliquer plusieurs fois pour s&eacute;lectionner l'unit&eacute; d&eacute;sir&eacute;e.</p>
+							</li>
+							<li><em>positionnez le curseur</em> sur les ronds de borne initiale et/ou finale et d&eacute;placer la ou les borne(s) afin d'obtenir la d&eacute;limitation correcte.</li>
+							</ol>
+		<div class="comment">
+								<p> Il peut s'av&eacute;rer rapidement difficile de distinguer les diff&eacute;rents niveaux de structuration. Pour cela, l'interface propose un outil appel&eacute; <em>Depth Selector</em> qui permet de jouer sur les niveaux d'annotation	visibles. Pour activer cette fonction, cliquez dans la barre d'outils sur <span class="bouton">Tools</span> puis <span class="bouton">Depth Selector</span>. La bo&icirc;te de dialogue suivante appara&icirc;t alors dans la zone droite de l'interface : <img src="images/depthSelector.png" width="400"/>.
+					</p> 
+					<p>Il suffit ensuite de <em>manipuler le curseur</em> pour faire varier l'affichage des diff&eacute;rents niveaux d'annotation.
+					</p>
+					</div>
+						</div4>
+						<h4><a name="modifTypunit"></a>Modifier le type d'une unit&eacute;</h4>
+						<div4>
+						<ol>
+							<li>cliquez sur le bouton <img src="images/interface_icon/unit-edit-32x32.png" alt="relation_unit" align="absmiddle"	height="24"/> (<span class="bouton">Edit/Delete Units</span>);
+								</li>
+							<li>s&eacute;lectionnez l'unit&eacute; &agrave; modifier en cliquant dessus (voir l'item <a href="#select_obj">s&eacute;lectionner l'unit&eacute;</a> ci-dessus);
+								</li>
+							<li>
+								<p>changez l'annotation au niveau de la zone mod&egrave;le (l'annotation actuelle appara&icirc;t surlign&eacute;e)
+									<img src="images/interface_focus_LAM.png" ,="" align="top" height="40"/>.
+									</p>
+								</li>
+							</ol>
+						</div4>
+						<h4><a name="supprUnit"></a>Supprimer une unit&eacute;</h4>
+					<div4>
+						<ol>
+							<li>
+									cliquez sur le bouton <img src="images/interface_icon/unit-edit-32x32.png" alt="edit_unit" align="absmiddle" height="24"/> (<span class="bouton">Edit/Delete Units</span>);
+							</li>
+							<li>
+									s&eacute;lectionnez l'objet &agrave; modifier en cliquant dessus (voir l'item <a href="#select_obj">s&eacute;lectionner l'objet </a> ci-dessus);
+							</li>
+							<li>
+									appuyez sur la touche <span class="bouton">Suppr</span> du clavier, l'unit&eacute; et son annotation sont supprim&eacute;es.
+							</li>
+						</ol>
+					</div4>
+			
+				</div3>
+				<h3>4.2.7. <a name="save" id="save">Enregistrer les annotations</a></h3>
+				<div3>
+					<p>
+						Pour enregistrer vos annotations, cliquez sur le bouton <img src="images/interface_icon/save-32x32.png" alt="edit_unit" align="absmiddle" height="24"/> (<span class="bouton">Save Annotations</span>).
+Nommez le fichier d'annotation selon le format suivant :
+NomTexte_NomAnnotateur_JJmoisAA.aa (ex : avicenne_hodac_01janvier09.aa)
+</p>
+				</div3>
+			<h3>4.2.8<a name="incertitude"> Gestion de l'incertitude</a> </h3>
+<div3>
+	<p>Toute annotation pour laquelle vous n'&ecirc;tes pas compl&egrave;tement convaincu peut-&ecirc;tre associ&eacute;e &agrave; ce caract&egrave;re incertain. Pour cela, dans la zone mod&egrave;le, chaque unit&eacute; est associ&eacute;e par d&eacute;faut &agrave; un degr&eacute; d'incertitude 0. Pour noter votre sentiment d'incertitude, il vous suffit d'associer la valeur 1 &agrave; cette incertitude.</p>
+	</div3>
+
+</div2>
+</div1>
+
+<br>
+<hr size="2">
+<p class="copyright">
+	Auteurs : Silvia Federzoni, Josette Rebeyrolle, Lydia-Mai Ho-Dac (version : 1 avril 2020)
+</p>
+
+<center>
+ <table>
+      <tr>
+	  <td class="normal">
+	    Ce guide est disponible sous licence 
+	  <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.fr" target="_blank">Creative Commons By-NC-SA 3.0</a>
+	  (Patternité, usage non commercial, partage à l'identique). Merci de la lire attentivement.<br/>
+	  </td>
+          <td style="vertical-align:middle"><a href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.fr" target="_blank"><img src="/images/cc-by-nc-sa.png"/></a></td>
+      </tr>
+ </table>
+</center>
+
+</body></html>
