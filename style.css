@@ -3,12 +3,22 @@
 
 body {
 	width: 90%;
-	padding: 0.5em;
-	margin-left: 5%;
-	margin-right: 5%;
+	margin:5%;
 	margin-bottom: 30px;
 	background: white;
 	text-align : justify
+}
+
+
+
+.logoResolco img{
+	width: 300px;
+	margin-left : -300px ; 
+}
+
+.logoEcalm img {
+	width: 200px;
+	margin-right : -300px ;
 }
 
 
@@ -16,6 +26,7 @@ div, p, li{
   font-size: 14px;
   color: black;
   text-align : justify; 
+  
 }
 
 h1 {
@@ -27,6 +38,12 @@ h1 {
 
 h2 {
   font-weight: 800;
+  font-size: 16px;
+  /*color: rgb(57, 62, 120);*/
+  color: #5D5D5D;
+}
+
+h3,h4,h5,h6 {
   font-size: 14px;
   /*color: rgb(57, 62, 120);*/
   color: #5D5D5D;
@@ -55,8 +72,10 @@ a:visited {
 	color: purple;
 }
 
+
 /*Dedicated parameters*/
 span.term { font-style: italic; color: rgb(0, 0, 192) }
+
 code {
 color: green;
 font-family: monospace;
@@ -89,11 +108,12 @@ border-width: 2px;
 color: #405d5b;
 font-weight: normal;
 font-size: small;
-margin-right: 5%;
-margin-left: 5%;
+margin-top: 1%;
+margin-bottom: 1%;
+margin-right: 3%;
+margin-left: 3%;
 text-align: justify;
 }
-
 
 .indice_CR  {
 margin-left: 0;
@@ -101,6 +121,9 @@ margin-right: 0;
 background-color: gold;
 }
 
+.titlinex  {
+font-weight: bold;
+}
 .ex_head  {
 font-weight: bold;
 color: #14a799;
@@ -122,6 +145,11 @@ color: white;
 border: none;
 }
 
+div.contents {
+background-color: rgb(204,204,255);
+padding: 0.5em;
+border: none;
+}
 
 .tocline { list-style: none; }
 
@@ -130,4 +158,12 @@ border: none;
   border: dotted;
   border-color: #FFFFFF;
   border-width: 5px;
+}
+
+.update {  
+  background-color: #9AFE2E;
+}
+
+.RQ {  
+  color: #DF013A;
 }
