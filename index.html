@@ -167,9 +167,9 @@ Chaque exemple est visualisé sous la forme d'une capture d'écran de l'interfac
 </p>
 <p>Ces maillons peuvent apparaître dans des contextes donnant lieu à des explications complémentaires&nbsp;: 
 <ul>
-<li><a href="#coord">coordination</a> entre expressions référentielles</li>
 <li>passage d'une narration au <a href="#discDirect">discours direct</a></li>
 <li><a href="#implicite">maillon non exprimé</a> comme dans les cas de sujet zéro</li>
+<li><a href="#coord">coordination</a> entre expressions référentielles</li>
 <li><a href="#titres"></a>Des maillons dans des titres</li>
 </ul>
 </p>
@@ -260,45 +260,6 @@ pour montrer qu'on annote [de Tina] comme coréférent à Tina si Tina est un ma
 </p>  
 <p>Pour ce qui concerne l'annotation des NPP complets, le nom et le prénom constituent un même maillon</p>
 
-<h3><a name="coord"></a>Cas de coordination</h3>
-<p>Dans le cas où deux ou plusieurs expressions référentielles sont coordonnées (ex : <i>Marie et Jeane</i>), plusieurs situations se rencontrent&nbsp;:
-	<ul>
-		<li>Si une des expressions constitue le maillon d'une CR, il est annoté comme tel
-			<div class="exemple"><i>Il était une fois <span class="indice_CR">une petite fille qui</span> s'appelaient Marie. <span class="indice_CR">Elle</span> habitait dans cette maison depuis longtemps. <span class="indice_CR">Marie</span> avait une copine qui s'appelait Jeanne. <span class="indice_CR">Marie</span> et Jeanne adoraient aller se promener.</i>
-				</div></li>
-		<li>le groupe formé par les expressions coordonnées (dont l'une est le maillon d'une CR) est repris dans la suite du discours, on l'annote comme un maillon, en lui attribuant une classe dédiée appelée "groupe". Ce maillon sera relié comme un maillon non coordonné à la CR concernée.
-		</li>
-</p>
-<p><span class="RQ"> On annote le groupe que si les deux deviennent 'les enfants' ? On pourrait prévoir la possibilité d'ajouter une unité 'groupe' comme on a fait avec Laura, pour signaler que 'elle' ou 'il' sont repris dans un groupe même si ce groupe ne correspond pas à 'les enfants' ? Et pour les syntagmes pris individuellement on les prend que si le référent est 'elle' 'il' ou 'les enfants' ? peut-être à expliciter ce qu'on fait si on a le cas ou un de deux noms n'est ni 'elle' ni 'il' ni 'les enfants' ? <br/>
-Mai : oui, je pense que la solution de Silvia est la meilleure mais ce n'est pas là qu'il faut en parler. En l'état, s'il y a coordination, on n'annote que le SN qui réfère au référent en cours d'annotation. Si c'est le SN coordonné tout entier qui co-réfère (donc uniquement valable pour le référent "les enfants", on annote tout le SN coordonné.<br/>
-Le maillon de type groupe est nécessaire pour les cas comme (j'ai mis les maillons et leur ref entre crochets):
-<i>Il était une fois [une petite fille qui]_elle s'appelaient Marie. [Elle]_elle habitait dans cette maison depuis longtemps. [Marie]_elle avait une copine qui s'appelait Jeanne. [Marie]_elle et Jeanne adoraient aller se promener. [Elles]_elle(groupe) aimaient surtout se cacher dans les bois. Une jour, [elles]_elle(groupe) ...</i><br/>
-Où le référent "Marie" continue d'être actif mais systématiquement en coordination avec le référent "Jeanne". Ensuite, il se peut que l'annotation de "les enfants" fusionnent avec l'annotation "groupe_elle"
-</span></p>
-			  
-<!--<div class="exemple">[[Pierre]i et [Marie]j]k iront faire [les courses]l. </div>-->
-	<div class="exemple">
-			<span class="ex_head">Maillon avec coordination [CO-3e-2016-FSBJC6-D1-R10-V1]</span><br/><br/>
-			<a href="images/img_exemples/CO-3e-2018-FSBJC6-D1-R10-V1_noms_coordonnes.png" alt="noms_coordonnes">
-		<img src="images/img_exemples/CO-3e-2018-FSBJC6-D1-R10-V1_noms_coordonnes.png" title="noms_coordonnes" style="width :100%" /></a>
-	</div>
-
-<br/><span class="RQ"> trouver un autre exemple pour coordination (moins compliqué et l’annoter)
-</span></p>
-
-
-<p>Dans le cas de la coordination de syntagmes, il arrive que le verbe soit au singulier, notamment avec la conjonction <i>ou</i>. Dans ce cas, on n'annote pas le groupe mais seulement les syntagmes pris séparémentment.
-</p>
-<p>
-<br/><span class="RQ"> Ajouter nos propres exemples du type "Pierre ou Marie ira faire les courses"
-</span>
-</p>
-
-<!--
-<p><span style="color : red">Est-ce que ça vaut pour les textes des enfants ?</span>
-<br/><span style="color : red">Est-ce que l'on annote le groupe seulement s'il y a coréférence avec <i>les enfants</i> ?</span></p>
--->
-
 <h3><a name="implicite"></a>Maillon non exprimé comme dans les cas de sujet zéro</h3>
 <p>Il est fréquent dans les cas de coordination verbale que le sujet ne soit pas répété pour chaque verbe mais uniquement instancié en sujet du premier verbe ("Elle est venue, a vu et a vaincu" <i>vs.</i> "Elle est venue, elle a vu et elle a vaincu"). Dans ces contextes, la seule façon d'annoter le sujet de tous les verbes est d'annoter le verbe lui-même, sans inclure ses auxiliaires en cas de temps composé.
 </p>
@@ -325,6 +286,27 @@ Où le référent "Marie" continue d'être actif mais systématiquement en coord
 		<img src="images/img_exemples/CO-3e-2018-FSBJC6-D1-R10-V1_discours_direct.png" title="discours_direct" style="width : 100%" /></a>
 		
 	</div>
+
+<h3><a name="coord"></a>Cas de coordination</h3>
+<p>Dans le cas où deux ou plusieurs expressions référentielles sont coordonnées (ex : <i>Marie et Jeane</i>), plusieurs situations se rencontrent&nbsp;:
+	<ul>
+		<li>Si une des expressions constitue le maillon d'une CR, il est annoté comme tel
+	<div class="exemple">
+			<span class="ex_head">Maillon pris dans une coordination [CO-3e-2016-FSBJC6-D1-R10-V1]</span><br/><br/>
+			<a href="images/img_exemples/CO-3e-2018-FSBJC6-D1-R10-V1_noms_coordonnes.png" alt="noms_coordonnes">
+		<img src="images/img_exemples/CO-3e-2018-FSBJC6-D1-R10-V1_noms_coordonnes.png" title="noms_coordonnes" style="width :100%" /></a>
+	</div>
+		</li>
+		<li>Si le groupe formé par les expressions coordonnées (dont l'une est le maillon d'une CR) est repris dans la suite du discours sous une forme plurielle non coordonnée (un pronom personnel pluriel<i>elles</i>, un SN défini collectif <i>les deux amies</i>, le référent plusiel est consdiéré comme un maillon de la chaîne, maillon à qui l'on attribuera la classe "groupe". Ce maillon est à relier à la CR concernée comme un maillon normal. Dans l'exemple ci-dessous, tous les maillons relevant de la CR incluant le pronom <span style="color : orangeRed">Il</span> ont été annotés et reliés pour former une CR qui contient deux maillons de classe "groupe"&nbsp;: <i>ils</i> et <i>Les deux autres garçons</i>.
+	<div class="exemple">
+			<span class="ex_head">CR présentant des maillons de classe "groupe" [CO-3e-2018-FSBJC6-D1-R4-V1]</span><br/><br/>
+			<a href="images/img_exemples/CO-3e-2018-FSBJC6-D1-R4-V1_groupe_avecRel.png" alt="maillon-groupe">
+		<img src="images/img_exemples/CO-3e-2018-FSBJC6-D1-R4-V1_groupe_avecRel.png" title="maillon-groupe" style="width :100%" /></a>
+	</div>
+		</li>
+
+
+
 
 <h3><a name="titres"></a>Des maillons dans des titres</h3>
 Certaines copies contiennent des titres dans lesquels peuvent figurer des maillons. Le cas échéant, le maillon sera à annoter selon les règles décrites précédemment.
