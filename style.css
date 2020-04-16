@@ -155,7 +155,7 @@ border: none;
 
 .comment {  
   background-color: #ADD8E6;
-  border: dotted;
+  border: none;
   border-color: #FFFFFF;
   border-width: 5px;
 }
