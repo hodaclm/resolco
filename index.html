@@ -43,13 +43,12 @@
 					<li class="tocline">2.1 <a href="#CR_maillon">Délimitation des maillons</a>
 					</li>
 					<li class="tocline">2.2 <a href="#annotation_maillons">Annotation des maillons</a></li>
-					<li class="tocline">2.3 <a href="#annotation_CR">Annotation des CR</a></li>
 				</ul>
 				
 				
 				</li>
 				
-			 <li class="tocline">3. <a href="#annotation">Procédure d'annotation</a>
+			 <li class="tocline">3. <a href="#glozz">Utilisation de l'interface Glozz pour annoter les maillons et les CR</a>
 					<ul class="toc">
 					<li class="tocline">3.1 <a href="#interface">Interface d'annotation</a>
 						</li>
@@ -101,11 +100,6 @@ L'objectif de cette consigne est d'amener les élèves à résoudre plusieurs an
 <p>
 La tâche d'annotation que vous allez effectuer a pour objectif d'identifier les expressions référentielles donnant accès aux référents humains contenus dans les trois phrases de la consigne et de lister les moyens que les élèves utilisent pour construire les chaînes de référence, le cas échéant. La tâche vise donc l'annotation des expressions référentielles et co-référentielles qui concernent les trois référents humains de la consigne, à savoir  <span style="color : red"><i>Elle</i></span>, <span style="color : OrangeRed"><i>Il</i></span>, <span style="color: DarkOrange"><i>les enfants</i></span>. Ces expressions constituent les <b>maillons</b> de 3 chaînes de références (<b>CR</b>) imposées par la consigne.
 </p>
-<p>
-Dans les textes que vous allez annoter, certaines expressions linguistiques ont fait l'objet d'un prémarquage. Il s'agit d'expressions qui, parce qu'elles sont considérées comme référant potentiellement aux 3 référents humains, constituent des <b>maillons-candidats</b> des trois <abbr title="chaines_reference">CR</abbr> considérées.
-</p>
-<p>L'annotation consiste ainsi à identifier les maillons des trois <abbr title="chaines_reference">CR</abbr> impliquant des référents humains imposées par la consigne en validant des maillons-candidats et en identifiant des maillons non prémarqués. Une fois tous les maillons délimités, une dernière étape de validation consiste à relier entre eux tous les maillons d'une même chaîne.</p>
-	
 <h1>
 <a name="CR" id="CR" href="#toc">2. Les chaînes de référence <abbr title="chaines_reference">CR</abbr></a>
 </h1>
@@ -169,7 +163,7 @@ Chaque exemple est visualisé sous la forme d'une capture d'écran de l'interfac
 <ul>
 <li>passage d'une narration au <a href="#discDirect">discours direct</a></li>
 <li><a href="#implicite">maillon non exprimé</a> comme dans les cas de sujet zéro</li>
-<li><a href="#coord">coordination</a> entre expressions référentielles</li>
+<li><a href="#coord">coordination</a> et référents pluriels</li>
 <li><a href="#titres"></a>Des maillons dans des titres</li>
 </ul>
 </p>
@@ -288,7 +282,7 @@ pour montrer qu'on annote [de Tina] comme coréférent à Tina si Tina est un ma
 		
 	</div>
 
-<h3><a name="coord"></a>Cas de coordination</h3>
+<h3><a name="coord"></a>Cas de coordination et référents pluriels</h3>
 <p>Dans le cas où deux ou plusieurs expressions référentielles sont coordonnées (ex : <i>Marie et Jeane</i>), plusieurs situations se rencontrent&nbsp;:
 	<ul>
 		<li>Si une des expressions constitue le maillon d'une CR, il est annoté comme tel
@@ -316,22 +310,23 @@ Certaines copies contiennent des titres dans lesquels peuvent figurer des maillo
 </span>
 </p>
 
-<h2><a name="CR_maillon" href="#toc">2.2 Procédure d'annotation des maillons</a></h2>
+<h2><a name="CR_maillon" href="#toc">2.2 Procédure d'annotation des maillons et des CR</a></h2>
 	
-		<p>
-		L'objectif de l'annotation que vous allez réaliser est double. Il s'agit :
-			<ol>
-				<li>d'identifier et délimiter les maillons qui composent les CR de <i>elle</i>, <i>il</i> et <i>les enfants</i> ;</li>
-				<li>d'associer ces expressions à une même chaîne.</li>
-			</ol>
-		</p>
-		<p>
-		Il est recommandé de réaliser l'annotation en trois temps&nbsp;: un temps par CR. Pour chaque CR, l'identification et la délimitation des maillons consiste en la création d'unités dédiées. L'annotation aboutit ainsi à la création d'unités de type maillon_elle, maillon_il, maillon_lesEnfants (voir section <a href="#add">3.2.3</a>). Une fois les unités maillons délimitées, une dernière étape de validation consiste à relier entre elles les unités maillons d'une même chaîne.</p>
+<p>L'objectif de l'annotation est double. Il s'agit :
+<ol>
+<li>d'identifier et délimiter les maillons qui composent les 3 CR imposées par la consigne</li>
+<li>de relier ces expressions entre elles pour former une même CR</li>
+</ol>
+</p>
+<p>Il est recommandé de réaliser l'annotation en trois temps&nbsp;: un temps par CR. Pour chaque CR, l'identification et la délimitation des maillons consiste en la création d'unités dédiées (voir section <a href="#add">3.2.2</a>). L'annotation aboutit ainsi à la création d'unités de type <span style="color : red">maillon_Elle</span>, <span style="color : OrangeRed">maillon_Il</span> et <span style="color: DarkOrange">maillon_lesEnfants</span> (voir section <a href="#add">3.2.3</a>).</p>
+<p>En plus de la délimitation, l'annotation des unités maillons nécessite le renseignement d'un certain nombre de traits comme la nature du maillon (SN défini, pronom, sujet zéro, etc.), le fait que le maillon soit de la classe "groupe" ou pas (dans les cas de <a href="#coord">coordination et référents pluriels</a>) et le degré de certitude de l'annotation (voir <a href="#incertitude">ici</a>).</p>
+<p>Une fois les unités maillons annotées, une dernière étape de validation consiste à relier entre elles les unités maillons d'une même chaîne (voir section <a href="#rel">3.2.6</a>).</p>
 
-<p>Cette procédure d'annotation est assistée par un <a href="#premark">prémarquage automatique</a> et associée à un modèle d'annotation permettant d'associer à chaque unité annotée un <a href="#incertitude">degré d'incertitude</a>.</p>
-		
+<p>Dans les textes que vous allez annoter, certaines expressions linguistiques ont fait l'objet d'un prémarquage ayant pour fonction de faciliter la tâche d'annotation. Il s'agit d'expressions qui, parce qu'elles sont considérées comme référant potentiellement aux 3 référents humains, constituent des <b>maillons-candidats</b> des trois <abbr title="chaines_reference">CR</abbr> considérées. Ces maillons-candidats pourront être validés en leur attributant l'étiquette <span style="color : red">maillon_Elle</span>, <span style="color : OrangeRed">maillon_Il</span> et <span style="color: DarkOrange">maillon_lesEnfants</span>.
+</p>
+
 <h3><a name="premark"></a>Utilisation du prémarquage des maillons candidats</h3>
-<p>L'exemple ci-dessous fournit une illustration - pour le même texte que celui que nous avons commenté en introduction de ce guide - du résultat du prémarquage automatique d'unités appelées "maillons-candidats". Ces "maillons-candidats" correspondent à des éléments fortement susceptibles d'être des unités de type maillon_elle, maillon_il ou maillon_lesEnfants, à savoir&nbsp;:
+<p>L'exemple ci-dessous fournit une illustration - pour le même texte que celui que nous avons commenté en introduction de ce guide - du résultat du prémarquage automatique d'unités appelées "maillons-candidats". Ces "maillons-candidats" correspondent à des éléments fortement susceptibles d'être des unités de type <span style="color : red">maillon_Elle</span>, <span style="color : OrangeRed">maillon_Il</span> ou <span style="color: DarkOrange">maillon_lesEnfants</span>, à savoir&nbsp;:
 		<ul>
 			<li>les noms propres</li>
 			<li>les pronoms personnels de 3<sup>e</sup> personne</li>
@@ -346,13 +341,12 @@ Certaines copies contiennent des titres dans lesquels peuvent figurer des maillo
 		<img src="images/maillons_candidats.png" title="maillons_candidats" style="width : 100%" /></a>
 		</div>
 
-<p>Le prémarquage ayant été réalisé automatiquement, des erreurs de détection et de délimitation peuvent se présenter. Il est donc nécessaire de valider ce prémarquage en XXXX
-<span class="RQ">Il faut décider si le prémarquage fournit des unités de type maillon_elle, maillon_il, maillon_lesenfants, auquel cas, l'annotateur doit supprimer les annotations non pertinentes. Ou si le prémarquage fournit des unités de type maillon-candidat, auquel cas l'annotateur doit valider les annotations pertinentes en modifiant le type de l'unité en maillon_elle, maillon_il, maillon_lesEnfants. </span></p>
-
-<p>Certains problèmes récurrents concernent le prémarquage des noms propres et des pronoms personnels.</p>
+<p>Les maillons-candidats sont des propositions que l'annotateur doit valider en leur attribuant l'étiquette adéquate. En terme de procédure d'annotation, cela revient à modifier une unité pour lui attribuant une autres étiquette (voir section <a href="#edit">3.2.3</a>).
+	
+Le prémarquage étant automatique, certains maillons-candidats peuvent surprendre, et notamment le prémarquage des noms propres et des pronoms personnels.</p>
 
 <h4>Problèmes liés au prémarquage des noms propres</h4>	
-<p class="update">Tous les NPP ont été considérés comme des maillons-candidats, même ceux ne pouvant désigner un humain, comme "Vendée" ou "22H" dans l'exemple ci-dessus. Ces maillons-candidats doivent donc être <span class="RQ">invalidés en supprimant l'annotation / ne pas être validés en laissant le prémarquage tel quel.</span></p>
+<p>Tous les NPP ont été considérés comme des maillons-candidats, même ceux ne pouvant désigner un humain, comme "Vendée" ou "22H" dans l'exemple ci-dessus. Ces maillons-candidats ne doivent évidemment pas faire l'objet d'une validation.</p>
 <p>Par ailleurs, il se peut également que les noms propres soient prémarqués séparemment, comme le montre l'exemple ci-dessous.
 </p>
 	 <div class="exemple">
@@ -362,62 +356,38 @@ Certaines copies contiennent des titres dans lesquels peuvent figurer des maillo
 	 </a>
 	 </div>
 <p>
-Dans ce cas l'annotateur doit : 
-	 <span class="RQ">à décider</span><br/>
-	 <ul>
-		<li>Créer une nouvelle unité constituée du nom propre complet et c'est cette nouvelle unité qui sera rattaché au schéma ; </li>
-		<li>Supprimer une des deux unités prémarquées et rédélimiter l'autre unité en incluant nom et prénom.</li>
+Dans ce cas l'annotateur peut soit créer une nouvelle unité constituée du nom propre complet (voir section <a href="#add">3.2.2</a>), soit modifier et rédélimiter l'un des maillon-candidat (voir section <a href="#edit">3.2.3</a>).</li>
 	 </ul>
 </p>
 
 <h4>Problèmes liés au prémarquage du pronom personnel <i>il</i></h4>	
-<p class="update">Tous les pronoms clitiques sujets <i>il</i> ont été prémarqués, qu'ils soient dans un emploi personnel (<i><b>Il</b> se retourna en entendant ce grand bruit</i>) ou impersonnel (<i><b>Il</b> était un fois</i>, <i><b>Il</b> pleut</i>, <i><b>Il</b> est évident que...</i>). Ces maillons-candidats doivent être <span class="RQ">invalidés en supprimant l'annotation / ne pas être validés en laissant le prémarquage tel quel.</span> </p>
-
-	<h3><a name="CT_test"></a>Tests</h3>
-	
-		<p>
-	Lors de l'annotation, en tant qu'annotateur vous pourrez être amenés à :
-	<ul>
-		<li><b>valider</b> les maillons-candidats</li>
-		<li><b>supprimer</b> les maillons-candidats</li>
-		<li><b>ajouter</b> tous les maillons pertinents pour constituer la chaîne de référence considérée</li>
-	</ul>
-	</p>
-	<p>
-	Pour vous vous permettre de décider si vous allez valider ou supprimer les maillons-candidats, nous vous suggérons de vous demander si les expressions préannotées sont effectivement coréférentielles ou non.
-	Pour répondre à cette question, vous pouvez tenter de les substituer par l'expression référentielle complète. L'impossibilité d'une telle substitution amène à conclure à la non coréférentialité.
-	mettre un exemple
-		</p>	
+<pTous les pronoms clitiques sujets <i>il</i> ont été prémarqués, qu'ils soient dans un emploi personnel (<i><b>Il</b> se retourna en entendant ce grand bruit</i>) ou impersonnel (<i><b>Il</b> était un fois</i>, <i><b>Il</b> pleut</i>, <i><b>Il</b> est évident que...</i>). Ces maillons-candidats ne doivent évidemment pas faire l'objet d'une validation.</p>
 			
 <h3><a name="incertitude"></a>Incertitude</h3>
 <p>Pour plusieurs raisons, il n'est pas toujours facile de déterminer quel est le référent d'une expression référentielle. Il peut notamment y avoir dans le contexte plusieurs expressions disponibles pour un même référent. C'est le cas ci-dessous où le possessif <i>sa</i> peut coréférer à <i>la vieille femme</i> ou à <i>elle</i>.
 Dans ce cas, on fera un choix et on annotera uniquement l'expression qui paraît la plus cohérente pour construire l'interprétation, en lui attribuant toutefois une étiquette signalant l'incertitude.
-</p>
-<p><span class="RQ">On utilise les traits associés à chaque unité et on indique une 'incertitude sur le rattachement'. Renvoyer à la section correspondante pour l'utilisation sous Glozz</span></p>
-
 <div class="exemple">
 			<span class="ex_head">Incertitude de rattachement d'un maillon [CO-3e-2016-VTAC305-D1-R10-V1]</span><br/><br/>
 			<a href="images/img_exemples/CO-3e-2016-VTAC305-D1-R10-V1_possessif.png" alt="incertitude">
 		<img src="images/img_exemples/CO-3e-2016-VTAC305-D1-R10-V1_possessif.png" title="incertitude" style="width : 100%" />
 	</div>
-	
-	
+	</p>
+<p>Dans un tel cas, l'annotateur devra indiquer qu'il ressent une incertitude de rattachement du maillon.</p>
+<p>Un autre cas d'incertitude peut concerner la délimitation du maillon. Dans un tel cas, l'annotateur devra indiquer qu'il ressent une incertitude de délimitation du maillon.</p>
+<p>La procédure pour associer ces degrés d'incertitude à chaque unité est décrite en section <a href="#traits">3.2.4</a>.</p>
+<p>Il est également possible de laisser, pour chaque unité, un commentaire libre.</p>
 	
 	<h1>
-	<a name="procedure_annotation" id="procedure_annotation">3. Annotation des maillons avec Glozz</a>
+	<a name="glozz">3. Utilisation de Glozz pour annoter les maillons et les CR</a>
 	</h1>
-
-	
-	
 		<p>
-		L'annotation des CR se fait en délimitant et qualifiant toutes les <em>UNITÉS</em> (<img src="images/interface_icon/unit.png" align="absmiddle" height="18"/>) qui correspondent aux expressions référentielles référant aux référents humains mentionnés dans les phrases consignes, à savoir <i>elle</i>, <i>il</i> et <i>les enfants</i>.</p>
-<p>Afin de faciliter l'annotation, un certain nombre d'éléments ont été préannotés automatiquement. L'annotation consiste donc valider ou non ces maillons préannotés et à ajouter ceux que le système de prémarquage n'a pas pu détecter.</p>
+		L'annotation des CR se fait en délimitant et qualifiant toutes les <em>UNITÉS</em> (<img src="images/interface_icon/unit.png" align="absmiddle" height="18"/>) qui correspondent aux expressions référentielles référant aux référents humains mentionnés dans les phrases consignes.</p>
+<p>L'annotation consiste à valider les maillons-candidats pertinents et à ajouter ceux que le système de prémarquage n'a pas pu détecter.</p>
 		<p>Trois types d'<em>UNITÉS</em> sont à distinguer&nbsp;:
-<p class="RQ">Selon l'évolution du modèle, il peut y avoir 6 unités : elle, elle_groupe, il, il_groupe, les enfants et les enfants_groupes (plus rare)</p>
 		<ul>
-			<li>Les mentions de <i>elle</i></li>
-			<li>Les mentions de <i>il</i></li>
-			<li>Les mentions de <i>les enfants</i></li>
+			<li style="color:red">maillon_Elle</li>
+			<li style="color:darkOrange">maillon_Il</li>
+			<li style="color:darkOrange">maillon_lesEnfants</li>
 		</ul>
 			</p>
 	
