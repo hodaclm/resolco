@@ -155,8 +155,8 @@ border: none;
 
 .comment {  
   background-color: #ADD8E6;
-  border: none;
-  border-color: #FFFFFF;
+  border: inset;
+  border-color: #ADD8E6;
   border-width: 5px;
 }
 
