@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotationModel>
+
+	<units>
+		<type name="Expression_referntielle">
+			<featureSet>
+				<feature name="type">
+					<value type="free" default="maillon-candidat" />
+				</feature>
+			</featureSet>
+		</type>
+		<type name="maillon_elle">
+			<featureSet>
+				<feature name="type">
+					<value type="free" default="maillon_Elle" />
+				</feature>
+			<feature name="nature">
+				<possibleValues default="Pro">
+					<value>DETposs</value>
+					<value>NPP</value>
+					<value>Pro</value>
+					<value>Rel</value>
+					<value>SNdef</value>
+					<value>SNdem</value>
+					<value>SNindef</value>
+					<value>SNposs</value>
+					<value>SNsansDET</value>
+					<value>SujetZero</value>
+				</possibleValues>
+			</feature>
+			<feature name="groupe">
+				<possibleValues default="Non">
+						<value>Non</value>
+						<value>Oui</value>
+				</possibleValues>
+			</feature>
+			<feature name="incertitude">
+				<possibleValues default="Non">
+						<value>Non</value>
+						<value>Sur la délimitation</value>
+						<value>Sur le rattachement</value>
+						<value>Sur les deux</value>
+				</possibleValues>
+			</feature>
+			<feature name="commentaire">
+				<value type="free" default="" />
+			</feature>
+			</featureSet>
+		</type>
+		<type name="maillon_Il">
+			<featureSet>
+				<feature name="type">
+					<value type="free" default="maillon_Il" />
+				</feature>
+			<feature name="nature">
+				<possibleValues default="Pro">
+					<value>DETposs</value>
+					<value>NPP</value>
+					<value>Pro</value>
+					<value>Rel</value>
+					<value>SNdef</value>
+					<value>SNdem</value>
+					<value>SNindef</value>
+					<value>SNposs</value>
+					<value>SNsansDET</value>
+					<value>SujetZero</value>
+				</possibleValues>
+			</feature>
+			<feature name="groupe">
+				<possibleValues default="Non">
+						<value>Non</value>
+						<value>Oui</value>
+				</possibleValues>
+			</feature>
+			<feature name="incertitude">
+				<possibleValues default="Non">
+						<value>Non</value>
+						<value>Sur la délimitation</value>
+						<value>Sur le rattachement</value>
+						<value>Sur les deux</value>
+				</possibleValues>
+			</feature>
+			<feature name="commentaire">
+				<value type="free" default="" />
+			</feature>
+			</featureSet>
+		</type>	
+				<type name="maillon_lesEnfants">
+			<featureSet>
+				<feature name="type">
+					<value type="free" default="maillon_lesEnfants" />
+				</feature>
+			<feature name="nature">
+				<possibleValues default="Pro">
+					<value>DETposs</value>
+					<value>NPP</value>
+					<value>Pro</value>
+					<value>Rel</value>
+					<value>SNdef</value>
+					<value>SNdem</value>
+					<value>SNindef</value>
+					<value>SNposs</value>
+					<value>SNsansDET</value>
+					<value>SujetZero</value>
+				</possibleValues>
+			</feature>
+			<feature name="groupe">
+				<possibleValues default="Non">
+						<value>Non</value>
+						<value>Oui</value>
+				</possibleValues>
+			</feature>
+			<feature name="incertitude">
+				<possibleValues default="Non">
+						<value>Non</value>
+						<value>Sur la délimitation</value>
+						<value>Sur le rattachement</value>
+						<value>Sur les deux</value>
+				</possibleValues>
+			</feature>
+			<feature name="commentaire">
+				<value type="free" default="" />
+			</feature>
+			</featureSet>
+		</type>	
+		
+		<type name="phraseConsigne">
+			<featureSet/>
+		</type>
+	</units>	
+	<relations>
+		<type name="coreference">
+		<featureSet> 
+			<feature name="type">
+				<value type="free" default=""/>
+			</feature>
+		</featureSet>	
+		</type>
+		
+	</relations>
+	
+</annotationModel>	
