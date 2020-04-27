@@ -363,17 +363,26 @@ Certaines copies contiennent des titres dans lesquels peuvent figurer des maillo
 
 <h4>Problèmes liés au prémarquage des noms propres</h4>	
 <p>Tous les NPP ont été considérés comme des maillons-candidats, même ceux ne pouvant désigner un humain, comme "Vendée" ou "22H" dans l'exemple ci-dessus. Ces maillons-candidats ne doivent évidemment pas faire l'objet d'une validation.</p>
-<p>Par ailleurs, il se peut également que les noms propres soient prémarqués séparemment, comme le montre l'exemple ci-dessous.
-</p>
+<p>Parfois, un NPP n'a pas été prémarqué, comme le nom "Clément" dans l'exemple ci-dessous.
 	 <div class="exemple">
-			<span class="ex_head">Problème de délimitation des maillons-candidats de type NPP [CO-3e-2018-FSBJC6-D1-R9-V1]</span><br/><br/>
-			<a href="images/delimitationNPP_complet.png" alt="delimitationNPP">
-	 <img src="images/delimitationNPP_complet.png" title="delimitationNPP" style="width : 100%" />
+			<span class="ex_head">Problème de délimitation des maillons-candidats de type NPP [CO-3e-2018-FSBJC6-D1-R5-V1]</span><br/><br/>
+			<a href="images/CO-3e-2018-VTAC305-D1-R5-V1_oubliNPP.png" alt="maillonNPPmanquant">
+	 <img src="images/CO-3e-2018-VTAC305-D1-R5-V1_oubliNPP.png" title="maillon-candidat NPP manquant" style="width : 100%" />
 	 </a>
 	 </div>
 <p>
-Dans ce cas l'annotateur peut soit créer une nouvelle unité constituée du nom propre complet (voir section <a href="#add">3.2.2</a>), soit modifier et rédélimiter l'un des maillon-candidat (voir section <a href="#edit">3.2.3</a>).</li>
-	 </ul>
+Dans ce cas, si "Clément" est inclus dans une des CR de la consigne, l'annotateur devra créer une nouvelle unité (voir section <a href="#add">3.2.2</a>)</p>
+<p>Il se peut également que les noms propres soient prémarqués de façon incomplète, comme le montre l'exemple ci-dessous où "Mr" n'a pas été inclus dans le maillon-candidat "Mr Wilson".
+</p>
+	 <div class="exemple">
+			<span class="ex_head">Problème de délimitation des maillons-candidats de type NPP [CO-3e-2018-FSBJC6-D1-R5-V1]</span><br/><br/>
+			<a href="images/CO-3e-2018-FSBJC6-D1-R5-V1_NPPincomplet.png" alt="delimitationNPP">
+	 <img src="images/CO-3e-2018-FSBJC6-D1-R5-V1_NPPincomplet.png" title="delimitationNPP" style="width : 100%" />
+	 </a>
+	 </div>
+</p>
+<p>
+Dans ce cas, si "Mr Wilson" est inclus dans une des CR de la consigne, l'annotateur peut soit créer une nouvelle unité constituée du nom propre complet (voir section <a href="#add">3.2.2</a>), soit modifier et rédélimiter le maillon-candidat (voir section <a href="#edit">3.2.3</a>).
 </p>
 
 <h4>Problèmes liés au prémarquage du pronom personnel <i>il</i></h4>	
