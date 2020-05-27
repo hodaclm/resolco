@@ -462,7 +462,12 @@ Dans ce cas, on fera un choix et on annotera uniquement l'expression qui paraît
 		</ul>
 			</p>
 	
-	<h2>
+<p>Afin de réaliser l'annotation en distinguant chaque étapes et chaque CR (voir section <a href="#annotation_maillons">2.2</a>), il est conseillé de commencer par annoter toutes les unités de type <span style="color : #00ccff">maillon_Elle</span> (y compris le maillon contenu dans la phrase consigne). Une fois tous les <span style="color : #00ccff">maillon_Elle</span> annotées, il est conseillé de masquer ces annotations avant de commencer l'annotation des unités de type <span style="color : #00cc33">maillon_Il</span>, et idem pour l'annotation des unités de type <span style="color: DarkOrange">maillon_lesEnfants</span>. Cela permet d'avoir une vie dégagée du texte, ce qui facilite l'annotation.</p>
+<p>L'annotation des relations doit se réaliser après l'annotation de toutes les unités maillons et est grandement facilité par ce jeu de masque des unités non concernées par la relation. Ainsi, pour annoter les relations de type <li style="color:#00ccff">coref_Elle</li>, il est conseillé de n'afficher que les unités de type <li style="color:#00ccff">maillon_Elle</li>.</p>
+<p>Ce jeu de masque et d'affichage se fait en utilisant l'outil <emph>Style Editor</emph> décrit dans les sections <a href="#loadModel">3.1.2.b</a> et <a href="#style">3.2.8</a>.</p>
+
+
+<h2>
 	<a name="interface" id="interface" href="#toc">3.1. Interface d'annotation</a>
 	</h2>
 	
@@ -602,34 +607,21 @@ Dans ce cas, on fera un choix et on annotera uniquement l'expression qui paraît
 							<li><em>positionnez le curseur</em> sur les ronds de borne initiale et/ou finale et déplacez la ou les borne(s) afin d'obtenir la délimitation correcte.</li>
 							</ol>
 </p>
-		<div class="comment">
-								<p> Il peut s'avérer rapidement difficile de distinguer les annotations si celles si sont superposées. Pour cela, l'interface propose un outil appelé <em>Depth Selector</em> qui permet de jouer sur les couches d'annotation visibles. Pour activer cette fonction, cliquez dans la barre d'outils sur <span class="bouton">Tools</span> puis <span class="bouton">Depth Selector</span>. La boîte de dialogue suivante apparaît alors dans la zone droite de l'interface&nbsp: <img src="images/depthSelector.png" width="400"/>.
-					</p> 
-					<p>Il suffit ensuite de <em>manipuler le curseur</em> pour faire varier l'affichage des différents niveaux d'annotation.
+								<p class="comment"> Il peut s'avérer rapidement difficile de distinguer les annotations si celles si sont superposées. Pour cela, l'interface propose un outil appelé <em>Depth Selector</em> qui permet de jouer sur les couches d'annotation visibles. Pour activer cette fonction, cliquez dans la barre d'outils sur <span class="bouton">Tools</span> puis <span class="bouton">Depth Selector</span>. La boîte de dialogue suivante apparaît alors dans la zone droite de l'interface&nbsp: <img src="images/depthSelector.png" width="400"/><br/>Il suffit ensuite de <em>manipuler le curseur</em> pour faire varier l'affichage des différents niveaux d'annotation.
 					</p>
-					</div>
 						
 						<h4><a name="modifTypunit"></a>3.2.3.b. Modifier le type d'une unité</h4>
-						
+						<p>En mode <emph>édition d'unité</emph> (bouton <img src="images/interface_icon/unit-edit-32x32.png" alt="edit_unit" align="absmiddle" height="24"/> enfoncé), 
 						<ol>
-							<li>cliquez sur le bouton <img src="images/interface_icon/unit-edit-32x32.png" alt="relation_unit" align="absmiddle"	height="24"/>;
-								</li>
-							<li>sélectionnez l'unité à modifier en cliquant dessus (voir l'item <a href="#select_obj">sélectionner l'unité</a> ci-dessus);
-								</li>
-							<li>
-								<p>changez l'annotation au niveau de la zone modèle (l'annotation actuelle apparaît surlignée)
-									<img src="images/interface_focus_LAM.png" ,="" align="top" height="40"/>.
-									</p>
-								</li>
+							<li>sélectionnez l'unité à modifier en cliquant dessus (voir l'item <a href="#select_obj">sélectionner l'unité</a> ci-dessus);</li>
+							<li>changez l'annotation au niveau de la ZONE MOD&Egrave;LE (l'annotation actuelle apparaît surlignée)								</li>
 							</ol>
-<p>Une fois le type de l'unité modifié, il faut renseigner les caractéristiques de cette unité dans la zone modèle de l'interface et notamment la nature du maillon et le degré d'incertitude concernant sa délimitation et son rattachement. Par défaut le maillon est de type pronom et aucune incertitude n'est notée. Pour modifier ces valeurs, il suffit de cliquer sur les champs concernés, de saisir les valeurs et d'enregistrer les caractéristiques en appuyant sur "entrée".</p>	
+</p>
+<p>Une fois le type de l'unité modifié, il faut renseigner les caractéristiques de cette unité dans la ZONE TRAITS (degré d'incertitude concernant sa délimitation et son rattachement, appartenance à la classe <b>groupe</b> ou pas). Par défaut le maillon est à un degré nul d'incertitude. Pour modifier ces valeurs, il suffit de cliquer sur les champs concernés, de saisir les valeurs et d'enregistrer les caractéristiques en appuyant sur la touche "Entrée".</p>	
 
-						<h3><a name="suppr"></a>3.2.4. Supprimer une unité et invalider un maillon-candidat</h4>
-					<p>Si vous souhaitez supprimer une de vos précédentes annotations, il faut:
+						<h3><a name="suppr"></a>3.2.4. Supprimer une unité (maillon précédemment annoté ou maillon-candidat gênant)</h4>
+					<p>Si vous souhaitez supprimer une annotation, il faut être en mode <emph>édition d'unité</emph> (bouton <img src="images/interface_icon/unit-edit-32x32.png" alt="edit_unit" align="absmiddle" height="24"/> enfoncé). 
 					<ol>
-							<li>
-									cliquez sur le bouton <img src="images/interface_icon/unit-edit-32x32.png" alt="edit_unit" align="absmiddle" height="24"/> (<span class="bouton">Edit/Delete Units</span>);
-							</li>
 							<li>
 									sélectionnez l'objet à modifier en cliquant dessus (voir l'item <a href="#select_obj">sélectionner l'objet </a> ci-dessus);
 							</li>
@@ -638,14 +630,17 @@ Dans ce cas, on fera un choix et on annotera uniquement l'expression qui paraît
 							</li>
 						</ol>
 					</p>
-<p>Les unités de type maillon-candidat qui gênent l'annotation peuvent être supprimées, mais ce n'est pas une obligation.</p>			
+<p class="comment">Les unités de type maillon-candidat qui gênent l'annotation peuvent être supprimées, mais ce n'est pas une obligation.</p>			
 	
 	<h3><a name="rel"></a>3.2.5. Relier les unités constituant une CR</h3>					
 <p>Une fois les unités maillons d'une CR créées, une dernière étape consiste à valider la chaîne en reliant tous ses maillons par une relation de coréférence. </p>
 <p>Pour cette étape, il est recommandé de cacher les maillons-candidats et les maillons des autres CR en jouant avec les styles (voir section <a href="#style">3.2.8</a>)</p>
-<p>Pour relier des unités entre elle, il faut sélectionner le bouton <img src="images/interface_icon/relation-add-32x32.png" align="absmiddle" height="24"/> et cliquez sur le type "Coreference_X" adéquat dans la colonne "Relations" du modèle d'annotation affiché dans la ZONE MODELE.</p>
-			<p>Passez ensuite à la sélection des maillons à relier en cliquant simplement sur chaque unité maillon à relier. Une relation s'établissant entre deux unités, il est nécessaire de cliquer sur le 1er maillon et le 2e, puis de cliquer à nouveau sur le 2e pour le relier au 3e et ainsi de suite.</p>
-<p>Vous pouvez à tout moment modifier ou supprimer une relation en cliquant sur le bouton <img src="images/interface_icon/relation-edit-32x32.png" align="absmiddle" height="24"/> pour la sélectionner et ensuite choisir soit de la modifier, soit la supprimer en appuyant sur la touche <span class="bouton">Suppr</span> du clavier</p>
+<p>Pour relier des unités entre elle, il faut passer en mode création de relation en cliquant sur le bouton <img src="images/interface_icon/relation-add-32x32.png" align="absmiddle" height="24"/> dans la ZONE OUTILS. Une fois le bouton enfoncé, il faut sélectionner le type de la relation à créer, à savoir <span style="color : #00ccff">coref_Elle</span>, <span style="color : #00cc33">coref_Il</span> ou <span style="color: DarkOrange">coref_lesEnfants</span> en cliquant sur le type adéquat dans la colonne "relations" du modèle d'annotation affiché dans la ZONE MOD&Egrave;LE (en bas à droite)	<img src="images/interface_focus_LAM.png" height="40" style="vertical-align:top"/>.</p>
+<p class="comment">Par défaut, toute nouvelle relation est associée au type de la relation précédemment annotée. Si aucune relation n'a encore été créée, la nouvelle relation sera associée au type <i>r_default</i>.</p>
+	
+<p>Passez ensuite à la sélection des maillons à relier en cliquant à chaque fois sur les deux unités maillon à relier.</p> 
+<p class="comment">Toute annotation de relation s'établissant entre deux unités, il est nécessaire de cliquer sur le 1er maillon et le 2e, puis de cliquer à nouveau sur le 2e pour le relier au 3e et ainsi de suite.</p>
+<p>Vous pouvez à tout moment modifier ou supprimer une relation en passant en mode édition de relation en cliquant sur le bouton <img src="images/interface_icon/relation-edit-32x32.png" align="absmiddle" height="24"/>. Une fois en mode édition de relation, vous pouvez sélectionner la relation et choisir de modifier les unités reliées, zon type ou de supprimer la relation en appuyant sur la touche <span class="bouton">Suppr</span> du clavier.</p>
 
 <h3><a name="glue"></a>3.2.6. Laisser un commentaire via les glue notes</h3>					
 						<div class="comment">
