@@ -376,15 +376,15 @@ puis de
 </ol>
 </p>
 
-<p>Pour chaque CR, l'annotation des maillons consiste en la création d'unités dédiées (voir section <a href="#add">3.2.2</a>) qui aboutit à la création d'unités de type <span style="color : red">maillon_Elle</span>, <span style="color : OrangeRed">maillon_Il</span> et <span style="color: DarkOrange">maillon_lesEnfants</span> (voir section <a href="#add">3.2.3</a>).</p>
+<p>Pour chaque CR, l'annotation des maillons consiste en la création d'unités dédiées (voir section <a href="#add">3.2.2</a>) qui aboutit à la création d'unités de type <span style="color : #00ccff">maillon_Elle</span>, <span style="color : #00cc33">maillon_Il</span> et <span style="color: DarkOrange">maillon_lesEnfants</span> (voir section <a href="#add">3.2.3</a>).</p>
 <p>En plus de la délimitation, l'annotation des unités maillons nécessite le renseignement d'un certain nombre de traits comme <!--la nature du maillon (SN défini, pronom, sujet zéro, etc.), -->le fait que le maillon soit de la classe "groupe" ou pas (dans les cas de <a href="#coord">coordination et référents pluriels</a>) et le degré de certitude de l'annotation (voir <a href="#incertitude">ici</a>).</p>
 <p>Une fois les unités maillons annotées, la dernière étape consiste à relier entre elles les unités maillons d'une même chaîne (voir section <a href="#rel">3.2.6</a>). Cette dernière étape est l'occasion de vérifier l'annotation.</p>
 
-<p>Dans les textes que vous allez annoter, certaines expressions linguistiques ont fait l'objet d'un <b>prémarquage</b> ayant pour fonction de faciliter la tâche d'annotation. Il s'agit d'expressions qui, parce qu'elles sont considérées comme référant potentiellement aux 3 référents humains, constituent des <b>maillons-candidats</b> des trois <abbr title="chaines_reference">CR</abbr> considérées. Ces maillons-candidats pourront être validés en leur attributant l'étiquette <span style="color : #00ccff">maillon_Elle</span>, <span style="color : #00cc22">maillon_Il</span> et <span style="color: DarkOrange">maillon_lesEnfants</span>.
+<p>Dans les textes que vous allez annoter, certaines expressions linguistiques ont fait l'objet d'un <b>prémarquage</b> ayant pour fonction de faciliter la tâche d'annotation. Il s'agit d'expressions qui, parce qu'elles sont considérées comme référant potentiellement aux 3 référents humains, constituent des <b>maillons-candidats</b> des trois <abbr title="chaines_reference">CR</abbr> considérées. Ces maillons-candidats pourront être validés en leur attributant l'étiquette <span style="color : #00ccff">maillon_Elle</span>, <span style="color : #00cc33">maillon_Il</span> et <span style="color: DarkOrange">maillon_lesEnfants</span>.
 </p>
 
 <h3><a name="premark"></a>Utilisation du prémarquage des maillons-candidats</h3>
-<p>L'exemple ci-dessous fournit une illustration - pour le même texte que celui que nous avons commenté en début de <a href="#CR">section 2</a> - du résultat du prémarquage automatique d'unités appelées "maillons-candidats". Ces "maillons-candidats" correspondent à des éléments fortement susceptibles d'être des unités de type <span style="color : red">maillon_Elle</span>, <span style="color : OrangeRed">maillon_Il</span> ou <span style="color: DarkOrange">maillon_lesEnfants</span>, à savoir&nbsp;:
+<p>L'exemple ci-dessous fournit une illustration - pour le même texte que celui que nous avons commenté en début de <a href="#CR">section 2</a> - du résultat du prémarquage automatique d'unités appelées "maillons-candidats". Ces "maillons-candidats" correspondent à des éléments fortement susceptibles d'être des unités de type <span style="color : #00ccff">maillon_Elle</span>, <span style="color : #00cc33">maillon_Il</span> ou <span style="color: DarkOrange">maillon_lesEnfants</span>, à savoir&nbsp;:
 		<ul>
 			<li>les noms propres</li>
 			<li>les pronoms personnels de 3<sup>e</sup> personne</li>
@@ -446,13 +446,19 @@ Dans ce cas, on fera un choix et on annotera uniquement l'expression qui paraît
 	<a name="glozz">3. Utilisation de Glozz pour annoter les maillons et les CR</a>
 	</h1>
 		<p>
-		L'annotation des CR se fait en délimitant et qualifiant toutes les <em>UNITÉS</em> (<img src="images/interface_icon/unit.png" align="absmiddle" height="18"/>) qui correspondent aux expressions référentielles référant aux référents humains mentionnés dans les phrases consignes.</p>
-<p>L'annotation consiste à valider les maillons-candidats pertinents et à ajouter ceux que le système de prémarquage n'a pas pu détecter.</p>
-		<p>Trois types d'<em>UNITÉS</em> sont à distinguer&nbsp;:
+		L'annotation des CR se fait en identifiant toutes les <em>UNITÉS</em> (<img src="images/interface_icon/unit.png" align="absmiddle" height="18"/>) qui correspondent aux expressions référentielles référant aux référents humains mentionnés dans les phrases consignes.</p>
+<p>L'annotation consiste à créer trois types d'<em>UNITÉS</em> (<img src="images/interface_icon/unit.png" align="absmiddle" height="18"/>)&nbsp;:
 		<ul>
-			<li style="color:red">maillon_Elle</li>
-			<li style="color:orangeRed">maillon_Il</li>
+			<li style="color:#00ccff">maillon_Elle</li>
+			<li style="color:#00cc33">maillon_Il</li>
 			<li style="color:darkOrange">maillon_lesEnfants</li>
+		</ul>
+			</p>
+<p>et à relier ces <em>UNITÉS</em> par trois types de<em>RELATIONS</em> (<img src="images/interface_icon/relation.png" align="absmiddle" height="18"/>)&nbsp;:
+		<ul>
+			<li style="color:#00ccff">coref_Elle</li>
+			<li style="color:#00cc33">coref_Il</li>
+			<li style="color:darkOrange">coref_lesEnfants</li>
 		</ul>
 			</p>
 	
@@ -516,7 +522,7 @@ cliquez sur <b>"Options/Préférence"</b> et décochez la case <b>"Load last job
 	</h2>
 	<div class="contents">
 		<ul class="toc">
-			<li class="tocline">3.2.1 <a href="#load">Charger les textes à annoter</a></li>
+			<li class="tocline">3.2.1 Charger <a href="#loadText">les textes à annoter</a> et <a href="#loadModel">le modèle d'annotation</a></li>
 			<li class="tocline">3.2.2 <a href="#cue">Créer une unité</a></li>
 			<li class="tocline">3.2.3 <a href="#edit">Modifier une unité (maillon-candidat ou maillon précédemment annoté)</a></li>
 			<li class="tocline">3.2.4 <a href="#suppr">Supprimer une unité</a></li>
@@ -527,27 +533,17 @@ cliquez sur <b>"Options/Préférence"</b> et décochez la case <b>"Load last job
 		</ul>
 	</div>		
 	
-			<h3>3.2.1. <a name="load" id="load">Charger les textes à annoter</a></h3>
-							
-<p>Une fois l'interface ouverte, voici les procédures à effectuer pour charger les
-	fichiers nécessaires à l'annotation&nbsp:
-			</p><ol>
-		<li>
-		<p>
-		Charger le document à annoter en cliquant sur le bouton <img src="images/interface_icon/open-24x24.png" align="absmiddle"/>
+	<h3>3.2.1 <a name="load">Charger les textes à annoter et le modèle d'annotation</a></h3>
+	Un fois l'interface ouverte, il faut charger le texte à annoter, le modèle d'annotation et la feuille de style permettant de visualiser les annotations. Ce n'est qu'une fois tous ces fichiers chargés dans Glozz que l'annotation peut commencer. 
+			<h4>3.2.1.a <a name="loadTexts">Charger les textes à annoter</a></h4>							
+
+		<p>Charger le texte à annoter en cliquant sur le bouton <img src="images/interface_icon/open-24x24.png" align="absmiddle"/>
 		(<span class="bouton">Open corpus</span>) situé dans la barre d'outils.
 		</p>
 										<p>Deux éléments doivent être chargés&nbsp: 
-		le texte (fichier avec extension <b>.ac</b>) et le fichier contenant les annotations (fichier avec extension <b>.aa</b>. Vous pouvez également charger un fichier contenant des annotations que vous avez réalisées et sauvegardées (voir la section <a href="#save">3.2.7.</a>).</p>
-		</li>
-		</ul>
-			
-		<p>
-		Bien entendu, les deux éléments doivent porter le même nom, hormis leur extension (<i>e.g.</i> CO-3e-2016-VTAC305-D1-R10-V1.ac et
-		CO-3e-2016-VTAC305-D1-R10-V1.aa ou CO-3e-2016-VTAC305-D1-R10-V1_coherence.aa).
-		</p>
-		</li>
-		<li> 
+		le texte (fichiers avec extension <b>.ac</b>) et le fichier contenant les annotations (fichiers portant le même nom mais avec l'extension <b>_coref.aa</b>). Vous pouvez également charger un fichier contenant des annotations que vous avez réalisées et sauvegardées (voir la section <a href="#save">3.2.7.</a>).</p>
+		<p class="comment">Si le fichier .aa n'apparaît pas dans la fenêtre, il faut sans doute modifier le type de fichier à visualiser en choisissant .aa file.</p>
+			<h4>3.2.1.b <a name="loadModel">Charger le modèle d'annotation et la feuille de style associée</a></h4>							
 		<p>
 		Charger le modèle d'annotation en cliquant sur le bouton <img src="images/interface_icon/LAM.png" align="absmiddle"/> dans la barre d'outils. Sous glozz, un modèle d'annotation est un fichier avec une extension .aam. Pour cette tâche d'annotation, il faut charger le modèle <em>resolco_coref.aam</em>. Les unités et relations à annoter apparaissent alors dans la zone modèle (en bas à droite).
 		</p>
@@ -558,8 +554,8 @@ cliquez sur <b>"Options/Préférence"</b> et décochez la case <b>"Load last job
 		<li>
 		<p>
 		Charger la feuille de style qui permet de colorer dans le ruban et la
-		zone texte les maillons-candidats et les futures annotations. Les phrases consignes apparaissent également colorées. Pour ce faire, cliquer sur le bouton <img src="images/interface_icon/styleEditor-24x24.png" align="absmiddle"/>
-		(<span class="bouton">Style editor</span>) situé dans la barre d'outil, puis sur le bouton <img src="images/interface_icon/open-24x24.png" align="absmiddle"/> (<span class="bouton">Open style</span>) dans la fenêtre concernée. Le fichier de base pour cette tâche d'annotation se trouve dans le fichier <em>resolco_coref.as</em>
+		zone texte les futures annotations, les maillons-candidats et les phrases consignes. Pour charger la feuille de style, cliquer sur le bouton <img src="images/interface_icon/styleEditor-24x24.png" align="absmiddle"/>
+		(<span class="bouton">Style editor</span>) situé dans la barre d'outil, puis sur le bouton <img src="images/interface_icon/open-24x24.png" align="absmiddle"/> (<span class="bouton">Open style</span>) dans la fenêtre concernée. Le fichier de base pour cette tâche d'annotation se trouve dans le fichier <em>resolco_coref.as</em>. Une fois la feuille de style <em>resolco_coref.as</em> chargée, les maillons-candidats apparaissent grisés et les phrases consignes encadrées.
 		</p>
 									
 		</li>
@@ -568,7 +564,7 @@ cliquez sur <b>"Options/Préférence"</b> et décochez la case <b>"Load last job
 	
 			<h3>3.2.2. <a name="cue" id="cue">Créer une annotation "unité" (maillon)</a></h3>
 			<p>Tout maillon d'une des CR à annoter doit donner lieu à la création d'une unité.</p>
-			<p>Pour créer une unité qui n'a pas été prémarquée, il faut d'abord sélectionner le type de l'unité à créer, à savoir <span style="color : red">maillon_Elle</span>, <span style="color : OrangeRed">maillon_Il</span> ou <span style="color: DarkOrange">maillon_lesEnfants</span>. Par défaut, toute nouvelle unité est associée au type de l'unité précédemment annotée. Si aucune unité n'a encore été créée, la nouvelle unité sera associée au type <i>u_default</i>.</p>
+			<p>Pour créer une unité qui n'a pas été prémarquée, il faut d'abord sélectionner le type de l'unité à créer, à savoir <span style="color : #00ccff">maillon_Elle</span>, <span style="color : #00cc33">maillon_Il</span> ou <span style="color: DarkOrange">maillon_lesEnfants</span>. Par défaut, toute nouvelle unité est associée au type de l'unité précédemment annotée. Si aucune unité n'a encore été créée, la nouvelle unité sera associée au type <i>u_default</i>.</p>
 			<p> Pour associer un type à une nouvelle unité, sélectionnez le bouton <img src="images/interface_icon/unit-add-32x32.png" align="absmiddle" height="24"/> (<span class="bouton">Create a new simple Unit</span>) et cliquez sur le type adéquat dans le modèle d'annotation affiché dans la ZONE MODELE.</p>
 			<p>Passez ensuite à la délimitation de l'unité.</p>
 	<p><img src="images/interface_focus_edit.png" height="40"/></p>
@@ -667,13 +663,13 @@ cliquez sur <b>"Options/Préférence"</b> et décochez la case <b>"Load last job
 							</li>
 						</ol>
 					</p>
-<p>IL n'est pas demandé de supprimer les unités de type maillon-candidat qui ne sont rattachées à aucune CR. Le fait de ne pas les avoir associé à un type <span style="color : red">maillon_Elle</span>, <span style="color : OrangeRed">maillon_Il</span> ou <span style="color: DarkOrange">maillon_lesEnfants</span> suffit.</p>			
+<p>Les unités de type maillon-candidat qui gênent l'annotation peuvent être supprimées, mais ce n'est pas une obligation.</p>			
 	
 	<h3><a name="rel"></a>3.2.5. Relier les unités constituant une CR</h3>					
 <p>Une fois les unités maillons d'une CR créées, une dernière étape consiste à valider la chaîne en reliant tous ses maillons par une relation de coréférence. </p>
 <p>Pour cette étape, il est recommandé de cacher les maillons-candidats et les maillons des autres CR en jouant avec les styles (voir section <a href="#style">3.2.8</a>)</p>
-<p>Pour relier des unités entre elle, il faut sélectionner le bouton <img src="images/interface_icon/relation-add-32x32.png" align="absmiddle" height="24"/> et cliquez sur le type "Coreference" dans la colonne "Relations" du modèle d'annotation affiché dans la ZONE MODELE.</p>
-			<p>Passez ensuite à la sélection des maillons à relier en cliquant simplement sur chaque unité maillon à relier.</p>
+<p>Pour relier des unités entre elle, il faut sélectionner le bouton <img src="images/interface_icon/relation-add-32x32.png" align="absmiddle" height="24"/> et cliquez sur le type "Coreference_X" adéquat dans la colonne "Relations" du modèle d'annotation affiché dans la ZONE MODELE.</p>
+			<p>Passez ensuite à la sélection des maillons à relier en cliquant simplement sur chaque unité maillon à relier. Une relation s'établissant entre deux unités, il est nécessaire de cliquer sur le 1er maillon et le 2e, puis de cliquer à nouveau sur le 2e pour le relier au 3e et ainsi de suite.</p>
 <p>Vous pouvez à tout moment modifier ou supprimer une relation en cliquant sur le bouton <img src="images/interface_icon/relation-edit-32x32.png" align="absmiddle" height="24"/> pour la sélectionner et ensuite choisir soit de la modifier, soit la supprimer en appuyant sur la touche <span class="bouton">Suppr</span> du clavier</p>
 
 <h3><a name="glue"></a>3.2.6. Laisser un commentaire via les glue notes</h3>					
