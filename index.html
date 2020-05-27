@@ -488,14 +488,28 @@ Dans ce cas, on fera un choix et on annotera uniquement l'expression qui paraît
 		<b>java -Xmx1G -jar <i>(chemin pour arriver à votre dossier Glozz)</i>/glozz-platform dist-2.1/glozz-platform.jar</b> <br/> À vous de voir si ouvrir Glozz en lui attribuant plus de mémoire.
 </ul>
 
-<h3><a name="param"></a>3.1.3 Conseils de paramétrage</h3>
+
+ 
+<h3><a name="zones"></a>3.1.3. Les éléments de l'interface</h3> 
+		<p>
+		Toutes les pocédures d'annotation se font avec l'interface d'annotation dans laquelle nous distinguons les zones suivantes&nbsp;:<br/>
+		<img src="images/interface_icon/glozz2.1.png" alt="interface_glozz" width="100%"/>
+		</p>
+<ul>
+	<li>La ZONE CENTRALE est la zone dans laquelle seront réalisées les annotations.</li>
+	<li>La ZONE MOD&Egrave;LE ou "zone Modèle et Annotation as Text" permet de sélectionner le type d'unités et de relations à annoter et l'onglet "Annotation as Text" permet de visualiser la liste de toutes les annotations existantes.</li> 
+	<li>La ZONE TRAITS ou "Saisie des traits associés aux annotations" donne accès aux caractéristiques associées à chaque annotation (e.g. le degré d'incertitude, les commentaires, la nature des unités) et permet, en mode édition, de les modifier.</li>
+	<li>La ZONE OUTILS ou "Barre d'outils et zone d'édition" permet de charger les fichiers, paramétrer les préférences d'affichage, charger les modèles d'annotation et les styles, et contient le boutons permettant de créer et modifier des annotations.</li>
+	<li>La ZONE RUBAN offre une vue de haut du texte et des annotations.</li> 
+</ul>
+<h3><a name="param"></a>3.1.4 Conseils de paramétrage</h3>
 <p>Pour éviter des <b>problèmes de mémoire au demarrage</b> de Glozz, nous vous conseillons de modifier le paramétrage qui prévoit de recharger le dernier travail à chaque démarrage du logiciel dès la première utilisation de la plateforme d'annotation, surtout si vous travaillez sur des gros fichiers. Pour ce faire, une fois que Glozz aura demarré, cliquez sur <emph>Options</emph> &gt; <emph>Préférences...</emph> et, sous l'onlget <emph>Launch</emph>, décochez la case <emph>Load last job automatically on launch</emph>. Ce paramétrage restera mémorisé pour toutes vos prochaines sessions de travail sous Glozz.</p>
-<p>Par défaut, le chargement d'un texte est accompagné d'une <b>visualisation de toutes les couches d'annotations</b> qui lui sont associées, mêmes celles qui relèvent pas du modèle d'annotation choisi. Ces annotations, dans le cas des copies d'élèves, indiquent les ratures, les fautes d'orthographe, les commentaires de enseignants, etc. L'affichage de ces annotations ne fera que perturber l'annotation des CR. Pour neutraliser cet affichage, cliquez sur <emph>Options</emph> &gt; <emph>Préférences...</emph> et sous l'onglet <emph>Viewer</emph> et décochez <emph>Show unstyled annotations</emph>. Ce paramétrage restera mémorisé pour toutes vos prochaines sessions de travail sous Glozz.</p>
+<p>Par défaut, le chargement d'un texte est accompagné d'une <b>visualisation de toutes les couches d'annotations</b> qui lui sont associées, mêmes celles qui relèvent pas du modèle d'annotation choisi. Ces annotations, dans le cas des copies d'élèves, indiquent les ratures, les fautes d'orthographe, les commentaires de enseignants, etc. L'affichage de ces annotations ne fera que perturber l'annotation des CR. Pour neutraliser cet affichage, cliquez sur <emph>Options</emph> &gt; <emph>Préférences...</emph> et sous l'onglet <emph>Viewer</emph> et décochez <emph>Show unstyled annotations</emph>.</p>
 <p class="comment">
 	Barre d'outils : <span class="bouton">
 	Options</span> &gt; <span class="bouton">Pr&eacute;f&eacute;rences</span> puis sur l'onglet <span class="bouton">Viewer</span> :													
-	<img src="images/show_unstyle.png" alt="show unstyled annotations" width="300" align="top"/>
-	</p>
+	<img src="images/show_unstyle.png" alt="show unstyled annotations" width="150" align="top"/><br/>
+	Ce paramétrage restera mémorisé pour toutes vos prochaines sessions de travail sous Glozz.</p>
 <p>Si vous le souhaitez, vous pouvez régler la <b>taille d'affichage du texte</b> : taille de police et taille des interlignes en cliquant sur <emph>Options</emph> &gt; <emph>Préférences...</emph> et en sélectionnant l'onglet <emph>Viewer</emph>.
 <ul>
 <li>Pour modifier la <b>taille de la police</b>, vous devez régler la case <emph>Main viewer font size (corpus reload required</emph>. Vous pouvez choisir <i>"small</i>, <i>"medium"</i>, <i>"large"</i> ou <i>"huge"</i>.</li>
@@ -504,20 +518,7 @@ Dans ce cas, on fera un choix et on annotera uniquement l'expression qui paraît
 </p>
 <p>Pour que les modifications soient prises en compte il est nécessaire de re-importer le fichier que vous voulez annoter. Si vous ne l’avez pas importé, il suffit de le faire après avoir modifié les paramètres. Ce paramétrage restera mémorisé pour toutes vos prochaines sessions de travail sous Glozz.</p>
 </p>
- 
-<h3>Les éléments de l'interface</h3> 
-		<p>
-		Toutes les pocédures d'annotation se font avec l'interface d'annotation dans laquelle nous distinguons les zones suivantes&nbsp;:<br/>
-		<img src="images/interface_icon/glozz2.1.png" alt="interface_glozz" width="100%"/>
-		</p>
-<ul>
-	<li>La ZONE CENTRALE est la zone dans laquelle seront réalisées les annotations.</li>
-	<li>La ZONE MOD&Egrave;LE "et Annotation as Text" permet de sélectionner le type d'unités et de relations à annoter et l'onglet "Annotation as Text" permet de visualiser la liste de toutes les annotations existantes.</li> 
-	<li>La ZONE TRAITS "Saisie des traits associés aux annotations" donne accès aux caractéristiques associées à chaque annotation (e.g. le degré d'incertitude, les commentaires, la nature des unités) et permet, en mode édition, de les modifier.</li>
-	<li>La ZONE OUTILS "Barre d'outils et zone d'édition" permet de charger les fichiers, paramétrer les préférences d'affichage, charger les modèles d'annotation et les styles, et contient le boutons permettant de créer et modifier des annotations.</li>
-	<li>La ZONE RUBAN offre une vue de haut du texte et des annotations.</li> 
-</ul>
-	<h2>
+<h2>
 	<a name="procedure" id="procedure" href="#toc">3.2. Fonctionnalités de l'interface</a>
 	</h2>
 	<div class="contents">
@@ -545,7 +546,7 @@ Dans ce cas, on fera un choix et on annotera uniquement l'expression qui paraît
 		<p class="comment">Si le fichier .aa n'apparaît pas dans la fenêtre, il faut sans doute modifier le type de fichier à visualiser en choisissant .aa file.</p>
 			<h4>3.2.1.b <a name="loadModel">Charger le modèle d'annotation et la feuille de style associée</a></h4>							
 		<p>
-		Charger le modèle d'annotation en cliquant sur le bouton <img src="images/interface_icon/LAM.png" align="absmiddle"/> dans la barre d'outils. Sous glozz, un modèle d'annotation est un fichier avec une extension .aam. Pour cette tâche d'annotation, il faut charger le modèle <em>resolco_coref.aam</em>. Les unités et relations à annoter apparaissent alors dans la ZONE MOD&Egrave;LE (en bas à droite)	<img src="images/interface_focus_LAM.png" height="40"/>
+		Charger le modèle d'annotation en cliquant sur le bouton <img src="images/interface_icon/LAM.png" align="absmiddle"/> dans la barre d'outils. Sous glozz, un modèle d'annotation est un fichier avec une extension .aam. Pour cette tâche d'annotation, il faut charger le modèle <em>resolco_coref.aam</em>. Les unités et relations à annoter apparaissent alors dans la ZONE MOD&Egrave;LE (en bas à droite)	<img src="images/interface_focus_LAM.png" height="40" align="top"/>
 		</p>
 		</li>
 		<li>
