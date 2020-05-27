@@ -383,7 +383,7 @@ puis de
 <p>Dans les textes que vous allez annoter, certaines expressions linguistiques ont fait l'objet d'un <b>prémarquage</b> ayant pour fonction de faciliter la tâche d'annotation. Il s'agit d'expressions qui, parce qu'elles sont considérées comme référant potentiellement aux 3 référents humains, constituent des <b>maillons-candidats</b> des trois <abbr title="chaines_reference">CR</abbr> considérées. Ces maillons-candidats pourront être validés en leur attributant l'étiquette <span style="color : #00ccff">maillon_Elle</span>, <span style="color : #00cc33">maillon_Il</span> et <span style="color: DarkOrange">maillon_lesEnfants</span>.
 </p>
 
-<h3><a name="premark"></a>Utilisation du prémarquage des maillons-candidats</h3>
+<h3><a name="premark"></a>2.2.1. Utilisation du prémarquage des maillons-candidats</h3>
 <p>L'exemple ci-dessous fournit une illustration - pour le même texte que celui que nous avons commenté en début de <a href="#CR">section 2</a> - du résultat du prémarquage automatique d'unités appelées "maillons-candidats". Ces "maillons-candidats" correspondent à des éléments fortement susceptibles d'être des unités de type <span style="color : #00ccff">maillon_Elle</span>, <span style="color : #00cc33">maillon_Il</span> ou <span style="color: DarkOrange">maillon_lesEnfants</span>, à savoir&nbsp;:
 		<ul>
 			<li>les noms propres</li>
@@ -401,7 +401,7 @@ puis de
 
 <p>Les maillons-candidats sont à considérer comme des propositions qui sont faites à l'annotateur pour l'assister dans sa tâche d'identification des maillons. Chaque maillons-candidats doit être validé par l'annotateur. Cette validation s'effectue par l'attribution de l'étiquette adéquate. En terme de procédure d'annotation, cela revient <!--à modifier une unité pour lui attribuer une autre étiquette (voir section <a href="#edit">3.2.3</a>)-->à créer une unité maillon_X (voir section <a href="#add">3.2.2</a>) qui se superpose au maillon-candidat. Le prémarquage étant automatique, certains maillons-candidats peuvent parfois paraître surprenants, notamment concernant le prémarquage des noms propres et des pronoms personnels.</p>
 
-<h4>Problèmes liés au prémarquage des noms propres</h4>	
+<h4>2.2.1.a. Problèmes liés au prémarquage des noms propres</h4>	
 <p>Tous les NPP ont été considérés comme des maillons-candidats, même ceux pouvant désigner un référent non humain, comme "Vendée" ou "22H" dans l'exemple ci-dessus. Ces maillons-candidats ne doivent évidemment pas faire l'objet d'une validation et peuvent être supprimés au moment de l'annotation (voir section <a href="#suppr">3.2.4</a>)</p>
 <p>Parfois, un NPP n'a pas été prémarqué, comme le nom "Clément" dans l'exemple ci-dessous.
 	 <div class="exemple">
@@ -425,10 +425,10 @@ Dans ce cas, si "Clément" est inclus dans une des CR de la consigne, l'annotate
 Dans ce cas, si "Mr Wilson" est inclus dans une des CR de la consigne, l'annotateur peut soit créer une nouvelle unité constituée du nom propre complet (voir section <a href="#add">3.2.2</a>), soit modifier et rédélimiter le maillon-candidat (voir section <a href="#edit">3.2.3</a>).
 </p-->
 
-<h4>Problèmes liés au prémarquage du pronom personnel <i>il</i></h4>	
+<h4>2.2.1.b. Problèmes liés au prémarquage du pronom personnel <i>il</i></h4>	
 <p>Tous les pronoms clitiques sujets <i>il</i> ont été prémarqués, qu'ils soient dans un emploi personnel (<i><b>Il</b> se retourna en entendant ce grand bruit</i>) ou impersonnel (<i><b>Il</b> était un fois</i>, <i><b>Il</b> pleut</i>, <i><b>Il</b> est évident que...</i>). Ces maillons-candidats ne doivent évidemment pas faire l'objet d'une validation et peuvent être supprimés au moment de l'annotation (voir section <a href="#suppr">3.2.4</a>).</p>
 			
-<h3><a name="incertitude"></a>Incertitude</h3>
+<h3><a name="incertitude"></a>2.2.2. Incertitude</h3>
 <p>Pour plusieurs raisons, il n'est pas toujours facile de déterminer quel est le référent d'une expression référentielle. Il peut notamment y avoir dans le contexte plusieurs expressions disponibles pour un même référent. C'est le cas ci-dessous où le possessif <i>sa</i> peut coréférer à <i>la vieille femme</i> ou à <i>elle</i>.
 Dans ce cas, on fera un choix et on annotera uniquement l'expression qui paraît la plus cohérente pour construire l'interprétation, en lui attribuant toutefois une étiquette signalant l'incertitude.
 <div class="exemple">
@@ -466,8 +466,8 @@ Dans ce cas, on fera un choix et on annotera uniquement l'expression qui paraît
 	<a name="interface" id="interface" href="#toc">3.1. Interface d'annotation</a>
 	</h2>
 	
-		<p>Pour effectuer l'annotation vous allez utiliser l'interface d'annotation Glozz.</p>
-		<h4>Télécharger Glozz</h4>
+		<p>L'interface d'annotation Glozz a été conçue dans les cadre de projets académiques pour permettre l'annotation de structures discursives complexes. Elle permet de délimiter des unités (dans notre cas, délimiter les maillons), de leur associer un style et des caractéristiques et de relier ces unités. La première étape avant de commencer est de télécharger l'interface Glozz, interface multiplateforme.</p>
+		<h4>3.1.1. Télécharger Glozz</h4>
 		<p>Pour télécharger le logiciel il faut se rendre sur le site suivant <a href="http://glozz.free.fr/">http://glozz.free.fr/</a> et remplir les champs proposés dans la section "Download Glozz". 
 	<br/>Il faudra également suivre les indications pour demander une clé d'accès à Glozz, sans laquelle vous ne pourrez pas annoter. 
 	Si vous avez des difficultés à trouver ces indications sur le site, suivez les informations ci-dessous&nbsp: </p>
@@ -479,7 +479,7 @@ Dans ce cas, on fera un choix et on annotera uniquement l'expression qui paraît
 </div>
 <p>Pour installer le logiciel suivez les indications présentes sur le site et sur le manuel&nbsp: <a href="http://glozz.free.fr/glozzManual_1_0.pdf">http://glozz.free.fr/glozzManual_1_0.pdf</a></p>
 
-<h3>Lancer Glozz</h3>
+<h3>3.1.2. Lancer Glozz</h3>
 <p>Une fois l'installation terminée, vous pouvez lancer Glozz. Pour ce faire, vous avez plusieurs possibilités&nbsp: 
 <ul>
 		<li>soit en faisant un double clic sur le fichier <b>«glozz-platform.jar»</b> ;</li>
@@ -488,34 +488,34 @@ Dans ce cas, on fera un choix et on annotera uniquement l'expression qui paraît
 		<b>java -Xmx1G -jar <i>(chemin pour arriver à votre dossier Glozz)</i>/glozz-platform dist-2.1/glozz-platform.jar</b> <br/> À vous de voir si ouvrir Glozz en lui attribuant plus de mémoire.
 </ul>
 
-<h3>Paramètres</h3>
-<p>
-<ol>
-<li>Pour éviter des problèmes de mémoire lors du demarrage de Glozz, nous vous conseillons de modifier le paramétrage qui prévoit de recharger le dernier travail à chaque démarrage du logiciel dès la première utilisation de la plateforme d'annotation, surtout si vous travaillez sur des gros fichiers. Pour ce faire, une fois que Glozz aura demarré, 
-cliquez sur <b>"Options/Préférence"</b> et décochez la case <b>"Load last job automatically on launch"</b>.</li>
-<li>Ensuite, allez sur l'onglet <b>"Viewer"</b> et décochez <b>"Show unstyled annotaitons"</b>.</li>
-<li>Si vous le souhaitez, vous pouvez régler la taille d'affichage du corpus et la taille de l'espacement entre les lignes du texte. Pour ce faire vous devez rester sur l'onglet <b>"Viewer"</b>.</li>
+<h3><a name="param"></a>3.1.3 Conseils de paramétrage</h3>
+<p>Pour éviter des <b>problèmes de mémoire au demarrage</b> de Glozz, nous vous conseillons de modifier le paramétrage qui prévoit de recharger le dernier travail à chaque démarrage du logiciel dès la première utilisation de la plateforme d'annotation, surtout si vous travaillez sur des gros fichiers. Pour ce faire, une fois que Glozz aura demarré, cliquez sur <emph>Options</emph> &gt; <emph>Préférences...</emph> et, sous l'onlget <emph>Launch</emph>, décochez la case <emph>Load last job automatically on launch</emph>. Ce paramétrage restera mémorisé pour toutes vos prochaines sessions de travail sous Glozz.</p>
+<p>Par défaut, le chargement d'un texte est accompagné d'une <b>visualisation de toutes les couches d'annotations</b> qui lui sont associées, mêmes celles qui relèvent pas du modèle d'annotation choisi. Ces annotations, dans le cas des copies d'élèves, indiquent les ratures, les fautes d'orthographe, les commentaires de enseignants, etc. L'affichage de ces annotations ne fera que perturber l'annotation des CR. Pour neutraliser cet affichage, cliquez sur <emph>Options</emph> &gt; <emph>Préférences...</emph> et sous l'onglet <emph>Viewer</emph> et décochez <emph>Show unstyled annotations</emph>. Ce paramétrage restera mémorisé pour toutes vos prochaines sessions de travail sous Glozz.</p>
+<p class="comment">
+	Barre d'outils : <span class="bouton">
+	Options</span> &gt; <span class="bouton">Pr&eacute;f&eacute;rences</span> puis sur l'onglet <span class="bouton">Viewer</span> :													
+	<img src="images/show_unstyle.png" alt="show unstyled annotations" width="300" align="top"/>
+	</p>
+<p>Si vous le souhaitez, vous pouvez régler la <b>taille d'affichage du texte</b> : taille de police et taille des interlignes en cliquant sur <emph>Options</emph> &gt; <emph>Préférences...</emph> et en sélectionnant l'onglet <emph>Viewer</emph>.
 <ul>
-<li>Pour modifier la taille d'affichage du texte, vous devez régler la case <b>"Main viewer font size (corpus reload required"</b>. Vous pouvez choisir <i>"small</i>, <i>"medium"</i>, <i>"large"</i> ou <i>"huge"</i>.</li>
-<li>Pour modifier la taille de l'espacement entre les lignes, vous devez régler la case <b>"Main viewer line spacing (corpus reload required)"</b>.  Vous pouvez choisir <i>"small</i>, <i>"medium"</i>, <i>"large"</i> ou <i>"huge"</i>. </li> 
+<li>Pour modifier la <b>taille de la police</b>, vous devez régler la case <emph>Main viewer font size (corpus reload required</emph>. Vous pouvez choisir <i>"small</i>, <i>"medium"</i>, <i>"large"</i> ou <i>"huge"</i>.</li>
+<li>Pour modifier la <b>taille des interlignes</b>, vous devez régler la case <emph>Main viewer line spacing (corpus reload required)</emph>.  Vous pouvez choisir <i>"small</i>, <i>"medium"</i>, <i>"large"</i> ou <i>"huge"</i>. </li> 
 </ul>
-<p>Pour que les modifications soient prises en compte il est nécessaire de re-importer le fichier que vous voulez annoter. Si vous ne l’avez pas importé, il suffit de le faire après avoir modifié les paramètres</p>
-</ol>
- </p>
+</p>
+<p>Pour que les modifications soient prises en compte il est nécessaire de re-importer le fichier que vous voulez annoter. Si vous ne l’avez pas importé, il suffit de le faire après avoir modifié les paramètres. Ce paramétrage restera mémorisé pour toutes vos prochaines sessions de travail sous Glozz.</p>
+</p>
  
 <h3>Les éléments de l'interface</h3> 
 		<p>
-		Toutes les pocédures d'annotation se font avec l'interface d'annotation dans laquelle nous distinguons les zones suivantes&nbsp;:
-		</p>
-		<p>
+		Toutes les pocédures d'annotation se font avec l'interface d'annotation dans laquelle nous distinguons les zones suivantes&nbsp;:<br/>
 		<img src="images/interface_icon/glozz2.1.png" alt="interface_glozz" width="100%"/>
 		</p>
 <ul>
-	<li>La zone centrale est la zone dans laquelle seront réalisées les annotations.</li>
-	<li>La "Zone Modèle et Annotation as Text" permet de sélectionner le type d'unités et de relations à annoter et l'onglet "Annotation as Text" permet de visualiser la liste de toutes les annotations existantes.</li> 
-	<li>La zone "Saisie des traits associés aux annotations" donne accès aux caractéristiques associées à chaque annotation (e.g. le degré d'incertitude, les commentaires, la nature des unités) et permet, en mode édition, de les modifier.</li>
-	<li>La zone "Barre d'outils et zone d'édition" permet de charger les fichiers, paramétrer les préférences d'affichage, charger les modèles d'annotation et les styles, et contient le boutons permettant de créer et modifier des annotations.</li>
-	<li>La zone "ruban" offre une vue de haut du texte et des annotations.</li> 
+	<li>La ZONE CENTRALE est la zone dans laquelle seront réalisées les annotations.</li>
+	<li>La ZONE MOD&Egrave;LE "et Annotation as Text" permet de sélectionner le type d'unités et de relations à annoter et l'onglet "Annotation as Text" permet de visualiser la liste de toutes les annotations existantes.</li> 
+	<li>La ZONE TRAITS "Saisie des traits associés aux annotations" donne accès aux caractéristiques associées à chaque annotation (e.g. le degré d'incertitude, les commentaires, la nature des unités) et permet, en mode édition, de les modifier.</li>
+	<li>La ZONE OUTILS "Barre d'outils et zone d'édition" permet de charger les fichiers, paramétrer les préférences d'affichage, charger les modèles d'annotation et les styles, et contient le boutons permettant de créer et modifier des annotations.</li>
+	<li>La ZONE RUBAN offre une vue de haut du texte et des annotations.</li> 
 </ul>
 	<h2>
 	<a name="procedure" id="procedure" href="#toc">3.2. Fonctionnalités de l'interface</a>
@@ -545,10 +545,7 @@ cliquez sur <b>"Options/Préférence"</b> et décochez la case <b>"Load last job
 		<p class="comment">Si le fichier .aa n'apparaît pas dans la fenêtre, il faut sans doute modifier le type de fichier à visualiser en choisissant .aa file.</p>
 			<h4>3.2.1.b <a name="loadModel">Charger le modèle d'annotation et la feuille de style associée</a></h4>							
 		<p>
-		Charger le modèle d'annotation en cliquant sur le bouton <img src="images/interface_icon/LAM.png" align="absmiddle"/> dans la barre d'outils. Sous glozz, un modèle d'annotation est un fichier avec une extension .aam. Pour cette tâche d'annotation, il faut charger le modèle <em>resolco_coref.aam</em>. Les unités et relations à annoter apparaissent alors dans la zone modèle (en bas à droite).
-		</p>
-		<p>
-		<img src="images/interface_focus_LAM.png" height="40"/>
+		Charger le modèle d'annotation en cliquant sur le bouton <img src="images/interface_icon/LAM.png" align="absmiddle"/> dans la barre d'outils. Sous glozz, un modèle d'annotation est un fichier avec une extension .aam. Pour cette tâche d'annotation, il faut charger le modèle <em>resolco_coref.aam</em>. Les unités et relations à annoter apparaissent alors dans la ZONE MOD&Egrave;LE (en bas à droite)	<img src="images/interface_focus_LAM.png" height="40"/>
 		</p>
 		</li>
 		<li>
@@ -557,6 +554,7 @@ cliquez sur <b>"Options/Préférence"</b> et décochez la case <b>"Load last job
 		zone texte les futures annotations, les maillons-candidats et les phrases consignes. Pour charger la feuille de style, cliquer sur le bouton <img src="images/interface_icon/styleEditor-24x24.png" align="absmiddle"/>
 		(<span class="bouton">Style editor</span>) situé dans la barre d'outil, puis sur le bouton <img src="images/interface_icon/open-24x24.png" align="absmiddle"/> (<span class="bouton">Open style</span>) dans la fenêtre concernée. Le fichier de base pour cette tâche d'annotation se trouve dans le fichier <em>resolco_coref.as</em>. Une fois la feuille de style <em>resolco_coref.as</em> chargée, les maillons-candidats apparaissent grisés et les phrases consignes encadrées.
 		</p>
+			<p>La feuille de style reste par défaut ouverte en arrière plan de la fenêtre principale de l'interface Glozz. Afin déviter d'ouvrir plusieurs fenêtres, il est conseillé de fermer systématiquement la fenêtre style une fois le style chargé et les unités/relations affichées ou masquées (voir section <a href="#style">3.2.8</a>). Pour réouvrir la fenêtre, il suffit de recliquer sur le bouton <img src="images/interface_icon/styleEditor-24x24.png" align="absmiddle"/>.</p>
 									
 		</li>
 </ol>
@@ -564,12 +562,11 @@ cliquez sur <b>"Options/Préférence"</b> et décochez la case <b>"Load last job
 	
 			<h3>3.2.2. <a name="cue" id="cue">Créer une annotation "unité" (maillon)</a></h3>
 			<p>Tout maillon d'une des CR à annoter doit donner lieu à la création d'une unité.</p>
-			<p>Pour créer une unité qui n'a pas été prémarquée, il faut d'abord sélectionner le type de l'unité à créer, à savoir <span style="color : #00ccff">maillon_Elle</span>, <span style="color : #00cc33">maillon_Il</span> ou <span style="color: DarkOrange">maillon_lesEnfants</span>. Par défaut, toute nouvelle unité est associée au type de l'unité précédemment annotée. Si aucune unité n'a encore été créée, la nouvelle unité sera associée au type <i>u_default</i>.</p>
-			<p> Pour associer un type à une nouvelle unité, sélectionnez le bouton <img src="images/interface_icon/unit-add-32x32.png" align="absmiddle" height="24"/> (<span class="bouton">Create a new simple Unit</span>) et cliquez sur le type adéquat dans le modèle d'annotation affiché dans la ZONE MODELE.</p>
-			<p>Passez ensuite à la délimitation de l'unité.</p>
-	<p><img src="images/interface_focus_edit.png" height="40"/></p>
-	<p>
-	La <em>délimitation des unités</em> peut se faire de deux manières&nbsp;:
+<p>Pour créer une unité, il faut d'abord passer en mode <emph>création d'unité</emph> en cliquant sur le bouton <img src="images/interface_icon/unit-add-32x32.png" align="absmiddle" height="24"/> (<span class="bouton">Create a new simple Unit</span>) dans la ZONE OUTILS. Une fois le bouton enfoncé, il faut sélectionner le type de l'unité à créer, à savoir <span style="color : #00ccff">maillon_Elle</span>, <span style="color : #00cc33">maillon_Il</span> ou <span style="color: DarkOrange">maillon_lesEnfants</span> en cliquant sur le type adéquat dans le modèle d'annotation affiché dans la ZONE MOD&Egrave;LE (en bas à droite)	<img src="images/interface_focus_LAM.png" height="40"/>.</p>
+<p class="comment">Par défaut, toute nouvelle unité est associée au type de l'unité précédemment annotée. Si aucune unité n'a encore été créée, la nouvelle unité sera associée au type <i>u_default</i>.</p>
+
+<p>Passez ensuite à la délimitation de l'unité dans la ZONE CENTRALE.</p>
+<p>La <b>délimitation des unités</b> peut se faire de deux manières&nbsp;:
 	<ul>
 	<li><b>soit en deux temps</b>&nbsp;:
 	<ol>
@@ -581,41 +578,21 @@ cliquez sur <b>"Options/Préférence"</b> et décochez la case <b>"Load last job
 	</li>
 	</ol>
 	</li>
-	<li><b>soit en un seul mouvement</b>&nbsp;: positionnez votre souris sur le début de l'unité, cliquez et maintenez le clic pour tracer la délimitation de l'unité
-	(un cadre en pointillé apparaît). Glissez le curseur jusqu'à la fin de l'unité et alors seulement l&acirc;chez le clic. </li>
+	<li><b>soit en un seul mouvement</b>&nbsp;: positionnez votre souris sur le début de l'unité, cliquez et maintenez le clic pour tracer la délimitation de l'unité (un cadre en pointillé apparaît). Glissez le curseur jusqu'à la fin de l'unité et alors seulement l&acirc;chez le clic. </li>
 		</ul>
-	<p class="comment">
-	Si <em>les délimitations n'apparaissent pas à l'écran</em> cela signifie qu'aucun style n'est associé à l'unité.
-	Vous devez alors vérifiez que l'objet que vous annotez (dont le nom est inscrit et sélectionné dans la zone modèle) a bien un
-	style associé dans la fenêtre <em>Style editor</em>. Si vous ne voulez pas associer de style à l'objet en question mais
-	uniquement le visualiser, choisissez alors d'afficher les annotations sans style (<i>unstyled annotations</i>)&nbsp:
-	</p>	
-	<p class="comment">
-	Barre d'outils : <span class="bouton">
-	Options</span> &gt; <span class="bouton">Pr&eacute;f&eacute;rences</span> puis sur l'onglet <span class="bouton">Viewer</span>&nbsp:													
-	<img src="images/show_unstyle.png" alt="show unstyled annotations" width="300" align="top"/>
-	</p>
+	<p class="comment">Si <b>les délimitations n'apparaissent pas à l'écran</b> cela signifie qu'aucun style n'est associé à l'unité. Vous devez alors vérifiez que l'objet que vous annotez (dont le nom est inscrit et sélectionné dans la zone modèle) a bien un style associé dans la fenêtre <em>Style editor</em> (voir section <a href="#loadModel">3.2.1.b</a>).</p>
 	
-	<p>Une fois cette unité créée, il faut renseigner les caractéristiques de cette unité dans la zone modèle de l'interface et notamment la nature du maillon et le degré d'incertitude concernant sa délimitation et son rattachement. Par défaut le maillon est de type pronom et aucune incertitude n'est notée. Pour modifier ces valeurs, il suffit de cliquer sur les champs concernés, de saisir les valeurs et d'enregistrer les caractéristiques en appuyant sur "entrée".</p>	
+	<p>Une fois cette unité créée, vous pouvez renseigner dans la ZONE TRAITS certaines informations sur cette unité par rapport au degré d'incertitude concernant sa délimitation et son rattachement (voir section <a href="#incertitude">Incertitude</a>) et si l'unité appartient à la classe <b>groupe</b> (voir section <a href="#coord">coordination et référents pluriels</a>). Par défaut l'unité maillon est associée à un degré incertitude nulle (pas d'incertitude). Pour modifier ces valeurs, il suffit de cliquer sur les champs concernés, de saisir les valeurs et d'enregistrer les caractéristiques en appuyant sur la touche "Entrée".</p>	
 	
-	<h3>3.2.3. <a name="edit" id="edit">Modifier une annotation (maillon ou maillon-candidat)</a></h3>
-<p>Si vous souhaitez qu'une de vos précédentes annotations ou qu'un maillon-candidat prémarqué correspond bien à un maillon, vous devez modifier une unité.</p>
+	<h3>3.2.3. <a name="edit" id="edit">Modifier une annotation</a></h3>
+<p>Si vous souhaitez modifier une annotation (sa délimitation, son type ou ses traits), vous devez passer en mode <emph>édition d'unité</emph> en cliquant sur le bouton <img src="images/interface_icon/unit-edit-32x32.png" align="absmiddle" height="24"/> dans la ZONE OUTILS. Une fois le bouton enfoncé, vous pouvez</p>
 <div class="contents">
 	<ul class="toc">
 		<li class="tocline"><a href="#modifUnit">Modifier la délimitation d'une unité</a></li>
 		<li class="tocline"><a href="#modifTypunit">Modifier le type d'une unité (passer un maillon-candidat en maillon)</a></li>
 	</ul>
 </div>	
-
-						<p>
-							À tout moment il est possible modifier ou supprimer une annotation en choisissant le mode adéquat dans la zone édition.
-						<img src="images/interface_focus_edit.png" ,="" align="top" height="40"/>
-						</p>
-	<p>
-		<ul>
-		</ul>
-	</p>
-	<h4><a name="modifUnit"></a>Modifier la délimitation d'une unité</h4>
+<h4><a name="modifUnit"></a>3.2.3.a. Modifier la délimitation d'une unité</h4>
 						
 							<ol>
 								<li>
@@ -634,10 +611,10 @@ cliquez sur <b>"Options/Préférence"</b> et décochez la case <b>"Load last job
 					</p>
 					</div>
 						
-						<h4><a name="modifTypunit"></a>Modifier le type d'une unité</h4>
+						<h4><a name="modifTypunit"></a>3.2.3.b. Modifier le type d'une unité</h4>
 						
 						<ol>
-							<li>cliquez sur le bouton <img src="images/interface_icon/unit-edit-32x32.png" alt="relation_unit" align="absmiddle"	height="24"/> (<span class="bouton">Edit/Delete Units</span>);
+							<li>cliquez sur le bouton <img src="images/interface_icon/unit-edit-32x32.png" alt="relation_unit" align="absmiddle"	height="24"/>;
 								</li>
 							<li>sélectionnez l'unité à modifier en cliquant dessus (voir l'item <a href="#select_obj">sélectionner l'unité</a> ci-dessus);
 								</li>
