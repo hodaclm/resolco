@@ -363,7 +363,7 @@ Certaines copies contiennent des titres dans lesquels peuvent figurer des maillo
 <li>relier ces maillons pour former les CR</li>
 </ol>
 </p>
-<p>Il est recommandé de réaliser l'annotation en distinguant chaque étapes et chaque CR. Autrement dit, il est consillé de commencer par <ol>
+<p>L'annotation commence par une première étape consistant à lisant le texte dans sa globalité. Une deuxième lecture est ensuite conseillée au cours de laquelle vous pouvez commencer à repérer les maillons des 3 CR. Une fois ces lectures réalisées, l'annotation va se faire en distinguant chaque étape et chaque CR. Autrement dit, il est conseillé de commencer par <ol>
 	<li>annoter tous les maillons de <abbr title="chaines de reference associée au pronom Elle" style="color : #OOccff">CR_Elle</abbr></li>
 	<li>annoter tous les maillons de <abbr title="chaines de reference associée au pronom Il" style="color : #OOcc33">CR_Il</abbr></li>
 	<li>annoter tous les maillons de <abbr title="chaines de reference associée au SN les enfants" style="color : DarkOrange">CR_enfants</abbr></li>	
@@ -564,6 +564,7 @@ Dans ce cas, on fera un choix et on annotera uniquement l'expression qui paraît
 									
 		</li>
 </ol>
+<p class="comment">Le mode par défaut lorsque un nouveau texte est chargé est le mode visualisation (bouton OEIL enfoncé dans la ZONE OUTILS). A tout moment, il est conseillé de passer dans ce mode (en cliquant sur le bouton OEIL) pour avoir un aperçu global de l'état d'avancement de l'annotation.</p>
 
 	
 			<h3>3.2.2. <a name="cue" id="cue">Créer une annotation "unité" (maillon)</a></h3>
@@ -590,6 +591,8 @@ Dans ce cas, on fera un choix et on annotera uniquement l'expression qui paraît
 	
 	<p>Une fois cette unité créée, vous pouvez renseigner dans la ZONE TRAITS certaines informations sur cette unité par rapport au degré d'incertitude concernant sa délimitation et son rattachement (voir section <a href="#incertitude">Incertitude</a>) et si l'unité appartient à la classe <b>groupe</b> (voir section <a href="#coord">coordination et référents pluriels</a>). Par défaut l'unité maillon est associée à un degré incertitude nulle (pas d'incertitude). Pour modifier ces valeurs, il suffit de cliquer sur les champs concernés, de saisir les valeurs et d'enregistrer les caractéristiques en appuyant sur la touche "Entrée".</p>	
 	
+<p class="comment">A tout moment, il est conseillé de passer dans ce mode (en cliquant sur le bouton OEIL dans la ZONE OUTILS) pour avoir un aperçu global de l'état d'avancement de l'annotation.</p>
+
 	<h3>3.2.3. <a name="edit" id="edit">Modifier une annotation</a></h3>
 <p>Si vous souhaitez modifier une annotation (sa délimitation, son type ou ses traits), vous devez passer en mode <emph>édition d'unité</emph> en cliquant sur le bouton <img src="images/interface_icon/unit-edit-32x32.png" align="absmiddle" height="24"/> dans la ZONE OUTILS. Une fois le bouton enfoncé, vous pouvez
 	<ul class="toc">
@@ -641,12 +644,10 @@ Dans ce cas, on fera un choix et on annotera uniquement l'expression qui paraît
 <p>Passez ensuite à la sélection des maillons à relier en cliquant à chaque fois sur les deux unités maillon à relier.</p> 
 <p class="comment">Toute annotation de relation s'établissant entre deux unités, il est nécessaire de cliquer sur le 1er maillon et le 2e, puis de cliquer à nouveau sur le 2e pour le relier au 3e et ainsi de suite.</p>
 <p>Vous pouvez à tout moment modifier ou supprimer une relation en passant en mode édition de relation en cliquant sur le bouton <img src="images/interface_icon/relation-edit-32x32.png" align="absmiddle" height="24"/>. Une fois en mode édition de relation, vous pouvez sélectionner la relation et choisir de modifier les unités reliées, zon type ou de supprimer la relation en appuyant sur la touche <span class="bouton">Suppr</span> du clavier.</p>
+<p class="comment">A tout moment, il est conseillé de passer dans ce mode (en cliquant sur le bouton OEIL dans la ZONE OUTILS) pour avoir un aperçu global de l'état d'avancement de l'annotation.</p>
 
-<h3><a name="glue"></a>3.2.6. Laisser un commentaire via les glue notes</h3>					
-						<div class="comment">
-							<p><em>
-								Les glue notes
-							</em></p>
+<h3><a name="glue"></a>3.2.6. Laisser un commentaire via les glue notes</h3>		
+				
 							<p>
 À tout moment, il est possible d'associer un commentaire à une
 annotation ou à n'importe quelle position dans le texte par le biais de <em>glue note</em><img src="images/interface_icon/flag-32x32.png" alt="glue_note" align="absmiddle" height="24"/>. 
@@ -656,7 +657,6 @@ annotation ou à n'importe quelle position dans le texte par le biais de <em>glu
 et remplissez le cadre jaune qui s'affiche. Vous pouvez ensuite éditer
 ces <em>glue notes</em> ou les supprimer, une par une ou toutes ensemble. </p>
 							
-						</div>
 					
 
 
@@ -666,13 +666,15 @@ ces <em>glue notes</em> ou les supprimer, une par une ou toutes ensemble. </p>
 					<p>
 						Pour enregistrer vos annotations, cliquez sur le bouton <img src="images/interface_icon/save-32x32.png" alt="edit_unit" align="absmiddle" height="24"/> (<span class="bouton">Save Annotations</span>).
 Nommez le fichier d'annotation selon le format suivant&nbsp:
-NomTexte_NomAnnotateur_JJmoisAA.aa (ex&nbsp: CO-3e-2018-FSBJC6-D1-R4-V1_hodac_01janvier09.aa)
+NomTexte_NomAnnotateur_JJmoisAA.aa (ex&nbsp: CO-3e-2018-FSBJC6-D1-R4-V1_coref_hodac_01janvier09.aa)
 </p>	
 
 	<h3>3.2.8. <a name="style" id="style"></a>Modifier l'affichage des annotations et du prémarquage</h3>
 			
 <p>Vous pouvez, à tout moment et selon votre convenance, modifier le jeu de couleur ou choisir de ne pas colorer tel ou tel type d'unité. Pour ce faire, ouvrez le style resolco_coref.as et cliquez sur l'unité dont la couleur est à modifier, ou cochez la case <i>Hide</i> pour ne plus voir son surlignement.</p>
-		<p class="comment"><b>ATTENTION!!</b> Il se peut que <b>plusieurs fenêtres <i>Style Editor</i> soient ouvertes simultanément</b> (si vous avez à chaque fois cliqué sur le bouton <img src="images/interface_icon/styleEditor-24x24.png" align="absmiddle"/>). Du coup, vos modifications peuvent ne pas prendre effet. Pour être s&ucirc;r de modifier le 'bon' jeu de style, vérifiez dans la barre des t&acirc;ches qu'un seul <img src="images/java.png" height="18" align="absmiddle"/> apparaît. Si plusieurs fenêtres sont ouvertes, fermez les toutes pour n'en laisser qu'une sur laquelle vous ferez vos modifications (que vous pourrez sauvegarder en cliquant, dans la fenêtre <em>Style Editor</em>, sur le bouton <img src="images/interface_icon/save-24x24.png" height="18" align="absmiddle"/>).</p>
+<p>Afin de faciliter l'annotation des maillons, il est recommandé de n'afficher que les maillons-candidats et les maillons concernés par la CR en cours d'annotation et de masquer les autres unités.</p>
+<p>Afin de faciliter l'annotation des relations, il est recommandé de n'afficher que les maillons concernés par la CR en cours d'annotation et de masquer les autres unités (y compris les phrases consignes et les maillons-candidats).</p>
+<p class="comment"><b>ATTENTION!!</b> Il se peut que <b>plusieurs fenêtres <i>Style Editor</i> soient ouvertes simultanément</b> (si vous avez à chaque fois cliqué sur le bouton <img src="images/interface_icon/styleEditor-24x24.png" align="absmiddle"/>). Du coup, vos modifications peuvent ne pas prendre effet. Pour être s&ucirc;r de modifier le 'bon' jeu de style, vérifiez dans la barre des t&acirc;ches qu'un seul <img src="images/java.png" height="18" align="absmiddle"/> apparaît. Si plusieurs fenêtres sont ouvertes, fermez les toutes pour n'en laisser qu'une sur laquelle vous ferez vos modifications (que vous pourrez sauvegarder en cliquant, dans la fenêtre <em>Style Editor</em>, sur le bouton <img src="images/interface_icon/save-24x24.png" height="18" align="absmiddle"/>).</p>
 
 
 
