@@ -66,16 +66,30 @@
 <a name="introduction" id="introduction" href="#toc">1. Introduction</a>
 </h1>
 
-<p>Ce guide s’inscrit dans un projet ANR : le projet <a href="http://e-calm.huma-num.fr/le-projet/">É-clam</a>. Ce projet vise à structurer et mettre à disposition de la communauté scientifique un vaste corpus d’écrits d’élèves et d’étudiants. En participant à la tâche d'annotation de ce corpus, vous contribuez à ce projet.</p>
+<p>Ce guide s’inscrit dans un projet ANR : le projet <a href="http://e-calm.huma-num.fr/le-projet/">É-clam</a> qui vise à constituer un vaste corpus d'écrits d'élèves afin de décrire et analyser les compétences d'écriture acquises au fil de la scolarité. Une des compétences d'écriture visée est la mise en oeuvre de stratégies pour gérer la référence et la coréférence : introduire les nouveaux référents, les maintenir dans le discours et gérer la compétition et l'interférence lorsque plusieurs référents coexistent dans le texte.</p>
+<p>L'objectif de l'annotation que vous allez réaliser consiste à annoter les chaînes de coréférence (CR) résultants de ces stratégies. Annoter les CR d'un texte revient à identifier les expressions référentielles qui les composent, nous parlons de maillons, et de relier ces maillons entre eux pour dessiner la chaîne complète. Pour ce faire, l'utilisation d'une interface d'annotation est essetielle.</p>
+												   <p>Après avoir présenté les textes à annoter dans la section suivante, une définition détaillée des CR et des maillons est fournie avant de présenter la procédure d'annotation et l'utilisation de l'interface Glozz pour procéder à l'annotation.</p>
+<ul>
+<li class="tocline">2. <a href="#CR">Les chaînes de référence (<abbr title="chaines_reference">CR</abbr>)</a>
+				<ul class="toc">
+					<li class="tocline">2.1 <a href="#CR_maillon">Délimitation des maillons</a>
+					</li>
+					<li class="tocline">2.2 <a href="#annotation_maillons">Annotation des maillons</a></li>
+				</ul></li>
+<li class="tocline">3. <a href="#glozz">Utilisation de l'interface Glozz pour annoter les maillons et les CR</a>
+	<ul class="toc">
+		<li class="tocline">3.1 <a href="#interface">Interface d'annotation</a>
+		</li>
+		<li class="tocline">3.2 <a href="#procedure">Etapes de l'annotation dans l'interface</a>
+		</li>
+	</ul>
+</li>
+</ul>
 <h2>
-<a name="consigne" id="consigne" href="#toc">1.1 Description de la consigne</a>
-</h2>
-
-	
-
-<p>
-Ce guide décrit la tâche d'annotation des productions écrites issues de l'un des corpus du projet&nbsp: le corpus Résolco ("Résolution de problèmes de cohésion textuelle"). Il s’agit d’un corpus composé de plusieurs centaines de textes d’élèves de niveaux scolaires différents répondant à une même consigne d'écriture. Cette consigne est la suivante&nbsp:
-</p>		
+<a name="consigne" id="consigne" href="#toc">1.1 Description des textes à annoter</a>
+</h2>												   
+<p>Les textes que vous allez annoter font partie du corpus Résolco ("Résolution de problèmes de cohésion textuelle") et ont été collectés à l'école primaire et au collège. Les élèves ont produits ces textes en réponse à une même consigne d'écriture.  
+&nbsp:</p>		
 	<div class="exemple">
 	<p>
 	Racontez une histoire dans laquelle vous insèrerez séparément et dans l’ordre donné les trois phrases suivantes&nbsp:
@@ -85,10 +99,8 @@ Ce guide décrit la tâche d'annotation des productions écrites issues de l'un 
 	<span style="color : orangeRed">Il</span> se retourna en entendant <span style="color : #0d9526">ce grand bruit</span>. (P2)<br/>
 	<u>Depuis cette aventure</u>, <span style="color: DarkOrange">les enfants</span> ne sortent plus <span style="color : #9c07f4">la nuit</span>. (P3)
 	</p>
-	</div>
-																   
-<p>
-L'objectif de cette consigne est d'amener les élèves à résoudre plusieurs anaphores référentielles et donc à introduire, dans les interstices des trois phrases imposées, les référents des expressions référentielles de la consigne&nbsp:
+	</div>														  
+<p>L'objectif de cette consigne est d'amener les élèves à résoudre plusieurs anaphores référentielles et donc à introduire, dans les interstices des trois phrases imposées, les référents des expressions référentielles de la consigne&nbsp:
 <ul>
 	<li>les référents des pronoms personnels&nbsp: <span style="color : red">Elle</span> et <span style="color : orangeRed">Il</span></li>
 	<li>les référents des syntagmes nominaux comportant un déterminant démonstratif&nbsp: <span style="color : #4d81b5">cette maison</span> et <span style="color : #0d9526">ce grand bruit</span></li>
