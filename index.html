@@ -462,8 +462,8 @@ Dans ce cas, on fera un choix et on annotera uniquement l'expression qui paraît
 		</ul>
 			</p>
 	
-<p>Afin de réaliser l'annotation en distinguant chaque étapes et chaque CR (voir section <a href="#annotation_maillons">2.2</a>), il est conseillé de commencer par annoter toutes les unités de type <span style="color : #00ccff">maillon_Elle</span> (y compris le maillon contenu dans la phrase consigne). Une fois tous les <span style="color : #00ccff">maillon_Elle</span> annotées, il est conseillé de masquer ces annotations avant de commencer l'annotation des unités de type <span style="color : #00cc33">maillon_Il</span>, et idem pour l'annotation des unités de type <span style="color: DarkOrange">maillon_lesEnfants</span>. Cela permet d'avoir une vie dégagée du texte, ce qui facilite l'annotation.</p>
-<p>L'annotation des relations doit se réaliser après l'annotation de toutes les unités maillons et est grandement facilité par ce jeu de masque des unités non concernées par la relation. Ainsi, pour annoter les relations de type <span style="color:#00ccff">coref_Elle</span>, il est conseillé de n'afficher que les unités de type <span style="color:#00ccff">maillon_Elle</span>.</p>
+<p>Afin de réaliser l'annotation en distinguant chaque étapes et chaque CR (voir section <a href="#annotation_maillons">2.2</a>), il est conseillé de commencer par annoter toutes les unités de type <span style="color : #00ccff">maillon_Elle</span> (y compris le maillon contenu dans la phrase consigne). Une fois tous les <span style="color : #00ccff">maillon_Elle</span> annotés, il est conseillé de masquer ces annotations avant de commencer l'annotation des unités de type <span style="color : #00cc33">maillon_Il</span>, et idem pour l'annotation des unités de type <span style="color: DarkOrange">maillon_lesEnfants</span>. Cela permet d'avoir une vue dégagée du texte, ce qui facilite l'annotation.</p>
+<p>L'annotation des relations doit se réaliser après l'annotation de toutes les unités maillons et est grandement facilitée par ce jeu de masque des unités non concernées par la relation. Ainsi, pour annoter les relations de type <span style="color:#00ccff">coref_Elle</span>, il est conseillé de n'afficher que les unités de type <span style="color:#00ccff">maillon_Elle</span>.</p>
 <p>Ce jeu de masque et d'affichage se fait en utilisant l'outil <emph>Style Editor</emph> décrit dans les sections <a href="#loadModel">3.1.2.b</a> et <a href="#style">3.2.8</a>.</p>
 
 
@@ -593,19 +593,20 @@ Dans ce cas, on fera un choix et on annotera uniquement l'expression qui paraît
 	
 <p class="comment">A tout moment, il est conseillé de passer dans ce mode (en cliquant sur le bouton OEIL dans la ZONE OUTILS) pour avoir un aperçu global de l'état d'avancement de l'annotation.</p>
 
-	<h3>3.2.3. <a name="edit" id="edit">Modifier une annotation</a></h3>
-<p>Si vous souhaitez modifier une annotation (sa délimitation, son type ou ses traits), vous devez passer en mode <emph>édition d'unité</emph> en cliquant sur le bouton <img src="images/interface_icon/unit-edit-32x32.png" align="absmiddle" height="24"/> dans la ZONE OUTILS. Une fois le bouton enfoncé, vous pouvez
-	<ul class="toc">
-		<li class="tocline"><a href="#modifUnit">Modifier la délimitation d'une unité</a></li>
-		<li class="tocline"><a href="#modifTypunit">Modifier le type d'une unité (passer un maillon-candidat en maillon)</a></li>
+	<h3>3.2.3. <a name="edit" id="edit">Modifier l'annotation d'une unité</a></h3>
+<p>Si vous souhaitez modifier l'annotation d'une unité (sa délimitation, son type ou ses traits), vous devez passer en mode <emph>édition d'unité</emph> en cliquant sur le bouton <img src="images/interface_icon/unit-edit-32x32.png" align="absmiddle" height="24"/> dans la ZONE OUTILS. Une fois le bouton enfoncé, vous pouvez
+	<ul>
+		<li class="tocline"><a href="#modifUnit">Modifier la délimitation de l'annotation</a></li>
+		<li class="tocline"><a href="#modifTypunit">Modifier le type de l'annotation</a></li>
+		<li class="tocline"><a href="#suppr">Supprimer une annotation</a></li>
 	</ul>
 </p>
-<h4><a name="modifUnit"></a>3.2.3.a. Modifier la délimitation d'une unité</h4>
+<h4><a name="modifUnit"></a>3.2.3.a. Modifier la délimitation de l'annotation</h4>
 						
 <p>En mode <emph>édition d'unité</emph> (bouton <img src="images/interface_icon/unit-edit-32x32.png" alt="edit_unit" align="absmiddle" height="24"/> enfoncé), 
 <ol>
-<li><a name="select_obj"></a><em>sélectionnez l'unité</em> à modifier en cliquant dessus. Les lignes délimitant l'unité se changent en pointillés rouges et deux petits ronds apparaissent aux bornes initiale et finale.</p>
-								<p class="comment"> Lorsque le curseur de la souris passe sur une unité annotée, celle-ci change de couleur. En présence d'<em>unités superposées</em>, toutes les unités concernées changent de couleur. Pour sélectionner une unité lorsque les unités superposées ont les mêmes limites, il faut cliquer plusieurs fois pour sélectionner l'unité désirée.</p>
+<li><a name="select_obj"></a><b>sélectionnez l'annotation</b> à modifier en cliquant dessus. Les lignes délimitant l'annotation se changent en pointillés rouges et deux petits ronds apparaissent aux bornes initiale et finale.</p>
+								<p class="comment"> Lorsque le curseur de la souris passe sur une annotation, celle-ci change de couleur. En présence d'<b>annotations superposées</b>, toutes les annotations concernées changent de couleur. Pour sélectionner une annotation lorsque les annotations superposées ont les mêmes limites, il faut cliquer plusieurs fois pour sélectionner l'annotation désirée et voir apparaître les pointillés rouges la délimitant.</p>
 							</li>
 							<li><em>positionnez le curseur</em> sur les ronds de borne initiale et/ou finale et déplacez la ou les borne(s) afin d'obtenir la délimitation correcte.</li>
 							</ol>
@@ -613,23 +614,23 @@ Dans ce cas, on fera un choix et on annotera uniquement l'expression qui paraît
 								<p class="comment"> Il peut s'avérer rapidement difficile de distinguer les annotations si celles si sont superposées. Pour cela, l'interface propose un outil appelé <em>Depth Selector</em> qui permet de jouer sur les couches d'annotation visibles. Pour activer cette fonction, cliquez dans la barre d'outils sur <span class="bouton">Tools</span> puis <span class="bouton">Depth Selector</span>. La boîte de dialogue suivante apparaît alors dans la zone droite de l'interface&nbsp: <img src="images/depthSelector.png" width="400"/><br/>Il suffit ensuite de <em>manipuler le curseur</em> pour faire varier l'affichage des différents niveaux d'annotation.
 					</p>
 						
-						<h4><a name="modifTypunit"></a>3.2.3.b. Modifier le type d'une unité</h4>
+						<h4><a name="modifTypunit"></a>3.2.3.b. Modifier le type d'une annotation</h4>
 						<p>En mode <emph>édition d'unité</emph> (bouton <img src="images/interface_icon/unit-edit-32x32.png" alt="edit_unit" align="absmiddle" height="24"/> enfoncé), 
 						<ol>
-							<li>sélectionnez l'unité à modifier en cliquant dessus (voir l'item <a href="#select_obj">sélectionner l'unité</a> ci-dessus);</li>
+							<li>sélectionnez l'annotation à modifier en cliquant dessus (voir l'item <a href="#select_obj">sélectionner l'annotation</a> ci-dessus);</li>
 							<li>changez l'annotation au niveau de la ZONE MOD&Egrave;LE (l'annotation actuelle apparaît surlignée)								</li>
 							</ol>
 </p>
-<p>Une fois le type de l'unité modifié, il faut renseigner les caractéristiques de cette unité dans la ZONE TRAITS (degré d'incertitude concernant sa délimitation et son rattachement, appartenance à la classe <b>groupe</b> ou pas). Par défaut le maillon est à un degré nul d'incertitude. Pour modifier ces valeurs, il suffit de cliquer sur les champs concernés, de saisir les valeurs et d'enregistrer les caractéristiques en appuyant sur la touche "Entrée".</p>	
+<p>Une fois le type de l'annotation modifié, il faut renseigner les caractéristiques de cette unité dans la ZONE TRAITS (degré d'incertitude concernant sa délimitation et son rattachement, appartenance à la classe <b>groupe</b> ou pas). Par défaut le maillon annoté est associé à un degré nul d'incertitude. Pour modifier ces valeurs, il suffit de cliquer sur les champs concernés, de saisir les valeurs et d'enregistrer les caractéristiques en appuyant sur la touche "Entrée".</p>	
 
-						<h3><a name="suppr"></a>3.2.4. Supprimer une unité (maillon précédemment annoté ou maillon-candidat gênant)</h4>
+<p class="comment">Vous pouvez utiliser cette procédure pour transformer les annotations de type maillon-candidat en unité de type maillon_Elle/Il/lesEnfants, mais il est conseillé, lors de vos premières annotations, de créer une nouvelle annotation par dessus un maillon-candidat pour conserver la trace de maillons-candidats. Un annotateur expérimenté sera plus à même de choisir dans quels cas modifier l'annotation et dans quels cas superposer une nouvelle annotation.</p>			
+	
+						<h3><a name="suppr"></a>3.2.4. Supprimer une annotation (maillon précédemment annoté ou maillon-candidat gênant)</h4>
 					<p>Si vous souhaitez supprimer une annotation, il faut être en mode <emph>édition d'unité</emph> (bouton <img src="images/interface_icon/unit-edit-32x32.png" alt="edit_unit" align="absmiddle" height="24"/> enfoncé). 
 					<ol>
-							<li>
-									sélectionnez l'objet à modifier en cliquant dessus (voir l'item <a href="#select_obj">sélectionner l'objet </a> ci-dessus);
+							<li>sélectionnez l'objet à modifier en cliquant dessus (voir l'item <a href="#select_obj">sélectionner l'annotation</a> ci-dessus);
 							</li>
-							<li>
-									appuyez sur la touche <span class="bouton">Suppr</span> du clavier, l'unité et son annotation sont supprimées.
+							<li>appuyez sur la touche <span class="bouton">Suppr</span> du clavier, l'annotation est supprimée.
 							</li>
 						</ol>
 					</p>
