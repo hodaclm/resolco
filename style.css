@@ -113,6 +113,8 @@ margin-bottom: 1%;
 margin-right: 3%;
 margin-left: 3%;
 text-align: justify;
+width : 100%;
+max-width:800px;
 }
 
 .indice_CR  {
