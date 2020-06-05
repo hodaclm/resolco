@@ -184,7 +184,7 @@ Chaque exemple est donné sous la forme d'une capture d'écran de l'interface gl
 <ul>
 <li><a href="#discDirect">passage d'une narration au discours direct</a></li>
 <li><a href="#implicite">maillon non exprimé comme dans les cas de sujet zéro</a></li>
-<li><a href="#coord">coordination et référents pluriels</a></li>
+<li><a href="#coord">coordination et référents pluriels et collectifs</a></li>
 <li><a href="#titres">maillon apparaissant dans un titre</a></li>
 </ul>
 </p>
@@ -290,7 +290,7 @@ pour montrer qu'on annote [de Tina] comme coréférent à Tina si Tina est un ma
 <p>Lorsque le nom propre du référent est intégré dans une relative (cas fréquent de type <i>Il était une fois une fille qui s'appelait Pascale</i>), le NPP doit être annoté en plus du pronom relatif (voir la section sur les <a href="#rel">pronoms relatifs</a>)&nbsp;: 
 <div class="exemple">
 			<span class="ex_head"><abbr title="chaines de reference associée au pronom Elle" style="color : #00ccff">CR_Elle</abbr> : Maillon de type SNdef suivi d'une maillon de type relative, d'un maillon de type NPP inclus dans la relative et de 2 maillons de type pronom.<br/>
-<abbr title="chaines de reference associée au pronom Il" style="color : #00cc33">CR_Il</abbr> : Maillon de type SNdef suivi d'un maillon de type relative puis d'un maillon de type NPP inclus dans la relative. Les deux référents sont ensuite regroupés dans des maillons "groupe" (voir section <a href="#coord">coordination et référents pluriels</a>)[<a target="_blank" href="http://redac.univ-tlse2.fr/corpus/resolco/copies/html/EC-CE2-2016-SGLEB-D1-R1-V1_T.html">EC-CE2-2016-SGLEB-D1-R1-V1</a>]</span><br/><br/>
+<abbr title="chaines de reference associée au pronom Il" style="color : #00cc33">CR_Il</abbr> : Maillon de type SNdef suivi d'un maillon de type relative puis d'un maillon de type NPP inclus dans la relative. Les deux référents sont ensuite regroupés dans des maillons "groupe" (voir section <a href="#coord">coordination et référents pluriels et collectifs</a>)[<a target="_blank" href="http://redac.univ-tlse2.fr/corpus/resolco/copies/html/EC-CE2-2016-SGLEB-D1-R1-V1_T.html">EC-CE2-2016-SGLEB-D1-R1-V1</a>]</span><br/><br/>
 			<a href="images/img_exemples/EC-CE2-2016-SGLEB-D1-R1-V1_relativeAvecNPP.png" alt="relativeAvecNPP">
 		<img src="images/img_exemples/EC-CE2-2016-SGLEB-D1-R1-V1_relativeAvecNPP.png" title="relativeAvecNPP" style="width : 100%;max-width:800px;" /></a>
 	</div>
@@ -387,7 +387,7 @@ puis de
 </p>
 
 <p>Pour chaque CR, l'annotation des maillons consiste en la création d'unités dédiées (voir section <a href="#add">3.2.2</a>) qui aboutit à la création d'unités de type <span style="color : #00ccff">maillon_Elle</span>, <span style="color : #00cc33">maillon_Il</span> et <span style="color: DarkOrange">maillon_lesEnfants</span> (voir section <a href="#add">3.2.3</a>).</p>
-<p>En plus de la délimitation, l'annotation des unités maillons nécessite le renseignement d'un certain nombre de traits comme <!--la nature du maillon (SN défini, pronom, sujet zéro, etc.), -->le fait que le maillon soit de la classe "groupe" ou pas (dans les cas de <a href="#coord">coordination et référents pluriels</a>) et le degré de certitude de l'annotation (voir <a href="#incertitude">ici</a>).</p>
+<p>En plus de la délimitation, l'annotation des unités maillons nécessite le renseignement d'un certain nombre de traits comme <!--la nature du maillon (SN défini, pronom, sujet zéro, etc.), -->le fait que le maillon soit de la classe "groupe" ou pas (dans les cas de <a href="#coord">coordination et référents pluriels et collectifs</a>) et le degré de certitude de l'annotation (voir <a href="#incertitude">ici</a>).</p>
 <p>Une fois les unités maillons annotées, la dernière étape consiste à relier entre elles les unités maillons d'une même chaîne (voir section <a href="#rel">3.2.6</a>). Cette dernière étape est l'occasion de vérifier l'annotation.</p>
 
 <p>Dans les textes que vous allez annoter, certaines expressions linguistiques ont fait l'objet d'un <b>prémarquage</b> ayant pour fonction de faciliter la tâche d'annotation. Il s'agit d'expressions qui, parce qu'elles sont considérées comme référant potentiellement aux 3 référents humains, constituent des <b>maillons-candidats</b> des trois <abbr title="chaines_reference">CR</abbr> considérées. Ces maillons-candidats pourront être validés en leur attributant l'étiquette <span style="color : #00ccff">maillon_Elle</span>, <span style="color : #00cc33">maillon_Il</span> et <span style="color: DarkOrange">maillon_lesEnfants</span>.
@@ -599,7 +599,7 @@ Dans ce cas, on fera un choix et on annotera uniquement l'expression qui paraît
 		</ul>
 	<p class="comment">Si <b>les délimitations n'apparaissent pas à l'écran</b> cela signifie qu'aucun style n'est associé à l'unité. Vous devez alors vérifiez que l'objet que vous annotez (dont le nom est inscrit et sélectionné dans la zone modèle) a bien un style associé dans la fenêtre <em>Style editor</em> (voir section <a href="#loadModel">3.2.1.b</a>).</p>
 	
-	<p>Une fois cette unité créée, vous pouvez renseigner dans la ZONE TRAITS certaines informations sur cette unité par rapport au degré d'incertitude concernant sa délimitation et son rattachement (voir section <a href="#incertitude">Incertitude</a>) et si l'unité appartient à la classe <b>groupe</b> (voir section <a href="#coord">coordination et référents pluriels</a>). Par défaut l'unité maillon est associée à un degré incertitude nulle (pas d'incertitude). Pour modifier ces valeurs, il suffit de cliquer sur les champs concernés, de saisir les valeurs et d'enregistrer les caractéristiques en appuyant sur la touche "Entrée".</p>	
+	<p>Une fois cette unité créée, vous pouvez renseigner dans la ZONE TRAITS certaines informations sur cette unité par rapport au degré d'incertitude concernant sa délimitation et son rattachement (voir section <a href="#incertitude">Incertitude</a>) et si l'unité appartient à la classe <b>groupe</b> (voir section <a href="#coord">coordination et référents pluriels et collectifs</a>). Par défaut l'unité maillon est associée à un degré incertitude nulle (pas d'incertitude). Pour modifier ces valeurs, il suffit de cliquer sur les champs concernés, de saisir les valeurs et d'enregistrer les caractéristiques en appuyant sur la touche "Entrée".</p>	
 	
 <p class="comment">À tout moment, il est conseillé de passer dans ce mode (en cliquant sur le bouton OEIL dans la ZONE OUTILS) pour avoir un aperçu global de l'état d'avancement de l'annotation.</p>
 <br/><span class="RQ">On le repète ou c'est un oubli ? si on le repète, plutôt qu'utiliser 'ce mode' on pourrait re-expliciter 'le mode visualisation'. 
