@@ -284,13 +284,13 @@ pour montrer qu'on annote [de Tina] comme coréférent à Tina si Tina est un ma
 <!--<br/>[Macron] i , (le) président de [la République] j , a prononcé [un discours] k</div>-->
 
 <h3><a name="NP"></a>Noms Propres (NPP)</h3>
-<p>Lorsque l'expression référentielle prend la forme d'un nom propre (NPP), celui-ci peut se réaliser sous la forme d'un NPP complet, composé d'un nom et d'un prénom (<i>Zack Ston</i>), du prénom seul (<i>Zack</i>) ou uniquement du nom de famille (<i>Ston</i>).
-</p>  
+<p>Lorsque l'expression référentielle prend la forme d'un nom propre (NPP), elle est systématiquement annotée, sauf dans les cas de didascalies nominatives (voir la section sur le <a href="#discDirect">Discours direct</a>).</p>
+<p>Les maillons de forme NPP peuvent être d'un prénom et d'un nom (<i>Zack Ston</i>), d'un prénom seul (<i>Zack</i>) ou uniquement du nom de famille (<i>Ston</i>).</p>
 <p>Pour ce qui concerne l'annotation des NPP complets, le nom et le prénom constituent un même maillon.</p>
-<p>Lorsque le nom propre du référent est intégré dans une relative (cas fréquent de type <i>Il était une fois une fille qui s'appelait Pascale</i>), seul le pronom relatif est à annoter comme indiqué dans la section sur les <a href="#rel">pronoms relatifs</a> : 
+<p>Lorsque le nom propre du référent est intégré dans une relative (cas fréquent de type <i>Il était une fois une fille qui s'appelait Pascale</i>), le NPP doit être annoté en plus du pronom relatif (voir la section sur les <a href="#rel">pronoms relatifs</a>)&nbsp;: 
 <div class="exemple">
-			<span class="ex_head"><abbr title="chaines de reference associée au pronom Elle" style="color : #00ccff">CR_Elle</abbr> : Maillon de type SNdef suivi d'une relative (dans laquelle le NPP "Pascale" n'est pas annoté comme maillon_Elle) et de 2 maillons de type pronom.<br/>
-<abbr title="chaines de reference associée au pronom Il" style="color : #00cc33">CR_Il</abbr> : Maillon de type SNdef suivi d'une relative (dans laquelle le NPP "Jean" n'est pas annoté comme maillon_Il). Les deux référents sont ensuite regroupés dans des maillons "groupe" (voir section <a href="#coord">coordination et référents pluriels</a>)[<a target="_blank" href="http://redac.univ-tlse2.fr/corpus/resolco/copies/html/EC-CE2-2016-SGLEB-D1-R1-V1_T.html">EC-CE2-2016-SGLEB-D1-R1-V1</a>]</span><br/><br/>
+			<span class="ex_head"><abbr title="chaines de reference associée au pronom Elle" style="color : #00ccff">CR_Elle</abbr> : Maillon de type SNdef suivi d'une maillon de type relative, d'un maillon de type NPP inclus dans la relative et de 2 maillons de type pronom.<br/>
+<abbr title="chaines de reference associée au pronom Il" style="color : #00cc33">CR_Il</abbr> : Maillon de type SNdef suivi d'un maillon de type relative puis d'un maillon de type NPP inclus dans la relative. Les deux référents sont ensuite regroupés dans des maillons "groupe" (voir section <a href="#coord">coordination et référents pluriels</a>)[<a target="_blank" href="http://redac.univ-tlse2.fr/corpus/resolco/copies/html/EC-CE2-2016-SGLEB-D1-R1-V1_T.html">EC-CE2-2016-SGLEB-D1-R1-V1</a>]</span><br/><br/>
 			<a href="images/img_exemples/EC-CE2-2016-SGLEB-D1-R1-V1_relativeAvecNPP.png" alt="relativeAvecNPP">
 		<img src="images/img_exemples/EC-CE2-2016-SGLEB-D1-R1-V1_relativeAvecNPP.png" title="relativeAvecNPP" style="width : 100%;max-width:800px;" /></a>
 	</div>
@@ -320,6 +320,7 @@ pour montrer qu'on annote [de Tina] comme coréférent à Tina si Tina est un ma
 <h3><a name="discDirect"></a>Discours direct</h3>
 <p>On considère que le passage au discours direct ne constitue pas une rupture de la chaîne. Ainsi on annote <i>moi</i> comme un maillon de la <abbr title="chaines de reference associée au pronom Elle" style="color : #00ccff">CR_Elle</abbr> introduite par <i>Jeane</i>, de même que chacune des occurrences du pronom personnel <i>je</i> qui suivent.
 </p>
+<p>Par contre, la didascalie nominative <i>Jeane : </i> n'est pas considérée comme un maillon.</p>
 	<div class="exemple">
 			<span class="ex_head">CR traversant une zone de discours direct [<a target="_blank" href="http://redac.univ-tlse2.fr/corpus/resolco/copies/html/CO-3e-2016-FSBJC6-D1-R10-V1_T.html">CO-3e-2016-FSBJC6-D1-R10-V1</a>]</span><br/><br/>
 			<a href="images/img_exemples/CO-3e-2018-FSBJC6-D1-R10-V1_discours_direct.png" alt="discours_direct">
