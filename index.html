@@ -160,17 +160,17 @@ Le verbe <i>allait</i>, coordonné avec <i>avait</i>, est surligné pour indique
 
 <h2><a name="CR_maillon" href="#toc">2.1 Identification des maillons</a></h2>
 
-<p>L'identification des maillons comprend deux processus :
-				    <ol>
+<p>L'identification des maillons comprend deux processus qui se font plus ou moins en simultanée :
+				    <ul>
 				    <li>identifier les expressions qui renvoient à <span style="color : #00ccff">Elle</span>, <span style="color : #00cc33">Il</span> et <span style="color: DarkOrange">les enfants</span>, nous parlons alors de "rattacahement"</li>
 				    <li>délimiter la portion de texte qui constitue le maillon, nous parlons alors de "délimitation"</li>
-																    </ol>
+																    </ul>
 																    </p>
 <p>	
 L'objectif de cette section est de décrire et d'illustrer la diversité des unités linguistiques susceptibles de constituer les maillons à identifier. La diversité concerne à la fois le rattachement et la délimitation. Concernant le rattachement, alors que certaines unités linguistiques coréfèrent explicitement à un des trois référents humains de la consigne, d'autres montrent un rattachement plus subtil comme par exemple si le référent lié à <span style="color : #00cc33">Il</span> est "pris" avec d'autres référents dans une expression comme "une bande copains" ou encore qu'un référent évolue (ex: d'une vieille femme [qui habitait dans cette maison] à un fantôme qui effraie les enfants). Concernant la délimitation, alors que l'annotation de certains maillons correspond à la délimitation d'un syntagme complet (ex : "Marie", "une jeune fille du nom de Marie") d'autres nécessitent l'annotation d'un bout de syntagme (ex : le maillon "<span style="color : #00ccff">Ses</span>" dans le syntagme "<span style="color : #00ccff">Ses</span> journées").</p>
 																    <p>Les exemples proposés sont issus de textes rédigés par des élèves.
 Chaque exemple est donné sous la forme d'une capture d'écran de l'interface Glozz (dont l'utilisation pour l'annotation est décrite plus loin, <a href="#interface">section 3.1</a>). Les maillons annotés apparaissent encadrés dans des boîtes de couleur. Chaque exemple est précédé d'un titre décrivant le ou les maillons qu'il contient dans l'ordre dans lequel ils apparaissent ainsi que l'identifiant de la copie, identifiant qui commence par l'indication du niveau scolaire (EC-CE2, EC-CM1, EC-CM2, CO-6e, etc.) Cet identifiant donne directement accès à la copie originale telle qu'accessible sur le site de la <a href="http://redac.univ-tlse2.fr/corpus/resolco/resolco.html" target="_blank">ressource ResolCo</a>.</p>
-<p>Les types de maillons décrits ci-dessous sont&nbsp;:
+<p>Les unités linguistiques pouvant être délimités comme des maillons et décrits dans les sections suivantes sont&nbsp;:
 <ul>
 <li>les <a href="#SN">syntagmes nominaux (SN)</a></li>
 		     <li>les <a href="#poss">possessifs</a>&nbsp;: déterminants (<i>son</i>) et syntgames prépositionnels (<i>à elle</i>)</li>
@@ -179,11 +179,11 @@ Chaque exemple est donné sous la forme d'une capture d'écran de l'interface Gl
 <li>les <a href="#NP">noms propres</a></li>
 </ul>
 </p>
-<p>Certains contextes spécifiques d'apparition de ces maillons nécessitent des précisions complémentaires&nbsp;: 
+<p>Mises à part les expressions rattachées explicitement à une chaîne, certains rattachements sont plus subtils et nécessitent des précisions complémentaires fournies dans les sections suivants&nbsp;: 
 <ul>
-<li><a href="#discDirect">passage d'une narration au discours direct</a></li>
-<li><a href="#implicite">maillon non exprimé comme dans les cas de sujet zéro</a></li>
-<li><a href="#coord">coordination et référents pluriels et collectifs</a></li>
+<li><a href="#discDirect">passage d'une narration au discours direct</a> (<i><span style="color : #00ccff">Elle</a> dit : "<span style="color : #00ccff">Je</a> suis..."</i>) </li>
+	<li><a href="#implicite">maillon non matérialisé (implicite)</a> comme dans les cas de sujet zéro (<i><span style="color : #00ccff">Elle</a> avait 15 ans et <span style="color : #00ccff">allait</a></i>)</li>
+<li><a href="#groupe">maillon référant à un "groupe"</a> où le référent de la CR en cours d'annotation est exprimé dans une expression référant également à d'autres référents  (<i><span style="color : #00ccff">Elle</a> avait une meilleure amie qui s'appelait Marie. <span style="color : #00ccff">Les deux filles</a> avaient [...]</i>)</li>
 <li><a href="#titres">maillon apparaissant dans un titre</a></li>
 </ul>
 </p>
@@ -322,7 +322,9 @@ pour montrer qu'on annote [de Tina] comme coréférent à Tina si Tina est un ma
 		
 	</div>
 
-<h3><a name="coord"></a>Cas de coordination et référents pluriels et collectifs</h3>
+<h3><a name="groupe"></a>Maillon de type "groupe"</h3>
+<p>Les maillons de type "groupe" correspondent aux cas où une expression référentielle (nécessairement collective ou plurielle) inclut l'un des référents à annoter <b>PLUS</b> d'autres référents.</p>
+<p>Le rattachement de tels maillons, entraîne fréquemment des incertitudes de la part au moment de l'identification des maillons (voir la partie <a href="#inceritude">Incertitude</a>).</p>
 <p>Dans le cas de référents pluriels (<i>les deux frères</i>), collectifs (<i>le groupe de copines</i>) ou lorsque plusieurs expressions référentielles sont coordonnées (ex&nbsp: <i>Marie et Jeane</i>), plusieurs situations sont à distinguer&nbsp;:  
 <h4>soit seule une partie de l'expression constitue un maillon.</h4> 
 <p>On annote comme maillon l'expression coordonnée qui coréfère à l'un des référents humains de la consigne. 
@@ -438,8 +440,9 @@ Dans ce cas, si "Mr Wilson" est inclus dans une des CR de la consigne, l'annotat
 <h4>2.2.1.b. Problèmes liés au prémarquage du pronom personnel <i>il</i></h4>	
 <p>Tous les pronoms clitiques sujets <i>il</i> ont été prémarqués, qu'ils s'agisse d'un emploi personnel (<i><b>Il</b> se retourna en entendant ce grand bruit</i>) ou impersonnel (<i><b>Il</b> était un fois</i>, <i><b>Il</b> pleut</i>, <i><b>Il</b> est évident que...</i>). Ces maillons-candidats ne doivent évidemment pas faire l'objet d'une validation et peuvent être supprimés au moment de l'annotation (voir section <a href="#suppr">3.2.4</a>).</p>
 			
-<h3><a name="incertitude"></a>2.2.2. Incertitude</h3>
-<p>Pour plusieurs raisons, il n'est pas toujours facile de déterminer quel est le référent d'une expression référentielle. Il peut notamment y avoir dans le contexte plusieurs expressions disponibles pour un même référent. C'est le cas ci-dessous où le possessif <i>sa</i> peut coréférer à <i>la vieille femme</i> ou à <i>elle</i>. Dans ce cas, on fera un choix et on annotera uniquement l'expression qui paraît la plus cohérente pour construire l'interprétation, en lui attribuant toutefois une étiquette signalant l'incertitude.
+<h2><a name="incertitude"></a>2.3. Incertitude</h2>
+<h3>Incettitude quant au rattachement du maillon</h3>
+<p>Pour plusieurs raisons, il n'est pas toujours facile de déterminer si telle expression référentielle est bien rattachée au référent en cours d'annotation. Il peut notamment y avoir dans le contexte plusieurs expressions disponibles pour un même référent. C'est le cas ci-dessous où le possessif <i>sa</i> peut coréférer à <i>la vieille femme</i> ou à <i>elle</i>. Dans ce cas, on fera un choix et on annotera uniquement l'expression qui paraît la plus cohérente pour construire l'interprétation, en lui attribuant toutefois une étiquette signalant l'incertitude.
 <div class="exemple">
 			<span class="ex_head">Incertitude de rattachement d'un maillon à la <abbr title="chaines de reference associée au pronom Elle" style="color : #00ccff">CR_Elle</abbr> [<a target="_blank" href="http://redac.univ-tlse2.fr/corpus/resolco/copies/html/CO-3e-2016-VTAC305-D1-R10-V1_T.html">CO-3e-2016-VTAC305-D1-R10-V1</a>]</span><br/><br/>
 			<a href="images/img_exemples/CO-3e-2016-VTAC305-D1-R10-V1_possessif.png" alt="incertitude">
@@ -447,7 +450,22 @@ Dans ce cas, si "Mr Wilson" est inclus dans une des CR de la consigne, l'annotat
 	</div>
 	</p>
 <p>Dans un tel cas, l'annotateur devra indiquer qu'il ressent une incertitude de <b>rattachement</b> du maillon.</p>
-<p>Un autre cas d'incertitude peut concerner la délimitation du maillon. Dans un tel cas, l'annotateur devra indiquer qu'il ressent une incertitude de <b>délimitation</b> du maillon.</p>
+<p>Un autre cas fréqyent d'incertitude de rattachement concerne les maillons de type "groupe". POur illustrer ce cas, nous relatons ci-dessous un échange entre annotateurs : </p>
+<ul>
+	<li><p><b>Question</b> : On comprend que l'on doit signaler un trait "groupe" quand on a par exemple un "ils" qui renvoie à X + Y et désigne le référent "les enfants". Dans le texte que nous avons regardé, on a par exemple ils = Tina (la maman) + les enfants, ou bien "leur" (leur maison) = Tina (la maman) + les enfants. Mais doit-on indiquer un trait "groupe" sur des occurrences de l'expression "les enfants" ou bien sur un "ils" qui anaphorise seulement "les enfants", à l'exclusion de tout autre référent ? Je te copie l'exemple :</p>
+<i>Depuis cette aventure, les enfants ne sortent plus la nuit. Ils ne peuvent s'empêcher de penser à cette silhouette familière qui s'est échappée durant cette fameuse nuit où les étoiles ne brillaient pas.</i>
+<p>Complément à cette question : est-ce que l'on indique le trait groupe à toute expression qui co-réfère exclusivement à "les enfants" ? Dans le texte en question (le premier de la liste si je ne me trompe), on a une première occurrence de "ses enfants" (qui sont "les enfants" de la phrase consigne) puis des expressions plurielles qui associent la maman et les enfants, mais aussi des "ils" ou "leur" qui ne désignent que "les enfants".</p></li>
+	<li><p><b>Réponse</b>Dans cet exemple, il n'y a le trait "groupe" que si l'on interprète que "'ils" réfère à "les enfants" PLUS d'autres personnes (d'après ce que tu dis, les enfants PLUS Tina).<ul>
+		<li>Alors le maillon "les enfants"  pour trait "groupe" = non</li>
+		<li>et le maillon "ils" (les enfants+Tina) pour trait "groupe" = oui</li>
+		<li>et un autre maillon "ils" (les enfants seulement) pour trait "groupe" = non</li>
+		</ol>
+<p>Par ailleurs, si par exemple "Tina" est le référent "elle", alors le maillon "ils" est également à annoter comme un maillon de la chaîne "elle" avec le trait "groupe" = oui</p></li></ol>
+
+<p><span font-color="red">Rajouter l'incertitude sur les cas de référents évolutifs</span></p>
+
+<h3>Incertitude quant à la délimitation du maillon</h3>
+    <p>Un autre cas d'incertitude peut concerner la délimitation du maillon. Dans un tel cas, l'annotateur devra indiquer qu'il ressent une incertitude de <b>délimitation</b> du maillon.</p>
 <p>La procédure pour associer ces degrés d'incertitude à chaque unité est décrite en section <a href="#traits">3.2.4</a>.</p>
 <p>Il est également possible de laisser, pour chaque unité, un commentaire libre.</p>
 	
