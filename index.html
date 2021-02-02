@@ -407,8 +407,8 @@ pour montrer qu'on annote [de Tina] comme coréférent à Tina si Tina est un ma
 	
 <p>L'objectif de l'annotation est double. Il s'agit de&nbsp:
 <ol>
-<li>identifier et délimiter les maillons qui composent les 3 CR imposées par la consigne</li>
-<li>relier ces maillons pour former les CR</li>
+<li>identifier et annoter les maillons qui composent les 3 CR imposées par la consigne</li>
+<li>relier ces maillons pour matérialiser les CR formées</li>
 </ol>
 </p>
 <p>L'annotation commence par une première étape consistant à lire le texte dans sa globalité. Une deuxième lecture est ensuite conseillée au cours de laquelle vous pouvez commencer à repérer les maillons des 3 CR. Une fois ces lectures réalisées, l'annotation va se faire en distinguant chaque étape et chaque CR. Autrement dit, il est conseillé de commencer par <ol>
@@ -422,10 +422,11 @@ puis de
 	<li>relier les maillons de <abbr title="chaines de reference associée au pronom Il" style="color : #00ccff">CR_Il</abbr></li>
 	<li>relier les maillons de <abbr title="chaines de reference associée au SN les enfants" style="color : DarkOrange">CR_enfants</abbr></li>	
 </ol>
+Cette dernière étape permet de matérialiser la CR de chaque référent humain de la consigne tout en amenant l'annotateur à vérifier que tous les maillons rattachés aux trois référents humains ont bien été identifiés.
 </p>
 
-<p>Pour chaque CR, l'annotation des maillons consiste en la création d'unités dédiées (voir section <a href="#add">3.2.2</a>) qui aboutit à la création d'unités de type <span style="color : #00ccff">maillon_Elle</span>, <span style="color : #00cc33">maillon_Il</span> et <span style="color: DarkOrange">maillon_lesEnfants</span> (voir section <a href="#add">3.2.3</a>).</p>
-<p>En plus de la délimitation, l'annotation des unités maillons nécessite le renseignement d'un certain nombre de traits comme <!--la nature du maillon (SN défini, pronom, sujet zéro, etc.), -->le fait que le maillon soit de la classe "groupe" ou pas (dans les cas de <a href="#coord">coordination et référents pluriels et collectifs</a>) et le degré de certitude de l'annotation réalisée (voir <a href="#incertitude">ici</a>). Toute annotation peut également être associée à un commentaire donnant plus de détails sur la décision prise ou l'incertitude ressentie.</p>
+<p>Pour chaque CR, l'annotation des maillons consiste en la création d'unités dédiées (voir section <a href="#add">3.2.2</a>) qui aboutit à la création d'unités de type <span style="color : #00ccff">maillon_Elle</span>, <span style="color : #00cc33">maillon_Il</span> et <span style="color: DarkOrange">maillon_lesEnfants</span> (voir section <a href="#add">3.2.3</a>). Le choix du type d'unité indique le rattachement du maillon à l'une des trois CR.</p>
+<p>Une fois le maillon délimité, l'annotation des unités maillons nécessite le renseignement d'un certain nombre de traits comme <!--la nature du maillon (SN défini, pronom, sujet zéro, etc.), -->le fait que le maillon soit de la classe "groupe" ou pas (dans les cas de <a href="#coord">coordination et référents pluriels et collectifs</a>) et le degré de certitude de l'annotation réalisée (voir <a href="#incertitude">ici</a>). Toute annotation peut également être associée à un commentaire donnant plus de détails sur la décision prise ou l'incertitude ressentie.</p>
 <p>Une fois les unités maillons annotées, la dernière étape consiste à relier entre elles les unités maillons d'une même chaîne (voir section <a href="#rel">3.2.6</a>). Cette dernière étape est l'occasion de vérifier l'annotation.</p>
 
 <p>Dans les textes que vous allez annoter, certaines expressions linguistiques ont fait l'objet d'un <b>prémarquage</b> ayant pour fonction de faciliter la tâche d'annotation. Il s'agit d'expressions qui, parce qu'elles sont considérées comme référant potentiellement aux 3 référents humains, constituent des <b>maillons-candidats</b> des trois <abbr title="chaines_reference">CR</abbr> considérées. Ces maillons-candidats pourront être validés en leur attributant l'étiquette <span style="color : #00ccff">maillon_Elle</span>, <span style="color : #00cc33">maillon_Il</span> et <span style="color: DarkOrange">maillon_lesEnfants</span>.
