@@ -12,7 +12,7 @@
     <td width=30%"><img width="50%" src="images/ecrire.png" title="ecrire"/></td>
     <td width=30%"><p><img src="images/logo.png" title="ResolCo"/></p>
 	    <h1 align="center"><font size="+3">Guide d'annotation RésolCo</font></h1>
-	    <p>Mis à jour le 29 juin 2020</p>
+	    <p>Mis à jour le 2 février 2021</p>
     </td>  
     <td width=30%"><img width="100%" src="images/Ecalm_logo.png" title="Ecalm"/></td>    
    </tr>
@@ -41,7 +41,8 @@
 				<ul class="toc">
 					<li class="tocline">2.1 <a href="#CR_maillon">Identification des maillons</a>
 					</li>
-					<li class="tocline">2.2 <a href="#annotation_maillons">Annotation des maillons</a></li>
+					<li class="tocline">2.2 <a href="#incertitude">Incertitude sur l'identification des maillons</a></li>
+					<li class="tocline">2.3 <a href="#annotation_maillons">Annotation des maillons</a></li>
 				</ul>
 				
 				
@@ -324,7 +325,7 @@ pour montrer qu'on annote [de Tina] comme coréférent à Tina si Tina est un ma
 
 <h3><a name="groupe"></a>Maillon de type "groupe"</h3>
 <p>Les maillons de type "groupe" correspondent aux cas où une expression référentielle (nécessairement collective ou plurielle) inclut l'un des référents à annoter <b>PLUS</b> d'autres référents.</p>
-<p>Le rattachement de tels maillons, entraîne fréquemment des incertitudes de la part au moment de l'identification des maillons (voir la partie <a href="#inceritude">Incertitude</a>).</p>
+<p>Le rattachement de tels maillons, entraîne fréquemment des incertitudes de la part au moment de l'identification des maillons (voir la partie <a href="#inceritude">Incertitude d'identification des maillons</a>).</p>
 <p>Dans le cas de référents pluriels (<i>les deux frères</i>), collectifs (<i>le groupe de copines</i>) ou lorsque plusieurs expressions référentielles sont coordonnées (ex&nbsp: <i>Marie et Jeane</i>), plusieurs situations sont à distinguer&nbsp;:  
 <h4>soit seule une partie de l'expression constitue un maillon.</h4> 
 <p>On annote comme maillon l'expression coordonnée qui coréfère à l'un des référents humains de la consigne. 
@@ -367,7 +368,7 @@ pour montrer qu'on annote [de Tina] comme coréférent à Tina si Tina est un ma
 </span>
 </p>
 
-<h2><a name="annotation_maillons" href="#toc"></a>2.2 Procédure d'annotation des maillons et des CR</h2>
+<h2><a name="annotation_maillons" href="#toc"></a>2.3 Procédure d'annotation des maillons et des CR</h2>
 	
 <p>L'objectif de l'annotation est double. Il s'agit de&nbsp:
 <ol>
@@ -395,7 +396,7 @@ puis de
 <p>Dans les textes que vous allez annoter, certaines expressions linguistiques ont fait l'objet d'un <b>prémarquage</b> ayant pour fonction de faciliter la tâche d'annotation. Il s'agit d'expressions qui, parce qu'elles sont considérées comme référant potentiellement aux 3 référents humains, constituent des <b>maillons-candidats</b> des trois <abbr title="chaines_reference">CR</abbr> considérées. Ces maillons-candidats pourront être validés en leur attributant l'étiquette <span style="color : #00ccff">maillon_Elle</span>, <span style="color : #00cc33">maillon_Il</span> et <span style="color: DarkOrange">maillon_lesEnfants</span>.
 </p>
 
-<h3><a name="premark"></a>2.2.1. Utilisation du prémarquage des maillons-candidats</h3>
+<h3><a name="premark"></a>2.3.1. Utilisation du prémarquage des maillons-candidats</h3>
 <p>L'exemple ci-dessous fournit une illustration - pour le même texte que celui que nous avons commenté en début de <a href="#CR">section 2</a> - du résultat du prémarquage automatique d'unités appelées "maillons-candidats". Ces "maillons-candidats" correspondent à des éléments fortement susceptibles d'être des unités de type <span style="color : #00ccff">maillon_Elle</span>, <span style="color : #00cc33">maillon_Il</span> ou <span style="color: DarkOrange">maillon_lesEnfants</span>, à savoir&nbsp;:
 		<ul>
 			<li>les noms propres</li>
@@ -413,7 +414,7 @@ puis de
 
 <p>Les maillons-candidats sont à considérer comme des propositions qui sont faites à l'annotateur pour l'assister dans sa tâche d'identification des maillons. Chaque maillons-candidats doit être validé par l'annotateur. Cette validation s'effectue par l'attribution de l'étiquette adéquate. En terme de procédure d'annotation, cela revient <!--à modifier une unité pour lui attribuer une autre étiquette (voir section <a href="#edit">3.2.3</a>)-->à créer une unité maillon_X (voir section <a href="#add">3.2.2</a>) qui se superpose au maillon-candidat. Le prémarquage étant automatique, certains maillons-candidats peuvent parfois paraître surprenants, notamment concernant le prémarquage des noms propres et des pronoms personnels.</p>
 
-<h4>2.2.1.a. Problèmes liés au prémarquage des noms propres</h4>	
+<h4>2.3.1.a. Problèmes liés au prémarquage des noms propres</h4>	
 <p>Tous les NPP ont été considérés comme des maillons-candidats, même ceux pouvant désigner un référent non humain, comme "Vendée" ou "22H" dans l'exemple ci-dessus. Ces maillons-candidats ne doivent évidemment pas faire l'objet d'une validation et peuvent être supprimés au moment de l'annotation (voir section <a href="#suppr">3.2.4</a>)</p>
 <p>Parfois, un NPP n'a pas été prémarqué, comme le nom "Clément" dans l'exemple ci-dessous.
 	 <div class="exemple">
@@ -437,10 +438,10 @@ Dans ce cas, si "Clément" est inclus dans une des CR de la consigne, l'annotate
 Dans ce cas, si "Mr Wilson" est inclus dans une des CR de la consigne, l'annotateur peut soit créer une nouvelle unité constituée du nom propre complet (voir section <a href="#add">3.2.2</a>), soit modifier et rédélimiter le maillon-candidat (voir section <a href="#edit">3.2.3</a>).
 </p-->
 
-<h4>2.2.1.b. Problèmes liés au prémarquage du pronom personnel <i>il</i></h4>	
+<h4>2.3.1.b. Problèmes liés au prémarquage du pronom personnel <i>il</i></h4>	
 <p>Tous les pronoms clitiques sujets <i>il</i> ont été prémarqués, qu'ils s'agisse d'un emploi personnel (<i><b>Il</b> se retourna en entendant ce grand bruit</i>) ou impersonnel (<i><b>Il</b> était un fois</i>, <i><b>Il</b> pleut</i>, <i><b>Il</b> est évident que...</i>). Ces maillons-candidats ne doivent évidemment pas faire l'objet d'une validation et peuvent être supprimés au moment de l'annotation (voir section <a href="#suppr">3.2.4</a>).</p>
 			
-<h2><a name="incertitude"></a>2.3. Incertitude</h2>
+<h2><a name="incertitude"></a>2.2. Incertitude d'identification des maillons</h2>
 <h3>Incettitude quant au rattachement du maillon</h3>
 <p>Pour plusieurs raisons, il n'est pas toujours facile de déterminer si telle expression référentielle est bien rattachée au référent en cours d'annotation. Il peut notamment y avoir dans le contexte plusieurs expressions disponibles pour un même référent. C'est le cas ci-dessous où le possessif <i>sa</i> peut coréférer à <i>la vieille femme</i> ou à <i>elle</i>. Dans ce cas, on fera un choix et on annotera uniquement l'expression qui paraît la plus cohérente pour construire l'interprétation, en lui attribuant toutefois une étiquette signalant l'incertitude.
 <div class="exemple">
@@ -453,14 +454,17 @@ Dans ce cas, si "Mr Wilson" est inclus dans une des CR de la consigne, l'annotat
 <p>Un autre cas fréqyent d'incertitude de rattachement concerne les maillons de type "groupe". POur illustrer ce cas, nous relatons ci-dessous un échange entre annotateurs : </p>
 <ul>
 	<li><p><b>Question</b> : On comprend que l'on doit signaler un trait "groupe" quand on a par exemple un "ils" qui renvoie à X + Y et désigne le référent "les enfants". Dans le texte que nous avons regardé, on a par exemple ils = Tina (la maman) + les enfants, ou bien "leur" (leur maison) = Tina (la maman) + les enfants. Mais doit-on indiquer un trait "groupe" sur des occurrences de l'expression "les enfants" ou bien sur un "ils" qui anaphorise seulement "les enfants", à l'exclusion de tout autre référent ? Je te copie l'exemple :</p>
-<i>Depuis cette aventure, les enfants ne sortent plus la nuit. Ils ne peuvent s'empêcher de penser à cette silhouette familière qui s'est échappée durant cette fameuse nuit où les étoiles ne brillaient pas.</i>
+<p><i>Depuis cette aventure, les enfants ne sortent plus la nuit. Ils ne peuvent s'empêcher de penser à cette silhouette familière qui s'est échappée durant cette fameuse nuit où les étoiles ne brillaient pas.</i></p>
 <p>Complément à cette question : est-ce que l'on indique le trait groupe à toute expression qui co-réfère exclusivement à "les enfants" ? Dans le texte en question (le premier de la liste si je ne me trompe), on a une première occurrence de "ses enfants" (qui sont "les enfants" de la phrase consigne) puis des expressions plurielles qui associent la maman et les enfants, mais aussi des "ils" ou "leur" qui ne désignent que "les enfants".</p></li>
-	<li><p><b>Réponse</b>Dans cet exemple, il n'y a le trait "groupe" que si l'on interprète que "'ils" réfère à "les enfants" PLUS d'autres personnes (d'après ce que tu dis, les enfants PLUS Tina).<ul>
+<li><p><b>Réponse</b>Dans cet exemple, il n'y a le trait "groupe" que si l'on interprète que "'ils" réfère à "les enfants" PLUS d'autres personnes (d'après ce que tu dis, les enfants PLUS Tina).
+	<ul>
 		<li>Alors le maillon "les enfants"  pour trait "groupe" = non</li>
 		<li>et le maillon "ils" (les enfants+Tina) pour trait "groupe" = oui</li>
 		<li>et un autre maillon "ils" (les enfants seulement) pour trait "groupe" = non</li>
-		</ol>
-<p>Par ailleurs, si par exemple "Tina" est le référent "elle", alors le maillon "ils" est également à annoter comme un maillon de la chaîne "elle" avec le trait "groupe" = oui</p></li></ol>
+		</ul>
+
+	Par ailleurs, si par exemple "Tina" est le référent "elle", alors le maillon "ils" est également à annoter comme un maillon de la chaîne "elle" avec le trait "groupe" = oui</p></li>
+</ul>
 
 <p><span font-color="red">Rajouter l'incertitude sur les cas de référents évolutifs</span></p>
 
@@ -489,7 +493,7 @@ Dans ce cas, si "Mr Wilson" est inclus dans une des CR de la consigne, l'annotat
 		</ul>
 			</p>
 	
-<p>Afin de réaliser l'annotation en distinguant chaque étape et chaque CR (voir section <a href="#annotation_maillons">2.2</a>), il est conseillé de commencer par annoter toutes les unités de type <span style="color : #00ccff">maillon_Elle</span> (y compris le maillon contenu dans la phrase consigne). Une fois tous les <span style="color : #00ccff">maillon_Elle</span> annotés, il est conseillé de masquer ces annotations avant de commencer l'annotation des unités de type <span style="color : #00cc33">maillon_Il</span>, et idem pour l'annotation des unités de type <span style="color: DarkOrange">maillon_lesEnfants</span>. Cela permet d'avoir une vue dégagée du texte, ce qui facilite l'annotation.</p>
+<p>Afin de réaliser l'annotation en distinguant chaque étape et chaque CR (voir section <a href="#annotation_maillons">2.3</a>), il est conseillé de commencer par annoter toutes les unités de type <span style="color : #00ccff">maillon_Elle</span> (y compris le maillon contenu dans la phrase consigne). Une fois tous les <span style="color : #00ccff">maillon_Elle</span> annotés, il est conseillé de masquer ces annotations avant de commencer l'annotation des unités de type <span style="color : #00cc33">maillon_Il</span>, et idem pour l'annotation des unités de type <span style="color: DarkOrange">maillon_lesEnfants</span>. Cela permet d'avoir une vue dégagée du texte, ce qui facilite l'annotation.</p>
 <p>L'annotation des relations doit se réaliser après l'annotation de toutes les unités maillons et est grandement facilitée par ce jeu de masque des unités non concernées par la relation. Ainsi, pour annoter les relations de type <span style="color:#00ccff">coref_Elle</span>, il est conseillé de n'afficher que les unités de type <span style="color:#00ccff">maillon_Elle</span>.</p>
 <p>Ce jeu de masque et d'affichage se fait en utilisant l'outil <emph>Style Editor</emph> décrit dans les sections <a href="#loadModel">3.1.2.b</a> et <a href="#style">3.2.8</a>.</p>
 
@@ -616,7 +620,7 @@ Dans ce cas, si "Mr Wilson" est inclus dans une des CR de la consigne, l'annotat
 		</ul>
 	<p class="comment">Si <b>les délimitations n'apparaissent pas à l'écran</b> cela signifie qu'aucun style n'est associé à l'unité. Vous devez alors vérifier que l'objet que vous annotez (dont le nom est inscrit et sélectionné dans la zone modèle) a bien un style associé dans la fenêtre <em>Style editor</em> (voir section <a href="#loadModel">3.2.1.b</a>).</p>
 	
-	<p>Une fois cette unité créée, vous pouvez renseigner dans la ZONE TRAITS certaines informations sur cette unité par rapport au degré d'incertitude concernant sa délimitation et son rattachement (voir section <a href="#incertitude">Incertitude</a>) et si l'unité appartient à la classe <b>groupe</b> (voir section <a href="#coord">coordination et référents pluriels et collectifs</a>). Par défaut l'unité maillon est associée à un degré incertitude nul (pas d'incertitude). Pour modifier ces valeurs, il suffit de cliquer sur les champs concernés, de saisir les valeurs et d'enregistrer les caractéristiques en appuyant sur la touche "Entrée".</p>	
+	<p>Une fois cette unité créée, vous pouvez renseigner dans la ZONE TRAITS certaines informations sur cette unité par rapport au degré d'incertitude concernant sa délimitation et son rattachement (voir section <a href="#incertitude">2.2</a>) et si l'unité appartient à la classe <b>groupe</b> (voir section <a href="#groupe">Maillon de type "groupe"</a>). Par défaut l'unité maillon est associée à un degré incertitude nul (pas d'incertitude). Pour modifier ces valeurs, il suffit de cliquer sur les champs concernés, de saisir les valeurs et d'enregistrer les caractéristiques en appuyant sur la touche "Entrée".</p>	
 	
 <p class="comment">À tout moment, il est conseillé de passer dans le mode visualiation (en cliquant sur le bouton OEIL dans la ZONE OUTILS) pour avoir un aperçu global de l'état d'avancement de l'annotation.</p>
 	<h3>3.2.3. <a name="edit" id="edit">Modifier l'annotation d'une unité</a></h3>
