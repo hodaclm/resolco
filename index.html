@@ -731,7 +731,10 @@ Dans ce cas, si "Mr Wilson" est inclus dans une des CR de la consigne, l'annotat
 <!--<p>Afin de réaliser l'annotation en distinguant chaque étape et chaque CR (voir section <a href="#annotation_maillons">2.2</a>), il est conseillé de commencer par annoter toutes les unités de type <span style="color : #00ccff">maillon_Elle</span> (y compris le maillon contenu dans la phrase consigne). Une fois tous les <span style="color : #00ccff">maillon_Elle</span> annotés, il est conseillé de masquer ces annotations avant de commencer l'annotation des unités de type <span style="color : #00cc33">maillon_Il</span>, et idem pour l'annotation des unités de type <span style="color: DarkOrange">maillon_lesEnfants</span>. Cela permet d'avoir une vue dégagée du texte, ce qui facilite l'annotation.</p>--> 
 <p>L'annotation des relations doit se réaliser après l'annotation de toutes les unités maillons et est grandement facilitée par ce jeu de masque des unités non concernées par la relation. Ainsi, pour annoter les relations de type <span style="color:#00ccff">coref_Elle</span>, il est conseillé de n'afficher que les unités de type <span style="color:#00ccff">maillon_Elle</span>.</p>
 <p>Ce jeu de masque et d'affichage se fait en utilisant l'outil <emph>Style Editor</emph> décrit dans les sections <a href="#loadModel">6.1.2.b</a> et <a href="#style">6.2.8</a>.</p>
-
+<p><span class="RQ">
+!!! même en masquant l'affichage des maillons et relations il est toujours possible de les relier par erreur ou de les sélectionner en utilisant les boutons "modifier". 
+Attention lorsqu'on veut relier/supprimer/modifier un maillon ou une relation qui est superposé à d'autres : on peut sélectionner la mauvaise annotation
+</p>
 
 <h2>
 	<a name="interface" id="interface" href="#toc">5.1. Interface d'annotation</a>
