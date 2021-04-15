@@ -84,7 +84,7 @@
 </h1>
 
 <p>Ce guide s’inscrit dans un projet ANR : le projet <a href="http://e-calm.huma-num.fr/le-projet/">É-clam</a>. Ce projet vise à constituer un vaste corpus d'écrits d'élèves afin de décrire et analyser les compétences d'écriture acquises au fil de la scolarité. Une des compétences d'écriture visée est la mise en oeuvre de stratégies pour gérer la référence. Ces stratégies concernent l'introduction de nouveaux référents, leur maintien dans le discours et la gestion de la compétition et de l'interférence lorsque plusieurs référents coexistent dans le texte.</p>
-<p>L'objectif de l'annotation que vous allez réaliser consiste à annoter les chaînes de référence -- <b>CR</b> -- résultants de ces stratégies. Annoter les CR d'un texte revient à identifier les expressions référentielles qui les composent -- nous parlons de <b>maillons</b> -- et de relier ces maillons entre eux pour dessiner la chaîne complète. Pour ce faire, l'utilisation d'une interface d'annotation est essentielle. L'interface que vous allez utiliser est Glozz (renvoi à la section Glozz)</p>
+<p>L'objectif de l'annotation que vous allez réaliser consiste à annoter les chaînes de référence -- <b>CR</b> -- résultants de ces stratégies. Annoter les CR d'un texte revient à identifier les expressions référentielles qui les composent -- nous parlons de <b>maillons</b> -- et de relier ces expresssions entre elles pour dessiner la chaîne complète. Pour ce faire, l'utilisation d'une interface d'annotation est essentielle. L'interface que vous allez utiliser est Glozz (renvoi à la section Glozz)</p>
 <!-- Pas nécssaire d'après nous d'annoncer le plan :  <p>Après avoir présenté les textes à annoter dans la section suivante, une définition détaillée des CR et des maillons est fournie avant de présenter la procédure d'annotation et l'utilisation de l'interface permettant de la réaliser.</p> --> 
 <p>Afin de réussir l'annotation demandée, il est important de suivre les étapes suivantes dans l'ordre&nbsp;: 
 <ol>
@@ -122,7 +122,7 @@
 <a name="CR" id="CR" href="#toc">1.2 Définitions : CR et maillons</a>
 </h2>
 
-<p>Une <b>CR</b> est constituée par l'ensemble des expressions référentielles qui renvoient à un même référent et que nous appelons des <b>maillons</b>.</p>
+<p>Une <b>CR</b> est constituée par l'ensemble des expressions référentielles qui renvoient à un même référent et que nous appelons des <b>maillons</b>.</p> Ces expressions continuité référentielle
 <p>
 Le texte suivant, produit par un élève de 3e en suivant la consigne ci-dessus, fournit une illustration des notions de CR et de maillons.
 </p>
@@ -405,9 +405,6 @@ pour montrer qu'on annote [de Tina] comme coréférent à Tina si Tina est un ma
 </div>
 </p>
 
-
-<p><span class="RQ">J'ai essayé de réorganiser cette partie et d'intégrer les notes de Josette, à relire.</p>
-
 <h3><a name="coord"></a>2.8 Référents multiples</h3>
 
 <!--<h3><a name="groupe"></a>Maillon de type "groupe"</h3> 
@@ -416,16 +413,19 @@ pour montrer qu'on annote [de Tina] comme coréférent à Tina si Tina est un ma
 
 
 
-<p>Dans le cas de référents multiples, qu'il s'agisse de référents pluriels (<i>les deux frères</i>), collectifs (<i>le groupe de copines</i>) ou lorsque plusieurs expressions référentielles sont coordonnées (ex&nbsp: <i>Marie et Jeane</i>), plusieurs situations sont à distinguer&nbsp;:
+<p>Dans le cas de référents multiples, désignés par des pronoms personnels pluriels, des SN pluriels (<i>les deux frères</i>), collectifs (<i>le groupe de copines</i>) ou par des expressions référentielles coordonnées (ex&nbsp: <i>Marie et Jeane</i>), plusieurs situations sont à distinguer&nbsp;:
 	<ul>
 	<li> le référent multiple ne refère pas à <span style="color: DarkOrange">les enfants</span> 
 	<li> le référent multiple refère à <span style="color: DarkOrange">les enfants</span> 
 </ul>
 	
-<h4><b>a)</b> Un référent multiple a été introduit et inclus un des référents humains de la consigne, sans coréférer à <span style="color: DarkOrange">les enfants</span>.</h4> 
+<h4><b>a)</b> Un référent multiple inclue un des référents humains de la consigne, sans référer à <span style="color: DarkOrange">les enfants</span>.</h4> 
 <!--
 <h4>soit l'expression plurielle ou coordonnée implique un des référents humains de la consigne.</h4>-->
-<p>Dans ces cas, on annote le <b>groupe</b> formé comme un maillon régulier d'une CR (ces cas sont plutôt rencontrés pour les <abbr title="chaines de reference associée au pronom Elle" style="color : #00ccff">CR_Elle</abbr> et les <abbr title="chaines de reference associée au pronom Il" style="color : #00cc33">CR_Il</abbr>). Afin de conserver l'information de ce phénomène, le maillon sera étiqueté comme relevant de la classe "groupe". Ces maillons "groupe" sont généralement des pronoms personnels pluriels, comme par exemple <i>elles</i> ou des SN définis pluriels, comme <i>les deux amies</i> ou <i>Tous les deux</i>. Dans l'exemple ci-dessous, tous les maillons relevant de la <abbr title="chaines de reference associée au pronom Il" style="color : #00ccff">CR_Il</abbr> ont été annotés et reliés pour former une CR qui contient deux maillons de la classe  <b>groupe</b>&nbsp;: <i>ils</i> et <i>Les deux autres garçons</i>.
+<p>On annote le référent multiple comme un maillon de la <abbr title="chaines de reference associée au pronom Il" style="color : #00cc33">CR_Il</abbr> ou de la <abbr title="chaines de reference associée au pronom Elle" style="color : #00ccff">CR_Elle</abbr> et on attribue à ce maillon le trait <b>groupe</b>. Ce choix d'annotation permet de conserver l'information de l'existence d'une continuité référentielle (et non d'une coréférence stricte cf.XXX). 
+<br/>
+	Dans l'exemple ci-dessous, en plus des maillons de la <abbr title="chaines de reference associée au pronom Il" style="color : #00ccff">CR_Il</abbr>, on inclut également les référents multiples <i>ils</i> et <i>Les deux autres garçons</i>. On attribue à chacun de ces deux maillons le trait <b>groupe</b>. 
+	<span class="RQ">ajouter à droite de l'exmple une capture d'ècran pour montrer l'attributio du trait 'groupe' dans le modèle d'annoation</span>
 	<div class="exemple">
 			<span class="ex_head">CR présentant des maillons de classe "groupe" [<a target="_blank" href="http://redac.univ-tlse2.fr/corpus/resolco/copies/html/CO-3e-2018-FSBJC6-D1-R4-V1_T.html">CO-3e-2018-FSBJC6-D1-R4-V1</a>]</span><br/><br/>
 			<a href="images/img_exemples/CO-3e-2018-FSBJC6-D1-R4-V1_groupe_avecRel.png" alt="maillon-groupe">
