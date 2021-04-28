@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotationModel>
+
+	<units>
+		<type name="mod">
+			<featureSet>
+				<feature name="nature">
+					<value type="free" default="" />
+				</feature>
+				<feature name="del">
+					<value type="free" default="na" />
+				</feature>
+				<feature name="delType">
+					<value type="free" default="na" />
+				</feature>
+			</featureSet>
+		</type>
+		<type name="lb">
+			<featureSet/>
+		</type>
+		<type name="pb">
+			<featureSet/>
+		</type>
+		<type name="space">
+			<featureSet/>
+		</type>
+		<type name="phraseConsigne">
+			<featureSet/>
+		</type>
+		<type name="unclear">
+			<featureSet/>
+		</type>
+		<type name="gap">
+			<featureSet/>
+		</type>
+
+		<type name="intervention">
+			<featureSet>
+				<feature name="auteur">
+					<possibleValues default="enseignant">
+						<value>enseignant</value>
+						<value>élève originel</value>
+						<value>autre élève</value>
+					</possibleValues>
+				</feature>
+				<feature name="contenu">
+					<value type="free" default="" />
+				</feature>
+			</featureSet>
+		</type>
+		<type name="Err_Omission">
+			<featureSet>
+				<feature name="POS">
+					<possibleValues default="inconnu">
+						<value>ADJECTIF</value>
+						<value>ADVERBE</value>
+						<value>CONJONCTION</value>
+						<value>DETERMINANT</value>
+						<value>NOM</value>
+						<value>PRONOM</value>
+						<value>PREPOSITION</value>
+						<value>VERBE</value>
+						<value>autre</value>
+						<value>inconnu</value>
+					</possibleValues>
+				</feature>
+				<feature name="commentaire">
+					<value type="free" default="" />
+				</feature>
+			</featureSet>
+		</type>
+		<type name="Err_Segmentation">
+			<featureSet>
+				<feature name="incertitude">
+					<possibleValues default="Pas d'incertitude">
+						<value>Pas d'incertitude</value>
+						<value>Incertitude sur la detection</value>
+						<value>Incertitude sur la correction</value>
+						<value>Incertitude sur les deux</value>
+					</possibleValues>
+				</feature>
+				<feature name="commentaire">
+					<value type="free" default="" />
+				</feature>
+			</featureSet>
+		</type>
+		<type name="Err_Orthographe">
+			<featureSet>
+				<feature name="incertitude">
+					<possibleValues default="Pas d'incertitude">
+						<value>Pas d'incertitude</value>
+						<value>Incertitude sur la detection</value>
+						<value>Incertitude sur la correction</value>
+						<value>Incertitude sur les deux</value>
+					</possibleValues>
+				</feature>
+				<feature name="correction_impossible">
+					<possibleValues default="Non">
+						<value>Non</value>
+						<value>Oui</value>
+					</possibleValues>
+				</feature>
+				<feature name="correction_1">
+					<value type="free" default="" />
+				</feature>
+				<feature name="correction_2">
+					<value type="free" default="" />
+				</feature>
+				<feature name="correction_3">
+					<value type="free" default="" />
+				</feature>
+				<feature name="correction_4">
+					<value type="free" default="" />
+				</feature>
+				<feature name="correction_5">
+					<value type="free" default="" />
+				</feature>
+				<feature name="correction_6">
+					<value type="free" default="" />
+				</feature>
+			</featureSet>
+		</type>
+
+	</units>
+	<relations/>
+	<schemas>   
+        <type name="transcription">
+            <featureSet/>
+        </type>
+    </schemas>    
+	
+</annotationModel>
