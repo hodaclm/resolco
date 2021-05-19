@@ -1,7 +1,7 @@
 
-document.body.onload=chargeCSV("https://raw.githubusercontent.com/hodaclm/resolco/master/annotations_csv/CO-3e-2016-VTAC305-D1-R12-V1_N_withAnnotations.csv",displayHTMLTable)
+document.body.onload=chargeCSV("https://raw.githubusercontent.com/hodaclm/resolco/master/site_redac/annotations_csv/CO-3e-2016-VTAC305-D1-R12-V1_N_withAnnotations.csv",displayHTMLTable)
 
-
+chargeCSV("https://raw.githubusercontent.com/hodaclm/resolco/master/site_redac/annotations_csv/CO-3e-2016-VTAC305-D1-R12-V1_N_withAnnotations.csv",text2annotations);
 
 function chargeCSV(url,callBack){
 	console.log("fonction chargeCSV url : "+url)
@@ -59,11 +59,36 @@ function displayHTMLTable(data){
 		$("#parsed_csv").html(para);
     }
 
-function doStuff(data) {
-    //Data is usable here
-    console.log(data);
-}
 
+function text2annotations(data){
+  var td = document.querySelector('td[name="copie"]');
+  var p=td.querySelector('p');
+  var text=p.textContent;
+  console.log(text);
+    console.log("fonction display")
+
+    for(i=0;i<data.length;i++){
+      var row = data[i];
+      var word=row[1];
+      var num=row[0]
+          //console.log(word);
+          const regex_coord= /(\d+)-(\d+)/;
+
+          var annot_elle=row[24];
+          var coord_elle=String(row[25]);
+
+          if(coord_elle != "_"){
+            var coord=regex_coord.exec(coord_elle)
+            var start=parseInt(coord[1])-1;
+            var end=parseInt(coord[2])-1;
+            console.log(start,end,text.slice(start,end));
+
+
+          }
+
+  
+    }
+}
     
 
 function handleChange_elle(checkbox) {
@@ -73,7 +98,7 @@ function handleChange_elle(checkbox) {
         //console.log(maillons.length);
         for(var x=0;x< maillons.length;x++){
         
-        	maillons[x].style.background = 'lightblue'
+        	maillons[x].style.background = '#2e7ff5'
           maillons[x].style.opacity = '0.7'
         }
         }
@@ -110,7 +135,7 @@ function handleChange_il(checkbox) {
           maillons[x].style.opacity = '1'
         }
         }
-  
+
 }
 
 function handleChange_lenf(checkbox) {
