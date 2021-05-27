@@ -129,18 +129,18 @@
 9	.	.	PONCT	PONCT		8	ponct	8	ponct	EC-CM2-2016-MQRVX-D1-R11-V1_N.ac	5	75	5	76	_	547	548	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
 "
 "
-1	La	la	DET	DET	n=s|g=f	2	det	2	det	EC-CM2-2016-MQRVX-D1-R11-V1_N.ac	5	77	5	79	_	549	551	_	_	_	Err	(La	549-551	in_GNon_incertDNon_incertRNon	549-557	_	_	_	_	_	_
-2	femme	femme	NC	NC	n=s|g=f	3	suj	3	suj	EC-CM2-2016-MQRVX-D1-R11-V1_N.ac	5	80	5	85	_	552	557	_	_	_	Err	famme)	552-557	in_GNon_incertDNon_incertRNon	549-557	_	_	_	_	_	_
+1	La	la	DET	DET	n=s|g=f	2	det	2	det	EC-CM2-2016-MQRVX-D1-R11-V1_N.ac	5	77	5	79	_	549	551	_	_	_	Err	(La	549-551	in_GNon_incertDNon_incertROui	549-557	_	_	_	_	_	_
+2	femme	femme	NC	NC	n=s|g=f	3	suj	3	suj	EC-CM2-2016-MQRVX-D1-R11-V1_N.ac	5	80	5	85	_	552	557	_	_	_	Err	famme)	552-557	in_GNon_incertDNon_incertROui	549-557	_	_	_	_	_	_
 3	sortit	sortir	V	V	n=s|t=J|p=3	0	root	0	root	EC-CM2-2016-MQRVX-D1-R11-V1_N.ac	5	86	5	92	passeSimple	558	564	_	_	_	Err	sorti	558-564	_	_	_	_	_	_	_	_
 4	de	de	P	P		3	mod	3	mod	EC-CM2-2016-MQRVX-D1-R11-V1_N.ac	5	93	5	95	_	565	567	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 5	la	la	DET	DET	n=s|g=f	6	det	6	det	EC-CM2-2016-MQRVX-D1-R11-V1_N.ac	5	96	5	98	_	568	570	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 6	maison	maison	NC	NC	n=s|g=f	4	prep	4	prep	EC-CM2-2016-MQRVX-D1-R11-V1_N.ac	5	99	5	105	_	571	577	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 7	et	et	CC	CC		3	coord	3	coord	EC-CM2-2016-MQRVX-D1-R11-V1_N.ac	5	106	5	108	_	578	580	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	tua	tuer	V	V	n=s|t=J|p=3	7	dep_coord	7	dep_coord	EC-CM2-2016-MQRVX-D1-R11-V1_N.ac	5	109	5	112	passeSimple	581	584	_	subst	582-583	_	_	_	is_GNon_incertDNon_incertRNon	581-584	_	_	_	_	_	_
-9	son	son	DET	DET	n=s|g=m|p=3|poss=s	10	det	10	det	EC-CM2-2016-MQRVX-D1-R11-V1_N.ac	5	113	5	116	_	585	588	_	_	_	Err	con	585-588	is_GNon_incertDNon_incertRNon	585-588	_	_	_	_	_	_
+8	tua	tuer	V	V	n=s|t=J|p=3	7	dep_coord	7	dep_coord	EC-CM2-2016-MQRVX-D1-R11-V1_N.ac	5	109	5	112	passeSimple	581	584	_	subst	582-583	_	_	_	is_GNon_incertDNon_incertROui	581-584	_	_	_	_	_	_
+9	son	son	DET	DET	n=s|g=m|p=3|poss=s	10	det	10	det	EC-CM2-2016-MQRVX-D1-R11-V1_N.ac	5	113	5	116	_	585	588	_	_	_	Err	con	585-588	is_GNon_incertDNon_incertROui	585-588	_	_	_	_	_	_
 10	mari	mari	NC	NC	n=s|g=m	8	obj	8	obj	EC-CM2-2016-MQRVX-D1-R11-V1_N.ac	5	117	5	121	_	589	593	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 11	qu'	que	PROREL	PROREL		13	obj	13	obj	EC-CM2-2016-MQRVX-D1-R11-V1_N.ac	5	122	5	125	_	594	597	_	_	_	Err	quelle	594-601	_	_	_	_	_	_	_	_
-12	elle	elle	CLS	CLS	n=s|g=f|p=3	13	suj	13	suj	EC-CM2-2016-MQRVX-D1-R11-V1_N.ac	5	125	5	129	_	597	601	_	_	_	Err	quelle	594-601	is_GNon_incertDNon_incertRNon	597-601	_	_	_	_	_	_
+12	elle	elle	CLS	CLS	n=s|g=f|p=3	13	suj	13	suj	EC-CM2-2016-MQRVX-D1-R11-V1_N.ac	5	125	5	129	_	597	601	_	_	_	Err	quelle	594-601	is_GNon_incertDNon_incertROui	597-601	_	_	_	_	_	_
 13	venait	venir	V	V	n=s|t=I|p=3	10	mod_rel	10	mod_rel	EC-CM2-2016-MQRVX-D1-R11-V1_N.ac	5	130	5	136	imparfait	602	608	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 14	juste	juste	ADV	ADV		13	mod	13	mod	EC-CM2-2016-MQRVX-D1-R11-V1_N.ac	5	137	5	142	_	609	614	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 15	de	de	P	P		13	mod	13	mod	EC-CM2-2016-MQRVX-D1-R11-V1_N.ac	5	143	5	145	_	615	617	_	_	_	_	_	_	_	_	_	_	_	_	_	_

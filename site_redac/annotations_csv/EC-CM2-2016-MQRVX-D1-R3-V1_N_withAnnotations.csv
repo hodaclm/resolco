@@ -43,8 +43,8 @@
 8	.	.	PONCT	PONCT		7	ponct	7	ponct	EC-CM2-2016-MQRVX-D1-R3-V1_N.ac	3	99	3	100	_	183	184	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
 "
 "
-1	Les	les	DET	DET	n=p	2	det	2	det	EC-CM2-2016-MQRVX-D1-R3-V1_N.ac	3	101	3	104	_	185	188	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	enfants	enfant	NC	NC	n=p	3	suj	3	suj	EC-CM2-2016-MQRVX-D1-R3-V1_N.ac	3	105	3	112	_	189	196	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Les	les	DET	DET	n=p	2	det	2	det	EC-CM2-2016-MQRVX-D1-R3-V1_N.ac	3	101	3	104	_	185	188	_	_	_	_	_	_	_	_	in_GOui_incertDNon_incertRNon	185-196	in_GNon_incertDNon_incertRNon	185-196	_	_
+2	enfants	enfant	NC	NC	n=p	3	suj	3	suj	EC-CM2-2016-MQRVX-D1-R3-V1_N.ac	3	105	3	112	_	189	196	_	_	_	_	_	_	_	_	in_GOui_incertDNon_incertRNon	185-196	in_GNon_incertDNon_incertRNon	185-196	_	_
 3	étaient	être	V	V	n=p|t=I|p=3	0	root	0	root	EC-CM2-2016-MQRVX-D1-R3-V1_N.ac	3	113	3	120	imparfait	197	204	_	_	_	Err	etait	197-204	_	_	_	_	_	_	_	_
 4	pauvres	pauvre	ADJ	ADJ	n=p	3	ats	3	ats	EC-CM2-2016-MQRVX-D1-R3-V1_N.ac	3	121	3	128	_	205	212	_	_	_	Err	pauvre	205-212	_	_	_	_	_	_	_	_
 "

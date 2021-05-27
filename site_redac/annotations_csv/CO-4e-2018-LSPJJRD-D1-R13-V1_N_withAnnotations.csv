@@ -19,9 +19,9 @@
 19	,	,	PONCT	PONCT		18	ponct	18	ponct	CO-4e-2018-LSPJJRD-D1-R13-V1_N.ac	1	94	1	95	_	94	95	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 20	c'	ce	CLS	CLS		21	suj	21	suj	CO-4e-2018-LSPJJRD-D1-R13-V1_N.ac	1	96	1	98	_	96	98	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 21	était	être	V	V	n=s|t=I|p=3	2	mod	2	mod	CO-4e-2018-LSPJJRD-D1-R13-V1_N.ac	1	98	1	103	imparfait	98	103	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-22	une	une	DET	DET	n=s|g=f	23	det	23	det	CO-4e-2018-LSPJJRD-D1-R13-V1_N.ac	1	104	1	107	_	104	107	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	104-122	in_GOui_incertDNon_incertRNon	104-122	in_GOui_incertDNon_incertRNon	104-122	_	_
-23	famille	famille	NC	NC	n=s|g=f	21	obj	21	obj	CO-4e-2018-LSPJJRD-D1-R13-V1_N.ac	1	108	1	115	_	108	115	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	104-122	in_GOui_incertDNon_incertRNon	104-122	in_GOui_incertDNon_incertRNon	104-122	_	_
-24	soudée	souder	VPP	VPP	n=s|g=f|t=K	23	mod	23	mod	CO-4e-2018-LSPJJRD-D1-R13-V1_N.ac	1	116	1	122	_	116	122	_	_	_	Err	souder	116-122	in_GNon_incertDNon_incertRNon	104-122	in_GOui_incertDNon_incertRNon	104-122	in_GOui_incertDNon_incertRNon	104-122	_	_
+22	une	une	DET	DET	n=s|g=f	23	det	23	det	CO-4e-2018-LSPJJRD-D1-R13-V1_N.ac	1	104	1	107	_	104	107	_	_	_	_	_	_	in_GOui_incertDNon_incertRNon	104-122	in_GOui_incertDNon_incertRNon	104-122	in_GOui_incertDNon_incertRNon	104-122	_	_
+23	famille	famille	NC	NC	n=s|g=f	21	obj	21	obj	CO-4e-2018-LSPJJRD-D1-R13-V1_N.ac	1	108	1	115	_	108	115	_	_	_	_	_	_	in_GOui_incertDNon_incertRNon	104-122	in_GOui_incertDNon_incertRNon	104-122	in_GOui_incertDNon_incertRNon	104-122	_	_
+24	soudée	souder	VPP	VPP	n=s|g=f|t=K	23	mod	23	mod	CO-4e-2018-LSPJJRD-D1-R13-V1_N.ac	1	116	1	122	_	116	122	_	_	_	Err	souder	116-122	in_GOui_incertDNon_incertRNon	104-122	in_GOui_incertDNon_incertRNon	104-122	in_GOui_incertDNon_incertRNon	104-122	_	_
 25	,	,	PONCT	PONCT		24	ponct	24	ponct	CO-4e-2018-LSPJJRD-D1-R13-V1_N.ac	1	122	1	123	_	122	123	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 26	la	la	DET	DET	n=s|g=f	27	det	27	det	CO-4e-2018-LSPJJRD-D1-R13-V1_N.ac	1	124	1	126	_	124	126	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	124-131	_	_	_	_	_	_
 27	mère	mère	NC	NC	n=s|g=f	21	mod	21	mod	CO-4e-2018-LSPJJRD-D1-R13-V1_N.ac	1	127	1	131	_	127	131	_	_	_	Err	mere	127-131	in_GNon_incertDNon_incertRNon	124-131	_	_	_	_	_	_

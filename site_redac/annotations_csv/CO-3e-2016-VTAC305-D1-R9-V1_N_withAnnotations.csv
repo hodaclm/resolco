@@ -31,7 +31,7 @@
 31	murs	mur	NC	NC	n=p|g=m	29	prep	29	prep	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	1	151	1	155	_	151	155	_	_	_	Err	murs	151-156	_	_	_	_	_	_	_	_
 32	.	.	PONCT	PONCT		31	ponct	31	ponct	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	1	155	1	156	_	155	156	_	_	_	Err	murs	151-156	_	_	_	_	_	_	_	_
 "
-"
+"																															
 1	Elle	elle	CLS	CLS	n=s|g=f|p=3	2	suj	2	suj	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	2	1	2	5	_	156	160	consigne	_	_	_	_	_	is_GNon_incertDNon_incertRNon	156-160	_	_	_	_	_	_
 2	habitait	habiter	V	V	n=s|t=I|p=3	0	root	0	root	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	2	6	2	14	imparfait	161	169	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
 3	dans	dans	P	P		2	mod	2	mod	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	2	15	2	19	_	170	174	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
@@ -41,7 +41,7 @@
 7	longtemps	longtemps	ADV	ADV		6	mod	6	mod	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	2	40	2	49	_	195	204	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
 8	.	.	PONCT	PONCT		7	ponct	7	ponct	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	2	49	2	50	_	204	205	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
 "
-"
+"																															
 1	À	à	P	P		12	mod	12	mod	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	2	51	2	52	_	206	207	_	_	_	Err	A	206-207	_	_	_	_	_	_	_	_
 2	l'	le	DET	DET	n=s	3	det	3	det	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	2	53	2	55	_	208	210	_	_	_	Err	l'intèrrieur	208-219	_	_	_	_	_	_	_	_
 3	intérieur	intérieur	NC	NC	n=s|g=m	1	prep	1	prep	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	2	55	2	64	_	210	219	_	_	_	Err	l'intèrrieur	208-219	_	_	_	_	_	_	_	_
@@ -62,7 +62,7 @@
 18	maison	maison	NC	NC	n=s|g=f	15	prep	15	prep	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	2	144	2	150	_	299	305	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 19	.	.	PONCT	PONCT		18	ponct	18	ponct	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	2	150	2	151	_	305	306	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 "
-"
+"																															
 1	Il	il	CLS	CLS	n=s|g=m|p=3	3	suj	3	suj	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	2	152	2	154	_	307	309	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 2	y	y	CLO	CLO		3	aff	3	aff	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	2	155	2	156	_	310	311	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 3	avait	avoir	V	V	n=s|t=I|p=3	0	root	0	root	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	2	157	2	162	imparfait	312	317	_	_	_	_	_	_	_	_	_	_	_	_	_	_
@@ -89,7 +89,7 @@
 24	dessins	dessin	NC	NC	n=p|g=m	22	prep	22	prep	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	2	278	2	285	_	433	440	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 25	.	.	PONCT	PONCT		24	ponct	24	ponct	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	2	285	2	286	_	440	441	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 "
-"
+"																															
 1	Le	le	DET	DET	n=s|g=m	2	det	2	det	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	2	287	2	289	_	442	444	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 2	soir	soir	NC	NC	n=s|g=m	3	suj	3	suj	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	2	290	2	294	_	445	449	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 3	arriva	arriver	V	V	n=s|t=J|p=3	0	root	0	root	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	2	295	2	301	passeSimple	450	456	_	_	_	_	_	_	_	_	_	_	_	_	_	_
@@ -107,7 +107,7 @@
 15	lumière	lumière	NC	NC	n=s|g=f	14	prep	14	prep	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	2	349	2	356	_	504	511	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 16	.	.	PONCT	PONCT		15	ponct	15	ponct	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	2	356	2	357	_	511	512	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 "
-"
+"																															
 1	On	on	CLS	CLS	n=s|p=3	2	suj	2	suj	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	2	358	2	360	_	513	515	_	subst	513-514	_	_	_	_	_	_	_	_	_	_	_
 2	entendit	entendre	V	V	n=s|t=J|p=3	0	root	0	root	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	2	361	2	369	passeSimple	516	524	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 3	le	le	DET	DET	n=s|g=m	4	det	4	det	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	2	370	2	372	_	525	527	_	_	_	_	_	_	_	_	_	_	_	_	_	_
@@ -130,7 +130,7 @@
 20	fantastiques	fantastique	ADJ	ADJ	n=p	19	mod	19	mod	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	2	451	2	463	_	606	618	_	_	_	Err	fantastique	606-618	_	_	_	_	_	_	_	_
 21	.	.	PONCT	PONCT		20	ponct	20	ponct	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	2	463	2	464	_	618	619	_	_	_	Err	Ils	618-623	_	_	_	_	_	_	_	_
 "
-"
+"																															
 1	Ils	ils	CLS	CLS	n=p|g=m|p=3	2	suj	2	suj	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	2	465	2	468	_	620	623	_	_	_	Err	Ils	618-623	_	_	is_GOui_incertDNon_incertRNon	620-623	is_GNon_incertDNon_incertRNon	620-623	_	_
 2	faisaient	faire	V	V	n=p|t=I|p=3	0	root	0	root	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	2	469	2	478	imparfait	624	633	_	_	_	Err	fesaient	624-633	_	_	_	_	_	_	_	_
 3	semblant	semblant	NC	NC	n=s|g=m	2	obj	2	obj	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	2	479	2	487	_	634	642	_	_	_	Err	semblan	634-642	_	_	_	_	_	_	_	_
@@ -144,7 +144,7 @@
 11	se	se	CLR	CLR	n=p,s|p=3	0	_	0	_	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	2	520	2	522	_	675	677	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 12	coucher	coucher	NC	NC	n=s|g=m	0	_	0	_	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	2	523	2	530	_	678	685	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 "
-"
+"																															
 1	les	les	DET	DET	n=p	4	det	4	det	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	3	2	3	5	_	686	689	_	_	_	_	_	_	_	_	in_GOui_incertDNon_incertRNon	686-706	in_GNon_incertDNon_incertRNon	686-706	_	_
 2	3	3	ADJ	ADJ		4	mod	4	mod	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	3	6	3	7	_	690	691	_	_	_	_	_	_	_	_	in_GOui_incertDNon_incertRNon	686-706	in_GNon_incertDNon_incertRNon	686-706	_	_
 3	petits	petit	ADJ	ADJ	n=p|g=m	4	mod	4	mod	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	3	8	3	14	_	692	698	_	_	_	_	_	_	_	_	in_GOui_incertDNon_incertRNon	686-706	in_GNon_incertDNon_incertRNon	686-706	_	_
@@ -172,7 +172,7 @@
 25	rigoler	rigoler	VINF	VINF	t=W	24	prep	24	prep	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	3	121	3	128	_	805	812	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 26	.	.	PONCT	PONCT		25	ponct	25	ponct	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	3	128	3	129	_	812	813	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 "
-"
+"																															
 1	Puis	puis	CC	CC		0	root	0	root	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	3	130	3	134	_	814	818	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 2	,	,	PONCT	PONCT		1	ponct	1	ponct	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	3	134	3	135	_	818	819	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 3	le	le	DET	DET	n=s|g=m	5	det	5	det	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	3	136	3	138	_	820	822	_	_	_	_	_	_	_	_	_	_	_	_	_	_
@@ -191,7 +191,7 @@
 16	amuser	amuser	VINF	VINF	t=W	14	prep	14	prep	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	3	192	3	198	_	876	882	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 17	.	.	PONCT	PONCT		16	ponct	16	ponct	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	3	198	3	199	_	882	883	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 "
-"
+"																															
 1	Ils	ils	CLS	CLS	n=p|g=m|p=3	2	suj	2	suj	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	3	200	3	203	_	884	887	_	_	_	_	_	_	_	_	is_GOui_incertDNon_incertRNon	884-887	is_GNon_incertDNon_incertRNon	884-887	_	_
 2	descendirent	descendre	V	V	n=p|t=J|p=3	0	root	0	root	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	3	204	3	216	passeSimple	888	900	_	_	_	Err	descendèrent	888-900	_	_	_	_	_	_	_	_
 3	les	les	DET	DET	n=p	4	det	4	det	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	3	217	3	220	_	901	904	_	_	_	_	_	_	_	_	_	_	_	_	_	_
@@ -211,7 +211,7 @@
 17	ballon	ballon	NC	NC	n=s|g=m	16	prep	16	prep	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	3	292	3	298	_	976	982	_	_	_	Err	balloxx	976-982	_	_	_	_	_	_	_	_
 18	.	.	PONCT	PONCT		17	ponct	17	ponct	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	3	298	3	299	_	982	983	_	_	_	Err	Elène	982-989	_	_	_	_	_	_	_	_
 "
-"
+"																															
 1	Elène	_	NPP	NPP		3	suj	3	suj	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	3	300	3	305	_	984	989	_	_	_	Err	Elène	982-989	_	_	_	_	_	_	_	_
 2	,	,	PONCT	PONCT		1	ponct	1	ponct	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	3	305	3	306	_	989	990	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 3	lança	lancer	V	V	n=s|t=J|p=3	0	root	0	root	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	3	307	3	312	passeSimple	991	996	_	_	_	_	_	_	_	_	_	_	_	_	_	_
@@ -227,7 +227,7 @@
 13	récupérer	récupérer	VINF	VINF	t=W	11	obj	11	obj	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	3	353	3	362	_	1037	1046	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 14	.	.	PONCT	PONCT		13	ponct	13	ponct	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	3	362	3	363	_	1046	1047	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 "
-"
+"																															
 1	Il	il	CLS	CLS	n=s|g=m|p=3	2	suj	2	suj	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	3	364	3	366	_	1048	1050	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	1048-1050	_	_	_	_
 2	récupéra	récupérer	V	V	n=s|t=J|p=3	0	root	0	root	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	3	367	3	375	passeSimple	1051	1059	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 3	le	le	DET	DET	n=s|g=m	4	det	4	det	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	3	376	3	378	_	1060	1062	_	_	_	_	_	_	_	_	_	_	_	_	_	_
@@ -238,7 +238,7 @@
 8	bruit	bruit	NC	NC	n=s|g=m	6	obj	6	obj	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	3	402	3	407	_	1086	1091	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 9	.	.	PONCT	PONCT		8	ponct	8	ponct	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	3	407	3	408	_	1091	1092	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 "
-"
+"																															
 1	Il	il	CLS	CLS	n=s|g=m|p=3	3	suj	3	suj	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	3	409	3	411	_	1093	1095	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	1093-1095	_	_	_	_
 2	s'	se	CLR	CLR	n=p,s|p=3	3	aff	3	aff	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	3	412	3	414	_	1096	1098	_	_	_	Err	s'arrèta	1096-1104	_	_	_	_	_	_	_	_
 3	arrêta	arrêter	V	V	n=s|t=J|p=3	0	root	0	root	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	3	414	3	420	passeSimple	1098	1104	_	_	_	Err	s'arrèta	1096-1104	_	_	_	_	_	_	_	_
@@ -256,7 +256,7 @@
 15	rien	rien	PRO	PRO	n=s|g=m	13	obj	13	obj	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	3	472	3	476	_	1156	1160	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 16	.	.	PONCT	PONCT		15	ponct	15	ponct	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	3	476	3	477	_	1160	1161	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 "
-"
+"																															
 1	Il	il	CLS	CLS	n=s|g=m|p=3	3	suj	3	suj	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	3	478	3	480	_	1162	1164	consigne	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	1162-1164	_	_	_	_
 2	se	se	CLR	CLR	n=p,s|p=3	3	aff	3	aff	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	3	481	3	483	_	1165	1167	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
 3	retourna	retourner	V	V	n=s|t=J|p=3	0	root	0	root	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	3	484	3	492	passeSimple	1168	1176	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
@@ -267,7 +267,7 @@
 8	bruit	bruit	NC	NC	n=s|g=m	5	obj	5	obj	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	3	515	3	520	_	1199	1204	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
 9	.	.	PONCT	PONCT		8	ponct	8	ponct	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	3	520	3	521	_	1204	1205	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
 "
-"
+"																															
 1	Alors	alors	ADV	ADV		5	mod	5	mod	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	3	522	3	527	_	1206	1211	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 2	,	,	PONCT	PONCT		1	ponct	1	ponct	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	3	527	3	528	_	1211	1212	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 3	il	il	CLS	CLS	n=s|g=m|p=3	5	suj	5	suj	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	3	529	3	531	_	1213	1215	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	1213-1215	_	_	_	_
@@ -282,7 +282,7 @@
 12	prévenir	prévenir	VINF	VINF	t=W	10	prep	10	prep	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	3	571	3	579	_	1255	1263	_	_	_	Err	prévenirs	1255-1263	_	_	_	_	_	_	_	_
 13	.	.	PONCT	PONCT		12	ponct	12	ponct	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	3	579	3	580	_	1263	1264	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 "
-"
+"																															
 1	Ils	ils	CLS	CLS	n=p|g=m|p=3	2	suj	2	suj	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	3	581	3	584	_	1265	1268	_	_	_	_	_	_	_	_	is_GOui_incertDNon_incertRNon	1265-1268	is_GNon_incertDNon_incertRNon	1265-1268	_	_
 2	allèrent	aller	V	V	n=p|t=J|p=3	0	root	0	root	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	3	585	3	593	passeSimple	1269	1277	_	_	_	Err	,	1277-1277	_	_	_	_	_	_	_	_
 3	tous	tout	ADJ	ADJ	n=p|g=m	5	mod	5	mod	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	3	594	3	598	_	1278	1282	_	_	_	Err	tout	1278-1282	_	_	in_GOui_incertDNon_incertRNon	1278-1288	in_GNon_incertDNon_incertRNon	1278-1288	_	_
@@ -316,7 +316,7 @@
 31	criant	_	NC	NC		30	prep	30	prep	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	3	734	3	740	_	1418	1424	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 32	.	.	PONCT	PONCT		31	ponct	31	ponct	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	3	740	3	741	_	1424	1425	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 "
-"
+"																															
 1	Marie	_	NPP	NPP		3	suj	3	suj	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	3	742	3	747	_	1426	1431	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	1426-1431	_	_	_	_	_	_
 2	se	se	CLR	CLR	n=p,s|p=3	3	aff	3	aff	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	3	748	3	750	_	1432	1434	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 3	réveilla	réveiller	V	V	n=s|t=J|p=3	0	root	0	root	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	3	751	3	759	passeSimple	1435	1443	_	_	_	Err	reveilla	1435-1443	_	_	_	_	_	_	_	_
@@ -336,7 +336,7 @@
 17	histoire	histoire	NC	NC	n=s|g=f	14	obj	14	obj	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	3	820	3	828	_	1504	1512	_	_	_	Err	histoire Depuis	1504-1520	_	_	_	_	_	_	_	_
 18	.	.	PONCT	PONCT		17	ponct	17	ponct	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	3	828	3	829	_	1512	1513	_	_	_	Err	histoire Depuis	1504-1520	_	_	_	_	_	_	_	_
 "
-"
+"																															
 1	Depuis	depuis	P	P		8	mod	8	mod	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	3	830	3	836	_	1514	1520	consigne	_	_	Err	histoire Depuis	1504-1520	_	_	_	_	_	_	_	_
 2	cette	cette	DET	DET	n=s|g=f	3	det	3	det	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	3	837	3	842	_	1521	1526	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
 3	aventure	aventure	NC	NC	n=s|g=f	1	prep	1	prep	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	3	843	3	851	_	1527	1535	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
@@ -350,4 +350,4 @@
 11	nuit	nuit	NC	NC	n=s|g=f	8	obj	8	obj	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	3	884	3	888	_	1568	1572	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
 12	.	.	PONCT	PONCT		11	ponct	11	ponct	CO-3e-2016-VTAC305-D1-R9-V1_N.ac	3	888	3	889	_	1572	1573	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
 "
-"
+"																															
