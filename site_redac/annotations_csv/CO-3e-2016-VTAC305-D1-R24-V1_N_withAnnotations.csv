@@ -479,10 +479,10 @@
 14	au	à	P+D	P+D	n=s|g=m	8	mod	8	mod	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	9	229	9	231	_	1879	1881	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 15	loin	loin	ADV	ADV		8	mod	8	mod	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	9	232	9	236	_	1882	1886	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 16	et	et	CC	CC		8	coord	8	coord	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	9	237	9	239	_	1887	1889	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-17	une	une	DET	DET	n=s|g=f	18	det	18	det	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	9	240	9	243	_	1890	1893	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-18	ombre	ombre	NC	NC	n=s	0	_	0	_	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	9	244	9	249	_	1894	1899	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-19	d'	de	P	P		18	dep	18	dep	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	9	250	9	252	_	1900	1902	_	_	_	_	_	_	_	_	in_GNon_incertDOui_incertRNon	1900-1907	_	_	_	_
-20	homme	homme	NC	NC	n=s|g=m	19	prep	19	prep	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	9	252	9	257	_	1902	1907	_	_	_	_	_	_	_	_	in_GNon_incertDOui_incertRNon	1900-1907	_	_	_	_
+17	une	une	DET	DET	n=s|g=f	18	det	18	det	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	9	240	9	243	_	1890	1893	_	_	_	_	_	_	_	_	in_GNon_incertDOui_incertRNon	1890-1907	_	_	_	_
+18	ombre	ombre	NC	NC	n=s	0	_	0	_	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	9	244	9	249	_	1894	1899	_	_	_	_	_	_	_	_	in_GNon_incertDOui_incertRNon	1890-1907	_	_	_	_
+19	d'	de	P	P		18	dep	18	dep	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	9	250	9	252	_	1900	1902	_	_	_	_	_	_	_	_	in_GNon_incertDOui_incertRNon	1890-1907	_	_	_	_
+20	homme	homme	NC	NC	n=s|g=m	19	prep	19	prep	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	9	252	9	257	_	1902	1907	_	_	_	_	_	_	_	_	in_GNon_incertDOui_incertRNon	1890-1907	_	_	_	_
 21	à	à	P	P		18	dep	18	dep	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	9	258	9	259	_	1908	1909	_	_	_	Err	a	1908-1909	_	_	_	_	_	_	_	_
 22	côté	côté	NC	NC	n=s|g=m	21	prep	21	prep	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	9	260	9	264	_	1910	1914	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 23	.	.	PONCT	PONCT		22	ponct	22	ponct	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	9	264	9	265	_	1914	1915	_	_	_	_	_	_	_	_	_	_	_	_	_	_
@@ -526,18 +526,18 @@
 8	.	.	PONCT	PONCT		7	ponct	7	ponct	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	9	406	9	407	_	2056	2057	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 "
 "
-1	L'	le	DET	DET	n=s	2	det	2	det	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	9	408	9	410	_	2058	2060	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	ombre	ombre	NC	NC	n=s	4	suj	4	suj	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	9	410	9	415	_	2060	2065	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	L'	le	DET	DET	n=s	2	det	2	det	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	9	408	9	410	_	2058	2060	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	2058-2065	_	_	_	_
+2	ombre	ombre	NC	NC	n=s	4	suj	4	suj	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	9	410	9	415	_	2060	2065	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	2058-2065	_	_	_	_
 3	s'	se	CLR	CLR	n=p,s|p=3	4	aff	4	aff	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	9	416	9	418	_	2066	2068	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 4	avança	avancer	V	V	n=s|t=J|p=3	0	root	0	root	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	9	418	9	424	passeSimple	2068	2074	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 5	,	,	PONCT	PONCT		4	ponct	4	ponct	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	9	424	9	425	_	2074	2075	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 6	nous	nous	CLS	CLS	n=p|p=1	7	suj	7	suj	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	9	426	9	430	_	2076	2080	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	renifla	renifler	V	V	n=s|t=J|p=3	4	mod	4	mod	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	9	431	9	438	passeSimple	2081	2088	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	renifla	renifler	V	V	n=s|t=J|p=3	4	mod	4	mod	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	9	431	9	438	passeSimple	2081	2088	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	2081-2088	_	_	_	_
 8	.	.	PONCT	PONCT		7	ponct	7	ponct	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	9	438	9	439	_	2088	2089	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 "
 "
 1	Lorsqu'	lorsque	CS	CS		0	_	0	_	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	9	440	9	447	_	2090	2097	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	elle	elle	CLS	CLS	n=s|g=f|p=3	4	suj	4	suj	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	9	447	9	451	_	2097	2101	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	elle	elle	CLS	CLS	n=s|g=f|p=3	4	suj	4	suj	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	9	447	9	451	_	2097	2101	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	2097-2101	_	_	_	_
 3	s'	se	CLR	CLR	n=p,s|p=3	4	aff	4	aff	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	9	452	9	454	_	2102	2104	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 4	approcha	approcher	V	V	n=s|t=J|p=3	1	sub	1	sub	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	9	454	9	462	passeSimple	2104	2112	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 5	de	de	P	P		4	mod	4	mod	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	9	463	9	465	_	2113	2115	_	_	_	_	_	_	_	_	_	_	_	_	_	_
@@ -551,8 +551,8 @@
 5	d'	de	P	P		2	mod	2	mod	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	10	19	10	21	_	2140	2142	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 6	effroi	effroi	NC	NC	n=s|g=m	5	prep	5	prep	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	10	21	10	27	_	2142	2148	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 7	et	et	CC	CC		2	coord	2	coord	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	10	28	10	30	_	2149	2151	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	l'	le	DET	DET	n=s	9	det	9	det	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	10	31	10	33	_	2152	2154	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-9	ombre	ombre	NC	NC	n=s	11	suj	11	suj	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	10	33	10	38	_	2154	2159	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	l'	le	DET	DET	n=s	9	det	9	det	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	10	31	10	33	_	2152	2154	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	2152-2159	_	_	_	_
+9	ombre	ombre	NC	NC	n=s	11	suj	11	suj	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	10	33	10	38	_	2154	2159	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	2152-2159	_	_	_	_
 10	le	le	CLO	CLO	n=s|g=m|p=3	11	obj	11	obj	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	10	39	10	41	_	2160	2162	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 11	kidnappa	kidnapper	V	V	n=s|t=J|p=3	7	dep_coord	7	dep_coord	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	10	42	10	50	passeSimple	2163	2171	_	_	_	Err	kidnappa Je	2163-2175	_	_	_	_	_	_	_	_
 12	.	.	PONCT	PONCT		11	ponct	11	ponct	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	10	50	10	51	_	2171	2172	_	_	_	Err	kidnappa Je	2163-2175	_	_	_	_	_	_	_	_
@@ -576,8 +576,8 @@
 4	se	se	CLR	CLR	n=p,s|p=3	5	aff	5	aff	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	10	120	10	122	_	2241	2243	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 5	levait	lever	V	V	n=s|t=I|p=3	0	root	0	root	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	10	123	10	129	imparfait	2244	2250	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 6	alors	alors	ADV	ADV		5	mod	5	mod	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	10	130	10	135	_	2251	2256	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	l'	le	DET	DET	n=s	8	det	8	det	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	10	136	10	138	_	2257	2259	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	ombre	ombre	NC	NC	n=s	5	obj	5	obj	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	10	138	10	143	_	2259	2264	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	l'	le	DET	DET	n=s	8	det	8	det	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	10	136	10	138	_	2257	2259	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	2257-2264	_	_	_	_
+8	ombre	ombre	NC	NC	n=s	5	obj	5	obj	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	10	138	10	143	_	2259	2264	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	2257-2264	_	_	_	_
 9	fit	faire	V	V	n=s|t=J|p=3	5	mod	5	mod	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	10	144	10	147	passeSimple	2265	2268	_	_	_	Err	fis	2265-2268	_	_	_	_	_	_	_	_
 10	demi-tour	demi-tour	NC	NC	n=s|g=m	9	obj	9	obj	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	10	148	10	157	_	2269	2278	_	_	_	Err	demi tour	2269-2278	_	_	_	_	_	_	_	_
 11	.	.	PONCT	PONCT		10	ponct	10	ponct	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	10	157	10	158	_	2278	2279	_	_	_	_	_	_	_	_	_	_	_	_	_	_
@@ -592,8 +592,8 @@
 7	des	des	DET	DET	n=p	8	det	8	det	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	10	186	10	189	_	2307	2310	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 8	recherches	recherche	NC	NC	n=p|g=f	6	obj	6	obj	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	10	190	10	200	_	2311	2321	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 9	sur	sur	P	P		6	mod	6	mod	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	10	201	10	204	_	2322	2325	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-10	cette	cette	DET	DET	n=s|g=f	11	det	11	det	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	10	205	10	210	_	2326	2331	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-11	ombre	ombre	NC	NC	n=s	9	prep	9	prep	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	10	211	10	216	_	2332	2337	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	cette	cette	DET	DET	n=s|g=f	11	det	11	det	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	10	205	10	210	_	2326	2331	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	2326-2337	_	_	_	_
+11	ombre	ombre	NC	NC	n=s	9	prep	9	prep	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	10	211	10	216	_	2332	2337	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	2326-2337	_	_	_	_
 12	.	.	PONCT	PONCT		11	ponct	11	ponct	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	10	216	10	217	_	2337	2338	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 "
 "
@@ -601,9 +601,9 @@
 2	s'	se	CLR	CLR	n=p,s|p=3	3	aff	3	aff	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	10	221	10	223	_	2342	2344	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 3	agissait	agir	V	V	n=s|t=I|p=3	0	root	0	root	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	10	223	10	231	imparfait	2344	2352	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 4	d'	de	P	P		3	mod	3	mod	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	10	232	10	234	_	2353	2355	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	une	une	DET	DET	n=s|g=f	6	det	6	det	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	10	234	10	237	_	2355	2358	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	âme	âme	NC	NC	n=s|g=f	4	prep	4	prep	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	10	238	10	241	_	2359	2362	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	qui	qui	PROREL	PROREL	n=s	9	suj	9	suj	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	10	242	10	245	_	2363	2366	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	une	une	DET	DET	n=s|g=f	6	det	6	det	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	10	234	10	237	_	2355	2358	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	2355-2362	_	_	_	_
+6	âme	âme	NC	NC	n=s|g=f	4	prep	4	prep	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	10	238	10	241	_	2359	2362	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	2355-2362	_	_	_	_
+7	qui	qui	PROREL	PROREL	n=s	9	suj	9	suj	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	10	242	10	245	_	2363	2366	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	2363-2366	_	_	_	_
 8	se	se	CLR	CLR	n=p,s|p=3	9	aff	9	aff	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	10	246	10	248	_	2367	2369	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 9	nourrissait	nourrir	V	V	n=s|t=I|p=3	6	mod_rel	6	mod_rel	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	10	249	10	260	imparfait	2370	2381	_	_	_	Err	nourissait	2370-2381	_	_	_	_	_	_	_	_
 10	de	de	P	P		9	mod	9	mod	CO-3e-2016-VTAC305-D1-R24-V1_N.ac	10	261	10	263	_	2382	2384	_	_	_	_	_	_	_	_	_	_	_	_	_	_

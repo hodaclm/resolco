@@ -80,8 +80,8 @@
 11	prit	prendre	V	V	n=s|t=J|p=3	3	mod	3	mod	CO-3e-2016-VTAC305-D1-R14-V1_N.ac	5	104	5	108	passeSimple	362	366	_	_	_	Err	pris	362-366	_	_	_	_	_	_	_	_
 12	peur	peur	NC	NC	n=s|g=f	11	obj	11	obj	CO-3e-2016-VTAC305-D1-R14-V1_N.ac	5	109	5	113	_	367	371	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 13	et	et	CC	CC		11	coord	11	coord	CO-3e-2016-VTAC305-D1-R14-V1_N.ac	5	114	5	116	_	372	374	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-14	voulut	vouloir	V	V	n=s|t=J|p=3	13	dep_coord	13	dep_coord	CO-3e-2016-VTAC305-D1-R14-V1_N.ac	5	117	5	123	passeSimple	375	381	_	_	_	Err	voulu	375-381	is_GNon_incertDNon_incertRNon	375-381	_	_	_	_	_	_
-15	partir	partir	VINF	VINF	t=W	14	obj	14	obj	CO-3e-2016-VTAC305-D1-R14-V1_N.ac	5	124	5	130	_	382	388	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	voulut	vouloir	V	V	n=s|t=J|p=3	13	dep_coord	13	dep_coord	CO-3e-2016-VTAC305-D1-R14-V1_N.ac	5	117	5	123	passeSimple	375	381	_	_	_	Err	voulu	375-381	in_GNon_incertDNon_incertRNon	375-388	_	_	_	_	_	_
+15	partir	partir	VINF	VINF	t=W	14	obj	14	obj	CO-3e-2016-VTAC305-D1-R14-V1_N.ac	5	124	5	130	_	382	388	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	375-388	_	_	_	_	_	_
 16	.	.	PONCT	PONCT		15	ponct	15	ponct	CO-3e-2016-VTAC305-D1-R14-V1_N.ac	5	130	5	131	_	388	389	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 "
 "
@@ -152,8 +152,8 @@
 2	cette	cette	DET	DET	n=s|g=f	3	det	3	det	CO-3e-2016-VTAC305-D1-R14-V1_N.ac	7	87	7	92	_	641	646	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
 3	aventure	aventure	NC	NC	n=s|g=f	1	prep	1	prep	CO-3e-2016-VTAC305-D1-R14-V1_N.ac	7	93	7	101	_	647	655	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
 4	,	,	PONCT	PONCT		3	ponct	3	ponct	CO-3e-2016-VTAC305-D1-R14-V1_N.ac	7	101	7	102	_	655	656	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	les	les	DET	DET	n=p	6	det	6	det	CO-3e-2016-VTAC305-D1-R14-V1_N.ac	7	103	7	106	_	657	660	consigne	_	_	_	_	_	in_GOui_incertDNon_incertROui	657-668	_	_	in_GNon_incertDNon_incertRNon	657-668	_	_
-6	enfants	enfant	NC	NC	n=p	8	suj	8	suj	CO-3e-2016-VTAC305-D1-R14-V1_N.ac	7	107	7	114	_	661	668	consigne	_	_	_	_	_	in_GOui_incertDNon_incertROui	657-668	_	_	in_GNon_incertDNon_incertRNon	657-668	_	_
+5	les	les	DET	DET	n=p	6	det	6	det	CO-3e-2016-VTAC305-D1-R14-V1_N.ac	7	103	7	106	_	657	660	consigne	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	657-668	_	_
+6	enfants	enfant	NC	NC	n=p	8	suj	8	suj	CO-3e-2016-VTAC305-D1-R14-V1_N.ac	7	107	7	114	_	661	668	consigne	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	657-668	_	_
 7	ne	ne	ADV	ADV		8	mod	8	mod	CO-3e-2016-VTAC305-D1-R14-V1_N.ac	7	115	7	117	_	669	671	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
 8	sortent	sortir	V	V	n=p|t=P,S|p=3	0	root	0	root	CO-3e-2016-VTAC305-D1-R14-V1_N.ac	7	118	7	125	present	672	679	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
 9	plus	plus	ADV	ADV		8	mod	8	mod	CO-3e-2016-VTAC305-D1-R14-V1_N.ac	7	126	7	130	_	680	684	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_

@@ -266,14 +266,14 @@
 15	.	.	PONCT	PONCT		14	ponct	14	ponct	CO-3e-2016-VTAC305-D1-R7-V1_N.ac	1	1184	1	1185	_	1184	1185	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 "
 "
-1	Peter	Peter	NPP	NPP	n=s|g=m	3	suj	3	suj	CO-3e-2016-VTAC305-D1-R7-V1_N.ac	1	1186	1	1191	_	1186	1191	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	1186-1191	_	_	_	_
-2	se	se	CLR	CLR	n=p,s|p=3	3	aff	3	aff	CO-3e-2016-VTAC305-D1-R7-V1_N.ac	1	1192	1	1194	_	1192	1194	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	retourna	retourner	V	V	n=s|t=J|p=3	0	root	0	root	CO-3e-2016-VTAC305-D1-R7-V1_N.ac	1	1195	1	1203	passeSimple	1195	1203	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	en	en	P	P		3	mod	3	mod	CO-3e-2016-VTAC305-D1-R7-V1_N.ac	1	1204	1	1206	_	1204	1206	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	entendant	entendre	VPR	VPR	t=G	4	prep	4	prep	CO-3e-2016-VTAC305-D1-R7-V1_N.ac	1	1207	1	1216	_	1207	1216	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	ce	ce	DET	DET	n=s|g=m	8	det	8	det	CO-3e-2016-VTAC305-D1-R7-V1_N.ac	1	1217	1	1219	_	1217	1219	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	grand	grand	ADJ	ADJ	n=s|g=m	8	mod	8	mod	CO-3e-2016-VTAC305-D1-R7-V1_N.ac	1	1220	1	1225	_	1220	1225	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	bruit	bruit	NC	NC	n=s|g=m	5	obj	5	obj	CO-3e-2016-VTAC305-D1-R7-V1_N.ac	1	1226	1	1231	_	1226	1231	_	_	_	Err	bruit Il	1226-1235	_	_	_	_	_	_	_	_
+1	Peter	Peter	NPP	NPP	n=s|g=m	3	suj	3	suj	CO-3e-2016-VTAC305-D1-R7-V1_N.ac	1	1186	1	1191	_	1186	1191	consigne	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	1186-1191	_	_	_	_
+2	se	se	CLR	CLR	n=p,s|p=3	3	aff	3	aff	CO-3e-2016-VTAC305-D1-R7-V1_N.ac	1	1192	1	1194	_	1192	1194	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	retourna	retourner	V	V	n=s|t=J|p=3	0	root	0	root	CO-3e-2016-VTAC305-D1-R7-V1_N.ac	1	1195	1	1203	passeSimple	1195	1203	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	en	en	P	P		3	mod	3	mod	CO-3e-2016-VTAC305-D1-R7-V1_N.ac	1	1204	1	1206	_	1204	1206	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	entendant	entendre	VPR	VPR	t=G	4	prep	4	prep	CO-3e-2016-VTAC305-D1-R7-V1_N.ac	1	1207	1	1216	_	1207	1216	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	ce	ce	DET	DET	n=s|g=m	8	det	8	det	CO-3e-2016-VTAC305-D1-R7-V1_N.ac	1	1217	1	1219	_	1217	1219	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	grand	grand	ADJ	ADJ	n=s|g=m	8	mod	8	mod	CO-3e-2016-VTAC305-D1-R7-V1_N.ac	1	1220	1	1225	_	1220	1225	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	bruit	bruit	NC	NC	n=s|g=m	5	obj	5	obj	CO-3e-2016-VTAC305-D1-R7-V1_N.ac	1	1226	1	1231	_	1226	1231	consigne	_	_	Err	bruit Il	1226-1235	_	_	_	_	_	_	_	_
 9	.	.	PONCT	PONCT		8	ponct	8	ponct	CO-3e-2016-VTAC305-D1-R7-V1_N.ac	1	1231	1	1232	_	1231	1232	_	_	_	Err	bruit Il	1226-1235	_	_	_	_	_	_	_	_
 "
 "

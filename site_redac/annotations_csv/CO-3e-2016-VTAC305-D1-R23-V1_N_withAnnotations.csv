@@ -67,8 +67,8 @@
 3	plus	plus	ADV	ADV		6	mod	6	mod	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	1	314	1	318	_	314	318	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 4	tard	tard	ADV	ADV		6	mod	6	mod	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	1	319	1	323	_	319	323	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 5	toujours	toujours	ADV	ADV		6	mod	6	mod	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	1	324	1	332	_	324	332	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	pas	pas	ADV	ADV		7	mod	7	mod	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	1	333	1	336	_	333	336	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	rentrée	rentrer	VPP	VPP	n=s|g=f|t=K	2	mod	2	mod	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	1	337	1	344	_	337	344	_	_	_	Err	rentrè	337-344	is_GNon_incertDNon_incertRNon	337-344	_	_	_	_	_	_
+6	pas	pas	ADV	ADV		7	mod	7	mod	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	1	333	1	336	_	333	336	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	333-344	_	_	_	_	_	_
+7	rentrée	rentrer	VPP	VPP	n=s|g=f|t=K	2	mod	2	mod	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	1	337	1	344	_	337	344	_	_	_	Err	rentrè	337-344	in_GNon_incertDNon_incertRNon	333-344	_	_	_	_	_	_
 8	,	,	PONCT	PONCT		7	ponct	7	ponct	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	1	344	1	345	_	344	345	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 9	soudain	soudain	ADV	ADV		7	mod	7	mod	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	1	346	1	353	_	346	353	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 10	un	un	DET	DET	n=s|g=m	11	det	11	det	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	1	354	1	356	_	354	356	_	_	_	_	_	_	_	_	_	_	_	_	_	_
@@ -101,9 +101,9 @@
 37	Valentin	Valentin	NPP	NPP	n=s|g=m	35	mod	35	mod	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	1	485	1	493	_	485	493	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	471-493	_	_	_	_
 38	pour	pour	P	P		31	mod	31	mod	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	1	494	1	498	_	494	498	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 39	garder	garder	VINF	VINF	t=W	38	prep	38	prep	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	1	499	1	505	_	499	505	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-40	son	son	DET	DET	n=s|g=m|p=3|poss=s	41	det	41	det	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	1	506	1	509	_	506	509	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	506-509	is_GNon_incertDNon_incertRNon	506-509	_	_	_	_
-41	frère	frère	NC	NC	n=s|g=m	39	obj	39	obj	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	1	510	1	515	_	510	515	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-42	Alexandre	Alexandre	NPP	NPP	n=s|g=m	41	mod	41	mod	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	1	516	1	525	_	516	525	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+40	son	son	DET	DET	n=s|g=m|p=3|poss=s	41	det	41	det	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	1	506	1	509	_	506	509	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	506-509	is_GNon_incertDNon_incertRNon	506-509	_	_	in_GNon_incertDNon_incertRNon	506-525
+41	frère	frère	NC	NC	n=s|g=m	39	obj	39	obj	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	1	510	1	515	_	510	515	_	_	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	506-525
+42	Alexandre	Alexandre	NPP	NPP	n=s|g=m	41	mod	41	mod	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	1	516	1	525	_	516	525	_	_	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	506-525
 43	.	.	PONCT	PONCT		42	ponct	42	ponct	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	1	525	1	526	_	525	526	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 "
 "
@@ -130,7 +130,7 @@
 9	Valentin	Valentin	NPP	NPP	n=s|g=m	8	mod	8	mod	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	1	625	1	633	_	625	633	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	625-633	_	_	_	_
 10	va	aller	V	V	n=s|t=P|p=3	0	_	0	_	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	1	634	1	636	present	634	636	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 11	coucher	coucher	VINF	VINF	t=W	10	obj	10	obj	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	1	637	1	644	_	637	644	_	_	_	Err	couchè	637-644	_	_	_	_	_	_	_	_
-12	Alexandre	Alexandre	NPP	NPP	n=s|g=m	11	obj	11	obj	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	1	645	1	654	_	645	654	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	Alexandre	Alexandre	NPP	NPP	n=s|g=m	11	obj	11	obj	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	1	645	1	654	_	645	654	_	_	_	_	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	645-654
 13	.	.	PONCT	PONCT		12	ponct	12	ponct	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	1	654	1	655	_	654	655	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 "
 "
@@ -226,8 +226,8 @@
 2	ce	ce	DET	DET	n=s|g=m	3	det	3	det	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	3	61	3	63	_	1012	1014	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 3	bruit	bruit	NC	NC	n=s|g=m	4	suj	4	suj	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	3	64	3	69	_	1015	1020	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 4	réveilla	réveiller	V	V	n=s|t=J|p=3	1	dep_coord	1	dep_coord	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	3	70	3	78	passeSimple	1021	1029	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	Alexandre	Alexandre	NPP	NPP	n=s|g=m	4	obj	4	obj	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	3	79	3	88	_	1030	1039	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	qui	qui	PROREL	PROREL	n=s	0	_	0	_	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	3	89	3	92	_	1040	1043	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Alexandre	Alexandre	NPP	NPP	n=s|g=m	4	obj	4	obj	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	3	79	3	88	_	1030	1039	_	_	_	_	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	1030-1039
+6	qui	qui	PROREL	PROREL	n=s	0	_	0	_	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	3	89	3	92	_	1040	1043	_	_	_	_	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	1040-1043
 7	vit	vivre	V	V	n=s|t=P|p=3	0	_	0	_	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	3	93	3	96	present	1044	1047	_	_	_	Err	vue	1044-1047	_	_	_	_	_	_	_	_
 8	Valentin	Valentin	NPP	NPP	n=s|g=m	7	suj	7	suj	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	3	97	3	105	_	1048	1056	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	1048-1056	_	_	_	_
 9	en	en	P	P		7	mod	7	mod	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	3	106	3	108	_	1057	1059	_	_	_	_	_	_	_	_	_	_	_	_	_	_
@@ -235,7 +235,7 @@
 11	de	de	P	P		7	mod	7	mod	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	3	115	3	117	_	1066	1068	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 12	rentrer	rentrer	VINF	VINF	t=W	11	prep	11	prep	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	3	118	3	125	_	1069	1076	_	_	_	Err	rentrè	1069-1076	_	_	_	_	_	_	_	_
 13	et	et	CC	CC		7	coord	7	coord	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	3	126	3	128	_	1077	1079	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-14	le	le	CLO	CLO	n=s|g=m|p=3	15	obj	15	obj	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	3	129	3	131	_	1080	1082	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	le	le	CLO	CLO	n=s|g=m|p=3	15	obj	15	obj	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	3	129	3	131	_	1080	1082	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	1080-1082	_	_	_	_
 15	questionna	questionner	V	V	n=s|t=J|p=3	13	dep_coord	13	dep_coord	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	3	132	3	142	passeSimple	1083	1093	_	_	_	Err	questiona	1083-1093	_	_	_	_	_	_	_	_
 16	:	:	PONCT	PONCT		15	ponct	15	ponct	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	3	143	3	144	_	1094	1095	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 "
@@ -250,9 +250,9 @@
 2	suis	être	V	V	n=s|t=P|p=1	3	aux_tps	3	aux_tps	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	5	7	5	11	present	1117	1121	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 3	sorti	sortir	VPP	VPP	n=s|g=m|t=K	0	root	0	root	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	5	12	5	17	_	1122	1127	_	_	_	Err	sortie	1122-1127	_	_	_	_	_	_	_	_
 4	,	,	PONCT	PONCT		3	ponct	3	ponct	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	5	17	5	18	_	1127	1128	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	ne	ne	ADV	ADV		3	mod	3	mod	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	5	19	5	21	_	1129	1131	_	_	_	Err	dit	1129-1135	_	_	_	_	_	_	_	_
-6	dis	dire	V	V	n=s|t=J,P|p=1,2	3	mod	3	mod	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	5	22	5	25	present	1132	1135	_	_	_	Err	dit	1129-1135	_	_	_	_	_	_	_	_
-7	rien	rien	PRO	PRO	n=s|g=m	6	obj	6	obj	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	5	26	5	30	_	1136	1140	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	ne	ne	ADV	ADV		3	mod	3	mod	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	5	19	5	21	_	1129	1131	_	_	_	Err	dit	1129-1135	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1129-1140
+6	dis	dire	V	V	n=s|t=J,P|p=1,2	3	mod	3	mod	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	5	22	5	25	present	1132	1135	_	_	_	Err	dit	1129-1135	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1129-1140
+7	rien	rien	PRO	PRO	n=s|g=m	6	obj	6	obj	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	5	26	5	30	_	1136	1140	_	_	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1129-1140
 8	à	à	P	P		6	mod	6	mod	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	5	31	5	32	_	1141	1142	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 9	maman	maman	NC	NC	n=s|g=f	8	prep	8	prep	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	5	33	5	38	_	1143	1148	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	1143-1148	_	_	_	_	_	_
 10	.	.	PONCT	PONCT		9	ponct	9	ponct	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	5	38	5	39	_	1148	1149	_	_	_	_	_	_	_	_	_	_	_	_	_	_
@@ -264,7 +264,7 @@
 4	,	,	PONCT	PONCT		3	ponct	3	ponct	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	6	16	6	17	_	1164	1165	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 5	mais	mais	CC	CC		3	coord	3	coord	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	6	18	6	22	_	1166	1170	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 6	alors	alors	ADV	ADV		8	mod	8	mod	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	6	23	6	28	_	1171	1176	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	laisse-moi	_	ADV	ADV		8	mod	8	mod	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	6	29	6	39	_	1177	1187	_	_	_	Err	laisse moi	1177-1187	_	_	GNon_incertDNon_incertRNon	1177-1183	_	_	_	_
+7	laisse-moi	_	ADV	ADV		8	mod	8	mod	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	6	29	6	39	_	1177	1187	_	_	_	Err	laisse moi	1177-1187	_	_	GNon_incertDNon_incertRNon	1177-1183	_	_	GNon_incertDNon_incertRNon	1184-1187
 8	regarder	regarder	VINF	VINF	t=W	5	dep_coord	5	dep_coord	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	6	40	6	48	_	1188	1196	_	_	_	Err	regardè	1188-1196	_	_	_	_	_	_	_	_
 9	la	la	DET	DET	n=s|g=f	10	det	10	det	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	6	49	6	51	_	1197	1199	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 10	télé	télé	NC	NC	n=s|g=f	8	obj	8	obj	CO-3e-2016-VTAC305-D1-R23-V1_N.ac	6	52	6	56	_	1200	1204	_	_	_	Err	télé	1200-1205	_	_	_	_	_	_	_	_

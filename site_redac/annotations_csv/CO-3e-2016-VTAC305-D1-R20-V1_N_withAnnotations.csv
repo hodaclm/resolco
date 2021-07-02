@@ -1,7 +1,7 @@
-1	Lou	Lou	NPP	NPP	n=s	5	suj	5	suj	CO-3e-2016-VTAC305-D1-R20-V1_N.ac	1	5	1	8	_	5	8	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	5-8	_	_	_	_	_	_
-2	et	et	CC	CC		1	coord	1	coord	CO-3e-2016-VTAC305-D1-R20-V1_N.ac	1	9	1	11	_	9	11	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	sa	sa	DET	DET	n=s|g=f|p=3|poss=s	4	det	4	det	CO-3e-2016-VTAC305-D1-R20-V1_N.ac	1	12	1	14	_	12	14	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	12-14	_	_	_	_	_	_
-4	famille	famille	NC	NC	n=s|g=f	2	dep_coord	2	dep_coord	CO-3e-2016-VTAC305-D1-R20-V1_N.ac	1	15	1	22	_	15	22	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Lou	Lou	NPP	NPP	n=s	5	suj	5	suj	CO-3e-2016-VTAC305-D1-R20-V1_N.ac	1	5	1	8	_	5	8	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	5-8	_	_	in_GOui_incertDNon_incertRNon	5-22	_	_
+2	et	et	CC	CC		1	coord	1	coord	CO-3e-2016-VTAC305-D1-R20-V1_N.ac	1	9	1	11	_	9	11	_	_	_	_	_	_	_	_	_	_	in_GOui_incertDNon_incertRNon	5-22	_	_
+3	sa	sa	DET	DET	n=s|g=f|p=3|poss=s	4	det	4	det	CO-3e-2016-VTAC305-D1-R20-V1_N.ac	1	12	1	14	_	12	14	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	12-14	in_GOui_incertDNon_incertRNon	12-22	in_GOui_incertDNon_incertRNon	5-22	_	_
+4	famille	famille	NC	NC	n=s|g=f	2	dep_coord	2	dep_coord	CO-3e-2016-VTAC305-D1-R20-V1_N.ac	1	15	1	22	_	15	22	_	_	_	_	_	_	_	_	in_GOui_incertDNon_incertRNon	12-22	in_GOui_incertDNon_incertRNon	5-22	_	_
 5	vivaient	vivre	V	V	n=p|t=I|p=3	0	root	0	root	CO-3e-2016-VTAC305-D1-R20-V1_N.ac	1	23	1	31	imparfait	23	31	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 6	à	à	P	P		5	mod	5	mod	CO-3e-2016-VTAC305-D1-R20-V1_N.ac	1	32	1	33	_	32	33	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 7	la	la	DET	DET	n=s|g=f	8	det	8	det	CO-3e-2016-VTAC305-D1-R20-V1_N.ac	1	34	1	36	_	34	36	_	_	_	_	_	_	_	_	_	_	_	_	_	_
@@ -183,10 +183,10 @@
 19	.	.	PONCT	PONCT		18	ponct	18	ponct	CO-3e-2016-VTAC305-D1-R20-V1_N.ac	3	437	3	438	_	896	897	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 "
 "
-1	Légèrement	_	ADV	ADV		2	mod	2	mod	CO-3e-2016-VTAC305-D1-R20-V1_N.ac	3	439	3	449	_	898	908	_	_	_	_	_	_	_	_	in_GNon_incertDOui_incertRNon	898-919	_	_	_	_
-2	énervé	énerver	VPP	VPP	n=s|g=m|t=K	5	mod	5	mod	CO-3e-2016-VTAC305-D1-R20-V1_N.ac	3	450	3	456	_	909	915	_	_	_	_	_	_	_	_	in_GNon_incertDOui_incertRNon	898-919	_	_	_	_
-3	,	,	PONCT	PONCT		2	ponct	2	ponct	CO-3e-2016-VTAC305-D1-R20-V1_N.ac	3	456	3	457	_	915	916	_	_	_	_	_	_	_	_	in_GNon_incertDOui_incertRNon	898-919	_	_	_	_
-4	il	il	CLS	CLS	n=s|g=m|p=3	5	suj	5	suj	CO-3e-2016-VTAC305-D1-R20-V1_N.ac	3	458	3	460	_	917	919	_	_	_	_	_	_	_	_	in_GNon_incertDOui_incertRNon	898-919	_	_	_	_
+1	Légèrement	_	ADV	ADV		2	mod	2	mod	CO-3e-2016-VTAC305-D1-R20-V1_N.ac	3	439	3	449	_	898	908	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	898-919	_	_	_	_
+2	énervé	énerver	VPP	VPP	n=s|g=m|t=K	5	mod	5	mod	CO-3e-2016-VTAC305-D1-R20-V1_N.ac	3	450	3	456	_	909	915	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	898-919	_	_	_	_
+3	,	,	PONCT	PONCT		2	ponct	2	ponct	CO-3e-2016-VTAC305-D1-R20-V1_N.ac	3	456	3	457	_	915	916	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	898-919	_	_	_	_
+4	il	il	CLS	CLS	n=s|g=m|p=3	5	suj	5	suj	CO-3e-2016-VTAC305-D1-R20-V1_N.ac	3	458	3	460	_	917	919	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	898-919	_	_	_	_
 5	sort	sortir	V	V	n=s|t=P|p=3	0	root	0	root	CO-3e-2016-VTAC305-D1-R20-V1_N.ac	3	461	3	465	present	920	924	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 6	en	en	P	P		5	mod	5	mod	CO-3e-2016-VTAC305-D1-R20-V1_N.ac	3	466	3	468	_	925	927	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 7	essayant	essayer	VPR	VPR	t=G	6	prep	6	prep	CO-3e-2016-VTAC305-D1-R20-V1_N.ac	3	469	3	477	_	928	936	_	_	_	_	_	_	_	_	_	_	_	_	_	_
@@ -263,7 +263,7 @@
 1	Par	par	P	P		8	mod	8	mod	CO-3e-2016-VTAC305-D1-R20-V1_N.ac	4	221	4	224	_	1213	1216	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 2	chance	chance	NC	NC	n=s|g=f	1	prep	1	prep	CO-3e-2016-VTAC305-D1-R20-V1_N.ac	4	225	4	231	_	1217	1223	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 3	,	,	PONCT	PONCT		2	ponct	2	ponct	CO-3e-2016-VTAC305-D1-R20-V1_N.ac	4	231	4	232	_	1223	1224	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	leur	leur	DET	DET	n=s|p=3|poss=p	5	det	5	det	CO-3e-2016-VTAC305-D1-R20-V1_N.ac	4	233	4	237	_	1225	1229	_	_	_	_	_	_	is_GOui_incertDNon_incertRNon	1225-1229	is_GOui_incertDNon_incertRNon	1225-1229	is_GNon_incertDNon_incertRNon	1225-1229	_	_
+4	leur	leur	DET	DET	n=s|p=3|poss=p	5	det	5	det	CO-3e-2016-VTAC305-D1-R20-V1_N.ac	4	233	4	237	_	1225	1229	_	_	_	_	_	_	is_GOui_incertDNon_incertRNon	1225-1229	is_GOui_incertDNon_incertRNon	1225-1229	_	_	_	_
 5	oncle	oncle	NC	NC	n=s|g=m	8	suj	8	suj	CO-3e-2016-VTAC305-D1-R20-V1_N.ac	4	238	4	243	_	1230	1235	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 6	,	,	PONCT	PONCT		5	ponct	5	ponct	CO-3e-2016-VTAC305-D1-R20-V1_N.ac	4	243	4	244	_	1235	1236	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 7	chasseur	chasseur	NC	NC	n=s|g=m	5	mod	5	mod	CO-3e-2016-VTAC305-D1-R20-V1_N.ac	4	245	4	253	_	1237	1245	_	_	_	_	_	_	_	_	_	_	_	_	_	_
@@ -279,8 +279,8 @@
 2	cette	cette	DET	DET	n=s|g=f	3	det	3	det	CO-3e-2016-VTAC305-D1-R20-V1_N.ac	4	283	4	288	_	1275	1280	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
 3	aventure	aventure	NC	NC	n=s|g=f	1	prep	1	prep	CO-3e-2016-VTAC305-D1-R20-V1_N.ac	4	289	4	297	_	1281	1289	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
 4	,	,	PONCT	PONCT		3	ponct	3	ponct	CO-3e-2016-VTAC305-D1-R20-V1_N.ac	4	297	4	298	_	1289	1290	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	les	les	DET	DET	n=p	6	det	6	det	CO-3e-2016-VTAC305-D1-R20-V1_N.ac	4	299	4	302	_	1291	1294	consigne	_	_	_	_	_	in_GOui_incertDNon_incertRNon	1291-1302	in_GOui_incertDNon_incertRNon	1291-1302	in_GNon_incertDNon_incertRNon	1291-1302	_	_
-6	enfants	enfant	NC	NC	n=p	8	suj	8	suj	CO-3e-2016-VTAC305-D1-R20-V1_N.ac	4	303	4	310	_	1295	1302	consigne	_	_	_	_	_	in_GOui_incertDNon_incertRNon	1291-1302	in_GOui_incertDNon_incertRNon	1291-1302	in_GNon_incertDNon_incertRNon	1291-1302	_	_
+5	les	les	DET	DET	n=p	6	det	6	det	CO-3e-2016-VTAC305-D1-R20-V1_N.ac	4	299	4	302	_	1291	1294	consigne	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1291-1302	_	_
+6	enfants	enfant	NC	NC	n=p	8	suj	8	suj	CO-3e-2016-VTAC305-D1-R20-V1_N.ac	4	303	4	310	_	1295	1302	consigne	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1291-1302	_	_
 7	ne	ne	ADV	ADV		8	mod	8	mod	CO-3e-2016-VTAC305-D1-R20-V1_N.ac	4	311	4	313	_	1303	1305	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
 8	sortent	sortir	V	V	n=p|t=P,S|p=3	0	root	0	root	CO-3e-2016-VTAC305-D1-R20-V1_N.ac	4	314	4	321	present	1306	1313	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
 9	plus	plus	ADV	ADV		8	mod	8	mod	CO-3e-2016-VTAC305-D1-R20-V1_N.ac	4	322	4	326	_	1314	1318	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_

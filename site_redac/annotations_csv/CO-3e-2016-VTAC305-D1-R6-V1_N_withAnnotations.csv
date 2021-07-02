@@ -17,19 +17,19 @@
 17	vieille	vieux	ADJ	ADJ	n=s|g=f	18	mod	18	mod	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	1	80	1	87	_	80	87	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	76-92	_	_	_	_	_	_
 18	dame	dame	NC	NC	n=s|g=f	15	prep	15	prep	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	1	88	1	92	_	88	92	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	76-92	_	_	_	_	_	_
 19	et	et	CC	CC		14	coord	14	coord	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	1	93	1	95	_	93	95	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-20	deux	deux	DET	DET	s=card|n=p	21	det	21	det	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	1	96	1	100	_	96	100	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	96-158	_	_
-21	enfants	enfant	NC	NC	n=p	0	_	0	_	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	1	101	1	108	_	101	108	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	96-158	_	_
-22	,	,	PONCT	PONCT		21	ponct	21	ponct	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	1	108	1	109	_	108	109	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	96-158	_	_
-23	Marine	Marine	NPP	NPP	n=s|g=f	21	mod	21	mod	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	1	110	1	116	_	110	116	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	96-158	_	_
-24	,	,	PONCT	PONCT		23	ponct	23	ponct	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	1	116	1	117	_	116	117	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	96-158	_	_
-25	la	la	DET	DET	n=s|g=f	26	det	26	det	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	1	118	1	120	_	118	120	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	96-158	_	_
-26	fille	fille	NC	NC	n=s|g=f	21	mod	21	mod	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	1	121	1	126	_	121	126	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	96-158	_	_
-27	aînée	aîné	ADJ	ADJ	n=s|g=f	26	mod	26	mod	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	1	127	1	132	_	127	132	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	96-158	_	_
-28	et	et	CC	CC		21	coord	21	coord	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	1	133	1	135	_	133	135	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	96-158	_	_
-29	Maxime	_	V	V		28	dep_coord	28	dep_coord	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	1	136	1	142	autreTemps	136	142	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	136-142	in_GNon_incertDNon_incertRNon	96-158	_	_
-30	son	son	DET	DET	n=s|g=m|p=3|poss=s	32	det	32	det	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	1	143	1	146	_	143	146	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	96-158	_	_
-31	petit	petit	ADJ	ADJ	n=s|g=m	32	mod	32	mod	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	1	147	1	152	_	147	152	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	96-158	_	_
-32	frère	frère	NC	NC	n=s|g=m	29	obj	29	obj	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	1	153	1	158	_	153	158	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	96-158	_	_
+20	deux	deux	DET	DET	s=card|n=p	21	det	21	det	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	1	96	1	100	_	96	100	_	_	_	_	_	_	_	_	in_GOui_incertDOui_incertRNon	96-158	in_GNon_incertDNon_incertRNon	96-158	_	_
+21	enfants	enfant	NC	NC	n=p	0	_	0	_	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	1	101	1	108	_	101	108	_	_	_	_	_	_	_	_	in_GOui_incertDOui_incertRNon	96-158	in_GNon_incertDNon_incertRNon	96-158	_	_
+22	,	,	PONCT	PONCT		21	ponct	21	ponct	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	1	108	1	109	_	108	109	_	_	_	_	_	_	_	_	in_GOui_incertDOui_incertRNon	96-158	in_GNon_incertDNon_incertRNon	96-158	_	_
+23	Marine	Marine	NPP	NPP	n=s|g=f	21	mod	21	mod	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	1	110	1	116	_	110	116	_	_	_	_	_	_	_	_	in_GOui_incertDOui_incertRNon	96-158	in_GNon_incertDNon_incertRNon	96-158	_	_
+24	,	,	PONCT	PONCT		23	ponct	23	ponct	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	1	116	1	117	_	116	117	_	_	_	_	_	_	_	_	in_GOui_incertDOui_incertRNon	96-158	in_GNon_incertDNon_incertRNon	96-158	_	_
+25	la	la	DET	DET	n=s|g=f	26	det	26	det	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	1	118	1	120	_	118	120	_	_	_	_	_	_	_	_	in_GOui_incertDOui_incertRNon	96-158	in_GNon_incertDNon_incertRNon	96-158	_	_
+26	fille	fille	NC	NC	n=s|g=f	21	mod	21	mod	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	1	121	1	126	_	121	126	_	_	_	_	_	_	_	_	in_GOui_incertDOui_incertRNon	96-158	in_GNon_incertDNon_incertRNon	96-158	_	_
+27	aînée	aîné	ADJ	ADJ	n=s|g=f	26	mod	26	mod	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	1	127	1	132	_	127	132	_	_	_	_	_	_	_	_	in_GOui_incertDOui_incertRNon	96-158	in_GNon_incertDNon_incertRNon	96-158	_	_
+28	et	et	CC	CC		21	coord	21	coord	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	1	133	1	135	_	133	135	_	_	_	_	_	_	_	_	in_GOui_incertDOui_incertRNon	96-158	in_GNon_incertDNon_incertRNon	96-158	_	_
+29	Maxime	_	V	V		28	dep_coord	28	dep_coord	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	1	136	1	142	autreTemps	136	142	_	_	_	_	_	_	_	_	in_GOui_incertDOui_incertRNon	96-158	in_GNon_incertDNon_incertRNon	96-158	_	_
+30	son	son	DET	DET	n=s|g=m|p=3|poss=s	32	det	32	det	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	1	143	1	146	_	143	146	_	_	_	_	_	_	_	_	in_GOui_incertDOui_incertRNon	96-158	in_GNon_incertDNon_incertRNon	96-158	_	_
+31	petit	petit	ADJ	ADJ	n=s|g=m	32	mod	32	mod	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	1	147	1	152	_	147	152	_	_	_	_	_	_	_	_	in_GOui_incertDOui_incertRNon	96-158	in_GNon_incertDNon_incertRNon	96-158	_	_
+32	frère	frère	NC	NC	n=s|g=m	29	obj	29	obj	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	1	153	1	158	_	153	158	_	_	_	_	_	_	_	_	in_GOui_incertDOui_incertRNon	96-158	in_GNon_incertDNon_incertRNon	96-158	_	_
 33	.	.	PONCT	PONCT		32	ponct	32	ponct	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	1	158	1	159	_	158	159	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 "
 "
@@ -40,7 +40,7 @@
 5	avait	avoir	V	V	n=s|t=I|p=3	0	root	0	root	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	1	181	1	186	imparfait	181	186	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 6	élevés	élever	ADJ	ADJ	n=p|g=m|t=K	5	mod	5	mod	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	1	187	1	193	_	187	193	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 7	dès	dès	P	P		5	mod	5	mod	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	1	194	1	197	_	194	197	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	leur	leur	DET	DET	n=s|p=3|poss=p	11	det	11	det	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	1	198	1	202	_	198	202	_	_	_	_	_	_	_	_	is_GOui_incertDNon_incertRNon	198-202	is_GOui_incertDNon_incertRNon	198-202	_	_
+8	leur	leur	DET	DET	n=s|p=3|poss=p	11	det	11	det	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	1	198	1	202	_	198	202	_	_	_	_	_	_	_	_	is_GOui_incertDNon_incertRNon	198-202	is_GNon_incertDNon_incertRNon	198-202	_	_
 9	plus	plus	ADV	ADV		10	mod	10	mod	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	1	203	1	207	_	203	207	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 10	jeune	jeune	ADJ	ADJ	n=s	11	mod	11	mod	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	1	208	1	213	_	208	213	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 11	âge	âge	NC	NC	n=s|g=m	7	prep	7	prep	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	1	214	1	217	_	214	217	_	_	_	_	_	_	_	_	_	_	_	_	_	_
@@ -138,10 +138,10 @@
 8	.	.	PONCT	PONCT		7	ponct	7	ponct	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	2	400	2	401	_	617	618	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 "
 "
-1	Marine	_	NPP	NPP		2	suj	2	suj	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	2	402	2	408	_	619	625	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Marine	_	NPP	NPP		2	suj	2	suj	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	2	402	2	408	_	619	625	_	_	_	_	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertROui	619-625
 2	trébucha	trébucher	V	V	n=s|t=J|p=3	0	root	0	root	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	2	409	2	417	passeSimple	626	634	_	_	_	Err	trébo cha	626-634	_	_	_	_	_	_	_	_
 3	et	et	CC	CC		2	coord	2	coord	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	2	418	2	420	_	635	637	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	tomba	tomber	V	V	n=s|t=J|p=3	3	dep_coord	3	dep_coord	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	2	421	2	426	passeSimple	638	643	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	tomba	tomber	V	V	n=s|t=J|p=3	3	dep_coord	3	dep_coord	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	2	421	2	426	passeSimple	638	643	_	_	_	_	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertROui	638-643
 5	au	à	P+D	P+D	n=s|g=m	4	mod	4	mod	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	2	427	2	429	_	644	646	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 6	sol	_	NC	NC		5	prep	5	prep	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	2	430	2	433	_	647	650	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 7	dans	dans	P	P		4	mod	4	mod	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	2	434	2	438	_	651	655	_	_	_	_	_	_	_	_	_	_	_	_	_	_
@@ -154,7 +154,7 @@
 "
 "
 1	Maxime	maxime	NC	NC	n=s|g=f	3	suj	3	suj	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	2	467	2	473	_	684	690	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	684-690	_	_	_	_
-2	l'	le	CLO	CLO	n=s|p=3	3	obj	3	obj	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	2	474	2	476	_	691	693	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	l'	le	CLO	CLO	n=s|p=3	3	obj	3	obj	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	2	474	2	476	_	691	693	_	_	_	_	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertROui	691-693
 3	aida	aider	V	V	n=s|t=J|p=3	0	root	0	root	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	2	476	2	480	passeSimple	693	697	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 4	à	à	P	P		3	mod	3	mod	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	2	481	2	482	_	698	699	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 5	se	se	CLR	CLR	n=p,s|p=3	6	aff	6	aff	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	2	483	2	485	_	700	702	_	_	_	_	_	_	_	_	_	_	_	_	_	_
@@ -173,8 +173,8 @@
 9	.	.	PONCT	PONCT		8	ponct	8	ponct	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	2	537	2	538	_	754	755	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
 "
 "
-1	Tous	tout	PRO	PRO	n=p|g=m	3	suj	3	suj	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	3	1	3	5	_	755	759	_	_	_	Err	Tout	755-759	_	_	_	_	in_GNon_incertDNon_incertRNon	755-764	_	_
-2	deux	deux	ADJ	ADJ	s=card|n=p	1	mod	1	mod	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	3	6	3	10	_	760	764	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	755-764	_	_
+1	Tous	tout	PRO	PRO	n=p|g=m	3	suj	3	suj	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	3	1	3	5	_	755	759	_	_	_	Err	Tout	755-759	_	_	in_GOui_incertDNon_incertRNon	755-764	in_GNon_incertDNon_incertRNon	755-764	_	_
+2	deux	deux	ADJ	ADJ	s=card|n=p	1	mod	1	mod	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	3	6	3	10	_	760	764	_	_	_	_	_	_	_	_	in_GOui_incertDNon_incertRNon	755-764	in_GNon_incertDNon_incertRNon	755-764	_	_
 3	commencèrent	commencer	V	V	n=p|t=J|p=3	0	root	0	root	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	3	11	3	23	passeSimple	765	777	_	_	_	Err	commençairent	765-777	_	_	_	_	_	_	_	_
 4	à	à	P	P		3	mod	3	mod	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	3	24	3	25	_	778	779	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 5	courir	courir	VINF	VINF	t=W	4	prep	4	prep	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	3	26	3	32	_	780	786	_	_	_	_	_	_	_	_	_	_	_	_	_	_
@@ -246,7 +246,7 @@
 9	était	être	V	V	n=s|t=I|p=3	10	aux_tps	10	aux_tps	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	3	346	3	351	imparfait	1100	1105	_	_	_	Err	c'était	1098-1105	_	_	_	_	_	_	_	_
 10	passé	passer	VPP	VPP	n=s|g=m|t=K	5	mod_rel	5	mod_rel	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	3	352	3	357	_	1106	1111	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 11	et	et	CC	CC		4	coord	4	coord	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	3	358	3	360	_	1112	1114	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-12	Marine	Marine	NPP	NPP	n=s|g=f	13	suj	13	suj	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	3	361	3	367	_	1115	1121	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	Marine	Marine	NPP	NPP	n=s|g=f	13	suj	13	suj	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	3	361	3	367	_	1115	1121	_	_	_	_	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertROui	1115-1121
 13	raconta	raconter	V	V	n=s|t=J|p=3	11	dep_coord	11	dep_coord	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	3	368	3	375	passeSimple	1122	1129	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 14	l'	le	DET	DET	n=s	15	det	15	det	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	3	376	3	378	_	1130	1132	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 15	histoire	histoire	NC	NC	n=s|g=f	13	obj	13	obj	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	3	378	3	386	_	1132	1140	_	_	_	_	_	_	_	_	_	_	_	_	_	_
@@ -255,7 +255,7 @@
 18	de	de	P	P		19	det	19	det	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	3	401	3	403	_	1155	1157	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 19	peur	peur	NC	NC	n=s|g=f	16	prep	16	prep	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	3	404	3	408	_	1158	1162	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 20	dans	dans	P	P		13	mod	13	mod	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	3	409	3	413	_	1163	1167	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-21	sa	sa	DET	DET	n=s|g=f|p=3|poss=s	22	det	22	det	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	3	414	3	416	_	1168	1170	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	sa	sa	DET	DET	n=s|g=f|p=3|poss=s	22	det	22	det	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	3	414	3	416	_	1168	1170	_	_	_	_	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertROui	1168-1170
 22	voix	voix	NC	NC	g=f	20	prep	20	prep	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	3	417	3	421	_	1171	1175	_	_	_	Err	voie	1171-1175	_	_	_	_	_	_	_	_
 23	.	.	PONCT	PONCT		22	ponct	22	ponct	CO-3e-2016-VTAC305-D1-R6-V1_N.ac	3	421	3	422	_	1175	1176	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 "

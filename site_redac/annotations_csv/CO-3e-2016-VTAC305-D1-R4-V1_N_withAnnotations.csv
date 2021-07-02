@@ -32,8 +32,8 @@
 "
 1	C'	ce	CLS	CLS		2	suj	2	suj	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	1	156	1	158	_	156	158	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 2	était	être	V	V	n=s|t=I|p=3	0	root	0	root	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	1	158	1	163	imparfait	158	163	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	la	la	DET	DET	n=s|g=f	4	det	4	det	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	1	164	1	166	_	164	166	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	164-172	_	_	_	_	_	_
-4	seule	seul	ADJ	ADJ	n=s|g=f	2	ats	2	ats	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	1	167	1	172	_	167	172	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	164-172	_	_	_	_	_	_
+3	la	la	DET	DET	n=s|g=f	4	det	4	det	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	1	164	1	166	_	164	166	_	_	_	_	_	_	in_GNon_incertDOui_incertROui	164-172	_	_	_	_	_	_
+4	seule	seul	ADJ	ADJ	n=s|g=f	2	ats	2	ats	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	1	167	1	172	_	167	172	_	_	_	_	_	_	in_GNon_incertDOui_incertROui	164-172	_	_	_	_	_	_
 5	qui	qui	PROREL	PROREL	n=s	6	suj	6	suj	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	1	173	1	176	_	173	176	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	173-176	_	_	_	_	_	_
 6	restait	rester	V	V	n=s|t=I|p=3	4	mod_rel	4	mod_rel	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	1	177	1	184	imparfait	177	184	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 7	toute	toute	DET	DET	n=s|g=f	8	det	8	det	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	1	185	1	190	_	185	190	_	_	_	_	_	_	_	_	_	_	_	_	_	_
@@ -142,8 +142,8 @@
 19	il	il	CLS	CLS	n=s|g=m|p=3	21	suj	21	suj	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	85	3	87	_	677	679	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 20	y	y	CLO	CLO		21	mod	21	mod	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	88	3	89	_	680	681	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 21	avait	avoir	V	V	n=s|t=I|p=3	8	mod	8	mod	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	90	3	95	imparfait	682	687	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-22	trois	trois	DET	DET	s=card|n=p	23	det	23	det	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	96	3	101	_	688	693	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-23	filles	fille	NC	NC	n=p|g=f	21	obj	21	obj	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	102	3	108	_	694	700	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	trois	trois	DET	DET	s=card|n=p	23	det	23	det	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	96	3	101	_	688	693	_	_	_	_	_	_	in_GOui_incertDNon_incertROui	688-700	_	_	_	_	_	_
+23	filles	fille	NC	NC	n=p|g=f	21	obj	21	obj	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	102	3	108	_	694	700	_	_	_	_	_	_	in_GOui_incertDNon_incertROui	688-700	_	_	_	_	_	_
 24	qui	qui	PROREL	PROREL	n=s	25	suj	25	suj	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	109	3	112	_	701	704	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 25	repartaient	repartir	V	V	n=p|t=I|p=3	23	mod_rel	23	mod_rel	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	113	3	124	imparfait	705	716	_	_	_	Err	repartrait	705-716	_	_	_	_	_	_	_	_
 26	à	à	P	P		25	mod	25	mod	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	125	3	126	_	717	718	_	_	_	Err	a	717-718	_	_	_	_	_	_	_	_
@@ -151,7 +151,7 @@
 28	.	.	PONCT	PONCT		27	ponct	27	ponct	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	131	3	132	_	723	724	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 "
 "
-1	Elles	elles	CLS	CLS	n=p|g=f|p=3	2	suj	2	suj	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	133	3	138	_	725	730	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Elles	elles	CLS	CLS	n=p|g=f|p=3	2	suj	2	suj	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	133	3	138	_	725	730	_	_	_	_	_	_	is_GOui_incertDNon_incertROui	725-730	_	_	_	_	_	_
 2	étaient	être	V	V	n=p|t=I|p=3	0	root	0	root	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	139	3	146	imparfait	731	738	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 3	sur	sur	P	P		2	mod	2	mod	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	147	3	150	_	739	742	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 4	le	le	DET	DET	n=s|g=m	5	det	5	det	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	151	3	153	_	743	745	_	_	_	_	_	_	_	_	_	_	_	_	_	_
@@ -185,7 +185,7 @@
 7	bar	bar	NC	NC	n=s|g=m	5	prep	5	prep	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	264	3	267	_	856	859	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 8	voisin	voisin	ADJ	ADJ	n=s|g=m	7	mod	7	mod	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	268	3	274	_	860	866	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 9	,	,	PONCT	PONCT		8	ponct	8	ponct	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	274	3	275	_	866	867	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-10	elles	elles	CLS	CLS	n=p|g=f|p=3	11	suj	11	suj	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	276	3	281	_	868	873	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	elles	elles	CLS	CLS	n=p|g=f|p=3	11	suj	11	suj	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	276	3	281	_	868	873	_	_	_	_	_	_	is_GOui_incertDNon_incertROui	868-873	_	_	_	_	_	_
 11	décidèrent	décider	V	V	n=p|t=J|p=3	2	mod	2	mod	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	282	3	292	passeSimple	874	884	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 12	d'	de	P	P		11	mod	11	mod	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	293	3	295	_	885	887	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 13	aller	aller	VINF	VINF	t=W	14	aux_caus	14	aux_caus	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	295	3	300	_	887	892	_	_	_	_	_	_	_	_	_	_	_	_	_	_
@@ -195,10 +195,10 @@
 17	il	il	CLS	CLS	n=s|g=m|p=3	19	suj	19	suj	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	310	3	312	_	902	904	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 18	y	y	CLO	CLO		19	aff	19	aff	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	313	3	314	_	905	906	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 19	avait	avoir	V	V	n=s|t=I|p=3	11	mod	11	mod	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	315	3	320	imparfait	907	912	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-20	un	un	DET	DET	n=s|g=m	21	det	21	det	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	321	3	323	_	913	915	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-21	homme	homme	NC	NC	n=s|g=m	19	obj	19	obj	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	324	3	329	_	916	921	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-22	armé	armer	ADJ	ADJ	n=s|g=m|t=K	21	mod	21	mod	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	330	3	334	_	922	926	_	_	_	Err	armée	922-926	_	_	_	_	_	_	_	_
-23	qui	qui	PROREL	PROREL	n=s	24	suj	24	suj	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	335	3	338	_	927	930	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	un	un	DET	DET	n=s|g=m	21	det	21	det	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	321	3	323	_	913	915	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	913-926	_	_	_	_
+21	homme	homme	NC	NC	n=s|g=m	19	obj	19	obj	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	324	3	329	_	916	921	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	913-926	_	_	_	_
+22	armé	armer	ADJ	ADJ	n=s|g=m|t=K	21	mod	21	mod	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	330	3	334	_	922	926	_	_	_	Err	armée	922-926	_	_	in_GNon_incertDNon_incertRNon	913-926	_	_	_	_
+23	qui	qui	PROREL	PROREL	n=s	24	suj	24	suj	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	335	3	338	_	927	930	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	927-930	_	_	_	_
 24	tirait	tirer	V	V	n=s|t=I|p=3	21	mod_rel	21	mod_rel	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	339	3	345	imparfait	931	937	_	_	_	Err	tirrait	931-937	_	_	_	_	_	_	_	_
 25	sur	sur	P	P		24	mod	24	mod	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	346	3	349	_	938	941	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 26	toutes	tout	ADJ	ADJ	n=p|g=f	28	mod	28	mod	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	350	3	356	_	942	948	_	_	_	Err	toute	942-948	_	_	_	_	_	_	_	_
@@ -208,7 +208,7 @@
 30	ce	ce	DET	DET	n=s|g=m	31	det	31	det	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	374	3	376	_	966	968	_	_	_	Err	se	966-968	_	_	_	_	_	_	_	_
 31	bar	bar	NC	NC	n=s|g=m	29	prep	29	prep	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	377	3	380	_	969	972	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 32	,	,	PONCT	PONCT		31	ponct	31	ponct	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	380	3	381	_	972	973	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-33	il	il	CLS	CLS	n=s|g=m|p=3	35	suj	35	suj	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	382	3	384	_	974	976	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+33	il	il	CLS	CLS	n=s|g=m|p=3	35	suj	35	suj	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	382	3	384	_	974	976	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	974-976	_	_	_	_
 34	était	être	V	V	n=s|t=I|p=3	35	aux_tps	35	aux_tps	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	385	3	390	imparfait	977	982	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 35	armé	armer	VPP	VPP	n=s|g=m|t=K	2	mod	2	mod	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	391	3	395	_	983	987	_	_	_	Err	armée	983-987	_	_	_	_	_	_	_	_
 36	d'	de	P	P		35	mod	35	mod	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	396	3	398	_	988	990	_	_	_	_	_	_	_	_	_	_	_	_	_	_
@@ -223,21 +223,21 @@
 4	trop	trop	ADV	ADV		3	mod	3	mod	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	440	3	444	_	1032	1036	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 5	tard	tard	ADV	ADV		3	mod	3	mod	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	445	3	449	_	1037	1041	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 6	,	,	PONCT	PONCT		5	ponct	5	ponct	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	449	3	450	_	1041	1042	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	une	un	PRO	PRO	n=s|g=f	3	obj	3	obj	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	451	3	454	_	1043	1046	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	des	de	P+D	P+D	n=p	7	dep	7	dep	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	455	3	458	_	1047	1050	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-9	jeunes	jeune	ADJ	ADJ	n=p	10	mod	10	mod	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	459	3	465	_	1051	1057	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-10	filles	fille	NC	NC	n=p|g=f	8	prep	8	prep	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	466	3	472	_	1058	1064	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	une	un	PRO	PRO	n=s|g=f	3	obj	3	obj	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	451	3	454	_	1043	1046	_	_	_	_	_	_	in_GNon_incertDOui_incertROui	1043-1064	_	_	_	_	_	_
+8	des	de	P+D	P+D	n=p	7	dep	7	dep	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	455	3	458	_	1047	1050	_	_	_	_	_	_	in_GNon_incertDOui_incertROui	1043-1064	_	_	_	_	_	_
+9	jeunes	jeune	ADJ	ADJ	n=p	10	mod	10	mod	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	459	3	465	_	1051	1057	_	_	_	_	_	_	in_GNon_incertDOui_incertROui	1043-1064	_	_	_	_	_	_
+10	filles	fille	NC	NC	n=p|g=f	8	prep	8	prep	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	466	3	472	_	1058	1064	_	_	_	_	_	_	in_GNon_incertDOui_incertROui	1043-1064	_	_	_	_	_	_
 11	avait	avoir	V	V	n=s|t=I|p=3	13	aux_tps	13	aux_tps	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	473	3	478	imparfait	1065	1070	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 12	été	être	VPP	VPP	t=K	13	aux_pass	13	aux_pass	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	479	3	482	_	1071	1074	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 13	touchée	toucher	VPP	VPP	n=s|g=f|t=K	7	mod	7	mod	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	483	3	490	_	1075	1082	_	_	_	Err	touche	1075-1082	_	_	_	_	_	_	_	_
 14	,	,	PONCT	PONCT		13	ponct	13	ponct	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	490	3	491	_	1082	1083	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-15	elle	elle	CLS	CLS	n=s|g=f|p=3	17	suj	17	suj	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	492	3	496	_	1084	1088	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	elle	elle	CLS	CLS	n=s|g=f|p=3	17	suj	17	suj	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	492	3	496	_	1084	1088	_	_	_	_	_	_	is_GNon_incertDNon_incertROui	1084-1088	_	_	_	_	_	_
 16	se	se	CLR	CLR	n=p,s|p=3	17	aff	17	aff	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	497	3	499	_	1089	1091	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 17	faisait	faire	V	V	n=s|t=I|p=3	3	mod	3	mod	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	500	3	507	imparfait	1092	1099	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 18	hospitaliser	_	I	I		0	_	0	_	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	3	508	3	520	_	1100	1112	_	_	_	Err	hospitalisée	1100-1112	_	_	_	_	_	_	_	_
 "
 "
-1	son	son	DET	DET	n=s|g=m|p=3|poss=s	2	det	2	det	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	4	2	4	5	_	1113	1116	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	son	son	DET	DET	n=s|g=m|p=3|poss=s	2	det	2	det	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	4	2	4	5	_	1113	1116	_	_	_	_	_	_	is_GNon_incertDNon_incertROui	1113-1116	_	_	_	_	_	_
 2	état	état	NC	NC	n=s|g=m	3	suj	3	suj	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	4	6	4	10	_	1117	1121	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 3	était	être	V	V	n=s|t=I|p=3	0	root	0	root	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	4	11	4	16	imparfait	1122	1127	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 4	critique	critique	ADJ	ADJ	n=s	3	ats	3	ats	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	4	17	4	25	_	1128	1136	_	_	_	_	_	_	_	_	_	_	_	_	_	_
@@ -250,7 +250,7 @@
 2	ne	ne	ADV	ADV		3	mod	3	mod	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	4	43	4	45	_	1154	1156	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 3	savait	savoir	V	V	n=s|t=I|p=3	0	root	0	root	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	4	46	4	52	imparfait	1157	1163	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 4	si	si	CS	CS		3	obj	3	obj	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	4	53	4	55	_	1164	1166	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	elle	elle	CLS	CLS	n=s|g=f|p=3	6	suj	6	suj	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	4	56	4	60	_	1167	1171	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	elle	elle	CLS	CLS	n=s|g=f|p=3	6	suj	6	suj	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	4	56	4	60	_	1167	1171	_	_	_	_	_	_	is_GNon_incertDNon_incertROui	1167-1171	_	_	_	_	_	_
 6	allait	aller	V	V	n=s|t=I|p=3	4	sub	4	sub	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	4	61	4	67	imparfait	1172	1178	_	_	_	Err	allaient	1172-1178	_	_	_	_	_	_	_	_
 7	en	en	CLO	CLO		8	aff	8	aff	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	4	68	4	70	_	1179	1181	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 8	sortir	sortir	VINF	VINF	t=W	6	obj	6	obj	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	4	71	4	77	_	1182	1188	_	_	_	_	_	_	_	_	_	_	_	_	_	_
@@ -268,7 +268,7 @@
 5	les	les	DET	DET	n=p	6	det	6	det	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	4	121	4	124	_	1232	1235	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 6	filles	fille	NC	NC	n=p|g=f	7	suj	7	suj	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	4	125	4	131	_	1236	1242	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 7	allaient	aller	V	V	n=p|t=I|p=3	0	root	0	root	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	4	132	4	140	imparfait	1243	1251	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	la	la	CLO	CLO	n=s|g=f|p=3	9	obj	9	obj	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	4	141	4	143	_	1252	1254	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	la	la	CLO	CLO	n=s|g=f|p=3	9	obj	9	obj	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	4	141	4	143	_	1252	1254	_	_	_	_	_	_	is_GNon_incertDNon_incertROui	1252-1254	_	_	_	_	_	_
 9	voir	voir	VINF	VINF	t=W	7	obj	7	obj	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	4	144	4	148	_	1255	1259	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 10	à	à	P	P		9	mod	9	mod	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	4	149	4	150	_	1260	1261	_	_	_	Err	a	1260-1261	_	_	_	_	_	_	_	_
 11	l'	le	DET	DET	n=s	12	det	12	det	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	4	151	4	153	_	1262	1264	_	_	_	_	_	_	_	_	_	_	_	_	_	_
@@ -279,7 +279,7 @@
 16	plus	plus	ADV	ADV		17	mod	17	mod	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	4	180	4	184	_	1291	1295	_	_	_	Err	plu	1291-1295	_	_	_	_	_	_	_	_
 17	tard	tard	ADV	ADV		15	mod	15	mod	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	4	185	4	189	_	1296	1300	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 18	,	,	PONCT	PONCT		17	ponct	17	ponct	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	4	189	4	190	_	1300	1301	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-19	elle	elle	CLS	CLS	n=s|g=f|p=3	20	suj	20	suj	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	4	191	4	195	_	1302	1306	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	elle	elle	CLS	CLS	n=s|g=f|p=3	20	suj	20	suj	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	4	191	4	195	_	1302	1306	_	_	_	_	_	_	is_GNon_incertDNon_incertROui	1302-1306	_	_	_	_	_	_
 20	ressortit	ressortir	V	V	n=s|t=J,P|p=3	7	mod	7	mod	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	4	196	4	205	present	1307	1316	_	_	_	Err	ressorta	1307-1316	_	_	_	_	_	_	_	_
 21	indemne	indemne	ADJ	ADJ	n=s	20	ats	20	ats	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	4	206	4	213	_	1317	1324	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 22	de	de	P	P		20	mod	20	mod	CO-3e-2016-VTAC305-D1-R4-V1_N.ac	4	214	4	216	_	1325	1327	_	_	_	_	_	_	_	_	_	_	_	_	_	_

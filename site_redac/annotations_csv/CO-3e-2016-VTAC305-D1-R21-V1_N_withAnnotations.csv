@@ -23,10 +23,10 @@
 5	grande	grand	ADJ	ADJ	n=s|g=f	6	mod	6	mod	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	2	23	2	29	_	96	102	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 6	maison	maison	NC	NC	n=s|g=f	3	prep	3	prep	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	2	30	2	36	_	103	109	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 7	avec	avec	P	P		2	mod	2	mod	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	2	37	2	41	_	110	114	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	ses	ses	DET	DET	n=p|p=3|poss=s	9	det	9	det	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	2	42	2	45	_	115	118	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	115-118	_	_	_	_	_	_
-9	frères	frère	NC	NC	n=p|g=m	7	prep	7	prep	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	2	46	2	52	_	119	125	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-10	et	et	CC	CC		2	coord	2	coord	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	2	53	2	55	_	126	128	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-11	sœurs	_	NC	NC		19	mod	19	mod	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	2	56	2	61	_	129	134	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	ses	ses	DET	DET	n=p|p=3|poss=s	9	det	9	det	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	2	42	2	45	_	115	118	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	115-118	_	_	in_GNon_incertDNon_incertRNon	115-134	_	_
+9	frères	frère	NC	NC	n=p|g=m	7	prep	7	prep	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	2	46	2	52	_	119	125	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	115-134	_	_
+10	et	et	CC	CC		2	coord	2	coord	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	2	53	2	55	_	126	128	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	115-134	_	_
+11	sœurs	_	NC	NC		19	mod	19	mod	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	2	56	2	61	_	129	134	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	115-134	_	_
 12	à	à	P	P		11	dep	11	dep	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	2	62	2	63	_	135	136	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 13	côté	côté	NC	NC	n=s|g=m	12	prep	12	prep	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	2	64	2	68	_	137	141	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 14	d'	de	P	P		13	dep	13	dep	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	2	69	2	71	_	142	144	_	_	_	_	_	_	_	_	_	_	_	_	_	_
@@ -242,16 +242,16 @@
 2	y	y	CLO	CLO		4	aff	4	aff	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	3	5	3	6	_	1043	1044	_	_	_	Err	y'a n'a	1040-1049	_	_	_	_	_	_	_	_
 3	en	en	CLO	CLO		4	aff	4	aff	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	3	7	3	9	_	1045	1047	_	_	_	Err	y'a n'a	1040-1049	_	_	_	_	_	_	_	_
 4	a	avoir	V	V	n=s|t=P|p=3	0	root	0	root	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	3	10	3	11	present	1048	1049	_	_	_	Err	y'a n'a	1040-1049	_	_	_	_	_	_	_	_
-5	deux	deux	DET	DET	s=card|n=p	6	det	6	det	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	3	12	3	16	_	1050	1054	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	enfants	enfant	NC	NC	n=p	4	obj	4	obj	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	3	17	3	24	_	1055	1062	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	deux	deux	DET	DET	s=card|n=p	6	det	6	det	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	3	12	3	16	_	1050	1054	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1050-1062	_	_
+6	enfants	enfant	NC	NC	n=p	4	obj	4	obj	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	3	17	3	24	_	1055	1062	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1050-1062	_	_
 7	qui	qui	PROREL	PROREL	n=s	9	suj	9	suj	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	3	25	3	28	_	1063	1066	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 8	ont	avoir	V	V	n=p|t=P|p=3	9	aux_tps	9	aux_tps	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	3	29	3	32	present	1067	1070	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 9	commencé	commencer	VPP	VPP	n=s|g=m|t=K	6	mod_rel	6	mod_rel	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	3	33	3	41	_	1071	1079	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 10	à	à	P	P		9	mod	9	mod	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	3	42	3	43	_	1080	1081	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 11	manger	manger	VINF	VINF	t=W	10	prep	10	prep	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	3	44	3	50	_	1082	1088	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 12	et	et	CC	CC		4	coord	4	coord	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	3	51	3	53	_	1089	1091	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-13	les	les	DET	DET	n=p	14	det	14	det	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	3	54	3	57	_	1092	1095	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-14	autres	autre	ADJ	ADJ	n=p	12	dep_coord	12	dep_coord	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	3	58	3	64	_	1096	1102	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	les	les	DET	DET	n=p	14	det	14	det	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	3	54	3	57	_	1092	1095	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1092-1102	_	_
+14	autres	autre	ADJ	ADJ	n=p	12	dep_coord	12	dep_coord	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	3	58	3	64	_	1096	1102	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1092-1102	_	_
 15	non	non	ADV	ADV		14	mod	14	mod	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	3	65	3	68	_	1103	1106	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 16	.	.	PONCT	PONCT		15	ponct	15	ponct	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	3	68	3	69	_	1106	1107	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 "
@@ -262,18 +262,18 @@
 4	et	et	CC	CC		1	coord	1	coord	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	3	82	3	84	_	1120	1122	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 5	dès	dès	P	P		4	dep_coord	4	dep_coord	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	3	85	3	88	_	1123	1126	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 6	qu'	que	CS	CS		5	prep	5	prep	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	3	89	3	92	_	1127	1130	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	ils	ils	CLS	CLS	n=p|g=m|p=3	8	suj	8	suj	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	3	92	3	95	_	1130	1133	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	ils	ils	CLS	CLS	n=p|g=m|p=3	8	suj	8	suj	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	3	92	3	95	_	1130	1133	_	_	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	1130-1133	_	_
 8	mangent	manger	V	V	n=p|t=P,S|p=3	6	root	6	root	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	3	96	3	103	present	1134	1141	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-9	elles	elles	CLS	CLS	n=p|g=f|p=3	10	suj	10	suj	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	3	104	3	109	_	1142	1147	_	del	1143-1143	_	_	_	_	_	_	_	_	_	_	_
+9	elles	elles	CLS	CLS	n=p|g=f|p=3	10	suj	10	suj	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	3	104	3	109	_	1142	1147	_	del	1143-1143	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	1142-1147	_	_
 10	deviennent	devenir	V	V	n=p|t=P,S|p=3	0	root	0	root	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	3	110	3	120	present	1148	1158	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 11	des	des	DET	DET	n=p	12	det	12	det	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	3	121	3	124	_	1159	1162	_	del	1160-1160	_	_	_	_	_	_	_	_	_	_	_
 12	animaux	animal	NC	NC	n=p|g=m	10	obj	10	obj	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	3	125	3	132	_	1163	1170	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 13	.	.	PONCT	PONCT		12	ponct	12	ponct	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	3	132	3	133	_	1170	1171	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 "
 "
-1	Les	les	DET	DET	n=p	3	det	3	det	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	3	134	3	137	_	1172	1175	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-2	autres	autre	ADJ	ADJ	n=p	3	mod	3	mod	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	3	138	3	144	_	1176	1182	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	enfants	enfant	NC	NC	n=p	4	suj	4	suj	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	3	145	3	152	_	1183	1190	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+1	Les	les	DET	DET	n=p	3	det	3	det	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	3	134	3	137	_	1172	1175	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1172-1190	_	_
+2	autres	autre	ADJ	ADJ	n=p	3	mod	3	mod	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	3	138	3	144	_	1176	1182	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1172-1190	_	_
+3	enfants	enfant	NC	NC	n=p	4	suj	4	suj	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	3	145	3	152	_	1183	1190	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1172-1190	_	_
 4	pleurent	pleurer	V	V	n=p|t=P,S|p=3	0	root	0	root	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	3	153	3	161	present	1191	1199	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 5	et	et	CC	CC		4	coord	4	coord	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	3	162	3	164	_	1200	1202	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 6	supplient	supplier	V	V	n=p|t=P,S|p=3	5	dep_coord	5	dep_coord	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	3	165	3	174	present	1203	1212	_	_	_	Err	suplient	1203-1212	_	_	_	_	_	_	_	_
@@ -281,8 +281,8 @@
 8	femme	femme	NC	NC	n=s|g=f	6	obj	6	obj	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	3	178	3	183	_	1216	1221	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 9	pour	pour	P	P		6	mod	6	mod	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	3	185	3	189	_	1223	1227	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 10	qu'	que	PROREL	PROREL		9	prep	9	prep	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	3	190	3	193	_	1228	1231	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-11	ils	ils	CLS	CLS	n=p|g=m|p=3	13	suj	13	suj	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	3	193	3	196	_	1231	1234	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-12	les	les	CLO	CLO	n=p|p=3	13	obj	13	obj	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	3	197	3	200	_	1235	1238	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	ils	ils	CLS	CLS	n=p|g=m|p=3	13	suj	13	suj	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	3	193	3	196	_	1231	1234	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	1231-1234	_	_	is_GNon_incertDNon_incertRNon	1231-1234	_	_
+12	les	les	CLO	CLO	n=p|p=3	13	obj	13	obj	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	3	197	3	200	_	1235	1238	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	1235-1238	_	_	is_GNon_incertDNon_incertRNon	1235-1238	_	_
 13	changent	changer	V	V	n=p|t=P,S|p=3	4	mod	4	mod	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	3	202	3	210	present	1240	1248	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 14	en	en	P	P		13	mod	13	mod	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	3	211	3	213	_	1249	1251	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 15	humain	humain	ADJ	ADJ	n=s|g=m	14	prep	14	prep	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	3	214	3	220	_	1252	1258	_	_	_	_	_	_	_	_	_	_	_	_	_	_
@@ -295,8 +295,8 @@
 4	veut	vouloir	V	V	n=s|t=P|p=3	0	root	0	root	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	3	234	3	238	present	1272	1276	_	_	_	Err	veut	1272-1280	_	_	_	_	_	_	_	_
 5	pas	pas	ADV	ADV		4	mod	4	mod	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	3	239	3	242	_	1277	1280	_	_	_	Err	veut	1272-1280	_	_	_	_	_	_	_	_
 6	,	,	PONCT	PONCT		5	ponct	5	ponct	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	3	242	3	243	_	1280	1281	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	les	les	DET	DET	n=p	8	det	8	det	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	3	244	3	247	_	1282	1285	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	enfants	enfant	NC	NC	n=p	9	suj	9	suj	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	3	248	3	255	_	1286	1293	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	les	les	DET	DET	n=p	8	det	8	det	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	3	244	3	247	_	1282	1285	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1282-1293	_	_	in_GNon_incertDNon_incertRNon	1282-1293	_	_
+8	enfants	enfant	NC	NC	n=p	9	suj	9	suj	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	3	248	3	255	_	1286	1293	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1282-1293	_	_	in_GNon_incertDNon_incertRNon	1282-1293	_	_
 9	demandent	demander	V	V	n=p|t=P,S|p=3	4	mod	4	mod	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	3	256	3	265	present	1294	1303	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 10	encore	encore	ADV	ADV		9	mod	9	mod	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	3	266	3	272	_	1304	1310	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 11	mais	mais	CC	CC		9	coord	9	coord	CO-3e-2016-VTAC305-D1-R21-V1_N.ac	3	273	3	277	_	1311	1315	_	_	_	_	_	_	_	_	_	_	_	_	_	_

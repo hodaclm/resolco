@@ -105,8 +105,8 @@
 10	son	son	DET	DET	n=s|g=m|p=3|poss=s	11	det	11	det	CO-3e-2016-VTAC305-D1-R10-V1_N.ac	1	436	1	439	_	436	439	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	436-444	_	_	_	_
 11	mari	mari	NC	NC	n=s|g=m	9	prep	9	prep	CO-3e-2016-VTAC305-D1-R10-V1_N.ac	1	440	1	444	_	440	444	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	436-444	_	_	_	_
 12	et	et	CC	CC		2	coord	2	coord	CO-3e-2016-VTAC305-D1-R10-V1_N.ac	1	445	1	447	_	445	447	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-13	ses	ses	DET	DET	n=p|p=3|poss=s	14	det	14	det	CO-3e-2016-VTAC305-D1-R10-V1_N.ac	1	448	1	451	_	448	451	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDOui_incertRNon	448-459	_	_
-14	enfants	enfant	NC	NC	n=p	0	_	0	_	CO-3e-2016-VTAC305-D1-R10-V1_N.ac	1	452	1	459	_	452	459	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDOui_incertRNon	448-459	_	_
+13	ses	ses	DET	DET	n=p|p=3|poss=s	14	det	14	det	CO-3e-2016-VTAC305-D1-R10-V1_N.ac	1	448	1	451	_	448	451	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	448-459	_	_
+14	enfants	enfant	NC	NC	n=p	0	_	0	_	CO-3e-2016-VTAC305-D1-R10-V1_N.ac	1	452	1	459	_	452	459	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	448-459	_	_
 15	.	.	PONCT	PONCT		14	ponct	14	ponct	CO-3e-2016-VTAC305-D1-R10-V1_N.ac	1	459	1	460	_	459	460	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 "
 "
@@ -194,8 +194,8 @@
 3	tout	tout	PRO	PRO	n=s|g=m	2	obj	2	obj	CO-3e-2016-VTAC305-D1-R10-V1_N.ac	1	776	1	780	_	776	780	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 4	raconter	raconter	VINF	VINF	t=W	2	obj	2	obj	CO-3e-2016-VTAC305-D1-R10-V1_N.ac	1	781	1	789	_	781	789	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 5	à	à	P	P		4	mod	4	mod	CO-3e-2016-VTAC305-D1-R10-V1_N.ac	1	790	1	791	_	790	791	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	sa	sa	DET	DET	n=s|g=f|p=3|poss=s	7	det	7	det	CO-3e-2016-VTAC305-D1-R10-V1_N.ac	1	792	1	794	_	792	794	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	792-794	_	_	_	_
-7	famille	famille	NC	NC	n=s|g=f	5	prep	5	prep	CO-3e-2016-VTAC305-D1-R10-V1_N.ac	1	795	1	802	_	795	802	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	sa	sa	DET	DET	n=s|g=f|p=3|poss=s	7	det	7	det	CO-3e-2016-VTAC305-D1-R10-V1_N.ac	1	792	1	794	_	792	794	_	_	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	792-794	in_GOui_incertDNon_incertRNon	792-802	_	_
+7	famille	famille	NC	NC	n=s|g=f	5	prep	5	prep	CO-3e-2016-VTAC305-D1-R10-V1_N.ac	1	795	1	802	_	795	802	_	_	_	_	_	_	_	_	_	_	in_GOui_incertDNon_incertRNon	792-802	_	_
 8	.	.	PONCT	PONCT		7	ponct	7	ponct	CO-3e-2016-VTAC305-D1-R10-V1_N.ac	1	802	1	803	_	802	803	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 "
 "

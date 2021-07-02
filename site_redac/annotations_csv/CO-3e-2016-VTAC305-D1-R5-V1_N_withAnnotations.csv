@@ -10,15 +10,15 @@
 "
 1	Elle	elle	CLS	CLS	n=s|g=f|p=3	2	suj	2	suj	CO-3e-2016-VTAC305-D1-R5-V1_N.ac	1	55	1	59	_	55	59	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	55-59	_	_	_	_	_	_
 2	avait	avoir	V	V	n=s|t=I|p=3	0	root	0	root	CO-3e-2016-VTAC305-D1-R5-V1_N.ac	1	60	1	65	imparfait	60	65	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-3	deux	deux	DET	DET	s=card|n=p	4	det	4	det	CO-3e-2016-VTAC305-D1-R5-V1_N.ac	1	66	1	70	_	66	70	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-4	frères	frère	NC	NC	n=p|g=m	2	obj	2	obj	CO-3e-2016-VTAC305-D1-R5-V1_N.ac	1	71	1	77	_	71	77	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	et	et	CC	CC		2	coord	2	coord	CO-3e-2016-VTAC305-D1-R5-V1_N.ac	1	78	1	80	_	78	80	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-6	deux	deux	DET	DET	s=card|n=p	7	det	7	det	CO-3e-2016-VTAC305-D1-R5-V1_N.ac	1	81	1	85	_	81	85	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-7	sœurs	_	NC	NC		0	_	0	_	CO-3e-2016-VTAC305-D1-R5-V1_N.ac	1	86	1	91	_	86	91	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-8	plus	plus	ADV	ADV		9	mod	9	mod	CO-3e-2016-VTAC305-D1-R5-V1_N.ac	1	92	1	96	_	92	96	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-9	petits	petit	ADJ	ADJ	n=p|g=m	7	mod	7	mod	CO-3e-2016-VTAC305-D1-R5-V1_N.ac	1	97	1	103	_	97	103	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-10	qu'	que	CS	CS		9	dep	9	dep	CO-3e-2016-VTAC305-D1-R5-V1_N.ac	1	104	1	107	_	104	107	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-11	elle	elle	CLS	CLS	n=s|g=f|p=3	0	_	0	_	CO-3e-2016-VTAC305-D1-R5-V1_N.ac	1	107	1	111	_	107	111	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	107-111	_	_	_	_	_	_
+3	deux	deux	DET	DET	s=card|n=p	4	det	4	det	CO-3e-2016-VTAC305-D1-R5-V1_N.ac	1	66	1	70	_	66	70	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDOui_incertROui	66-111	_	_
+4	frères	frère	NC	NC	n=p|g=m	2	obj	2	obj	CO-3e-2016-VTAC305-D1-R5-V1_N.ac	1	71	1	77	_	71	77	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDOui_incertROui	66-111	_	_
+5	et	et	CC	CC		2	coord	2	coord	CO-3e-2016-VTAC305-D1-R5-V1_N.ac	1	78	1	80	_	78	80	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDOui_incertROui	66-111	_	_
+6	deux	deux	DET	DET	s=card|n=p	7	det	7	det	CO-3e-2016-VTAC305-D1-R5-V1_N.ac	1	81	1	85	_	81	85	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDOui_incertROui	66-111	_	_
+7	sœurs	_	NC	NC		0	_	0	_	CO-3e-2016-VTAC305-D1-R5-V1_N.ac	1	86	1	91	_	86	91	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDOui_incertROui	66-111	_	_
+8	plus	plus	ADV	ADV		9	mod	9	mod	CO-3e-2016-VTAC305-D1-R5-V1_N.ac	1	92	1	96	_	92	96	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDOui_incertROui	66-111	_	_
+9	petits	petit	ADJ	ADJ	n=p|g=m	7	mod	7	mod	CO-3e-2016-VTAC305-D1-R5-V1_N.ac	1	97	1	103	_	97	103	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDOui_incertROui	66-111	_	_
+10	qu'	que	CS	CS		9	dep	9	dep	CO-3e-2016-VTAC305-D1-R5-V1_N.ac	1	104	1	107	_	104	107	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDOui_incertROui	66-111	_	_
+11	elle	elle	CLS	CLS	n=s|g=f|p=3	0	_	0	_	CO-3e-2016-VTAC305-D1-R5-V1_N.ac	1	107	1	111	_	107	111	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	107-111	_	_	in_GNon_incertDOui_incertROui	66-111	_	_
 12	.	.	PONCT	PONCT		11	ponct	11	ponct	CO-3e-2016-VTAC305-D1-R5-V1_N.ac	1	111	1	112	_	111	112	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 "
 "
@@ -216,10 +216,10 @@
 8	son	son	DET	DET	n=s|g=m|p=3|poss=s	9	det	9	det	CO-3e-2016-VTAC305-D1-R5-V1_N.ac	3	221	3	224	_	972	975	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	972-975	_	_	_	_	_	_
 9	histoire	histoire	NC	NC	n=s|g=f	7	obj	7	obj	CO-3e-2016-VTAC305-D1-R5-V1_N.ac	3	225	3	233	_	976	984	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 10	à	à	P	P		7	mod	7	mod	CO-3e-2016-VTAC305-D1-R5-V1_N.ac	3	234	3	235	_	985	986	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-11	ses	ses	DET	DET	n=p|p=3|poss=s	12	det	12	det	CO-3e-2016-VTAC305-D1-R5-V1_N.ac	3	236	3	239	_	987	990	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	987-990	_	_	_	_	_	_
-12	frères	frère	NC	NC	n=p|g=m	10	prep	10	prep	CO-3e-2016-VTAC305-D1-R5-V1_N.ac	3	240	3	246	_	991	997	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-13	et	et	CC	CC		12	coord	12	coord	CO-3e-2016-VTAC305-D1-R5-V1_N.ac	3	247	3	249	_	998	1000	_	_	_	_	_	_	_	_	_	_	_	_	_	_
-14	sœurs	_	NC	NC		13	dep_coord	13	dep_coord	CO-3e-2016-VTAC305-D1-R5-V1_N.ac	3	250	3	255	_	1001	1006	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	ses	ses	DET	DET	n=p|p=3|poss=s	12	det	12	det	CO-3e-2016-VTAC305-D1-R5-V1_N.ac	3	236	3	239	_	987	990	_	_	_	_	_	_	is_GNon_incertDNon_incertRNon	987-990	_	_	in_GNon_incertDNon_incertRNon	987-1006	_	_
+12	frères	frère	NC	NC	n=p|g=m	10	prep	10	prep	CO-3e-2016-VTAC305-D1-R5-V1_N.ac	3	240	3	246	_	991	997	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	987-1006	_	_
+13	et	et	CC	CC		12	coord	12	coord	CO-3e-2016-VTAC305-D1-R5-V1_N.ac	3	247	3	249	_	998	1000	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	987-1006	_	_
+14	sœurs	_	NC	NC		13	dep_coord	13	dep_coord	CO-3e-2016-VTAC305-D1-R5-V1_N.ac	3	250	3	255	_	1001	1006	_	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	987-1006	_	_
 15	.	.	PONCT	PONCT		14	ponct	14	ponct	CO-3e-2016-VTAC305-D1-R5-V1_N.ac	3	255	3	256	_	1006	1007	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 "
 "
@@ -227,8 +227,8 @@
 2	cette	cette	DET	DET	n=s|g=f	3	det	3	det	CO-3e-2016-VTAC305-D1-R5-V1_N.ac	3	264	3	269	_	1015	1020	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
 3	aventure	aventure	NC	NC	n=s|g=f	1	prep	1	prep	CO-3e-2016-VTAC305-D1-R5-V1_N.ac	3	270	3	278	_	1021	1029	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
 4	,	,	PONCT	PONCT		3	ponct	3	ponct	CO-3e-2016-VTAC305-D1-R5-V1_N.ac	3	278	3	279	_	1029	1030	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
-5	les	les	DET	DET	n=p	6	det	6	det	CO-3e-2016-VTAC305-D1-R5-V1_N.ac	3	280	3	283	_	1031	1034	consigne	_	_	_	_	_	in_GOui_incertDNon_incertRNon	1031-1042	_	_	in_GNon_incertDNon_incertRNon	1031-1042	_	_
-6	enfants	enfant	NC	NC	n=p	8	suj	8	suj	CO-3e-2016-VTAC305-D1-R5-V1_N.ac	3	284	3	291	_	1035	1042	consigne	_	_	_	_	_	in_GOui_incertDNon_incertRNon	1031-1042	_	_	in_GNon_incertDNon_incertRNon	1031-1042	_	_
+5	les	les	DET	DET	n=p	6	det	6	det	CO-3e-2016-VTAC305-D1-R5-V1_N.ac	3	280	3	283	_	1031	1034	consigne	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1031-1042	_	_
+6	enfants	enfant	NC	NC	n=p	8	suj	8	suj	CO-3e-2016-VTAC305-D1-R5-V1_N.ac	3	284	3	291	_	1035	1042	consigne	_	_	_	_	_	_	_	_	_	in_GNon_incertDNon_incertRNon	1031-1042	_	_
 7	ne	ne	ADV	ADV		8	mod	8	mod	CO-3e-2016-VTAC305-D1-R5-V1_N.ac	3	292	3	294	_	1043	1045	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
 8	sortent	sortir	V	V	n=p|t=P,S|p=3	0	root	0	root	CO-3e-2016-VTAC305-D1-R5-V1_N.ac	3	295	3	302	present	1046	1053	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
 9	plus	plus	ADV	ADV		8	mod	8	mod	CO-3e-2016-VTAC305-D1-R5-V1_N.ac	3	303	3	307	_	1054	1058	consigne	_	_	_	_	_	_	_	_	_	_	_	_	_
