@@ -206,8 +206,7 @@ puis de
 
 
 <p>Les unités linguistiques pouvant être délimitées comme des maillons sont décrites ci-dessous et illustrées par des exemples. Chaque exemple est donné sous la forme d'une capture d'écran de l'interface Glozz (dont l'utilisation pour l'annotation est décrite plus loin, <a href="#interface">section 3.1</a>). Les maillons annotés apparaissent encadrés dans des boîtes de couleur. Chaque exemple est précédé d'un titre décrivant le ou les maillons qu'il contient dans l'ordre dans lequel ils apparaissent ainsi que l'identifiant de la copie, identifiant qui commence par l'indication du niveau scolaire (EC-CE2, EC-CM1, EC-CM2, CO-6e, etc.) Cet identifiant donne directement accès à la copie originale telle qu'accessible sur le site de la <a href="http://redac.univ-tlse2.fr/corpus/resolco/resolco.html" target="_blank">ressource ResolCo</a>.</p>
-
-<br/><span class="RQ">On se demande si ce ne serait pas plus clair de ne faire apparaître que les maillons qui illustrent le cas particulier dont on est en trait de parler (sinon il faudrait commenter les exemples choisis). ça demande de refaire les captures d'écran (mais ça simplifierait beaucoup les titres donnés à chaque exemple)... qu'en pensez-vous ?  </span>		
+<!-- <span class="RQ">On se demande si ce ne serait pas plus clair de ne faire apparaître que les maillons qui illustrent le cas particulier dont on est en trait de parler (sinon il faudrait commenter les exemples choisis). ça demande de refaire les captures d'écran (mais ça simplifierait beaucoup les titres donnés à chaque exemple)... qu'en pensez-vous ?  </span>	-->	
 <h3><a name="SN"></a>2.1 Syntagmes nominaux (SN)</h3>
 <p>
 Les SN indéfinis, définis, démonstratifs et possessifs (ex.: <i>une fille</i>, <i>la fille</i>, <i>cette fille</i>, <i>sa fille</i>) sont annotés quand ils réfèrent à un des trois référents humains considérés. La délimitation de ce type de maillon inclut le groupe nominal ainsi que l'ensemble de ses modifieurs (antéposés ou postposés au nom ou au groupe nominal) exceptés les propositions relatives qui constituent un maillon distinct (cf. <a href="#rel">ici</a>).</p>
@@ -753,10 +752,11 @@ Dans ce cas, si "Mr Wilson" est inclus dans une des CR de la consigne, l'annotat
 <!--<p>Afin de réaliser l'annotation en distinguant chaque étape et chaque CR (voir section <a href="#annotation_maillons">2.2</a>), il est conseillé de commencer par annoter toutes les unités de type <span style="color : #00ccff">maillon_Elle</span> (y compris le maillon contenu dans la phrase consigne). Une fois tous les <span style="color : #00ccff">maillon_Elle</span> annotés, il est conseillé de masquer ces annotations avant de commencer l'annotation des unités de type <span style="color : #00cc33">maillon_Il</span>, et idem pour l'annotation des unités de type <span style="color: DarkOrange">maillon_lesEnfants</span>. Cela permet d'avoir une vue dégagée du texte, ce qui facilite l'annotation.</p>--> 
 <p>L'annotation des relations doit se réaliser après l'annotation de toutes les unités maillons et est grandement facilitée par ce jeu de masque des unités non concernées par la relation. Ainsi, pour annoter les relations de type <span style="color:#00ccff">coref_Elle</span>, il est conseillé de n'afficher que les unités de type <span style="color:#00ccff">maillon_Elle</span>.</p>
 <p>Ce jeu de masque et d'affichage se fait en utilisant l'outil <emph>Style Editor</emph> décrit dans les sections <a href="#loadModel">6.1.2.b</a> et <a href="#style">6.2.8</a>.</p>
-<p><span class="RQ">
+<!--<p>
+<span class="RQ">
 !!! même en masquant l'affichage des maillons et relations il est toujours possible de les relier par erreur ou de les sélectionner en utilisant les boutons "modifier". 
 Attention lorsqu'on veut relier/supprimer/modifier un maillon ou une relation qui est superposé à d'autres : on peut sélectionner la mauvaise annotation
-</p>
+</p>-->
 
 <h2>
 	<a name="interface" id="interface" href="#toc">5.1. Interface d'annotation</a>
@@ -996,7 +996,7 @@ NomTexte_NomAnnotateur_JJmoisAA.aa (ex&nbsp: CO-3e-2018-FSBJC6-D1-R4-V1_coref_ho
 <br>
 <hr size="2">
 <p class="copyright">
-	Auteurs&nbsp: Silvia Federzoni, Josette Rebeyrolle, Lydia-Mai Ho-Dac, Yoann Bard
+	Auteurs&nbsp: Silvia Federzoni, Josette Rebeyrolle, Lydia-Mai Ho-Dac, Yoann Bard, Claudine Garcia-Debanc
 </p>
 
 <center>
