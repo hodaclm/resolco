@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link href="style.css" type="text/css" rel="stylesheet">	
+	<title>Guide d'annotation</title>
+	</head>
+<body width="70%">
+<center>
+<table width="100%">
+  <tr>
+    <td width=30%"><img width="50%" src="images/ecrire.png" title="ecrire"/></td>
+    <td width=30%"><p><img src="images/logo.png" title="ResolCo"/></p>
+	    <h1 align="center"><font size="+3">Guide d'annotation RésolCo</font></h1>
+	    <p> <p>Mis à jour le 04 août 2021</p></p>
+    </td>  
+    <td width=30%"><img width="100%" src="images/Ecalm_logo.png" title="Ecalm"/></td>    
+   </tr>
+</table>
+
+</center>
+
+
+		<h2 class="notoc">
+			<a id="toc" name="toc">Sommaire</a>
+		</h2>
+		<div class="contents">
+			<ul class="toc">
+				<li class="tocline">1. <a href="#introduction">Présentation</a>
+					<ul class="toc">
+						<li class="tocline">
+							1.1 <a href="#consigne">Textes à annoter</a>
+						</li>
+						<li class="tocline">
+							1.2 <a href="#objets_ident_caract">Objets à annoter</a>
+						</li>	
+						<li class="tocline">
+							1.3 <a href="#tacheAnnotation">Tâche d'annotation</a>
+						</li>						
+					</ul>
+				</li>
+				
+				<li class="tocline">2.  <a href="#CR_maillon">Délimitation des maillons</a>
+				<!-- <a href="#delimitationMaillons">Chaînes de référence (<abbr title="chaines_reference">CR</abbr>)</a> -->
+				<ul class="toc">
+					<li class="tocline">2.1  <a href="#SN">Syntagmes nominaux</a></li>
+					<li class="tocline">2.2 <a href="#Poss">Possessifs</a></li>
+					<li class="tocline">2.3 <a href="#ProRel">Pronoms relatifs</a></li>
+					<li class="tocline">2.4 <a href="#ProAutre">Autres pronoms</a></li>
+					<li class="tocline">2.5 <a href="#NP">Noms propres</a></li>
+					<li class="tocline">2.6 <a href="#Suj0">Sujet zéro</a></li>
+					<li class="tocline">2.7 <a href="#Coord">Référents multiples</a></li>
+					<li class="tocline">2.8 <a href="#Titre">Remarques</a></li>
+				</ul>
+				
+				
+				</li>
+				<li class="tocline">3.  <a href="#CR_maillon">Identification des maillons</a></li>
+				<ul class="toc">
+					<li class="tocline">3.1  <a href="#incertitude">Incertitude sur l'identification des maillons</a></li>
+				</ul>
+				<li class="tocline">4. <a href="#annotation_maillons">Annotation des maillons</a></li>
+				
+			 <li class="tocline">5. <a href="#glozz">Utilisation de l'interface Glozz pour annoter les maillons et les CR</a>
+					<ul class="toc">
+					<li class="tocline">5.1 <a href="#interface">Description de l'interface d'annotation</a>
+						</li>
+					<li class="tocline">5.2 <a href="#procedure">Etapes de l'annotation dans l'interface</a>
+						</li>
+					</ul>
+				</li>
+				
+		    <li class="tocline">6. <a href="#video">Tutoriel vidéo de l’annotation des CR</a></li>
+		    <li class="tocline">7. <a href="#autoEval">Auto-évaluation</a></li>
+		    <li class="tocline">8. <a href="#telechargement">Zone de téléchargement</a></li>
+			
+			</ul>
+		</div>
+		
+		
+<h1>
+<a name="introduction" id="introduction" href="#toc">1. Présentation</a>
+</h1>
+
+<p>Ce guide s’inscrit dans un projet ANR : le projet <a href="http://e-calm.huma-num.fr/le-projet/">É-clam</a>. Ce projet vise à structurer et mettre à disposition de la communauté scientifique un vaste corpus d’écrits d’élèves et d’étudiants. En participant à la tâche d'annotation de ce corpus, vous contribuez à ce projet.</p>					    
+										
+<p>Ce guide décrit la tâche d'annotation que vous allez réaliser et qui consiste à annoter les continuités référentielles -- <b>CR</b>. Annoter les CR d'un texte revient à identifier les expressions référentielles qui les composent -- nous parlons de <b>maillons</b> -- et de relier ces expressions entre elles. Pour annoter, vous allez utiliser l'interface Glozz (<a href="#glozz">section 5.</a>) et suivre les étapes suivantes&nbsp;: </p>
+<ol>
+   <li>faire une lecture complète du guide d'annotation</li> 
+   <li>visionner la vidéo (section <a href="#video">Vidéo tutoriel de l'annotation des CR</a>)</li>
+   <li>s'entraîner en annotant les deux copies proposées dans la section <a href="#autoEval">Auto-évaluation</a></li>  						    
+   <li>vérifier l'annotation réalisée en dévoilant l'annotation attendue (voir la section <a href="#autoEval">Auto-évaluation</a>)</li>
+</ol>
+</p>
+<h2>
+<a name="consigne" id="consigne" href="#toc">1.1 Description de la consigne RésolCo</a>
+</h2>												   
+<p>Les textes que vous allez annoter font partie du corpus Résolco ("Résolution de problèmes de cohésion textuelle") et ont été collectés à l'école primaire, au collège et à l'université. Les élèves ont produit ces textes en réponse à une même consigne d'écriture, que nous reproduisons ci-dessous&nbsp:</p>		
+	<div class="exemple">
+	<p>
+	Racontez une histoire dans laquelle vous insérerez séparément et dans l’ordre donné les trois phrases suivantes&nbsp:
+	<br/>
+	<br/>
+	<span style="color : #00ccff">Elle</span> habitait dans <span style="color : red">cette maison</span> depuis longtemps. (P1)<br/>
+	<span style="color : #00cc33">Il</span> se retourna en entendant <span style="color : orangeRed">ce grand bruit</span>. (P2)<br/>
+	Depuis <span style="color : #9c07f4">cette aventure</span>, <span style="color: DarkOrange">les enfants</span> ne sortent plus la nuit. (P3)
+	</p>
+	</div>														  
+<p>L'objectif de cette consigne est d'amener les élèves à résoudre plusieurs problèmes de continuité référentielle. Plus précisément, la consigne devrait pousser les élèves à introduire, dans les interstices des trois phrases imposées, les référents des expressions référentielles suivantes&nbsp:
+<ul>
+	<li>les référents des pronoms personnels&nbsp: <span style="color : #00ccff">Elle</span> et <span style="color : #00cc33">Il</span></li>
+	<li>les référents des syntagmes nominaux comportant un déterminant démonstratif&nbsp: <span style="color : red">cette maison</span>, <span style="color : orangeRed">ce grand bruit</span>, <span style="color : #9c07f4">cette aventure</span></li>
+	<li>le réferent du syntagme nominal comportant un article défini pluriel&nbsp: <span style="color: DarkOrange">les enfants</span></li>
+</ul>
+</p>
+<p>
+La tâche d'annotation concerne uniquement les expressions référentielles des trois référents humains de la consigne, à savoir <span style="color : #00ccff">Elle</span>, <span style="color : #00cc33">Il</span></li> et <span style="color: DarkOrange">les enfants</span>.
+</p>
+<p>
+Dans les textes que vous allez annoter, certaines expressions linguistiques ont fait l'objet d'une préannotation. Il s'agit d'expressions qui, parce qu'elles sont considérées comme potentiellement référentielles et qu'elles peuvent de ce fait constituer de possibles maillons des CR, ont été automatiquement préannotées. Ces expressions, nous les appellerons des <b>maillons-candidats</b>.
+</p>
+
+
+
+
+
+<h2>
+<a name="CR" id="CR" href="#toc">1.2 Définitions : CR et maillons</a>
+</h2>
+
+<p>Une <b>CR</b> est constituée par l'ensemble des expressions référentielles qui renvoient à un même référent et que nous appelons des <b>maillons</b>.</p> 
+<p>
+Le texte suivant, produit par un élève de 3e en suivant la consigne ci-dessus, fournit une illustration des notions de CR et de maillons.
+</p>
+
+<div class="exemple">
+			<span class="ex_head"><abbr title="chaines de reference associée au pronom Elle" style="color : #00ccff">CR_Elle</abbr> : CR associée au pronom <span style="color : #00ccff"><i>Elle</i></span> de la consigne [<a target="_blank" href="http://redac.univ-tlse2.fr/corpus/resolco/copies/html/CO-3e-2018-FSBJC6-D1-R7-V1_T.html">CO-3e-2018-FSBJC6-D1-R7-V1_T</a>]</span><br/><br/>
+			<a href="images/exemples/1.png">
+			<img src="images/exemples/1.png" title="coplement_nom" style="width : 100%;max-width:800;" /></a>
+		</div>
+
+<p>
+Dans ce texte, les maillons de la <abbr title="chaines de reference associée au pronom Elle" style="color : #00ccff">CR_Elle</abbr> dont la première mention est l'expression référentielle <i>une jeune fille du nom de Marie</i> sont surlignés en <span style="color : #00ccff">bleu</span>. Parmi ces maillons, on trouve les expressions référentielles suivantes&nbsp:
+<ul>
+	<li>nom propre&nbsp: <i>Marie</i>, <i>Marie</i>, <i>Marie</i> </li>
+	<li>pronoms&nbsp: <i>celle-ci</i>, <i>elle</i>, <i>elle</i>, <i>elle</i>, <i>elle</i></li>
+	<li>syntagmes nominaux définis&nbsp: <i>la jeune fille</i></li>
+	<li>syntagmes nominaux indéfinis&nbsp: <i>une jeune fille du nom de Marie</i></li>
+</ul>
+</p>
+<p>
+Parmi les éléments surlignés, on trouve également&nbsp:
+</p>
+<ul>
+	<li>des déterminants possessifs&nbsp: <i>son</i>, <i>ses</i>, <i>ses</i>, <i>sa</i>, <i>ses</i>, <i>ses</i>, <i>ses</i>, <i>sa</i>, <i>son</i></li>
+	<li>un verbe&nbsp: <i>allait</i>.
+</ul>
+<p>Les déterminants possessifs surlignés sont ceux qui coréfèrent au possesseur <i>Marie</i>. Dans ce cas, on voit que l'on ne considère que le déterminant comme constitutif du maillon.
+Le verbe <i>allait</i>, coordonné avec <i>avait</i>, est surligné pour indiquer que son sujet est le même que celui du verbe <i>avait</i> (voir plus bas la notion de sujet <i>zéro</i>).
+</p>
+
+<h2>
+<a name="tacheAnnotation" id="tacheAnnotation" href="#toc">1.3 Description de la tâche d'annotation</a>
+</h2>
+
+
+<p>L'objectif de l'annotation est double&nbsp:
+<ol>
+<li>identifier les maillons qui signalent les trois référents humains de la consigne (cf. <a href="">section 2</a>)</li>
+<li>relier ces maillons pour former les 3 CR correspondantes (cf. <a href="">section 3</a>)</li>
+</ol>
+</p>
+<p>Identifier les maillons consiste à&nbsp:
+<li>rattacher les maillons de <span style="color : #00ccff">Elle</span>, <span style="color : #00cc33">Il</span> et <span style="color: DarkOrange">les enfants</span></li>
+<li>délimiter la portion de texte qui constitue le maillon</li>
+</p>
+<p>
+L'annotation commence par une première étape consistant à lire le texte dans sa globalité. Une seconde lecture est ensuite conseillée au cours de laquelle vous pouvez commencer à repérer les maillons des 3 CR. Une fois ces deux lectures réalisées, il est conseillé de commencer par&nbsp:
+</p>
+<ol>
+	<li>rattacher et délimiter tous les maillons de <abbr title="chaines de reference associée au pronom Elle" style="color : #00ccff">CR_Elle</abbr></li>
+	<li>rattacher et délimiter tous les maillons de <abbr title="chaines de reference associée au pronom Il"  style="color : #00cc33">CR_Il</abbr></li>
+	<li>rattacher et délimiter tous les maillons de <abbr title="chaines de reference associée au SN les enfants" style="color : DarkOrange">CR_enfants</abbr></li>	
+</ol>
+<p>
+puis de&nbsp:
+</p>
+<ol start="4">
+	<li>relier les maillons de <abbr title="chaines de reference associée au pronom Elle" style="color : #00ccff">CR_Elle</abbr></li>
+	<li>relier les maillons de <abbr title="chaines de reference associée au pronom Il" style="color : #00cc33">CR_Il</abbr></li>
+	<li>relier les maillons de <abbr title="chaines de reference associée au SN les enfants" style="color : DarkOrange">CR_enfants</abbr></li>	
+</ol>
+
+<p>On retrouve dans la copie ci-dessous l'ensemble des maillons rattachés à chacune des CR et les relations qui les unissent.</p>
+		<div class="exemple"><a name="ex_intro"/>
+			<span class="ex_head">Copie de CM1 annotée en CR [<a target="_blank" href="http://redac.univ-tlse2.fr/corpus/resolco/copies/html/EC-CM1-2015-TFGLX-D1-R12-V1_T.html">EC-CM1-2015-TFGLX-D1-R12-V1</a>]</span><br/><br/>
+			<a href="images/img_exemples/EC-CM1-2015-TFGLX-D1-R12-V1_intro.png" alt="intro">
+			<img src="images/img_exemples/EC-CM1-2015-TFGLX-D1-R12-V1_intro.png" title="intro" style="width : 100%;max-width:700px;" /></a>
+		</div>												
+<p>Cette copie a été utilisée comme exemple dans le <a href="#video">tutoriel vidéo</a> mis à disposition à la fin de ce guide. Cet exemple montre la diversité des expressions référentielles pouvant jouer le rôle de maillon (nom propre, pronom, déterminant possessif, etc.).</p>
+															 	
+
+<h2><a name="CR_maillon" href="#toc">2. Type de maillons</a></h2>
+
+<p>	
+L'objectif de cette section est de décrire et d'illustrer la diversité des unités linguistiques susceptibles de constituer les maillons d'une CR. Les illustrations proposées sont issues de textes rédigés par des élèves.
+Chaque exemple est donné sous la forme d'une capture d'écran de l'interface Glozz (dont l'utilisation pour l'annotation est décrite plus loin, <a href="#interface">section 3.1</a>). Les maillons annotés apparaissent encadrés dans des boîtes de couleur. Chaque exemple est précédé d'un titre décrivant le ou les maillons qu'il contient dans l'ordre dans lequel ils apparaissent ainsi que l'identifiant de la copie, identifiant qui commence par l'indication du niveau scolaire (EC-CE2, EC-CM1, EC-CM2, CO-6e, etc.) Cet identifiant donne directement accès à la copie originale telle qu'accessible sur le site de la <a href="http://redac.univ-tlse2.fr/corpus/resolco/resolco.html" target="_blank">ressource ResolCo</a>.</p>
+	
+<h3><a name="SN"></a>2.1 Syntagmes nominaux (SN)</h3>
+<p>
+Les SN indéfinis, définis, démonstratifs et possessifs (ex.: <i>une fille</i>, <i>la fille</i>, <i>cette fille</i>, <i>sa fille</i>) sont annotés quand ils réfèrent à un des trois référents humains considérés. La délimitation de ce type de maillon inclut le groupe nominal ainsi que l'ensemble de ses modifieurs (antéposés ou postposés au nom ou au groupe nominal) exceptés les propositions relatives qui constituent un maillon distinct (cf. <a href="#rel">ici</a>).</p>
+<!-- Préciser ce que contient un groupe nominal pour ne pas oublier les déterminants possessifs lorsqu'ils réfèrent à un autre maillon et éviter certaines erreurs
+Exemple : [Elle] fait du vélo avec [[son] père]
+-->
+
+<p>Ces modifieurs peuvent être&nbsp:
+</p>
+	<ul>
+	<li>des <b>adjectifs</b> qu'ils soient placés avant ou après le nom&nbsp: l'adjectif <i>vieille</i> est inclus dans le maillon <i>Cette vieille femme</i>
+	</li>
+	<li>des <b>syntagmes prépositionnels</b>, quelle que soit la préposition utilisée&nbsp;: le syntagme prépositionnel <i>de 80 ans</i> est inclus dans le maillon <i>une femme</i>
+		<div class="exemple">
+			<span class="ex_head">Maillon de type SN avec syntagme prépositionnel et maillon de type SN avec adjectif [<a target="_blank" href="http://redac.univ-tlse2.fr/corpus/resolco/copies/html/CO-3e-2018-FSBJC6-D1-R4-V1_T.html">CO-3e-2018-FSBJC6-D1-R4-V1</a>]</span><br/><br/>
+			<a href="images/exemples/2.png" alt="complement_nom">
+			<img src="images/exemples/2.png" title="complement_nom" style="width : 100%;max-width:800;" /></a>
+		</div>
+	</li>
+<li>des adjectifs issus de <b>participes, passés ou présents</b>, avec leurs éventuels compléments&nbsp:
+
+<div class="exemple">
+			<span class="ex_head">Maillon de type SN avec participe passé [<a target="_blank" href="http://redac.univ-tlse2.fr/corpus/resolco/copies/html/CO-4e-2018-LSPJJRC-D1-R21-V1_T.html">CO-4e-2018-LSPJJRC-D1-R21-V1</a>]</span><br/><br/>
+			<a href="images/exemples/3.png" alt="plusieurs_modifieurs">
+			<img src="images/exemples/3.png" title="plusieurs_modifieurs" style="width : 100%;max-width:800px;" /></a>
+</div>
+
+<br/>
+</li>	   
+									   														   
+									     
+<li> des <b>appositions</b>
+											     <br/>
+	Pour identifier une apposition, on se fonde généralement sur la ponctuation, considèrant qu'il y a une apposition lorsqu'il y a une virgule.
+Cependant, dans la mesure où les textes annotés sont des textes produits par des apprenants dans lesquels l'usage de la ponctuation n'est pas encore complètement stabilisé, on ne peut pas s'appuyer de manière fiable sur la virgule pour repérer les appositions.
+Les appositions seront donc incluses dans la délimitation des maillons qu'elles soient signalées par une virgule (<i>son fils, <b>Rémi, chômeur divorcé</b></i>) ou non (<i>Une femme <b>nommée Christine</b></i>). Les appositions peuvent être postposées ou antéposées, comme le montrent les exemples ci-dessous&nbsp:
+											     </li>
+	<div class="exemple">
+			<span class="ex_head">Maillon de type SN avec deux appositions postposées signalées par une virgule [<a target="_blank" href="http://redac.univ-tlse2.fr/corpus/resolco/copies/html/UN-M2-2020-UCL-D1-R4-V1_T.html">UN-M2-2020-UCL-D1-R4-V1</a>]</span><br/><br/>
+			<a href="images/img_exemples/M2R4_modifieurs1.png" alt="coplement_nom">
+			<img src="images/img_exemples/M2R4_modifieurs1.png" title="coplement_nom" style="width : 100%;max-width:500px;" /></a>
+		</div>
+
+		<div class="exemple">
+			<span class="ex_head">Maillon de type SN avec une apposition postposée non signalée par une virgule [<a target="_blank" href="http://redac.univ-tlse2.fr/corpus/resolco/copies/html/CO-3e-2016-VTAC305-D1-R23-V1_T.html">CO-3e-2016-VTAC305-D1-R23-V1</a>]</span><br/><br/>
+			<a href="images/exemples/6.png" alt="apposition">
+			<img src="images/exemples/6.png" title="apposition" style="width : 100%;max-width:500px;" /></a>
+		</div>
+														 
+			<li>des <b>noms propres&nbsp</b>
+<br/>
+<div class="exemple">
+			<span class="ex_head">Maillon de type SN avec une apposition postposée non signalée par une virgule [<a target="_blank" href="http://redac.univ-tlse2.fr/corpus/resolco/copies/html/CO-3e-2018-FSBJC6-D1-R6-V1_T.html">CO-3e-2018-FSBJC6-D1-R6-V1</a>]</span><br/><br/>
+			<a href="images/exemples/30.png">
+			<img src="images/exemples/30.png" style="width : 100%;max-width:800;" /></a>
+		</div>
+
+</li>
+														 
+		<div class="exemple">
+			<span class="ex_head">Maillon de type SN avec apposition antéposée signalée par une virgule [<a target="_blank" href="http://redac.univ-tlse2.fr/corpus/resolco/copies/html/UN-M2-2020-UCL-D1-R-V1-R23-V1_T.html">UN-M2-2020-UCL-D1-R-V1-R23-V1</a>]</span><br/><br/>
+			<a href="images/exemples/7.png" alt="apposition">
+			<img src="images/exemples/7.png" title="apposition" style="width : 100%;max-width:500px;" /></a>
+		</div>										     
+											     
+</ul>
+											     											    										    
+<p>Dans le cas où il y a plusieurs modifieurs, ces derniers sont inclus dans la délimitation du maillon. Comme on l'a vu ci-dessus avec <i>un petit frère Maxence</i> et comme on le voit encore dans l'exemple suivant&nbsp:</p>
+		<div class="exemple">
+			<span class="ex_head">Maillon de type SN avec adjectif et syntagme prépositionnel [<a target="_blank" href="http://redac.univ-tlse2.fr/corpus/resolco/copies/html/CO-3e-2018-FSBJC6-D1-R4-V1_T.html">CO-3e-2018-FSBJC6-D1-R4-V1</a>]</span><br/><br/>
+			<a href="images/exemples/4.png" alt="plusieurs_modifieurs">
+			<img src="images/exemples/4.png" title="plusieurs_modifieurs" style="width : 100%;max-width:800px;" /></a>
+		</div>
+<br/></p>
+
+	
+		
+
+<h3><a name="poss"></a>2.2 Possessifs</h3>
+	<p>Les expressions possessives coréfèrent au possesseur. Seule la mention du possesseur (le déterminant possessif) doit être délimitée.
+		 
+				<div class="exemple">	
+			<span class="ex_head">Maillon de type SN avec apposition signalée par une virgule suivi de 2 maillons de type possessif [<a target="_blank" href="http://redac.univ-tlse2.fr/corpus/resolco/copies/html/CO-3e-2016-VTAC305-D1-R18-V1_T.html">CO-3e-2016-VTAC305-D1-R18-V1</a>]</span><br/><br/>
+			<a href="images/exemples/8.png" alt="possessif">
+			<img src="images/exemples/8.png" title="plusieurs_modifieurs" style="width : 100%;max-width:800px;" /></a>
+	</div>
+			
+
+	</p>
+
+<!--<p><span class="RQ"> Ajouter un autre cas de figure qu'on voit dans l'exemple suivant&nbsp:
+Puis une voiture arrivait et s'arrêtait devant Tina et Hawk. La portière s'ouvre et c'était le père de  Tina.
+pour montrer qu'on annote [de Tina] comme coréférent à Tina si Tina est un maillon de la chaîne <i>elle</i> (Copie CO-3e-2018-FSBJC6-D1-R14)
+</p> -->
+
+<h3><a name="pro"></a>2.3 Pronoms</h3>
+<h4><a name="pers"></a>2.3.1 Pronoms personnels</h4>
+<p>Les pronoms personnels sont annotés quand ils réfèrent à un des trois référents humains.</p>
+<div class="exemple">
+			<span class="ex_head">Maillons de type pronom personnel[<a target="_blank" href="http://redac.univ-tlse2.fr/corpus/resolco/copies/html/EC-CE2-2017-TBZX-D1-R2-V1_T.html">EC-CE2-2017-TBZX-D1-R2-V1</a>]</span><br/><br/>
+			<a href="images/img_exemples/CE2-2017-TBZX-D1-R2_pron_personnel_exemp.png" alt="pronom_personnel">
+			<img src="images/img_exemples/CE2-2017-TBZX-D1-R2_pron_personnel_exemp.png" title="pronom_personnel" style="width : 100%;max-width:500px;" /></a>
+		</div>
+
+<h4><a name="dem"></a>2.3.2 Pronoms demonstratifs</h4>
+<p>Les pronoms démonstratifs sont annotés quand ils réfèrent à un des trois référents humains.</p>
+<div class="exemple">
+			<span class="ex_head">Maillons de type SN suivi d'un maillon de type pronom démonstratif[<a target="_blank" href="http://redac.univ-tlse2.fr/corpus/resolco/copies/html/CO-3e-2018-FSBJC6-D1-R7-V1_T.html">CO-3e-2018-FSBJC6-D1-R7-V1</a>]</span><br/><br/>
+			<a href="images/img_exemples/CO-3e-2018-FSBJC6-D1-R7_demonstratif.png" alt="pronom_demonstratif">
+			<img src="images/img_exemples/CO-3e-2018-FSBJC6-D1-R7_demonstratif.png" title="pronom_demonstratif" style="width : 100%;max-width:500px;" /></a>
+		</div>
+
+<h4><a name="ind"></a>2.3.3 Pronoms indéfinis</h4>
+<p>Les pronoms indéfinis sont annotés quand ils réfèrent à un des trois référents humains.</p>
+<div class="exemple">
+			<span class="ex_head">Maillon de type déterminant possessif suivi d'un maillon de type pronom indéfini[<a target="_blank" href="http://redac.univ-tlse2.fr/corpus/resolco/copies/html/CO-3e-2016-VTAC305-D1-R19-V1_T.html">CO-3e-2016-VTAC305-D1-R19-V1</a>]</span><br/><br/>
+			<a href="images/exemples/32.png" alt="pronom_inded">
+			<img src="images/exemples/32.png" title="pronom_indef" style="width : 100%;max-width:500px;" /></a>
+		</div>
+
+		<div class="exemple">
+			<span class="ex_head">Maillon de type pronom indéfini[<a target="_blank" href="http://redac.univ-tlse2.fr/corpus/resolco/copies/html/CO-3e-2018-FSBJC6-D1-R4-V1_T.html">CO-3e-2018-FSBJC6-D1-R4-V1</a>]</span><br/><br/>
+			<a href="images/exemples/32_ter.png" alt="pronom_inded">
+			<img src="images/exemples/32_ter.png" title="pronom_indef" style="width : 100%;max-width:500px;" /></a>
+		</div>
+
+<h4><a name="rel"></a>2.3.4 Pronoms relatifs</h4>
+<p>Lorsque le nom ou le groupe nominal composant un maillon est modifié par une proposition relative, seul le pronom relatif est à considérer comme un nouveau maillon, et doit être annoté. Le nouveau maillon est donc dans ce cas composé du seul pronom relatif.
+		<div class="exemple">
+			<span class="ex_head">Maillon de type SN avec adjectif suivi d'un maillon de type pronom relatif puis d'un maillon de type possessif, d'un maillon de type pronom et d'un maillon de type SN avec adjectif [<a target="_blank" href="http://redac.univ-tlse2.fr/corpus/resolco/copies/html/CO-3e-2018-VTAC305-D1-R9-V1_T.html">CO-3e-2018-VTAC305-D1-R9-V1</a>]</span><br/><br/>
+			<a href="images/exemples/11.png" alt="relative">
+			<img src="images/exemples/11.png" title="relative" style="width : 100%;max-width:800px;" /></a>
+		</div>
+
+<p>Dans l'exemple ci-dessous, on voit deux propositions relatives : la première est introduite par <i>dont</i> la deuxième, éloignée de son antécédent, est introduite par <i>que</i>. Dans ces cas, malgré l'éloignement, on annote les deux pronoms relatifs.</p>
+		
+
+<div class="exemple">
+			
+			<span class="ex_head">Maillon de type pronom personnel suivi d'un maillon de type SN avec adjectifs puis d'un maillon de type pronom relatif et d'un deuxième maillon de type pronom relatif [<a target="_blank" href="http://redac.univ-tlse2.fr/corpus/resolco/copies/html/CO-3e-2016-VTAC305-D1-R13-V1_T.html">CO-3e-2016-VTAC305-D1-R13-V1</a>]</span><br/><br/>
+			<a href="images/exemples/12.png" alt="relative">
+			<img src="images/exemples/12.png" title="relative" style="width : 100%;max-width:800px;" /></a>
+		</div>
+
+
+<h4><a name="rel"></a>2.3.5 Pronoms corrélés</h4>
+<div class="exemple">
+			<span class="ex_head">Maillon de type pronom corrélé suivi d'un maillon de type NPP puis d'un maillon de type pronom personnel. [<a target="_blank" href="http://redac.univ-tlse2.fr/corpus/resolco/copies/html/CO-3e-2018-VTAC305-D1-R21-V1_T.html">CO-6e-2016-PJPR1-D1-R21-V1_T</a>]</span><br/><br/>
+			<a href="images/img_exemples/6R21_justine pronom_ind2.png" alt="relative">
+			<img src="images/img_exemples/6R21_justine pronom_ind2.png" title="relative" style="width : 100%;max-width:800px;" /></a>
+		</div>
+
+<div class="exemple">
+			<span class="ex_head">Maillon de type pronom corrélé suivi d'un maillon de type NPP puis d'un maillon de type pronom personnel. [<a target="_blank" href="http://redac.univ-tlse2.fr/corpus/resolco/copies/html/CO-4e-2018-LSPJJRD-D1-R10-V1.html">CO-4e-2018-LSPJJRD-D1-R10-V1</a>]</span><br/><br/>
+			<a href="images/exemples/13_bis.png" alt="relative">
+			<img src="images/exemples/13_bis.png" title="relative" style="width : 100%;max-width:800px;" /></a>
+		</div>
+
+<p><b>N.B.:</b> Les pronoms réfléchis ne sont pas annotés.</p>
+
+
+<h3><a name="NP"></a>2.5 Noms Propres (NP)</h3>
+<p>Lorsque l'expression référentielle prend la forme d'un nom propre (NP), elle est systématiquement annotée, sauf dans les cas de didascalies nominatives (voir la section sur le <a href="#discDirect">Discours direct</a>).</p>
+<p>Les maillons de forme NPP peuvent être composés d'un prénom suivi nom de famille (<i>Zack Ston</i>), d'un prénom (<i>Zack</i>) ou uniquement d'un nom de famille (<i>Ston</i>). Si le nom propre est précédé d'un titre, le maillon inclut ce titre (<i>Docteur Zack Ston</i>, <i>Mme Ston</i>).</p>
+<p>Lorsque le nom propre du référent est intégré dans une relative (cas fréquent de type <i>Il était une fois une fille qui s'appelait Pascale</i>), le NP doit être annoté en plus du pronom relatif (voir la section sur les <a href="#rel">pronoms relatifs</a>)&nbsp;: 
+<div class="exemple">
+			<span class="ex_head"><abbr title="chaines de reference associée au pronom Elle" style="color : #00ccff">CR_Elle</abbr> : Maillon de type SNind suivi d'un maillon de type pronom relatif et d'un maillon de type NP.<br/>
+<abbr title="chaines de reference associée au pronom Il" style="color : #00cc33">CR_Il</abbr> : Maillon de type SNind suivi d'un maillon de type pronom relatif et d'un maillon de type NP. Les deux référents sont ensuite regroupés dans des maillons "groupe" (voir section <a href="#coord">coordination et référents pluriels et collectifs</a>)[<a target="_blank" href="http://redac.univ-tlse2.fr/corpus/resolco/copies/html/EC-CE2-2016-SGLEB-D1-R1-V1_T.html">EC-CE2-2016-SGLEB-D1-R1-V1</a>]</span><br/><br/>
+			<a href="images/exemples/14.png" alt="relativeAvecNPP">
+		<img src="images/exemples/14.png" title="relativeAvecNPP" style="width : 100%;max-width:800px;" /></a>
+	</div>
+</p>
+
+
+
+<h3><a name="implicite"></a>2.6 Sujet zéro</h3>
+
+<p>Il est fréquent dans les cas de coordination verbale que le sujet ne soit pas répété pour chaque verbe mais uniquement instancié en sujet du premier verbe ("Elle est venue, a vu et a vaincu" <i>vs.</i> "Elle est venue, elle a vu et elle a vaincu"). Dans ces contextes, la seule façon d'annoter le sujet de tous les verbes est d'annoter le groupe verbal. Afin de simplifier la procédure de délimitation lors de l'annotation, nous avons décidé d'inclure dans le maillon l'ensemble du groupe verbal, ce qui peut amener à inclure dans un maillon les marques de négation, les auxiliaires en cas de temps composé, les pronoms réfléchis et certains pronoms clitiques objets (ex : <i>Elle s'est enfuie et [ne s'est jamais remise] de ce drame</i>).
+	<div class="exemple">
+			<span class="ex_head">Maillon de type NPP suivi de 2 maillons de type possessif, d'un <b>maillon sujet zéro</b>, d'un maillon de type possessif, d'un maillon de type pronom, de 2 maillons de type possessif, d'un maillon de type pronom, d'un maillon de type possessif et d'un autre <b>maillon sujet zéro</b> [<a target="_blank" href="http://redac.univ-tlse2.fr/corpus/resolco/copies/html/CO-3e-2018-FSBJC6-D1-R4-V1_T.html">CO-3e-2018-FSBJC6-D1-R4-V1</a>]</span><br/><br/>
+			<a href="images/exemples/15.png" alt="sujet_zero">
+		<img src="images/exemples/15.png" title="sujet_zero" style="width : 100%;max-width:800px;" /></a>
+	</div>
+</p>
+<p>La même situation se rencontre dans les cas de verbes à l'impératif. Dans ces contextes, on annotera le verbe lui-même.
+	
+	<div class="exemple">
+			<span class="ex_head"><abbr title="chaines de reference associée au pronom Il" style="color : #00cc33">CR_Il</abbr>&nbsp;: Maillon de type NPP suivi d'un <b>maillon sujet zéro</b> (verbe à l'impératif) puis d'un maillon de type NPP et de 2 maillons de type pronom [<a target="_blank" href="http://redac.univ-tlse2.fr/corpus/resolco/copies/html/EC-CM1-2015-TFGLX-D1-R12-V1_T.html">EC-CM1-2015-TFGLX-D1-R12-V1</a>]</span><br/><br/>
+			<a href="images/exemples/16.png" alt="sujet_zero">
+		<img src="images/exemples/16.png" title="sujet_zero" style="width : 100%;max-width:800px;" /></a>
+</div>
+</p>
+
+
+<h3><a name="coord"></a>2.7 Référents multiples</h3>
+<p>Les textes peuvent contenir des référents multiples. Ces référents peuvent être désignés par des pronoms personnels pluriels, des SN pluriels (<i>les deux frères</i>) ou des SN collectifs (<i>le groupe de copines</i>). Le cas échéant, on distinguera le cas où le référent multiple ne refère pas à <span style="color: DarkOrange">les enfants</span> et le cas où le référent multiple refère à <span style="color: DarkOrange">les enfants</span>. 
+
+<h4><b>a)</b>Le référent multiple ne refère pas à <span style="color: DarkOrange">les enfants</span> mais inclue un des référents de la consigne</h4> 
+
+<p>On annote ce référent multiple comme un maillon de la <abbr title="chaines de reference associée au pronom Il" style="color : #00cc33">CR_Il</abbr> ou de la <abbr title="chaines de reference associée au pronom Elle" style="color : #00ccff">CR_Elle</abbr> et on attribue à ce maillon le trait <b>groupe</b>. Ce choix d'annotation permet de conserver l'information de l'existence d'une continuité référentielle (et non d'une coréférence stricte). 
+<br/>
+	Dans l'exemple ci-dessous, en plus des maillons de la <abbr title="chaines de reference associée au pronom Il" style="color : #00ccff">CR_Il</abbr>, on inclut également les référents multiples <i>ils</i> et <i>Les deux autres garçons</i>. On attribue à chacun de ces deux maillons le trait <b>groupe</b>. 
+	<br/>
+	<div class="exemple">
+			<span class="ex_head">CR présentant des maillons de classe "groupe" [<a target="_blank" href="http://redac.univ-tlse2.fr/corpus/resolco/copies/html/CO-3e-2018-FSBJC6-D1-R4-V1_T.html">CO-3e-2018-FSBJC6-D1-R4-V1</a>]</span><br/><br/>
+			<a href="images/exemples/17.png" alt="maillon-groupe"></a>
+			<table>
+				<tr>
+					<td>
+		<img src="images/exemples/17.png" title="maillon-groupe" style="width : 100%;max-width:1000px;" /></a>
+
+	</td>
+</tr>
+</table>
+	</div>	
+	
+<h4><b>b)</b>Le référent multiple réfère à <span style="color: DarkOrange">les enfants</span> et inclue un des référents de la consigne</h4> 
+
+<p>On annote ce référent multiple comme un maillon de la <abbr title="chaines de reference associée au pronom Il" style="color : #00cc33">CR_Il</abbr> et/ou de la <abbr title="chaines de reference associée au pronom Elle" style="color : #00ccff">CR_Elle</abbr> et on attribue à ce maillon le trait <b>groupe</b>.
+Ce même référent doit être également annoté comme un maillon de la <abbr title="chaines de reference associée au SN les enfants" style="color : DarkOrange">CR_enfants</abbr>. 
+<br/> 
+Dans l'exemple ci-dessous, le référent multiple <i>deux enfants, Marine, la fille aînée et Maxime son petit frère</i> inclue le référent de <span style="color : #00cc33"><i>Il</i></span> et réfère à <span style="color: DarkOrange">les enfants</span>. Ce qui n'est pas le cas du rèférent de <span style="color : #00ccff"><i>Elle</i></span> qui désigne ici un autre personnage et n'est pas inclus dans la <abbr title="chaines de reference associée au SN les enfants" style="color : DarkOrange">CR_enfants</abbr>. 
+</p>
+
+<div class="exemple">
+			<span class="ex_head">&nbsp;CR présentant des maillons de classe "groupe" [<a target="_blank" href="http://redac.univ-tlse2.fr/corpus/resolco/copies/html/CO-3e-2016-VTAC305-D1-R6-V1_T.html">CO-3e-2016-VTAC305-D1-R6-V1</a>]</span><br/><br/>
+			<a href="images/img_exemples/3eR6_maillon_groupe_ambigu1.png" alt="refCollectif">
+		<img src="images/img_exemples/3eR6_maillon_groupe_ambigu1.png" title="refCollectif" style="width : 100%;max-width:800px;" /></a>
+</div>
+<h4><b>Cas particuliers</b></h4>
+<h5>1)</h5>
+<p>Dans l'exemple ci-dessous, l'expression coordonnée <i>Camille et Manu</i> est le premier maillon de la <abbr title="chaines de reference associée au SN les enfants" style="color : DarkOrange">CR_enfants</abbr>. Cette CR est également composée des maillons <i>ils, ils, ils, ils, eux, les enfants</i>, mais ces maillons ne reçoivent pas le trait <b>groupe</b>. 
+	<br/> 
+Les expressions associées à <span style="color: DarkOrange">les enfants</span>, c'est-à-dire <i>ils, ils, ils, ils, eux, les enfants</i> sont également délimitées et rattachées à la foisà la <abbr title="chaines de reference associée au pronom Elle" style="color : #00ccff">CR_Elle</abbr> et à la <abbr title="chaines de reference associée au pronom Il" style="color : #00cc33">CR_Il</abbr>. Dans chacune de ces chaines, chacun de ces maillons reçoit le trait <b>groupe</b>. 
+<br/>		
+
+
+	<div class="exemple">
+			<span class="ex_head">Copie montrée en introduction de ce guide dans laquelle les <abbr title="chaines de reference associée au pronom Elle" style="color : #00ccff">CR_Elle</abbr> et <abbr title="chaines de reference associée au pronom Il" style="color : #00cc33">CR_Il</abbr> fusionnent en des maillons de classe "groupe", maillons impliqués à leur tour dans la <abbr title="chaines de reference associée au SN les enfants" style="color : DarkOrange">CR_enfants</abbr> [<a target="_blank" href="http://redac.univ-tlse2.fr/corpus/resolco/copies/html/CO-3e-2016-VTAC305-D1-R6-V1_T.html">EC-CM1-2015-TFGLX-D1-R12-V1</a>] : 
+		</span><br/><br/>
+			<a href="images/exemples/19.png" alt="maillon-groupe">
+		<img src="images/exemples/19.png" title="maillon-groupe" style="width : 100%;max-width:800px;" /></a><br/>
+
+<p>Cette copie est également celle utilisée comme exemple dans le <a href="#video">tutoriel vidéo</a> mis à disposition à la fin de ce guide.</p>
+	</div>
+	</p>
+<h5>2)</h5>										  
+<p>Si les référents multiples référent uniquement à <span style="color: DarkOrange">les enfants</span>, les maillons de la <abbr title="chaines de reference associée au SN les enfants" style="color : DarkOrange">CR_enfants</abbr> ne reçoivent pas le trait <b>groupe</b>. En revanche, si les référents multiples incluent d'autres membres que <span style="color: DarkOrange">les enfants</span>, les maillons de la <abbr title="chaines de reference associée au SN les enfants" style="color : DarkOrange">CR_enfants</abbr> reçoivent le trait <b>groupe</b></p>	
+
+
+<h5>3)</h5>	
+<p>Dans d'autres cas encore, l'un des référents humains de la consigne est introduit par le biais d'un <b>référent collectif</b> (<i>le groupe d'amis</i>, <i>la bande de copains</i>). Comme précédemment, on annote le référent collectif comme premier maillon de la CR et on lui attribue le trait <b>groupe</b>.
+
+<div class="exemple">
+			<span class="ex_head"><abbr title="chaines de reference associée au pronom Elle" style="color : #00cc33">CR_Elle</abbr>&nbsp;: Premier maillon collectif (trait groupe) suivi d'un maillon de type NP (sans trait groupe) puis d'un maillon sujet zéro. [<a target="_blank" href="http://redac.univ-tlse2.fr/corpus/resolco/copies/html/CO-3e-2018-FSBJC6-D1-R10-V1_T.html">CO-3e-2018-FSBJC6-D1-R10-V1</a>]</span><br/><br/>
+			<a href="images/exemples/20.png" alt="refCollectif">
+		<img src="images/exemples/20.png" title="refCollectif" style="width : 100%;max-width:800px;" /></a>
+	</div>
+</p>
+
+
+<h3><a name="remarques"></a>2.8 Remarques</h3>
+<h4><a name="discDirect"></a> Discours direct</h4>
+<p>On considère que le passage au discours direct ne constitue pas une rupture de la chaîne. Ainsi on annote <i>moi</i> comme un maillon de la <abbr title="chaines de reference associée au pronom Elle" style="color : #00ccff">CR_Elle</abbr> introduite par <i>Jeane</i>, de même que chacune des occurrences du pronom personnel <i>je</i> qui suivent.
+</p>
+<p>En revanche, la didascalie nominative <i>Jeane : </i> n'est pas considérée comme un maillon.</p>
+	<div class="exemple">
+			<span class="ex_head">CR traversant une zone de discours direct [<a target="_blank" href="http://redac.univ-tlse2.fr/corpus/resolco/copies/html/CO-3e-2018-FSBJC6-D1-R10-V1_T.html">CO-3e-2018-FSBJC6-D1-R10-V1</a>]</span><br/><br/>
+			<a href="images/exemples/21.png" alt="discours_direct">
+		<img src="images/exemples/21.png" title="discours_direct" style="width : 100%;max-width:800px;" /></a>
+		
+	</div>
+<h4><a name="titres"></a>Maillons apparaissant dans un titre</h4>
+<p>Certaines copies contiennent des titres dans lesquels peuvent figurer des maillons. Le cas échéant, le maillon sera à annoter selon les règles décrites précédemment.
+</p>
+
+<h2><a name="incertitude"></a>3. Incertitude d'identification des maillons</h2>
+<h3>Incertitude quant au rattachement du maillon</h3>
+
+<p>Pour plusieurs raisons, il n'est pas toujours facile de déterminer si telle expression référentielle est bien rattachée au référent en cours d'annotation. Il peut notamment y avoir dans le contexte plusieurs expressions disponibles pour un même référent. C'est le cas ci-dessous où le possessif <i>sa</i> peut coréférer à <i>la vieille femme</i> ou à <i>elle</i>. Dans ce cas, on fera un choix et seule l'expression qui paraît la plus cohérente pour construire l'interprétation sera annotée. Toutefois, l'annotateur devra indiquer son incertitude concernant le <b>rattachement</b> du maillon, en lui attribuant une étiquette signalant cette incertitude.</p>
+<div class="exemple">
+			<span class="ex_head">Incertitude de rattachement d'un maillon à la <abbr title="chaines de reference associée au pronom Elle" style="color : #00ccff">CR_Elle</abbr> [<a target="_blank" href="http://redac.univ-tlse2.fr/corpus/resolco/copies/html/CO-3e-2016-VTAC305-D1-R10-V1_T.html">CO-3e-2016-VTAC305-D1-R10-V1</a>]</span><br/><br/>
+			<a href="images/exemples/22.png" alt="incertitude">
+		<img src="images/exemples/22.png" title="incertitude" style="width : 100%;max-width:800px;" /></a>
+	</div>
+	</p>
+
+<p>Un autre cas d'incertitude concerne les cas où deux interprétations différentes du texte sont envisageables. Nous l'illustrons ci-dessous avec l'exemple des maillons de la <abbr title="chaines de reference associée au pronom Il" style="color : #00cc33">CR_Il</abbr>. 
+<br/>	
+Dans cet exemple, en lisant le texte, on peut se demander si le référent associé à  <span style="color : #00cc33"><i>Il</i></span> est <i>l'homme</i> ou bien <i>une ombre d'homme</i>. Les deux interprétations sont possibles. Il n'y a donc, dans ce cas, pas une seule réponse possible.  
+<br/>
+La copie d'écran ci-dessous illustre un cas où l'annotateur a fait le choix d'annoter <i>homme</i>, <i>L'homme</i> et <i>il</i>. La <abbr title="chaines de reference associée au pronom Il" style="color : #00cc33">CR_Il</abbr> est alors composée de 3 maillons.
+</p>
+
+<div class="exemple">
+			<span class="ex_head">Incertitude de rattachement des maillons à la <abbr title="chaines de reference associée au pronom Il" style="color : #00cc33">CR_Il</abbr> [<a target="_blank" href="http://redac.univ-tlse2.fr/corpus/resolco/copies/html/CO-3e-2016-VTAC305-D1-R24-V1_T.tei.html">CO-3e-2016-VTAC305-D1-R24-V1</a>]</span><br/><br/>
+			<a href="images/exemples/23.png" alt="incertitude"/>
+		<img src="images/exemples/23.png" title="incertitude" style="width : 100%;max-width:800px;" /></a>
+	</div>
+
+<p>Une autre interprétation consiste à considérer que <i>une ombre d'homme</i> et <i>l'homme</i> réfèrent à la même entité (<span style="color : #00cc33"><i>Il</i></span>). C'est cette seconde interprétation que nous illustrons dans l'exemple ci-dessous. Dans ce cas, la <abbr title="chaines de reference associée au pronom Il" style="color : #00cc33">CR_Il</abbr> est composée de 11 maillons, dont certains sont des expressions référentielles au féminin.
+</p>	
+	
+	
+<div class="exemple">
+			<span class="ex_head">Incertitude de rattachement des maillons à la <abbr title="chaines de reference associée au pronom Il" style="color : #00cc33">CR_Il</abbr> [<a target="_blank" href="http://redac.univ-tlse2.fr/corpus/resolco/copies/html/CO-3e-2016-VTAC305-D1-R24-V1_T.tei.html">CO-3e-2016-VTAC305-D1-R24-V1</a>]</span><br/><br/>
+			<a href="images/exemples/24.png" alt="incertitude">
+		<img src="images/exemples/24.png" title="incertitude" style="width : 100%;max-width:800px;" /></a>
+	</div>
+	
+<p>Quel que soit son choix, l'annotateur annotera les expressions en leur attribuant une étiquette signalant l'incertitude.</p>  	
+
+<p>Un autre cas fréquent d'incertitude de rattachement concerne les maillons de type "groupe". Pour illustrer ce cas, nous relatons ci-dessous un échange entre annotateurs : </p>
+<ul>
+	<li><p><b>Question</b> : On comprend que l'on doit signaler un trait "groupe" quand on a par exemple un "ils" qui renvoie à X + Y et désigne le référent "les enfants". Dans le texte que nous avons regardé, on a par exemple ils = Tina (la maman) + les enfants, ou bien "leur" (leur maison) = Tina (la maman) + les enfants. Mais doit-on indiquer un trait "groupe" sur des occurrences de l'expression "les enfants" ou bien sur un "ils" qui anaphorise seulement "les enfants", à l'exclusion de tout autre référent ? Je te copie l'exemple :</p>
+<p><i>Depuis cette aventure, les enfants ne sortent plus la nuit. Ils ne peuvent s'empêcher de penser à cette silhouette familière qui s'est échappée durant cette fameuse nuit où les étoiles ne brillaient pas.</i></p>
+<p>Complément à cette question : est-ce que l'on indique le trait groupe à toute expression qui co-réfère exclusivement à "les enfants" ? Dans le texte en question (le premier de la liste si je ne me trompe), on a une première occurrence de "ses enfants" (qui sont "les enfants" de la phrase consigne) puis des expressions plurielles qui associent la maman et les enfants, mais aussi des "ils" ou "leur" qui ne désignent que "les enfants".</p></li>
+<li><p><b>Réponse</b> : Dans cet exemple, il n'y a le trait "groupe" que si l'on interprète que "'ils" réfère à "les enfants" PLUS d'autres personnes (d'après ce que tu dis, les enfants PLUS Tina).
+	<ul>
+		<li>Alors le maillon "les enfants"  pour trait "groupe" = non</li>
+		<li>et le maillon "ils" (les enfants+Tina) pour trait "groupe" = oui</li>
+		<li>et un autre maillon "ils" (les enfants seulement) pour trait "groupe" = non</li>
+		</ul>
+
+	Par ailleurs, si par exemple "Tina" est le référent "elle", alors le maillon "ils" est également à annoter comme un maillon de la chaîne "elle" avec le trait "groupe" = oui</p></li>
+</ul>
+
+<p>Un autre cas d'incertitude concerne les maillons de la  <abbr title="chaines de reference associée au SN les enfants" style="color : DarkOrange">CR_enfants</abbr>. On peut notamment rencontrer des expressions linguistiques signalant un <b>membre</b> de <span style="color: DarkOrange">les enfants</span>, qui ne soit pas un référent associé à <span style="color : #00ccff"><i>Elle</i></span> ni un référent associé à <span style="color : #00cc33"><i>Il</i></span>. 
+<br/> 
+Dans l'exemple ci-dessous, ces expressions n'ont pas été annotées.</p> 
+
+
+<div class="exemple">
+			<span class="ex_head">Incertitude de rattachement des maillons à la <abbr title="chaines de reference associée au SN les enfants" style="color : DarkOrange">CR_enfants</abbr> [<a target="_blank" href="http://redac.univ-tlse2.fr/corpus/resolco/copies/html/CO-3e-2016-VTAC305-D1-R3-V1_T.tei.html">CO-3e-2016-VTAC305-D1-R3-V1</a>]</span><br/><br/>
+			<a href="images/exemples/25.png" alt="incertitude">
+		<img src="images/exemples/25.png" title="incertitude" style="width : 100%;max-width:800px;" /></a>
+	</div>
+
+
+<p>Une autre possibilité serait d'annoter les expressions référentielles signalant un <b>membre</b> de <span style="color: DarkOrange">les enfants</span>, qui ne soit ni le référent associé à <span style="color : #00ccff"><i>Elle</i></span> ni le référent associé à <span style="color : #00cc33"><i>Il</i></span>. 
+<br/>
+	Dans l'exemple ci-dessous, l'annotateur a annoté les expressions <i>l'autre Gile</i>, <i>Gile</i> et <i>lui</i> et les a reliées à la  <abbr title="chaines de reference associée au SN les enfants" style="color : DarkOrange">CR_enfants</abbr>. Les expressions associées à <span style="color : #00cc33"><i>Il</i></span> n'ont pas été associées à la <abbr title="chaines de reference associée au SN les enfants" style="color : DarkOrange">CR_enfants</abbr> puisqu'elles ont été déjà annotées et associées à la <abbr title="chaines de reference associée au pronom Il" style="color : #00ccff">CR_Il</abbr>. 
+
+	<div class="exemple">
+			<span class="ex_head">Incertitude de rattachement des maillons à la <abbr title="chaines de reference associée au SN les enfants" style="color : DarkOrange">CR_enfants</abbr> [<a target="_blank" href="http://redac.univ-tlse2.fr/corpus/resolco/copies/html/CO-3e-2016-VTAC305-D1-R3-V1_T.tei.html">CO-3e-2016-VTAC305-D1-R3-V1</a>]</span><br/><br/>
+			<a href="images/img_exemples/CO-3e-2016-VTAC305-D1-R3-V1_membreEnfants.png" alt="incertitude">
+		<img src="images/img_exemples/CO-3e-2016-VTAC305-D1-R3-V1_membreEnfants.png" title="incertitude" style="width : 100%;max-width:800px;" /></a>
+	</div>
+
+Dans ce cas, l'annotateur ajoutera en commentaire : 'Membre de "lesEnfants"', comme illustré ci-dessous. 
+	<div class="exemple">
+			<span class="ex_head">Commentaire en cas d'incertitude de rattachement des maillons à la <abbr title="chaines de reference associée au SN les enfants" style="color : DarkOrange">CR_enfants</abbr> [<a target="_blank" href="http://redac.univ-tlse2.fr/corpus/resolco/copies/html/CO-3e-2016-VTAC305-D1-R3-V1_T.tei.html">CO-3e-2016-VTAC305-D1-R3-V1</a>]</span><br/><br/>
+			<a href="images/img_exemples/CO-3e-2016-VTAC305-D1-R3-V1_membreEnfantsComent.png" alt="incertitude">
+		<img src="images/img_exemples/CO-3e-2016-VTAC305-D1-R3-V1_membreEnfantsComent.png" title="incertitude" style="width : 100%;max-width:800px;" /></a>
+	</div>
+
+<p>La procédure pour associer ces degrés d'incertitude à chaque unité est décrite en section <a href="#traits">3.2.4</a>.</p>
+<p>Il est également possible de laisser, pour chaque unité, un commentaire libre. Pour laisser des commentaires libres au niveau global du texte, l'annotateur peut exploiter les <b>Glue notes (voir 6.2.6)</b></p>
+
+<h3>Incertitude quant à la délimitation du maillon</h3>
+<p>Un autre cas d'incertitude peut concerner la délimitation du maillon. Dans un tel cas, l'annotateur devra indiquer qu'il a une incertitude de <b>délimitation</b> du maillon.</p>
+<p>La procédure pour associer ces degrés d'incertitude à chaque unité est décrite en section <a href="#traits">3.2.4</a>.</p>
+<p>Il est également possible de laisser, pour chaque unité, un commentaire libre. Pour laisser des commentaires libres au niveau global du texte, l'annotateur peut exploiter les <b>Glue notes (voir 6.2.6)</b></p>
+
+
+<h1><a name="annotation_maillons" href="#toc"></a>3. Rattachement des maillons dans des CR</h1>
+
+<p>Une fois les maillons délimités, la dernière étape consiste à relier entre eux les maillons d'une même chaîne (voir section <a href="#rel">3.2.6</a>). 
+Pour ce faire il s'agit de :</p>
+<ol start="4">
+	<li>relier les maillons de <abbr title="chaines de reference associée au pronom Elle" style="color : #00cc33">CR_Elle</abbr></li>
+	<li>relier les maillons de <abbr title="chaines de reference associée au pronom Il" style="color : #00ccff">CR_Il</abbr></li>
+	<li>relier les maillons de <abbr title="chaines de reference associée au SN les enfants" style="color : DarkOrange">CR_enfants</abbr></li>	
+</ol>
+
+<p>Cette dernière étape est l'occasion de vérifier l'annotation. Elle permet en particulier à l'annotateur de vérifier que tous les maillons rattachés aux trois référents humains ont bien été identifiés.</p>
+
+
+<h1><a name="annotation_maillons" href="#toc"></a>4. Procédure d'annotation des maillons et des CR</h1>
+
+<p>Pour chaque CR, l'annotation des maillons consiste en la création d'unités dédiées (voir section <a href="#add">3.2.2</a>) qui aboutit à la création d'unités de type <span style="color : #00ccff">maillon_Elle</span>, <span style="color : #00cc33">maillon_Il</span> et <span style="color: DarkOrange">maillon_lesEnfants</span> (voir section <a href="#add">3.2.3</a>). Le choix du type d'unité indique le rattachement du maillon à l'une des trois CR.</p>
+<p>Une fois le maillon délimité, l'annotation des unités maillons nécessite le renseignement d'un certain nombre de traits comme le fait que le maillon soit de la classe "groupe" ou pas (dans les cas de <a href="#coord">coordination et référents pluriels et collectifs</a>) et le degré de certitude de l'annotation réalisée (voir <a href="#incertitude">ici</a>). Toute annotation peut également être associée à un commentaire donnant plus de détails sur la décision prise ou l'incertitude indiquée.</p>
+
+<p>Une fois les unités maillons annotées, la dernière étape consiste à relier entre elles les unités maillons d'une même chaîne (voir section <a href="#rel">3.2.6</a>). Cette dernière étape est l'occasion de vérifier l'annotation.</p>
+
+<p>Dans les textes que vous allez annoter, certaines expressions linguistiques ont fait l'objet d'un <b>prémarquage</b> ayant pour fonction de faciliter la tâche d'annotation. Il s'agit d'expressions qui, parce qu'elles sont considérées comme référant potentiellement aux 3 référents humains, constituent des <b>maillons-candidats</b> des trois <abbr title="chaines_reference">CR</abbr> considérées. Ces maillons-candidats pourront être validés en leur attributant l'étiquette <span style="color : #00ccff">maillon_Elle</span>, <span style="color : #00cc33">maillon_Il</span> et <span style="color: DarkOrange">maillon_lesEnfants</span>.
+</p>
+
+<h3><a name="premark"></a>4.1 Utilisation du prémarquage des maillons-candidats</h3>
+<p>L'exemple ci-dessous fournit une illustration - pour le même texte que celui que nous avons commenté en début de <a href="#CR">section 2</a> - du résultat du prémarquage automatique d'unités appelées "maillons-candidats". Ces "maillons-candidats" correspondent à des éléments fortement susceptibles d'être des unités de type <span style="color : #00ccff">maillon_Elle</span>, <span style="color : #00cc33">maillon_Il</span> ou <span style="color: DarkOrange">maillon_lesEnfants</span>, à savoir&nbsp;:
+		<ul>
+			<li>les noms propres</li>
+			<li>les pronoms personnels de 3<sup>e</sup> personne</li>
+			<li>les déterminants possessifs</li>
+			<li>les séquences composées de "les" suivies de "enfants"</li>	
+		</ul>
+	</p>
+		</p>
+		<div class="exemple">
+			<span class="ex_head">Maillons-candidats [<a target="_blank" href="http://redac.univ-tlse2.fr/corpus/resolco/copies/html/CO-3e-2018-FSBJC6-D1-R7-V1_T.html">CO-3e-2018-FSBJC6-D1-R7-V1_T</a>]</span><br/><br/>
+			<a href="images/exemples/27.png" alt="maillons_candidats">
+		<img src="images/exemples/27.png" title="maillons_candidats" style="width : 100%;max-width:800px;" /></a>
+		</div>
+
+<p>Les maillons-candidats sont à considérer comme des propositions qui sont faites à l'annotateur pour l'assister dans sa tâche d'identification des maillons. Chaque maillon-candidat doit être validé par l'annotateur. Cette validation s'effectue par l'attribution de l'étiquette adéquate. En terme de procédure d'annotation, cela revient à créer une unité maillon_X (voir section <a href="#add">3.2.2</a>) qui se superpose au maillon-candidat. Le prémarquage étant automatique, certains maillons-candidats peuvent parfois paraître surprenants, notamment concernant le prémarquage des noms propres et des pronoms personnels.</p>
+
+<h4>4.1.a Problèmes liés au prémarquage des noms propres</h4>	
+<p>Tous les NPP ont été considérés comme des maillons-candidats, même ceux pouvant désigner un référent non humain, comme "Vendée" ou "22H" dans l'exemple ci-dessus. Ces maillons-candidats ne doivent évidemment pas faire l'objet d'une validation et peuvent être supprimés au moment de l'annotation (voir section <a href="#suppr">3.2.4</a>)</p>
+<p>Parfois, un NPP n'a pas été prémarqué, comme le nom "Clément" dans l'exemple ci-dessous.
+	 <div class="exemple">
+			<span class="ex_head">Problème de détection des maillons-candidats de type NPP [<a target="_blank" href="http://redac.univ-tlse2.fr/corpus/resolco/copies/html/CO-3e-2018-VTAC305-D1-R5-V1_T.html">CO-3e-2018-VTAC305-D1-R5-V1</a>]</span><br/><br/>
+			<a href="images/exemples/28.png" alt="maillonNPPmanquant">
+	 <img src="images/exemples/28.png" title="maillon-candidat NPP manquant" style="width : 100%;max-width:800px;" />
+	 </a>
+	 </div>
+<p>
+Dans ce cas, si "Clément" est inclus dans une des CR de la consigne, l'annotateur devra créer une nouvelle unité (voir section <a href="#add">3.2.2</a>).</p>
+<p>Il se peut également que les noms propres soient prémarqués de façon incomplète, comme le montre l'exemple ci-dessous où "Mr" n'a pas été inclus dans le maillon-candidat "Mr Wilson".
+</p>
+	 <div class="exemple">
+			<span class="ex_head">Problème de délimitation des maillons-candidats de type NPP [<a target="_blank" href="http://redac.univ-tlse2.fr/corpus/resolco/copies/html/CO-3e-2018-FSBJC6-D1-R5-V1_T.html">CO-3e-2018-FSBJC6-D1-R5-V1</a>]</span><br/><br/>
+			<a href="images/exemples/29.png" alt="delimitationNPP">
+	 <img src="images/exemples/29.png" title="delimitationNPP" style="width : 100%;max-width:800px;" />
+	 </a>
+	 </div>
+</p>
+
+<h4>4.1.b. Problèmes liés au prémarquage du pronom personnel <i>il</i></h4>	
+<p>Tous les pronoms clitiques sujets <i>il</i> ont été prémarqués, qu'il s'agisse d'un emploi personnel (<i><b>Il</b> se retourna en entendant ce grand bruit</i>) ou impersonnel (<i><b>Il</b> était un fois</i>, <i><b>Il</b> pleut</i>, <i><b>Il</b> est évident que...</i>). Ces maillons-candidats ne doivent évidemment pas faire l'objet d'une validation et peuvent être supprimés au moment de l'annotation (voir section <a href="#suppr">3.2.4</a>).</p>
+			
+
+	
+	<h1>
+	<a name="glozz">5. Utilisation de Glozz pour annoter les CR</a>
+	</h1><!-- soit chapeau soit 5.1--> Procédure ou autre 
+		<p>
+		L'annotation des CR se fait en identifiant toutes les <em>UNITÉS</em> (<img src="images/interface_icon/unit.png" align="absmiddle" height="18"/>) qui correspondent aux expressions référentielles référant aux référents humains mentionnés dans les phrases consignes.</p>
+<p>L'annotation consiste à créer trois types d'<em>UNITÉS</em> (<img src="images/interface_icon/unit.png" align="absmiddle" height="18"/>)&nbsp;:
+		<ul>
+			<li style="color:#00ccff">maillon_Elle</li>
+			<li style="color:#00cc33">maillon_Il</li>
+			<li style="color:darkOrange">maillon_lesEnfants</li>
+		</ul>
+			</p>
+<p>et à relier ces <em>UNITÉS</em> par trois types de <em>RELATIONS</em> (<img src="images/interface_icon/relation-32x32.png" align="absmiddle" height="18"/>)&nbsp;:
+		<ul>
+			<li style="color:#00ccff">coref_Elle</li>
+			<li style="color:#00cc33">coref_Il</li>
+			<li style="color:darkOrange">coref_lesEnfants</li>
+		</ul>
+			</p>
+	
+<p>Afin de réaliser l'annotation en distinguant chaque étape et chaque CR (voir section <a href="#annotation_maillons">2.3</a>), il est conseillé de commencer par annoter toutes les unités de type <span style="color : #00ccff">maillon_Elle</span> (y compris le maillon contenu dans la phrase consigne). Une fois tous les <span style="color : #00ccff">maillon_Elle</span> annotés, il est conseillé de masquer ces annotations avant de commencer l'annotation des unités de type <span style="color : #00cc33">maillon_Il</span>, et idem pour l'annotation des unités de type <span style="color: DarkOrange">maillon_lesEnfants</span>. Cela permet d'avoir une vue dégagée du texte, ce qui facilite l'annotation.</p>
+
+<!--<p>Afin de réaliser l'annotation en distinguant chaque étape et chaque CR (voir section <a href="#annotation_maillons">2.2</a>), il est conseillé de commencer par annoter toutes les unités de type <span style="color : #00ccff">maillon_Elle</span> (y compris le maillon contenu dans la phrase consigne). Une fois tous les <span style="color : #00ccff">maillon_Elle</span> annotés, il est conseillé de masquer ces annotations avant de commencer l'annotation des unités de type <span style="color : #00cc33">maillon_Il</span>, et idem pour l'annotation des unités de type <span style="color: DarkOrange">maillon_lesEnfants</span>. Cela permet d'avoir une vue dégagée du texte, ce qui facilite l'annotation.</p>--> 
+<p>L'annotation des relations doit se réaliser après l'annotation de toutes les unités maillons et est grandement facilitée par ce jeu de masque des unités non concernées par la relation. Ainsi, pour annoter les relations de type <span style="color:#00ccff">coref_Elle</span>, il est conseillé de n'afficher que les unités de type <span style="color:#00ccff">maillon_Elle</span>.</p>
+<p>Ce jeu de masque et d'affichage se fait en utilisant l'outil <emph>Style Editor</emph> décrit dans les sections <a href="#loadModel">6.1.2.b</a> et <a href="#style">6.2.8</a>.</p>
+<!--<p>
+<span class="RQ">
+!!! même en masquant l'affichage des maillons et relations il est toujours possible de les relier par erreur ou de les sélectionner en utilisant les boutons "modifier". 
+Attention lorsqu'on veut relier/supprimer/modifier un maillon ou une relation qui est superposé à d'autres : on peut sélectionner la mauvaise annotation
+</p>-->
+
+<h2>
+	<a name="interface" id="interface" href="#toc">5.1. Interface d'annotation</a>
+	</h2>
+	
+		<p>L'interface d'annotation Glozz a été conçue dans les cadre de projets académiques pour permettre l'annotation de structures discursives complexes. Elle permet de délimiter des unités (dans notre cas, délimiter les maillons), de leur associer un style et des caractéristiques et de relier ces unités. La première étape avant de commencer est de télécharger l'interface Glozz, interface multiplateforme.</p>
+		<h4>5.2.1. Télécharger Glozz</h4>
+		<p>Pour télécharger le logiciel il faut se rendre sur le site suivant <a href="http://glozz.free.fr/">http://glozz.free.fr/</a> et remplir les champs proposés dans la section "Download Glozz". 
+	<br/>Il faudra également suivre les indications pour demander une clé d'accès à Glozz, sans laquelle vous ne pourrez pas annoter. 
+	Si vous avez des difficultés à trouver ces indications sur le site, suivez les informations ci-dessous&nbsp: </p>
+<div class="exemple">
+	Envoyer un mail à yann.mathet[AT]unicaen.fr  et antoine.widlocher[AT]unicaen.fr   
+	<br/><b>Objet du mail&nbsp:</b> Glozz 
+<br/><b>Texte&nbsp:</b>  vous devez indiquer votre souhait d'effectuer l'accès à Glozz et donner votre username. Pour communiquer l'username que vous avez choisi d'utiliser vous devez indiquer dans le corps du mail&nbsp: <br/>
+<b>Login&nbsp: votre username</b> 
+</div>
+<p>Pour installer le logiciel suivez les indications présentes sur le site et sur le manuel&nbsp: <a href="http://glozz.free.fr/glozzManual_1_0.pdf">http://glozz.free.fr/glozzManual_1_0.pdf</a></p>
+
+<h3>5.2.2. Lancer Glozz</h3>
+<p>Une fois l'installation terminée, vous pouvez lancer Glozz. Pour ce faire, vous avez plusieurs possibilités&nbsp: 
+<ul>
+		<li>soit en faisant un double clic sur le fichier <b>«glozz-platform.jar»</b> ;</li>
+		<li>soit en utilisant le terminal, via la ligne de commande suivante&nbsp: <b>java -jar <i>(chemin pour arriver à votre dossier Glozz)</i>/glozz-platform dist-2.1/glozz-platform.jar</b> <br/>
+		Si vous avez besoin de donner plus de mémoire au logiciel, vous pouvez utiliser la ligne de commande suivante&nbsp:  
+		<b>java -Xmx1G -jar <i>(chemin pour arriver à votre dossier Glozz)</i>/glozz-platform dist-2.1/glozz-platform.jar</b></li>
+</ul>
+
+
+ 
+<h3><a name="zones"></a>5.2.3. Les éléments de l'interface</h3> 
+		<p>
+		Toutes les pocédures d'annotation se font avec l'interface d'annotation dans laquelle nous distinguons les zones suivantes&nbsp;:<br/>
+		<img src="images/interface_icon/glozz2.1.png" alt="interface_glozz" style="width : 100%;max-width:800px;" />
+		</p>
+<ul>
+	<li>La ZONE CENTRALE est la zone dans laquelle seront réalisées les annotations.</li>
+	<li>La ZONE MOD&Egrave;LE ou "zone Modèle et Annotation as Text" permet de sélectionner le type d'unités et de relations à annoter et l'onglet "Annotation as Text" permet de visualiser la liste de toutes les annotations existantes.</li> 
+	<li>La ZONE TRAITS ou "Saisie des traits associés aux annotations" donne accès aux caractéristiques associées à chaque annotation (e.g. le degré d'incertitude, les commentaires, la nature des unités) et permet, en mode édition, de les modifier.</li>
+	<li>La ZONE OUTILS ou "Barre d'outils et zone d'édition" permet de charger les fichiers, paramétrer les préférences d'affichage, charger les modèles d'annotation et les styles, et contient le boutons permettant de créer et modifier des annotations.</li>
+	<li>La ZONE RUBAN offre une vue de haut du texte et des annotations.</li> 
+</ul>
+<h3><a name="param"></a>5.2.4 Conseils de paramétrage</h3>
+<p>Pour éviter des <b>problèmes de mémoire au demarrage</b> de Glozz, nous vous conseillons de modifier le paramétrage qui prévoit de recharger le dernier travail à chaque démarrage du logiciel dès la première utilisation de la plateforme d'annotation, surtout si vous travaillez sur des gros fichiers. Pour ce faire, une fois que Glozz aura demarré, cliquez sur <span class="bouton">Options</span> puis <span class="bouton">Pr&eacute;f&eacute;rences</span> et sur l'onglet <span class="bouton">Launch</span>, décochez la case <emph>Load last job automatically on launch</emph>. Ce paramétrage restera mémorisé pour toutes vos prochaines sessions de travail sous Glozz.</p>
+<p>Par défaut, le chargement d'un texte est accompagné d'une <b>visualisation de toutes les couches d'annotations</b> qui lui sont associées, mêmes celles qui relèvent pas du modèle d'annotation choisi. Ces annotations, dans le cas des copies d'élèves, indiquent les ratures, les fautes d'orthographe, les commentaires de enseignants, etc. L'affichage de ces annotations ne fera que perturber l'annotation des CR. Pour neutraliser cet affichage, cliquez sur <emph>Options</emph> &gt; <emph>Préférences...</emph> et sous l'onglet <emph>Viewer</emph> et décochez <emph>Show unstyled annotations</emph>.</p>
+<p class="comment">
+	Barre d'outils : <span class="bouton">
+	Options</span> &gt; <span class="bouton">Pr&eacute;f&eacute;rences</span> puis sur l'onglet <span class="bouton">Viewer</span> :													
+	<img src="images/show_unstyle.png" alt="show unstyled annotations" width="150" align="top"/><br/>
+	Ce paramétrage restera mémorisé pour toutes vos prochaines sessions de travail sous Glozz.</p>
+<p>Si vous le souhaitez, vous pouvez régler la <b>taille d'affichage du texte</b> : taille de police et taille des interlignes en cliquant sur <emph>Options</emph> &gt; <emph>Préférences...</emph> et en sélectionnant l'onglet <emph>Viewer</emph>.
+<ul>
+<li>Pour modifier la <b>taille de la police</b>, vous devez régler la case <emph>Main viewer font size (corpus reload required</emph>. Vous pouvez choisir <i>"small</i>, <i>"medium"</i>, <i>"large"</i> ou <i>"huge"</i>.</li>
+<li>Pour modifier la <b>taille des interlignes</b>, vous devez régler la case <emph>Main viewer line spacing (corpus reload required)</emph>.  Vous pouvez choisir <i>"small</i>, <i>"medium"</i>, <i>"large"</i> ou <i>"huge"</i>. </li> 
+</ul>
+</p>
+<p>Pour que les modifications soient prises en compte il est nécessaire de re-importer le fichier que vous voulez annoter. Si vous ne l’avez pas importé, il suffit de le faire après avoir modifié les paramètres. Ce paramétrage restera mémorisé pour toutes vos prochaines sessions de travail sous Glozz.</p>
+</p>
+<h2>
+	<a name="procedure" id="procedure" href="#toc">5.2. Fonctionnalités de l'interface</a>
+	</h2>
+	<div class="contents">
+		<ul class="toc">
+			<li class="tocline">6.2.1 Charger <a href="#loadText">les textes à annoter</a> et <a href="#loadModel">le modèle d'annotation</a></li>
+			<li class="tocline">6.2.2 <a href="#cue">Créer une unité</a></li>
+			<li class="tocline">6.2.3 <a href="#edit">Modifier une unité (maillon-candidat ou maillon précédemment annoté)</a></li>
+			<li class="tocline">6.2.4 <a href="#suppr">Supprimer une unité</a></li>
+			<li class="tocline">6.2.5 <a href="#rel">Relier deux unités</a></li>
+			<li class="tocline">6.2.6 <a href="#glue">Laisser une note</a></li>
+			<li class="tocline">6.2.7 <a href="#save">Enregistrer les annotations</a></li>
+			<li class="tocline">6.2.8 <a href="#style">Modifier l'affichage des annotations et du prémarquage</a></li>
+		</ul>
+	</div>		
+	
+	<h3>6.2.1 <a name="load">Charger les textes à annoter et le modèle d'annotation</a></h3>
+<p>Une fois l'interface ouverte, il faut charger le texte à annoter, le modèle d'annotation et la feuille de style permettant de visualiser les annotations. Les fichiers correspondant au modèle d'annotation et à la feuille de style sont disponibles dans la <a href="#telechargement">Zone de téléchargement</a>. Ce n'est qu'une fois tous ces fichiers chargés dans Glozz que l'annotation peut commencer. </p>
+			<h4>6.2.1.a <a name="loadTexts">Charger les textes à annoter</a></h4>							
+
+		<p>Charger le texte à annoter en cliquant sur le bouton <img src="images/interface_icon/open-24x24.png" align="absmiddle"/>
+		(<span class="bouton">Open corpus</span>) situé dans la barre d'outils.
+		</p>
+										<p>Deux éléments doivent être chargés&nbsp: 
+		le texte (fichiers avec extension <b>.ac</b>) et le fichier contenant les annotations (fichiers portant le même nom mais avec l'extension <b>_coref.aa</b>). Vous pouvez également charger un fichier contenant des annotations que vous avez réalisées et sauvegardées (voir la section <a href="#save">6.2.7.</a>).</p>
+		<p class="comment">Si le fichier .aa n'apparaît pas dans la fenêtre, il faut sans doute modifier le type de fichier à visualiser en choisissant .aa file.</p>
+			<h4>6.2.1.b <a name="loadModel">Charger le modèle d'annotation et la feuille de style associée</a></h4>							
+		<p>
+		Charger le modèle d'annotation en cliquant sur le bouton <img src="images/interface_icon/LAM.png" align="absmiddle"/> dans la barre d'outils. Sous glozz, un modèle d'annotation est un fichier avec une extension .aam. Pour cette tâche d'annotation, il faut charger le modèle <em>resolco_coref.aam</em>. Les unités et relations à annoter apparaissent alors dans la ZONE MOD&Egrave;LE (en bas à droite)	<img src="images/interface_focus_LAM.png" height="40" style="vertical-align:top"/>
+		</p>
+		</li>
+		<li>
+		<p>
+		Charger la feuille de style qui permet de colorer dans le ruban et la
+		zone texte les futures annotations, les maillons-candidats et les phrases consignes. Pour charger la feuille de style, cliquer sur le bouton <img src="images/interface_icon/styleEditor-24x24.png" align="absmiddle"/>
+		(<span class="bouton">Style editor</span>) situé dans la barre d'outil, puis sur le bouton <img src="images/interface_icon/open-24x24.png" align="absmiddle"/> (<span class="bouton">Open style</span>) dans la fenêtre concernée. Le fichier de base pour cette tâche d'annotation se trouve dans le fichier <em>resolco_coref.as</em>. Une fois la feuille de style <em>resolco_coref.as</em> chargée, les maillons-candidats apparaissent grisés et les phrases consignes encadrées.
+		</p>
+			<p>La feuille de style reste par défaut ouverte en arrière plan de la fenêtre principale de l'interface Glozz. Afin d'éviter d'ouvrir plusieurs fenêtres, il est conseillé de fermer systématiquement la fenêtre style une fois le style chargé et les unités/relations affichées ou masquées (voir section <a href="#style">6.2.8</a>). Pour réouvrir la fenêtre, il suffit de recliquer sur le bouton <img src="images/interface_icon/styleEditor-24x24.png" align="absmiddle"/>.</p>
+									
+		</li>
+</ol>
+<p class="comment">Le mode par défaut lorsque un nouveau texte est chargé est le mode visualisation (bouton OEIL enfoncé dans la ZONE OUTILS). À tout moment, il est conseillé de passer dans ce mode (en cliquant sur le bouton OEIL) pour avoir un aperçu global de l'état d'avancement de l'annotation.</p>
+
+	
+			<h3>5.2.2. <a name="cue" id="cue">Créer une annotation "unité" (maillon)</a></h3>
+			<p>Tout maillon d'une des CR à annoter doit donner lieu à la création d'une unité.</p>
+<p>Pour créer une unité, il faut d'abord passer en mode <emph>création d'unité</emph> en cliquant sur le bouton <img src="images/interface_icon/unit-add-32x32.png" align="absmiddle" height="24"/> (<span class="bouton">Create a new simple Unit</span>) dans la ZONE OUTILS. Une fois le bouton enfoncé, il faut sélectionner le type de l'unité à créer, à savoir <span style="color : #00ccff">maillon_Elle</span>, <span style="color : #00cc33">maillon_Il</span> ou <span style="color: DarkOrange">maillon_lesEnfants</span> en cliquant sur le type adéquat dans le modèle d'annotation affiché dans la ZONE MOD&Egrave;LE (en bas à droite)	<img src="images/interface_focus_LAM.png" height="40" style="vertical-align:top"/>.</p>
+<p class="comment">Par défaut, toute nouvelle unité est associée au type de l'unité précédemment annotée. Si aucune unité n'a encore été créée, la nouvelle unité sera associée au type <i>u_default</i>.</p>
+
+<p>Passez ensuite à la délimitation de l'unité dans la ZONE CENTRALE.</p>
+<p>La <b>délimitation des unités</b> peut se faire de deux manières&nbsp;:
+	<ul>
+	<li><b>soit en deux temps</b>&nbsp;:
+	<ol>
+	<li>positionnez d'abord votre souris sur le début de l'unité et cliquez pour ancrer la borne start
+	(<img src="images/begin.png" alt="BEGIN" height="24" align="absmiddle"/>).
+	</li>
+	<li>positionnez ensuite votre souris à la fin de l'unité et cliquez pour ancrer la borne end
+	(<img src="images/end.png" alt="END" height="24" align="absmiddle"/>).
+	</li>
+	</ol>
+	</li>
+	<li><b>soit en un seul mouvement</b>&nbsp;: positionnez votre souris sur le début de l'unité, cliquez et maintenez le clic pour tracer la délimitation de l'unité (un cadre en pointillé apparaît). Glissez le curseur jusqu'à la fin de l'unité et alors seulement l&acirc;chez le clic. </li>
+		</ul>
+	<p class="comment">Si <b>les délimitations n'apparaissent pas à l'écran</b> cela signifie qu'aucun style n'est associé à l'unité. Vous devez alors vérifier que l'objet que vous annotez (dont le nom est inscrit et sélectionné dans la zone modèle) a bien un style associé dans la fenêtre <em>Style editor</em> (voir section <a href="#loadModel">6.2.1.b</a>).</p>
+	<p class="comment">Lorsque vous souhaitez <b>annoter une forme élidée (ex : [l'])</b> Glozz peut avoir tendance à étendre automatiquement l'annotation en incluant le mot qui suit la forme élidée (ex : [l'appela]). Pour ne délimiter que la forme élidée, il faut d'abord créer l'unité même si la délimitation n'est pas correcte puis la modifier en suivant les instructions fournies en section <a href="#modifUnit">6.2.3.b</a>).</p>
+	
+		<p>Une fois cette unité créée, vous pouvez renseigner dans la ZONE TRAITS certaines informations sur cette unité par rapport au degré d'incertitude concernant sa délimitation et son rattachement (voir section <a href="#incertitude">2.2</a>) et si l'unité appartient à la classe <b>groupe</b> (voir section <a href="#groupe">Maillon de type "groupe"</a>). Par défaut l'unité maillon est associée à un degré incertitude nul (pas d'incertitude). Pour modifier ces valeurs, il suffit de cliquer sur les champs concernés, de saisir les valeurs et d'enregistrer les caractéristiques en appuyant sur la touche "Entrée".</p>	
+	
+	<!--<p>Une fois cette unité créée, vous pouvez renseigner dans la ZONE TRAITS certaines informations sur cette unité par rapport au degré d'incertitude concernant sa délimitation et son rattachement (voir section <a href="#incertitude">Incertitude</a>) et si l'unité appartient à la classe <b>groupe</b> (voir section <a href="#coord">coordination et référents pluriels et collectifs</a>). Par défaut l'unité maillon est associée à un degré incertitude nul (pas d'incertitude). Pour modifier ces valeurs, il suffit de cliquer sur les champs concernés, de saisir les valeurs et d'enregistrer les caractéristiques en appuyant sur la touche "Entrée".</p>	-->
+	
+<p class="comment">À tout moment, il est conseillé de passer dans le mode visualiation (en cliquant sur le bouton OEIL dans la ZONE OUTILS) pour avoir un aperçu global de l'état d'avancement de l'annotation.</p>
+	<h3>6.2.3. <a name="edit" id="edit">Modifier l'annotation d'une unité</a></h3>
+<p>Si vous souhaitez modifier l'annotation d'une unité (sa délimitation, son type ou ses traits), vous devez passer en mode <emph>édition d'unité</emph> en cliquant sur le bouton <img src="images/interface_icon/unit-edit-32x32.png" align="absmiddle" height="24"/> dans la ZONE OUTILS. Une fois le bouton enfoncé, vous pouvez
+	<ul>
+		<li class="tocline"><a href="#modifUnit">Modifier la délimitation de l'annotation</a></li>
+		<li class="tocline"><a href="#modifTypunit">Modifier le type de l'annotation</a></li>
+		<li class="tocline"><a href="#suppr">Supprimer une annotation</a></li>
+	</ul>
+</p>
+<h4><a name="modifUnit"></a>5.2.3.a. Modifier la délimitation de l'annotation</h4>
+						
+<p>En mode <emph>édition d'unité</emph> (bouton <img src="images/interface_icon/unit-edit-32x32.png" alt="edit_unit" align="absmiddle" height="24"/> enfoncé), 
+<ol>
+<li><a name="select_obj"></a><b>sélectionnez l'annotation</b> à modifier en cliquant dessus. Les lignes délimitant l'annotation se changent en pointillés rouges et deux petits ronds apparaissent aux bornes initiale et finale.</p>
+								<p class="comment"> Lorsque le curseur de la souris passe sur une annotation, celle-ci change de couleur. En présence d'<b>annotations superposées</b>, toutes les annotations concernées changent de couleur. Pour sélectionner une annotation lorsque les annotations superposées ont les mêmes limites, il faut cliquer plusieurs fois pour sélectionner l'annotation désirée et voir apparaître les pointillés rouges la délimitant.</p>
+							</li>
+							<li><em>positionnez le curseur</em> sur les ronds de borne initiale et/ou finale et déplacez la ou les borne(s) afin d'obtenir la délimitation correcte.</li>
+							</ol>
+</p>
+								<p class="comment"> Il peut s'avérer rapidement difficile de distinguer les annotations si celles si sont superposées. Pour cela, l'interface propose un outil appelé <em>Depth Selector</em> qui permet de jouer sur les couches d'annotation visibles. Pour activer cette fonction, cliquez dans la barre d'outils sur <span class="bouton">Tools</span> puis <span class="bouton">Depth Selector</span>. La boîte de dialogue suivante apparaît alors dans la zone droite de l'interface&nbsp: <img src="images/depthSelector.png" width="400"/><br/>Il suffit ensuite de <em>manipuler le curseur</em> pour faire varier l'affichage des différents niveaux d'annotation.
+					</p>
+						
+						<h4><a name="modifTypunit"></a>6.2.3.b. Modifier le type d'une annotation</h4>
+						<p>En mode <emph>édition d'unité</emph> (bouton <img src="images/interface_icon/unit-edit-32x32.png" alt="edit_unit" align="absmiddle" height="24"/> enfoncé), 
+						<ol>
+							<li>sélectionnez l'annotation à modifier en cliquant dessus (voir l'item <a href="#select_obj">sélectionner l'annotation</a> ci-dessus);</li>
+							<li>changez l'annotation au niveau de la ZONE MOD&Egrave;LE (l'annotation actuelle apparaît surlignée)								</li>
+							</ol>
+</p>
+<p>Une fois le type de l'annotation modifié, il faut renseigner les caractéristiques de cette unité dans la ZONE TRAITS (degré d'incertitude concernant sa délimitation et son rattachement, appartenance à la classe <b>groupe</b> ou pas). Par défaut le maillon annoté est associé à un degré d'incertitude nul. Pour modifier ces valeurs, il suffit de cliquer sur les champs concernés, de saisir les valeurs et d'enregistrer les caractéristiques en appuyant sur la touche "Entrée".</p>	
+
+<p class="comment">Vous pouvez utiliser cette procédure pour transformer les annotations de type maillon-candidat en unité de type maillon_Elle/Il/lesEnfants, mais il est conseillé, lors de vos premières annotations, de créer une nouvelle annotation par dessus un maillon-candidat pour conserver la trace de maillons-candidats. Un annotateur expérimenté sera plus à même de choisir dans quels cas modifier l'annotation et dans quels cas superposer une nouvelle annotation.</p>			
+	
+						<h3><a name="suppr"></a>5.2.4. Supprimer une annotation (maillon précédemment annoté ou maillon-candidat gênant)</h4>
+					<p>Si vous souhaitez supprimer une annotation, il faut être en mode <emph>édition d'unité</emph> (bouton <img src="images/interface_icon/unit-edit-32x32.png" alt="edit_unit" align="absmiddle" height="24"/> enfoncé). 
+					<ol>
+							<li>sélectionnez l'objet à modifier en cliquant dessus (voir l'item <a href="#select_obj">sélectionner l'annotation</a> ci-dessus);
+							</li>
+							<li>appuyez sur la touche <span class="bouton">Suppr</span> du clavier, l'annotation est supprimée.
+							</li>
+						</ol>
+					</p>
+<p class="comment">Les unités de type maillon-candidat qui gênent l'annotation peuvent être supprimées, mais ce n'est pas une obligation.</p>			
+	
+	<h3><a name="rel"></a>5.2.5. Relier les unités constituant une CR</h3>					
+<p>Une fois les unités maillons d'une CR créées, une dernière étape consiste à valider la chaîne en reliant tous ses maillons par une relation de coréférence. </p>
+<p>Pour cette étape, il est recommandé de cacher les maillons-candidats et les maillons des autres CR en jouant avec les styles (voir section <a href="#style">6.2.8</a>)</p>
+<p>Pour relier des unités entre elles, il faut passer en mode création de relation en cliquant sur le bouton <img src="images/interface_icon/relation-add-32x32.png" align="absmiddle" height="24"/> dans la ZONE OUTILS. Une fois le bouton enfoncé, il faut sélectionner le type de la relation à créer, à savoir <span style="color : #00ccff">coref_Elle</span>, <span style="color : #00cc33">coref_Il</span> ou <span style="color: DarkOrange">coref_lesEnfants</span> en cliquant sur le type adéquat dans la colonne "relations" du modèle d'annotation affiché dans la ZONE MOD&Egrave;LE (en bas à droite)	<img src="images/interface_focus_LAM.png" height="40" style="vertical-align:top"/>.</p>
+<p class="comment">Par défaut, toute nouvelle relation est associée au type de la relation précédemment annotée. Si aucune relation n'a encore été créée, la nouvelle relation sera associée au type <i>r_default</i>.</p>
+	
+<p>Passez ensuite à la sélection des maillons à relier en cliquant à chaque fois sur les deux unités maillon à relier.</p> 
+<p class="comment">Toute annotation de relation s'établissant entre deux unités, il est nécessaire de cliquer sur le 1er maillon et le 2e, puis de cliquer à nouveau sur le 2e pour le relier au 3e et ainsi de suite.</p>
+<p>Vous pouvez à tout moment modifier ou supprimer une relation en passant en mode édition de relation en cliquant sur le bouton <img src="images/interface_icon/relation-edit-32x32.png" align="absmiddle" height="24"/>. Une fois en mode édition de relation, vous pouvez sélectionner la relation et choisir de modifier les unités reliées, son type ou de supprimer la relation en appuyant sur la touche <span class="bouton">Suppr</span> du clavier.</p>
+<p class="comment">A tout moment, il est conseillé de passer dans le mode visualisation (en cliquant sur le bouton OEIL dans la ZONE OUTILS) pour avoir un aperçu global de l'état d'avancement de l'annotation.</p>
+<h3><a name="glue"></a>6.2.6. Laisser un commentaire via les glue notes</h3>		
+				
+							<p>
+À tout moment, il est possible d'associer un commentaire à une
+annotation ou à n'importe quelle position dans le texte par le biais de <em>glue note</em><img src="images/interface_icon/flag-32x32.png" alt="glue_note" align="absmiddle" height="24"/>. 
+							</p>
+							<p>
+								Pour cela, cliquer sur l'ic&ocirc;ne <img src="images/interface_icon/flag-32x32.png" alt="glue_note" align="absmiddle" height="24"/>
+et remplissez le cadre jaune qui s'affiche. Vous pouvez ensuite éditer
+ces <em>glue notes</em> ou les supprimer, une par une ou toutes ensemble. </p>
+							
+					
+
+
+				
+				<h3>5.2.7. <a name="save" id="save"></a>Enregistrer les annotations</h3>
+				
+					<p>
+						Pour enregistrer vos annotations, cliquez sur le bouton <img src="images/interface_icon/save-32x32.png" alt="edit_unit" align="absmiddle" height="24"/> (<span class="bouton">Save Annotations</span>).
+Nommez le fichier d'annotation selon le format suivant&nbsp:
+NomTexte_NomAnnotateur_JJmoisAA.aa (ex&nbsp: CO-3e-2018-FSBJC6-D1-R4-V1_coref_hodac_01janvier09.aa)
+</p>	
+
+	<h3>5.2.8. <a name="style" id="style"></a>Modifier l'affichage des annotations et du prémarquage</h3>
+			
+<p>Vous pouvez, à tout moment et selon votre convenance, modifier le jeu de couleur ou choisir de ne pas colorer tel ou tel type d'unité. Pour ce faire, ouvrez le style resolco_coref.as et cliquez sur l'unité dont la couleur est à modifier, ou cochez la case <i>Hide</i> pour ne plus voir son surlignement.</p>
+<p>Afin de faciliter l'annotation des <b>maillons</b>, il est recommandé de n'afficher que les maillons-candidats et les maillons concernés par la CR en cours d'annotation et de masquer les autres unités.</p>
+<p>Afin de faciliter l'annotation des <b>relations</b>, il est recommandé de n'afficher que les maillons concernés par la CR en cours d'annotation et de masquer les autres unités (y compris les phrases consignes et les maillons-candidats).</p>
+<p class="comment"><b>ATTENTION!!</b> Il se peut que <b>plusieurs fenêtres <i>Style Editor</i> soient ouvertes simultanément</b> (si vous avez à chaque fois cliqué sur le bouton <img src="images/interface_icon/styleEditor-24x24.png" align="absmiddle"/>). Du coup, vos modifications peuvent ne pas prendre effet. Pour être s&ucirc;r de modifier le 'bon' jeu de style, vérifiez dans la barre des t&acirc;ches qu'un seul <img src="images/java.png" height="18" align="absmiddle"/> apparaît. Si plusieurs fenêtres sont ouvertes, fermez les toutes pour n'en laisser qu'une sur laquelle vous ferez vos modifications (que vous pourrez sauvegarder en cliquant, dans la fenêtre <em>Style Editor</em>, sur le bouton <img src="images/interface_icon/save-24x24.png" height="18" align="absmiddle"/>).</p>
+
+<h1>
+<a name="video" href="#toc">6. Vidéo Tutoriel de l'annotation des CR</a>
+</h1>
+<iframe src="https://prismes.univ-toulouse.fr/player.php?code=Gf04P9h5&mode=advanced&width=100%&height=100%" allowfullscreen webkitallowfullscreen mozallowfullscreen data-aspectratio="0.5625" frameborder="0" width="768px" height="432px" scrolling="no"></iframe>
+
+<h1><a name="autoEval" href="#toc">7. Auto-évaluation</a></h1>
+<p>Avant de commencer l'annotation des copies qui vous ont été attribuées, il vous est demandé de procéder à une phase d'auto-évaluation qui consiste à annoter deux copies et de comparer vos annotations à celles réalisées par des experts.</p>
+
+<p>Il est important de respecter l'ordre suivant : <ol>
+<li>Commencer par annoter la copie de CE2. Cette copie est considérée comme une copie facile à annoter</li>
+<li>Une fois la copie annotée, cliquez sur le bouton ci-dessous pour voir l'annotation experte proposée<br/>
+	<a href="images/img_exemples/EC-CE2-2016-SGLEB-D1-R1-V1_autoevaluation.png" target="_app"><input id="but+" onclick="cache('images/img_exemples/EC-CE2-2016-SGLEB-D1-R1-V1_autoevaluation.png" type="submit" value="'EC-CE2-2016-SGLEB-D1-R1-V1' annotée"></a></li>
+<li>Poursuivez en annotant la copie de 3e. Cette copie est considérée comme une copie difficile à annoter</li>
+<li>Une fois la copie annotée, cliquez sur le bouton ci-dessous pour voir l'annotation experte proposée<br/>
+	<a href="images/img_exemples/CO-3e-2018-VTAC305-D1-R7-V1_explications.png" target="_app"><input id="but+" onclick="cache('CO-3e-2018-VTAC305-D1-R7-V1')" type="submit" value="'CO-3e-2018-VTAC305-D1-R7-V1' annotée"></a></li>
+</ol>
+</p>
+
+<h1><a name="telechargement" href="#toc">8. Zone de téléchargement</a></h1>
+<ul>
+	<li><a href="glozz_files/copiesAutoEval.zip" download>Archive</a> contenant les fichiers pour l'auto-évaluation</li>
+	<li>Modèle d'annotation <a href="glozz_files/resolco_coref.aam" download>resolco_coref.aam</a></li>
+	<li>Feuille de style <a href="glozz_files/resolco_coref.as" download>resolco_coref.as</a></li>
+</ul>
+<br>
+<hr size="2">
+<p class="copyright">
+	Auteurs&nbsp: Silvia Federzoni, Josette Rebeyrolle, Lydia-Mai Ho-Dac, Yoann Bard, Claudine Garcia-Debanc
+</p>
+
+<center>
+ <table>
+      <tr>
+	  <td class="normal">
+	    Ce guide est disponible sous licence 
+	  <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.fr" target="_blank">Creative Commons By-NC-SA 3.0</a>
+	  (Patternité, usage non commercial, partage à l'identique). Merci de la lire attentivement.<br/>
+	  </td>
+          <td style="vertical-align:middle"><a href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.fr" target="_blank"><img src="https://creativecommons.org/wp-content/themes/cc/images/cc.logo.white.svg"/></a></td>
+      </tr>
+ </table>
+</center>
+
+</body></html>
