@@ -6,10 +6,9 @@ body {
 	margin:5%;
 	margin-bottom: 30px;
 	background: white;
-	text-align : justify
+	text-align : justify;
+	counter-reset: h1 h2 h3;
 }
-
-
 
 .logoResolco img{
 	width: 300px;
@@ -22,31 +21,57 @@ body {
 }
 
 
-div, p, li{
-  font-size: 14px;
-  color: black;
-  text-align : justify; 
-  
+h1:before {
+  content: counter(h1) "  ";
+  counter-increment: h1;
 }
-
+h2:before {
+  content: counter(h1) "." counter(h2) "  ";
+  counter-increment: h2;
+}
+h3:before {
+  content: counter(h1) "." counter(h2) "." counter(h3) "  ";
+  counter-increment: h3;
+}
 h1 {
+  counter-reset: h2;
   font-weight: 800;
   font-size: 18px;
   /*color: rgb(57, 62, 120);*/
   color: #5D5D5D;
 }
-
 h2 {
+  counter-reset: h3;
   font-weight: 800;
   font-size: 16px;
   /*color: rgb(57, 62, 120);*/
   color: #5D5D5D;
 }
-
-h3,h4,h5,h6 {
+h1.unnumbered, h2.unnumbered {
+  counter-reset: none;
+}
+h3 {
   font-size: 14px;
   /*color: rgb(57, 62, 120);*/
   color: #5D5D5D;
+}
+h1.unnumbered:before, 
+h2.unnumbered:before,
+h3.unnumbered:before{
+  content: none;
+  counter-increment: none;
+}
+h4,h5,h6 {
+  font-size: 14px;
+  /*color: rgb(57, 62, 120);*/
+  color: #5D5D5D;
+}
+
+div, p, li{
+  font-size: 14px;
+  color: black;
+  text-align : justify; 
+  
 }
 
 ul {
