@@ -2,10 +2,202 @@
 <html>
 <head>
 	<meta charset="UTF-8">
+	<title>Guide d'annotation RésolCo</title>
+	<style type="text/css">
+		body {
+			width: 90%;
+			margin:5%;
+			margin-bottom: 30px;
+			background: white;
+			text-align : justify;
+			counter-set: numh1 numh2 numh3;
+		}
 
-	<link href="style.css" type="text/css" rel="stylesheet">	
+		.logoResolco img{
+			width: 300px;
+			margin-left : -300px ; 
+		}
 
-	<title>Guide d'annotation</title>
+		.logoEcalm img {
+			width: 200px;
+			margin-right : -300px ;
+		}
+
+
+		h1:before {
+		  content: counter(numh1) ". ";
+		  counter-increment: numh1;
+		}
+		h2:before {
+		  content: counter(numh1) "." counter(numh2) ". ";
+		  counter-increment: numh2;
+		}
+		h3:before {
+		  content: counter(numh1) "." counter(numh2) "." counter(numh3) ". ";
+		  counter-increment: numh3;
+		}
+		h1{
+		  counter-reset: numh2 numh3;
+		  font-weight: 800;
+		  font-size: 18px;
+		  /*color: rgb(57, 62, 120);*/
+		  color: #5D5D5D;
+		}
+		h2{
+		  counter-reset: numh3;
+		  font-weight: 800;
+		  font-size: 16px;
+		  /*color: rgb(57, 62, 120);*/
+		  color: #5D5D5D;
+		}
+		h1.unnumbered, h2.unnumbered {
+		  counter-reset: none;
+		}
+		h3 {
+		  font-size: 14px;
+		  /*color: rgb(57, 62, 120);*/
+		  color: #5D5D5D;
+		}
+		h1.unnumbered:before, 
+		h2.unnumbered:before,
+		h3.unnumbered:before{
+		  content: none;
+		  counter-increment: none;
+		}
+		h4,h5,h6 {
+		  font-size: 14px;
+		  /*color: rgb(57, 62, 120);*/
+		  color: #5D5D5D;
+		}
+
+		div, p, li{
+		  font-size: 14px;
+		  color: black;
+		  text-align : justify; 
+		  
+		}
+
+		ul {
+			padding-right: 35px;
+		}
+
+		ol {
+			padding-right: 35px;
+		}
+
+		a {
+		  text-decoration: none;
+		  color: rgb(57, 62, 120);
+		  font-style: normal;
+		}
+
+		a:hover {
+		   text-decoration: underline;
+		   color: green;
+		}
+
+		a:visited {
+			color: purple;
+		}
+
+
+		/*Dedicated parameters*/
+		span.term { font-style: italic; color: rgb(0, 0, 192) }
+
+		code {
+		color: green;
+		font-family: monospace;
+		font-size: medium;
+		font-weight: bold;
+		}
+
+		.bouton  {
+		padding: 1px;
+		border: solid black;
+		border-width: 1px;
+		margin-left: 0;
+		margin-right: 0;
+		background-color: #CCCCCC;
+		font-weight: bold;
+		font-size: x-small;
+		font-family: Arial;
+		}
+
+		code.greenmono {
+		color: green;
+		font-family: monospace;
+		font-weight: bold;
+		}
+
+		.exemple {
+		padding: 10px;
+		border: solid #5D5D5D;
+		border-width: 2px;
+		color: #405d5b;
+		font-weight: normal;
+		font-size: small;
+		margin-top: 1%;
+		margin-bottom: 1%;
+		margin-right: 3%;
+		margin-left: 3%;
+		text-align: justify;
+		width : 100%;
+		max-width:800px;
+		}
+
+		.indice_CR  {
+		margin-left: 0;
+		margin-right: 0;
+		background-color: gold;
+		}
+
+		.titlinex  {
+		font-weight: bold;
+		}
+		.ex_head  {
+		font-weight: bold;
+		color: #14a799;
+		margin-top: 2; 
+		margin-bottom: 0 
+		}
+		.ex_foot  {
+		font-weight: normal;
+		font-size: small;
+		margin-top: 0; 
+		margin-bottom: 0;
+		text-align: center;
+		color: green;
+		}
+
+
+		img {
+		color: white;
+		border: none;
+		}
+
+		div.contents {
+		background-color: rgb(204,204,255);
+		padding: 0.5em;
+		border: none;
+		}
+
+		.tocline { list-style: none; }
+
+		.comment {  
+		  background-color: #ADD8E6;
+		  border: inset;
+		  border-color: #ADD8E6;
+		  border-width: 5px;
+		}
+
+		.update {  
+		  background-color: #9AFE2E;
+		}
+
+		.RQ {  
+		  color: #DF013A;
+		}		
+	</style>
 </head>
 <body width="70%">
 <center>
@@ -56,17 +248,18 @@
 				</ul>
 				</li>
 				<li class="tocline">4.<a href="#procedure">Procédure d'annotation des maillons et des CR</a>
-				 <li class="tocline">4. <a href="#glozz">Utilisation de Glozz pour annoter les CR</a>
+				<ul class="toc">
+					<li class="tocline">4.1 <a href=#maillonsCandidats">Utilisation du prémarquage des maillons-candidats</a></li>
+				 <li class="tocline">4.2 <a href="#glozz">Utilisation de Glozz pour annoter les CR</a>
 					<ul class="toc">
-					<li class="tocline">4.1 <a href="#interface">Description de l'interface d'annotation</a>
+					<li class="tocline">4.2.1 <a href="#interface">Description de l'interface d'annotation</a>
 						</li>
-					<li class="tocline">4.2 <a href="#procedure">Etapes de l'annotation dans l'interface</a>
+					<li class="tocline">4.2.2 <a href="#fonctionsGlozz">Fonctionnalités l'interface</a>
 						</li>
-					<li class="tocline">4.3. <a href="#maillonCandidats">Utilisation du prémarquage des maillons-candidats</a></li>
-
 					</ul>
 				</li>
-				
+				</ul>
+				</li>				
 		    <li class="tocline">5. <a href="#video">Tutoriel vidéo de l’annotation des CR</a></li>
 		    <li class="tocline">6. <a href="#autoEval">Auto-évaluation</a></li>
 		    <li class="tocline">7. <a href="#telechargement">Zone de téléchargement</a></li>
@@ -546,7 +739,7 @@ Dans ce cas, l'annotateur ajoutera en commentaire : 'Membre de "lesEnfants"', co
 
 
 
-<h1><a name="annotation_maillons" href="#toc"></a>4. Procédure d'annotation des maillons et des CR <font size="-30%"><a href="#toc">[sommaire]</a></font></h1>
+<h1><a name="annotation_maillons" href="#toc"></a>Procédure d'annotation des maillons et des CR <font size="-30%"><a href="#toc">[sommaire]</a></font></h1>
 
 <p>Pour chaque CR, l'annotation des maillons consiste en la création d'unités dédiées (voir section <a href="#add">3.2.2</a>) qui aboutit à la création d'unités de type <span style="color : #00ccff">maillon_Elle</span>, <span style="color : #00cc33">maillon_Il</span> et <span style="color: DarkOrange">maillon_lesEnfants</span> (voir section <a href="#add">3.2.3</a>). Le choix du type d'unité indique le rattachement du maillon à l'une des trois CR.</p>
 <p>Une fois le maillon délimité, l'annotation des unités maillons nécessite le renseignement d'un certain nombre de traits comme le fait que le maillon soit de la classe "groupe" ou pas (dans les cas de <a href="#coord">coordination et référents pluriels et collectifs</a>) et le degré de certitude de l'annotation réalisée (voir <a href="#incertitude">ici</a>). Toute annotation peut également être associée à un commentaire donnant plus de détails sur la décision prise ou l'incertitude indiquée.</p>
@@ -556,7 +749,7 @@ Dans ce cas, l'annotateur ajoutera en commentaire : 'Membre de "lesEnfants"', co
 <p>Dans les textes que vous allez annoter, certaines expressions linguistiques ont fait l'objet d'un <b>prémarquage</b> ayant pour fonction de faciliter la tâche d'annotation. Il s'agit d'expressions qui, parce qu'elles sont considérées comme référant potentiellement aux 3 référents humains, constituent des <b>maillons-candidats</b> des trois <abbr title="chaines_reference">CR</abbr> considérées. Ces maillons-candidats pourront être validés en leur attributant l'étiquette <span style="color : #00ccff">maillon_Elle</span>, <span style="color : #00cc33">maillon_Il</span> et <span style="color: DarkOrange">maillon_lesEnfants</span>.
 </p>
 
-<h3><a name="premark"></a>Utilisation du prémarquage des maillons-candidats <font size="-30%"><a href="#toc">[sommaire]</a></font></h3>
+<h2><a name="premark"></a>Utilisation du prémarquage des maillons-candidats <font size="-30%"><a href="#toc">[sommaire]</a></font></h2>
 <p>L'exemple ci-dessous fournit une illustration - pour le même texte que celui que nous avons commenté en début de <a href="#CR">section 2</a> - du résultat du prémarquage automatique d'unités appelées "maillons-candidats". Ces "maillons-candidats" correspondent à des éléments fortement susceptibles d'être des unités de type <span style="color : #00ccff">maillon_Elle</span>, <span style="color : #00cc33">maillon_Il</span> ou <span style="color: DarkOrange">maillon_lesEnfants</span>, à savoir&nbsp;:
 		<ul>
 			<li>les noms propres</li>
@@ -574,7 +767,7 @@ Dans ce cas, l'annotateur ajoutera en commentaire : 'Membre de "lesEnfants"', co
 
 <p>Les maillons-candidats sont à considérer comme des propositions qui sont faites à l'annotateur pour l'assister dans sa tâche d'identification des maillons. Chaque maillon-candidat doit être validé par l'annotateur. Cette validation s'effectue par l'attribution de l'étiquette adéquate. En terme de procédure d'annotation, cela revient à créer une unité maillon_X (voir section <a href="#add">3.2.2</a>) qui se superpose au maillon-candidat. Le prémarquage étant automatique, certains maillons-candidats peuvent parfois paraître surprenants, notamment concernant le prémarquage des noms propres et des pronoms personnels.</p>
 
-<h4>4.1.a Problèmes liés au prémarquage des noms propres</h4>	
+<h3>Problèmes liés au prémarquage des noms propres</h3>	
 <p>Tous les NPP ont été considérés comme des maillons-candidats, même ceux pouvant désigner un référent non humain, comme "Vendée" ou "22H" dans l'exemple ci-dessus. Ces maillons-candidats ne doivent évidemment pas faire l'objet d'une validation et peuvent être supprimés au moment de l'annotation (voir section <a href="#suppr">3.2.4</a>)</p>
 <p>Parfois, un NPP n'a pas été prémarqué, comme le nom "Clément" dans l'exemple ci-dessous.
 	 <div class="exemple">
@@ -595,14 +788,14 @@ Dans ce cas, si "Clément" est inclus dans une des CR de la consigne, l'annotate
 	 </div>
 </p>
 
-<h4>4.1.b. Problèmes liés au prémarquage du pronom personnel <i>il</i></h4>	
-<p>Tous les pronoms clitiques sujets <i>il</i> ont été prémarqués, qu'il s'agisse d'un emploi personnel (<i><b>Il</b> se retourna en entendant ce grand bruit</i>) ou impersonnel (<i><b>Il</b> était un fois</i>, <i><b>Il</b> pleut</i>, <i><b>Il</b> est évident que...</i>). Ces maillons-candidats ne doivent évidemment pas faire l'objet d'une validation et peuvent être supprimés au moment de l'annotation (voir section <a href="#suppr">3.2.4</a>).</p>
+<h3>Problèmes liés au prémarquage du pronom personnel <i>il</i></h3>	
+<p>Tous les pronoms clitiques sujets <i>il</i> ont été prémarqués, qu'il s'agisse d'un emploi personnel (<i><b>Il</b> se retourna en entendant ce grand bruit</i>) ou impersonnel (<i><b>Il</b> était un fois</i>, <i><b>Il</b> pleut</i>, <i><b>Il</b> est évident que...</i>). Ces maillons-candidats ne doivent évidemment pas faire l'objet d'une validation et peuvent être supprimés au moment de l'annotation (voir section <a href="#suppr">suppression</a>).</p>
 			
 
 	
-	<h1>
-	<a name="glozz">5. Utilisation de Glozz pour annoter les CR</a>
-	 <font size="-30%"><a href="#toc">[sommaire]</a></font></h1><!-- soit chapeau soit 5.1--> Procédure ou autre 
+	<h2>
+	<a name="instal">Installer Glozz pour annoter les CR</a>
+	 <font size="-30%"><a href="#toc">[sommaire]</a></font></h2>
 		<p>
 		L'annotation des CR se fait en identifiant toutes les <em>UNITÉS</em> (<img src="images/interface_icon/unit.png" align="absmiddle" height="18"/>) qui correspondent aux expressions référentielles référant aux référents humains mentionnés dans les phrases consignes.</p>
 <p>L'annotation consiste à créer trois types d'<em>UNITÉS</em> (<img src="images/interface_icon/unit.png" align="absmiddle" height="18"/>)&nbsp;:
@@ -621,22 +814,12 @@ Dans ce cas, si "Clément" est inclus dans une des CR de la consigne, l'annotate
 			</p>
 	
 <p>Afin de réaliser l'annotation en distinguant chaque étape et chaque CR (voir section <a href="#annotation_maillons">2.3</a>), il est conseillé de commencer par annoter toutes les unités de type <span style="color : #00ccff">maillon_Elle</span> (y compris le maillon contenu dans la phrase consigne). Une fois tous les <span style="color : #00ccff">maillon_Elle</span> annotés, il est conseillé de masquer ces annotations avant de commencer l'annotation des unités de type <span style="color : #00cc33">maillon_Il</span>, et idem pour l'annotation des unités de type <span style="color: DarkOrange">maillon_lesEnfants</span>. Cela permet d'avoir une vue dégagée du texte, ce qui facilite l'annotation.</p>
-
-<!--<p>Afin de réaliser l'annotation en distinguant chaque étape et chaque CR (voir section <a href="#annotation_maillons">2.2</a>), il est conseillé de commencer par annoter toutes les unités de type <span style="color : #00ccff">maillon_Elle</span> (y compris le maillon contenu dans la phrase consigne). Une fois tous les <span style="color : #00ccff">maillon_Elle</span> annotés, il est conseillé de masquer ces annotations avant de commencer l'annotation des unités de type <span style="color : #00cc33">maillon_Il</span>, et idem pour l'annotation des unités de type <span style="color: DarkOrange">maillon_lesEnfants</span>. Cela permet d'avoir une vue dégagée du texte, ce qui facilite l'annotation.</p>--> 
 <p>L'annotation des relations doit se réaliser après l'annotation de toutes les unités maillons et est grandement facilitée par ce jeu de masque des unités non concernées par la relation. Ainsi, pour annoter les relations de type <span style="color:#00ccff">coref_Elle</span>, il est conseillé de n'afficher que les unités de type <span style="color:#00ccff">maillon_Elle</span>.</p>
 <p>Ce jeu de masque et d'affichage se fait en utilisant l'outil <emph>Style Editor</emph> décrit dans les sections <a href="#loadModel">6.1.2.b</a> et <a href="#style">6.2.8</a>.</p>
-<!--<p>
-<span class="RQ">
-!!! même en masquant l'affichage des maillons et relations il est toujours possible de les relier par erreur ou de les sélectionner en utilisant les boutons "modifier". 
-Attention lorsqu'on veut relier/supprimer/modifier un maillon ou une relation qui est superposé à d'autres : on peut sélectionner la mauvaise annotation
-</p>-->
+		<p>L'interface d'annotation Glozz a été conçue dans les cadre de projets académiques pour permettre l'annotation de structures discursives complexes. Elle permet de délimiter des unités (dans notre cas, délimiter les maillons), de leur associer un style et des caractéristiques et de relier ces unités. La première étape avant de commencer est de télécharger et installer Glozz.</p>
 
-<h2>
-	<a name="interface" id="interface" href="#toc">Interface d'annotation</a>
-	 <font size="-30%"><a href="#toc">[sommaire]</a></font></h2>
+<h3>Téléchargement et Installation</h3>
 	
-		<p>L'interface d'annotation Glozz a été conçue dans les cadre de projets académiques pour permettre l'annotation de structures discursives complexes. Elle permet de délimiter des unités (dans notre cas, délimiter les maillons), de leur associer un style et des caractéristiques et de relier ces unités. La première étape avant de commencer est de télécharger l'interface Glozz, interface multiplateforme.</p>
-		<h4>5.2.1. Télécharger Glozz</h4>
 		<p>Pour télécharger le logiciel il faut se rendre sur le site suivant <a href="http://glozz.free.fr/">http://glozz.free.fr/</a> et remplir les champs proposés dans la section "Download Glozz". 
 	<br/>Il faudra également suivre les indications pour demander une clé d'accès à Glozz, sans laquelle vous ne pourrez pas annoter. 
 	Si vous avez des difficultés à trouver ces indications sur le site, suivez les informations ci-dessous&nbsp: </p>
@@ -648,7 +831,7 @@ Attention lorsqu'on veut relier/supprimer/modifier un maillon ou une relation qu
 </div>
 <p>Pour installer le logiciel suivez les indications présentes sur le site et sur le manuel&nbsp: <a href="http://glozz.free.fr/glozzManual_1_0.pdf">http://glozz.free.fr/glozzManual_1_0.pdf</a></p>
 
-<h3>5.2.2. Lancer Glozz <font size="-30%"><a href="#toc">[sommaire]</a></font></h3>
+<h3>Lancer Glozz</h3>
 <p>Une fois l'installation terminée, vous pouvez lancer Glozz. Pour ce faire, vous avez plusieurs possibilités&nbsp: 
 <ul>
 		<li>soit en faisant un double clic sur le fichier <b>«glozz-platform.jar»</b> ;</li>
@@ -658,8 +841,26 @@ Attention lorsqu'on veut relier/supprimer/modifier un maillon ou une relation qu
 </ul>
 
 
+	<h2>
+	<a name="glozz">Utiliser Glozz pour annoter les CR</a>
+	 <font size="-30%"><a href="#toc">[sommaire]</a></font></h2>
+	<div class="contents">
+		<ul class="toc">
+			<li class="tocline"><a href="#zones">Description de l'interface</a></li>
+			<li class="tocline"><a href="#param">Conseils de paramétrage</a></li>
+			<li class="tocline">Charger <a href="#loadText">les textes à annoter</a> et <a href="#loadModel">le modèle d'annotation</a></li>
+			<li class="tocline"><a href="#cue">Créer une unité</a></li>
+			<li class="tocline"><a href="#edit">Modifier une unité (maillon-candidat ou maillon précédemment annoté)</a></li>
+			<li class="tocline"><a href="#suppr">Supprimer une unité</a></li>
+			<li class="tocline"><a href="#rel">Relier deux unités</a></li>
+			<li class="tocline"><a href="#glue">Laisser une note</a></li>
+			<li class="tocline"><a href="#save">Enregistrer les annotations</a></li>
+			<li class="tocline"><a href="#style">Modifier l'affichage des annotations et du prémarquage</a></li>
+		</ul>
+	</div>		
+
  
-<h3><a name="zones"></a>Les éléments de l'interface <font size="-30%"><a href="#toc">[sommaire]</a></font></h3> 
+<h3><a name="zones"></a>Description de l'interface <font size="-30%"><a href="#toc">[sommaire]</a></font></h3> 
 		<p>
 		Toutes les pocédures d'annotation se font avec l'interface d'annotation dans laquelle nous distinguons les zones suivantes&nbsp;:<br/>
 		<img src="images/interface_icon/glozz2.1.png" alt="interface_glozz" style="width : 100%;max-width:800px;" />
@@ -687,25 +888,10 @@ Attention lorsqu'on veut relier/supprimer/modifier un maillon ou une relation qu
 </p>
 <p>Pour que les modifications soient prises en compte il est nécessaire de re-importer le fichier que vous voulez annoter. Si vous ne l’avez pas importé, il suffit de le faire après avoir modifié les paramètres. Ce paramétrage restera mémorisé pour toutes vos prochaines sessions de travail sous Glozz.</p>
 </p>
-<h2>
-	<a name="procedure" id="procedure" href="#toc">Fonctionnalités de l'interface</a>
-	 <font size="-30%"><a href="#toc">[sommaire]</a></font></h2>
-	<div class="contents">
-		<ul class="toc">
-			<li class="tocline">6.2.1 Charger <a href="#loadText">les textes à annoter</a> et <a href="#loadModel">le modèle d'annotation</a></li>
-			<li class="tocline">6.2.2 <a href="#cue">Créer une unité</a></li>
-			<li class="tocline">6.2.3 <a href="#edit">Modifier une unité (maillon-candidat ou maillon précédemment annoté)</a></li>
-			<li class="tocline">6.2.4 <a href="#suppr">Supprimer une unité</a></li>
-			<li class="tocline">6.2.5 <a href="#rel">Relier deux unités</a></li>
-			<li class="tocline">6.2.6 <a href="#glue">Laisser une note</a></li>
-			<li class="tocline">6.2.7 <a href="#save">Enregistrer les annotations</a></li>
-			<li class="tocline">6.2.8 <a href="#style">Modifier l'affichage des annotations et du prémarquage</a></li>
-		</ul>
-	</div>		
 	
-	<h3>6.2.1 <a name="load">Charger les textes à annoter et le modèle d'annotation</a> <font size="-30%"><a href="#toc">[sommaire]</a></font></h3>
+	<h3><a name="load">Charger les textes à annoter et le modèle d'annotation</a> <font size="-30%"><a href="#toc">[sommaire]</a></font></h3>
 <p>Une fois l'interface ouverte, il faut charger le texte à annoter, le modèle d'annotation et la feuille de style permettant de visualiser les annotations. Les fichiers correspondant au modèle d'annotation et à la feuille de style sont disponibles dans la <a href="#telechargement">Zone de téléchargement</a>. Ce n'est qu'une fois tous ces fichiers chargés dans Glozz que l'annotation peut commencer. </p>
-			<h4>6.2.1.a <a name="loadTexts">Charger les textes à annoter</a></h4>							
+			<h4><a name="loadTexts">Charger les textes à annoter</a></h4>							
 
 		<p>Charger le texte à annoter en cliquant sur le bouton <img src="images/interface_icon/open-24x24.png" align="absmiddle"/>
 		(<span class="bouton">Open corpus</span>) situé dans la barre d'outils.
@@ -713,7 +899,7 @@ Attention lorsqu'on veut relier/supprimer/modifier un maillon ou une relation qu
 										<p>Deux éléments doivent être chargés&nbsp: 
 		le texte (fichiers avec extension <b>.ac</b>) et le fichier contenant les annotations (fichiers portant le même nom mais avec l'extension <b>_coref.aa</b>). Vous pouvez également charger un fichier contenant des annotations que vous avez réalisées et sauvegardées (voir la section <a href="#save">6.2.7.</a>).</p>
 		<p class="comment">Si le fichier .aa n'apparaît pas dans la fenêtre, il faut sans doute modifier le type de fichier à visualiser en choisissant .aa file.</p>
-			<h4>6.2.1.b <a name="loadModel">Charger le modèle d'annotation et la feuille de style associée</a></h4>							
+			<h4><a name="loadModel">Charger le modèle d'annotation et la feuille de style associée</a></h4>							
 		<p>
 		Charger le modèle d'annotation en cliquant sur le bouton <img src="images/interface_icon/LAM.png" align="absmiddle"/> dans la barre d'outils. Sous glozz, un modèle d'annotation est un fichier avec une extension .aam. Pour cette tâche d'annotation, il faut charger le modèle <em>resolco_coref.aam</em>. Les unités et relations à annoter apparaissent alors dans la ZONE MOD&Egrave;LE (en bas à droite)	<img src="images/interface_focus_LAM.png" height="40" style="vertical-align:top"/>
 		</p>
@@ -731,7 +917,7 @@ Attention lorsqu'on veut relier/supprimer/modifier un maillon ou une relation qu
 <p class="comment">Le mode par défaut lorsque un nouveau texte est chargé est le mode visualisation (bouton OEIL enfoncé dans la ZONE OUTILS). À tout moment, il est conseillé de passer dans ce mode (en cliquant sur le bouton OEIL) pour avoir un aperçu global de l'état d'avancement de l'annotation.</p>
 
 	
-			<h3>5.2.2. <a name="cue" id="cue">Créer une annotation "unité" (maillon)</a> <font size="-30%"><a href="#toc">[sommaire]</a></font></h3>
+			<h3><a name="cue" id="cue">Créer une annotation "unité" (maillon)</a> <font size="-30%"><a href="#toc">[sommaire]</a></font></h3>
 			<p>Tout maillon d'une des CR à annoter doit donner lieu à la création d'une unité.</p>
 <p>Pour créer une unité, il faut d'abord passer en mode <emph>création d'unité</emph> en cliquant sur le bouton <img src="images/interface_icon/unit-add-32x32.png" align="absmiddle" height="24"/> (<span class="bouton">Create a new simple Unit</span>) dans la ZONE OUTILS. Une fois le bouton enfoncé, il faut sélectionner le type de l'unité à créer, à savoir <span style="color : #00ccff">maillon_Elle</span>, <span style="color : #00cc33">maillon_Il</span> ou <span style="color: DarkOrange">maillon_lesEnfants</span> en cliquant sur le type adéquat dans le modèle d'annotation affiché dans la ZONE MOD&Egrave;LE (en bas à droite)	<img src="images/interface_focus_LAM.png" height="40" style="vertical-align:top"/>.</p>
 <p class="comment">Par défaut, toute nouvelle unité est associée au type de l'unité précédemment annotée. Si aucune unité n'a encore été créée, la nouvelle unité sera associée au type <i>u_default</i>.</p>
@@ -754,12 +940,12 @@ Attention lorsqu'on veut relier/supprimer/modifier un maillon ou une relation qu
 	<p class="comment">Si <b>les délimitations n'apparaissent pas à l'écran</b> cela signifie qu'aucun style n'est associé à l'unité. Vous devez alors vérifier que l'objet que vous annotez (dont le nom est inscrit et sélectionné dans la zone modèle) a bien un style associé dans la fenêtre <em>Style editor</em> (voir section <a href="#loadModel">6.2.1.b</a>).</p>
 	<p class="comment">Lorsque vous souhaitez <b>annoter une forme élidée (ex : [l'])</b> Glozz peut avoir tendance à étendre automatiquement l'annotation en incluant le mot qui suit la forme élidée (ex : [l'appela]). Pour ne délimiter que la forme élidée, il faut d'abord créer l'unité même si la délimitation n'est pas correcte puis la modifier en suivant les instructions fournies en section <a href="#modifUnit">6.2.3.b</a>).</p>
 	
-		<p>Une fois cette unité créée, vous pouvez renseigner dans la ZONE TRAITS certaines informations sur cette unité par rapport au degré d'incertitude concernant sa délimitation et son rattachement (voir section <a href="#incertitude">2.2</a>) et si l'unité appartient à la classe <b>groupe</b> (voir section <a href="#groupe">Maillon de type "groupe"</a>). Par défaut l'unité maillon est associée à un degré incertitude nul (pas d'incertitude). Pour modifier ces valeurs, il suffit de cliquer sur les champs concernés, de saisir les valeurs et d'enregistrer les caractéristiques en appuyant sur la touche "Entrée".</p>	
+		<p>Une fois cette unité créée, vous pouvez renseigner dans la ZONE TRAITS certaines informations sur cette unité par rapport au degré d'incertitude concernant sa délimitation et son rattachement (voir section <a href="#incertitude">incertitude</a>) et si l'unité appartient à la classe <b>groupe</b> (voir section <a href="#groupe">Maillon de type "groupe"</a>). Par défaut l'unité maillon est associée à un degré incertitude nul (pas d'incertitude). Pour modifier ces valeurs, il suffit de cliquer sur les champs concernés, de saisir les valeurs et d'enregistrer les caractéristiques en appuyant sur la touche "Entrée".</p>	
 	
 	<!--<p>Une fois cette unité créée, vous pouvez renseigner dans la ZONE TRAITS certaines informations sur cette unité par rapport au degré d'incertitude concernant sa délimitation et son rattachement (voir section <a href="#incertitude">Incertitude</a>) et si l'unité appartient à la classe <b>groupe</b> (voir section <a href="#coord">coordination et référents pluriels et collectifs</a>). Par défaut l'unité maillon est associée à un degré incertitude nul (pas d'incertitude). Pour modifier ces valeurs, il suffit de cliquer sur les champs concernés, de saisir les valeurs et d'enregistrer les caractéristiques en appuyant sur la touche "Entrée".</p>	-->
 	
 <p class="comment">À tout moment, il est conseillé de passer dans le mode visualiation (en cliquant sur le bouton OEIL dans la ZONE OUTILS) pour avoir un aperçu global de l'état d'avancement de l'annotation.</p>
-	<h3>6.2.3. <a name="edit" id="edit">Modifier l'annotation d'une unité</a> <font size="-30%"><a href="#toc">[sommaire]</a></font></h3>
+	<h3><a name="edit" id="edit">Modifier l'annotation d'une unité</a> <font size="-30%"><a href="#toc">[sommaire]</a></font></h3>
 <p>Si vous souhaitez modifier l'annotation d'une unité (sa délimitation, son type ou ses traits), vous devez passer en mode <emph>édition d'unité</emph> en cliquant sur le bouton <img src="images/interface_icon/unit-edit-32x32.png" align="absmiddle" height="24"/> dans la ZONE OUTILS. Une fois le bouton enfoncé, vous pouvez
 	<ul>
 		<li class="tocline"><a href="#modifUnit">Modifier la délimitation de l'annotation</a></li>
@@ -767,7 +953,7 @@ Attention lorsqu'on veut relier/supprimer/modifier un maillon ou une relation qu
 		<li class="tocline"><a href="#suppr">Supprimer une annotation</a></li>
 	</ul>
 </p>
-<h4><a name="modifUnit"></a>5.2.3.a. Modifier la délimitation de l'annotation</h4>
+<h4><a name="modifUnit"></a>Modifier la délimitation de l'annotation</h4>
 						
 <p>En mode <emph>édition d'unité</emph> (bouton <img src="images/interface_icon/unit-edit-32x32.png" alt="edit_unit" align="absmiddle" height="24"/> enfoncé), 
 <ol>
@@ -780,7 +966,7 @@ Attention lorsqu'on veut relier/supprimer/modifier un maillon ou une relation qu
 								<p class="comment"> Il peut s'avérer rapidement difficile de distinguer les annotations si celles si sont superposées. Pour cela, l'interface propose un outil appelé <em>Depth Selector</em> qui permet de jouer sur les couches d'annotation visibles. Pour activer cette fonction, cliquez dans la barre d'outils sur <span class="bouton">Tools</span> puis <span class="bouton">Depth Selector</span>. La boîte de dialogue suivante apparaît alors dans la zone droite de l'interface&nbsp: <img src="images/depthSelector.png" width="400"/><br/>Il suffit ensuite de <em>manipuler le curseur</em> pour faire varier l'affichage des différents niveaux d'annotation.
 					</p>
 						
-						<h4><a name="modifTypunit"></a>6.2.3.b. Modifier le type d'une annotation</h4>
+						<h4><a name="modifTypunit"></a>Modifier le type d'une annotation</h4>
 						<p>En mode <emph>édition d'unité</emph> (bouton <img src="images/interface_icon/unit-edit-32x32.png" alt="edit_unit" align="absmiddle" height="24"/> enfoncé), 
 						<ol>
 							<li>sélectionnez l'annotation à modifier en cliquant dessus (voir l'item <a href="#select_obj">sélectionner l'annotation</a> ci-dessus);</li>
@@ -827,7 +1013,7 @@ ces <em>glue notes</em> ou les supprimer, une par une ou toutes ensemble. </p>
 
 
 				
-				<h3>5.2.7. <a name="save" id="save"></a>Enregistrer les annotations <font size="-30%"><a href="#toc">[sommaire]</a></font></h3>
+				<h3><a name="save" id="save"></a>Enregistrer les annotations <font size="-30%"><a href="#toc">[sommaire]</a></font></h3>
 				
 					<p>
 						Pour enregistrer vos annotations, cliquez sur le bouton <img src="images/interface_icon/save-32x32.png" alt="edit_unit" align="absmiddle" height="24"/> (<span class="bouton">Save Annotations</span>).
@@ -835,7 +1021,7 @@ Nommez le fichier d'annotation selon le format suivant&nbsp:
 NomTexte_NomAnnotateur_JJmoisAA.aa (ex&nbsp: CO-3e-2018-FSBJC6-D1-R4-V1_coref_hodac_01janvier09.aa)
 </p>	
 
-	<h3>5.2.8. <a name="style" id="style"></a>Modifier l'affichage des annotations et du prémarquage <font size="-30%"><a href="#toc">[sommaire]</a></font></h3>
+	<h3><a name="style" id="style"></a>Modifier l'affichage des annotations et du prémarquage <font size="-30%"><a href="#toc">[sommaire]</a></font></h3>
 			
 <p>Vous pouvez, à tout moment et selon votre convenance, modifier le jeu de couleur ou choisir de ne pas colorer tel ou tel type d'unité. Pour ce faire, ouvrez le style resolco_coref.as et cliquez sur l'unité dont la couleur est à modifier, ou cochez la case <i>Hide</i> pour ne plus voir son surlignement.</p>
 <p>Afin de faciliter l'annotation des <b>maillons</b>, il est recommandé de n'afficher que les maillons-candidats et les maillons concernés par la CR en cours d'annotation et de masquer les autres unités.</p>
@@ -843,11 +1029,11 @@ NomTexte_NomAnnotateur_JJmoisAA.aa (ex&nbsp: CO-3e-2018-FSBJC6-D1-R4-V1_coref_ho
 <p class="comment"><b>ATTENTION!!</b> Il se peut que <b>plusieurs fenêtres <i>Style Editor</i> soient ouvertes simultanément</b> (si vous avez à chaque fois cliqué sur le bouton <img src="images/interface_icon/styleEditor-24x24.png" align="absmiddle"/>). Du coup, vos modifications peuvent ne pas prendre effet. Pour être s&ucirc;r de modifier le 'bon' jeu de style, vérifiez dans la barre des t&acirc;ches qu'un seul <img src="images/java.png" height="18" align="absmiddle"/> apparaît. Si plusieurs fenêtres sont ouvertes, fermez les toutes pour n'en laisser qu'une sur laquelle vous ferez vos modifications (que vous pourrez sauvegarder en cliquant, dans la fenêtre <em>Style Editor</em>, sur le bouton <img src="images/interface_icon/save-24x24.png" height="18" align="absmiddle"/>).</p>
 
 <h1>
-<a name="video" href="#toc">6. Vidéo Tutoriel de l'annotation des CR</a>
+<a name="video" href="#toc">Vidéo Tutoriel de l'annotation des CR</a>
  <font size="-30%"><a href="#toc">[sommaire]</a></font></h1>
 <iframe src="https://prismes.univ-toulouse.fr/player.php?code=Gf04P9h5&mode=advanced&width=100%&height=100%" allowfullscreen webkitallowfullscreen mozallowfullscreen data-aspectratio="0.5625" frameborder="0" width="768px" height="432px" scrolling="no"></iframe>
 
-<h1><a name="autoEval" href="#toc">7. Auto-évaluation</a> <font size="-30%"><a href="#toc">[sommaire]</a></font></h1>
+<h1><a name="autoEval" href="#toc">Auto-évaluation</a> <font size="-30%"><a href="#toc">[sommaire]</a></font></h1>
 <p>Avant de commencer l'annotation des copies qui vous ont été attribuées, il vous est demandé de procéder à une phase d'auto-évaluation qui consiste à annoter deux copies et de comparer vos annotations à celles réalisées par des experts.</p>
 
 <p>Il est important de respecter l'ordre suivant : <ol>
@@ -860,7 +1046,7 @@ NomTexte_NomAnnotateur_JJmoisAA.aa (ex&nbsp: CO-3e-2018-FSBJC6-D1-R4-V1_coref_ho
 </ol>
 </p>
 
-<h1><a name="telechargement" href="#toc">8. Zone de téléchargement</a> <font size="-30%"><a href="#toc">[sommaire]</a></font></h1>
+<h1><a name="telechargement" href="#toc">Zone de téléchargement</a> <font size="-30%"><a href="#toc">[sommaire]</a></font></h1>
 <ul>
 	<li><a href="glozz_files/copiesAutoEval.zip" download>Archive</a> contenant les fichiers pour l'auto-évaluation</li>
 	<li>Modèle d'annotation <a href="glozz_files/resolco_coref.aam" download>resolco_coref.aam</a></li>
