@@ -7,7 +7,7 @@ body {
 	margin-bottom: 30px;
 	background: white;
 	text-align : justify;
-	counter-reset: h1 h2 h3;
+	counter-reset: numh1 numh2 numh3;
 }
 
 .logoResolco img{
@@ -22,26 +22,26 @@ body {
 
 
 h1:before {
-  content: counter(h1) "  ";
-  counter-increment: h1;
+  content: counter(numh1) ". ";
+  counter-increment: numh1;
 }
 h2:before {
-  content: counter(h1) "." counter(h2) "  ";
-  counter-increment: h2;
+  content: counter(numh1) "." counter(numh2) ". ";
+  counter-increment: numh2;
 }
 h3:before {
-  content: counter(h1) "." counter(h2) "." counter(h3) "  ";
-  counter-increment: h3;
+  content: counter(numh1) "." counter(numh2) "." counter(numh3) ". ";
+  counter-increment: numh3;
 }
-h1 {
-  counter-reset: h2;
+h1{
+  counter-reset: numh2 numh3;
   font-weight: 800;
   font-size: 18px;
   /*color: rgb(57, 62, 120);*/
   color: #5D5D5D;
 }
-h2 {
-  counter-reset: h3;
+h2{
+  counter-reset: numh3;
   font-weight: 800;
   font-size: 16px;
   /*color: rgb(57, 62, 120);*/
