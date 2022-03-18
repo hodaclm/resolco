@@ -237,12 +237,13 @@
 				<li class="tocline">2. <a href="#CR_maillon">Types de maillons à identifier</a>
 				<ul class="toc">
 					<li class="tocline">2.1. <a href="#SN">Syntagmes nominaux (SN)</a></li>
-					<li class="tocline">2.2. <a href="#Poss">Possessifs</a></li>
-					<li class="tocline">2.3. <a href="#Pro">Pronoms</a></li>
+					<li class="tocline">2.2. <a href="#poss">Possessifs</a></li>
+					<li class="tocline">2.3. <a href="#pro">Pronoms</a></li>
 					<li class="tocline">2.4. <a href="#NP">Noms propres (NP)</a></li>
-					<li class="tocline">2.5. <a href="#Suj0">Sujet zéro</a></li>
-					<li class="tocline">2.6. <a href="#Coord">Référents multiples</a></li>
-					<li class="tocline">2.7. <a href="#DiscDir_Titre">Maillons dans du discours direct ou des titres de section</a></li>
+					<li class="tocline">2.5. <a href="#implicite">Sujet zéro</a></li>
+					<li class="tocline">2.6. <a href="#coord">Référents multiples</a></li>
+					<li class="tocline">2.7. <a href="#DiscDirect">Maillons dans du discours direct</a></li>
+					<li class="tocline">2.8. <a href="#titres">Maillons apparaissant dans un titre</a></li>
 				</ul>
 				</li>
 				<li class="tocline">3. <a href="#incertitude">Incertitude sur l'identification des maillons</a>
@@ -254,13 +255,8 @@
 				<li class="tocline">4.<a href="#procedure">Procédure d'annotation des maillons et des CR</a>
 				<ul class="toc">
 					<li class="tocline">4.1 <a href=#maillonsCandidats">Utilisation du prémarquage des maillons-candidats</a></li>
-				 <li class="tocline">4.2 <a href="#glozz">Utilisation de Glozz pour annoter les CR</a>
-					<ul class="toc">
-					<li class="tocline">4.2.1 <a href="#interface">Description de l'interface d'annotation</a>
-						</li>
-					<li class="tocline">4.2.2 <a href="#fonctionsGlozz">Fonctionnalités l'interface</a>
-						</li>
-					</ul>
+					<li class="tocline">4.2 <a href=#install">Installer Glozz pour annoter les CR</a></li>
+					<li class="tocline">4.3 <a href="#glozz">Utilisation de Glozz pour annoter les CR</a>
 				</li>
 				</ul>
 				</li>				
@@ -286,8 +282,7 @@
    <li>vérifier l'annotation réalisée en dévoilant l'annotation attendue (voir la section <a href="#autoEval">Auto-évaluation</a>)</li>
 </ol>
 </p>
-<h2>
-<a name="consigne" id="consigne" href="#toc">Description de la consigne RésolCo</a>
+<h2><a name="consigne" id="consigne" href="#toc">Description de la consigne RésolCo</a>
  <font size="-30%"><a href="#toc">[sommaire]</a></font></h2>												   
 <p>Les textes que vous allez annoter font partie du corpus Résolco ("Résolution de problèmes de cohésion textuelle") et ont été collectés à l'école primaire, au collège et à l'université. Les élèves ont produit ces textes en réponse à une même consigne d'écriture, que nous reproduisons ci-dessous&nbsp:</p>		
 	<div class="exemple">
@@ -314,9 +309,7 @@ La tâche d'annotation concerne uniquement les expressions référentielles des 
 Dans les textes que vous allez annoter, certaines expressions linguistiques ont fait l'objet d'une préannotation. Il s'agit d'expressions qui, parce qu'elles sont considérées comme potentiellement référentielles et qu'elles peuvent de ce fait constituer de possibles maillons des CR, ont été automatiquement préannotées. Ces expressions, nous les appellerons des <b>maillons-candidats</b>.
 </p>
 
-<h2>
-<a name="CR" id="CR" href="#toc">Définitions : CR et maillons</a>
- <font size="-30%"><a href="#toc">[sommaire]</a></font></h2>
+<h2><a name="def" id="CR" href="#toc">Définitions : CR et maillons</a> <font size="-30%"><a href="#toc">[sommaire]</a></font></h2>
 
 <p>Une <b>CR</b> est constituée par l'ensemble des expressions référentielles qui renvoient à un même référent et que nous appelons des <b>maillons</b>.</p> 
 <p>
@@ -349,8 +342,7 @@ Parmi les éléments surlignés, on trouve également&nbsp:
 Le verbe <i>allait</i>, coordonné avec <i>avait</i>, est surligné pour indiquer que son sujet est le même que celui du verbe <i>avait</i> (voir plus bas la notion de sujet <i>zéro</i>).
 </p>
 
-<h2>
-<a name="tacheAnnotation" id="tacheAnnotation" href="#toc">Description de la tâche d'annotation</a>
+<h2><a name="tacheAnnotation" id="tacheAnnotation" href="#toc">Description de la tâche d'annotation</a>
  <font size="-30%"><a href="#toc">[sommaire]</a></font></h2>
 
 <p>Avant de commencer l'annotation, une première étape consiste à lire le texte dans sa globalité. Ensuite, chaque continuité doit être annotée l'une après l'autre en commençant par <abbr title="chaines de reference associée au pronom Elle" style="color : #00ccff">CR_Elle</abbr>, puis <abbr title="chaines de reference associée au pronom Il"  style="color : #00cc33">CR_Il</abbr> et <abbr title="chaines de reference associée au SN les enfants" style="color : DarkOrange">CR_enfants</abbr>.</p>
@@ -653,7 +645,7 @@ Dans l'exemple ci-dessous, le référent multiple <i>deux enfants, Marine, la fi
 </p>
 
 <h1><a name="incertitude"></a>Incertitude d'identification des maillons <font size="-30%"><a href="#toc">[sommaire]</a></font></h1>
-<h2>Incertitude concernant le rattachement du maillon <font size="-30%"><a href="#toc">[sommaire]</a></font></h2>
+<h2><a name="incert_ratta"></a>Incertitude concernant le rattachement du maillon <font size="-30%"><a href="#toc">[sommaire]</a></font></h2>
 
 <p>Pour plusieurs raisons, il n'est pas toujours facile de déterminer si telle expression référentielle est bien rattachée au référent en cours d'annotation. Il peut notamment y avoir dans le contexte plusieurs expressions disponibles pour un même référent. C'est le cas ci-dessous où le possessif <i>sa</i> peut coréférer à <i>la vieille femme</i> ou à <i>elle</i>. Dans ce cas, on fera un choix et seule l'expression qui paraît la plus cohérente pour construire l'interprétation sera annotée. Toutefois, l'annotateur devra indiquer son incertitude concernant le <b>rattachement</b> du maillon, en lui attribuant une étiquette signalant cette incertitude.</p>
 <div class="exemple">
@@ -735,14 +727,14 @@ Dans ce cas, l'annotateur ajoutera en commentaire : 'Membre de "lesEnfants"', co
 <p>La procédure pour associer ces degrés d'incertitude à chaque unité est décrite en section <a href="#traits">3.2.4</a>.</p>
 <p>Il est également possible de laisser, pour chaque unité, un commentaire libre. Pour laisser des commentaires libres au niveau global du texte, l'annotateur peut exploiter les <b>Glue notes (voir 6.2.6)</b></p>
 
-<h2>Incertitude concernant la délimitation du maillon <font size="-30%"><a href="#toc">[sommaire]</a></font></h2>
+<h2><a name="incert_delim"></a>Incertitude concernant la délimitation du maillon <font size="-30%"><a href="#toc">[sommaire]</a></font></h2>
 <p>Un autre cas d'incertitude peut concerner la délimitation du maillon. Dans un tel cas, l'annotateur devra indiquer qu'il a une incertitude de <b>délimitation</b> du maillon.</p>
 <p>La procédure pour associer ces degrés d'incertitude à chaque unité est décrite en section <a href="#traits">3.2.4</a>.</p>
 <p>Il est également possible de laisser, pour chaque unité, un commentaire libre. Pour laisser des commentaires libres au niveau global du texte, l'annotateur peut exploiter les <b>Glue notes (voir 6.2.6)</b></p>
 
 
 
-<h1><a name="annotation_maillons" href="#toc"></a>Procédure d'annotation des maillons et des CR <font size="-30%"><a href="#toc">[sommaire]</a></font></h1>
+<h1><a name="procedure" href="#toc"></a>Procédure d'annotation des maillons et des CR <font size="-30%"><a href="#toc">[sommaire]</a></font></h1>
 
 <p>Pour chaque CR, l'annotation des maillons consiste en la création d'unités dédiées (voir section <a href="#add">3.2.2</a>) qui aboutit à la création d'unités de type <span style="color : #00ccff">maillon_Elle</span>, <span style="color : #00cc33">maillon_Il</span> et <span style="color: DarkOrange">maillon_lesEnfants</span> (voir section <a href="#add">3.2.3</a>). Le choix du type d'unité indique le rattachement du maillon à l'une des trois CR.</p>
 <p>Une fois le maillon délimité, l'annotation des unités maillons nécessite le renseignement d'un certain nombre de traits comme le fait que le maillon soit de la classe "groupe" ou pas (dans les cas de <a href="#coord">coordination et référents pluriels et collectifs</a>) et le degré de certitude de l'annotation réalisée (voir <a href="#incertitude">ici</a>). Toute annotation peut également être associée à un commentaire donnant plus de détails sur la décision prise ou l'incertitude indiquée.</p>
@@ -752,7 +744,7 @@ Dans ce cas, l'annotateur ajoutera en commentaire : 'Membre de "lesEnfants"', co
 <p>Dans les textes que vous allez annoter, certaines expressions linguistiques ont fait l'objet d'un <b>prémarquage</b> ayant pour fonction de faciliter la tâche d'annotation. Il s'agit d'expressions qui, parce qu'elles sont considérées comme référant potentiellement aux 3 référents humains, constituent des <b>maillons-candidats</b> des trois <abbr title="chaines_reference">CR</abbr> considérées. Ces maillons-candidats pourront être validés en leur attributant l'étiquette <span style="color : #00ccff">maillon_Elle</span>, <span style="color : #00cc33">maillon_Il</span> et <span style="color: DarkOrange">maillon_lesEnfants</span>.
 </p>
 
-<h2><a name="premark"></a>Utilisation du prémarquage des maillons-candidats <font size="-30%"><a href="#toc">[sommaire]</a></font></h2>
+<h2><a name="maillonsCandidats"></a>Utilisation du prémarquage des maillons-candidats <font size="-30%"><a href="#toc">[sommaire]</a></font></h2>
 <p>L'exemple ci-dessous fournit une illustration - pour le même texte que celui que nous avons commenté en début de <a href="#CR">section 2</a> - du résultat du prémarquage automatique d'unités appelées "maillons-candidats". Ces "maillons-candidats" correspondent à des éléments fortement susceptibles d'être des unités de type <span style="color : #00ccff">maillon_Elle</span>, <span style="color : #00cc33">maillon_Il</span> ou <span style="color: DarkOrange">maillon_lesEnfants</span>, à savoir&nbsp;:
 		<ul>
 			<li>les noms propres</li>
@@ -796,9 +788,7 @@ Dans ce cas, si "Clément" est inclus dans une des CR de la consigne, l'annotate
 			
 
 	
-	<h2>
-	<a name="instal">Installer Glozz pour annoter les CR</a>
-	 <font size="-30%"><a href="#toc">[sommaire]</a></font></h2>
+	<h2><a name="install">Installer Glozz pour annoter les CR</a><font size="-30%"><a href="#toc">[sommaire]</a></font></h2>
 		<p>
 		L'annotation des CR se fait en identifiant toutes les <em>UNITÉS</em> (<img src="images/interface_icon/unit.png" align="absmiddle" height="18"/>) qui correspondent aux expressions référentielles référant aux référents humains mentionnés dans les phrases consignes.</p>
 <p>L'annotation consiste à créer trois types d'<em>UNITÉS</em> (<img src="images/interface_icon/unit.png" align="absmiddle" height="18"/>)&nbsp;:
@@ -844,8 +834,7 @@ Dans ce cas, si "Clément" est inclus dans une des CR de la consigne, l'annotate
 </ul>
 
 
-	<h2>
-	<a name="glozz">Utiliser Glozz pour annoter les CR</a>
+	<h2><a name="glozz">Utiliser Glozz pour annoter les CR</a>
 	 <font size="-30%"><a href="#toc">[sommaire]</a></font></h2>
 	<div class="contents">
 		<ul class="toc">
@@ -1031,8 +1020,7 @@ NomTexte_NomAnnotateur_JJmoisAA.aa (ex&nbsp: CO-3e-2018-FSBJC6-D1-R4-V1_coref_ho
 <p>Afin de faciliter l'annotation des <b>relations</b>, il est recommandé de n'afficher que les maillons concernés par la CR en cours d'annotation et de masquer les autres unités (y compris les phrases consignes et les maillons-candidats).</p>
 <p class="comment"><b>ATTENTION!!</b> Il se peut que <b>plusieurs fenêtres <i>Style Editor</i> soient ouvertes simultanément</b> (si vous avez à chaque fois cliqué sur le bouton <img src="images/interface_icon/styleEditor-24x24.png" align="absmiddle"/>). Du coup, vos modifications peuvent ne pas prendre effet. Pour être s&ucirc;r de modifier le 'bon' jeu de style, vérifiez dans la barre des t&acirc;ches qu'un seul <img src="images/java.png" height="18" align="absmiddle"/> apparaît. Si plusieurs fenêtres sont ouvertes, fermez les toutes pour n'en laisser qu'une sur laquelle vous ferez vos modifications (que vous pourrez sauvegarder en cliquant, dans la fenêtre <em>Style Editor</em>, sur le bouton <img src="images/interface_icon/save-24x24.png" height="18" align="absmiddle"/>).</p>
 
-<h1>
-<a name="video" href="#toc">Vidéo Tutoriel de l'annotation des CR</a>
+<h1><a name="video" href="#toc">Vidéo Tutoriel de l'annotation des CR</a>
  <font size="-30%"><a href="#toc">[sommaire]</a></font></h1>
 <iframe src="https://prismes.univ-toulouse.fr/player.php?code=Gf04P9h5&mode=advanced&width=100%&height=100%" allowfullscreen webkitallowfullscreen mozallowfullscreen data-aspectratio="0.5625" frameborder="0" width="768px" height="432px" scrolling="no"></iframe>
 
