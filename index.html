@@ -573,9 +573,16 @@ pour montrer qu'on annote [de Tina] comme coréférent à Tina si Tina est un ma
 
 
 <h2><a name="coord"></a>Référents multiples <font size="-30%"><a href="#toc">[sommaire]</a></font></h2>
-<p>Les textes peuvent contenir des référents multiples. Ces référents peuvent être désignés par des pronoms personnels pluriels, des SN pluriels (<i>les deux frères</i>) ou des SN collectifs (<i>le groupe de copines</i>).</p>
+<p>Les textes peuvent contenir des référents multiples c'est-à-dire des expresssions qui désigne en ensemble d'individus. Ces référents peuvent être désignés par des pronoms pluriels (<i>elles</i>, <i>eux</i>, <i>celles-ci</i>, etc.), des SN pluriels (<i>les deux frères</i>, <i>les amis</i>) ou des SN collectifs (<i>le groupe de copines</i>, <i>toute la famille</i>, etc.). Ces référents multiples sont à distinguer des SN coordonnés comme <i>Camille et Manu</i> où chaque individu est mentionné individuellement sans désignation d'un référent commun.</p>
 <p>Si ce référent multiple désigne un groupe intégrant un des référent humain de la consigne, on annote alors ce référent multiple comme un maillon de la CR concernée et on attribue à ce maillon le trait <b>groupe</b>. Ce choix d'annotation permet de conserver l'information de l'existence d'une continuité référentielle (et non d'une coréférence stricte).</p> 
-<p>	Dans l'exemple ci-dessous, en plus des maillons de la <abbr title="chaines de reference associée au pronom Il" style="color : #00ccff">CR_Il</abbr>, on inclut également les référents multiples <i>ils</i> et <i>Les deux autres garçons</i>. On attribue à chacun de ces deux maillons le trait <b>groupe</b>. 
+<p>Dans l'exemple ci-dessous, le référent <span style="color : #00cc33">Elle</span> est <b>introduit</b> dans le texte par le biais du <b>SN collectif</b>&nbsp;: <i>un groupe d'amis composés de deux filles Marie et Jeane et de deux garçons Max et Thomas</i> (<span style="color : #00ccff">Elle</span> correspond à <i>Jeane</i>). On délimite alors le SN désignant tout le référent collectif comme maillon de la <abbr title="chaines de reference associée au pronom Elle" style="color : #00cc33">CR_Elle</abbr> et on lui attribue le trait <b>groupe</b>. Il est important de noter que, même si <i>Jeane</i> est dédignée individuellement dans l'expression du référent multiple, c'est le référent <i>groupe d'amis [...]</i> qui est considéré comme le maillon de la <abbr title="chaines de reference associée au pronom Elle" style="color : #00cc33">CR_Elle</abbr>. D'autres maillons sont ensuite annotés: certains avec le trait groupe (<i>ils</i>), d'autres sans (<i>tu</i>, <i>Elle</i>, <i>sa</i>, ...)  
+<div class="exemple">
+			<span class="ex_head"><abbr title="chaines de reference associée au pronom Elle" style="color : #00cc33">CR_Elle</abbr>&nbsp;: Premier maillon collectif (trait groupe) suivi d'un maillon de type NP (sans trait groupe) puis d'un maillon sujet zéro. [<a target="_blank" href="http://redac.univ-tlse2.fr/corpus/resolco/copies/html/CO-3e-2018-FSBJC6-D1-R10-V1_T.html">CO-3e-2018-FSBJC6-D1-R10-V1</a>]</span><br/><br/>
+			<a href="images/exemples/20.png" alt="refCollectif">
+		<img src="images/exemples/20.png" title="refCollectif" style="width : 100%;max-width:800px;" /></a>
+	</div>
+</p>
+<p>Dans l'exemple ci-dessous, c'est le référent <span style="color : #00ccff">Il</span> qui est intégré dans un référent multiple au bout de la 17e mention, sous la forme du pronom personnel pluriel (<i>ils</i>), alors considéré comme un maillon de la <abbr title="chaines de reference associée au pronom Il" style="color : #00ccff">CR_Il</abbr>. Les référents multiples <i>ils</i> et <i>Les deux autres garçons</i> sont également annotés comme des maillons de la <abbr title="chaines de reference associée au pronom Il" style="color : #00ccff">CR_Il</abbr> avec le trait <b>groupe</b>. 
 	<div class="exemple">
 			<span class="ex_head">CR présentant des maillons de classe "groupe" [<a target="_blank" href="http://redac.univ-tlse2.fr/corpus/resolco/copies/html/CO-3e-2018-FSBJC6-D1-R4-V1_T.html">CO-3e-2018-FSBJC6-D1-R4-V1</a>]</span><br/><br/>
 			<a href="images/exemples/17.png" alt="maillon-groupe"></a>
@@ -589,15 +596,7 @@ pour montrer qu'on annote [de Tina] comme coréférent à Tina si Tina est un ma
 </table>
 	</div>	
 </p>	
-<p>Le même cas peut se retrouver où l'un des référents humains de la consigne est <b>introduit</b> par le biais d'un <b>référent collectif</b>. On annote alors le référent collectif comme premier maillon de la CR et on lui attribue le trait <b>groupe</b>.
-<div class="exemple">
-			<span class="ex_head"><abbr title="chaines de reference associée au pronom Elle" style="color : #00cc33">CR_Elle</abbr>&nbsp;: Premier maillon collectif (trait groupe) suivi d'un maillon de type NP (sans trait groupe) puis d'un maillon sujet zéro. [<a target="_blank" href="http://redac.univ-tlse2.fr/corpus/resolco/copies/html/CO-3e-2018-FSBJC6-D1-R10-V1_T.html">CO-3e-2018-FSBJC6-D1-R10-V1</a>]</span><br/><br/>
-			<a href="images/exemples/20.png" alt="refCollectif">
-		<img src="images/exemples/20.png" title="refCollectif" style="width : 100%;max-width:800px;" /></a>
-	</div>
-</p>
-
-<p>Le référent <span style="color: DarkOrange">les enfants</span> est par défaut un référent multiple.</p> 
+<p>Le référent <b><span style="color: DarkOrange">les enfants</span></b> est en soi un référent multiple. Cependant, le trait <b>groupe</b> n'est associé aux maillons de la <abbr title="chaines de reference associée au SN les enfants" style="color : DarkOrange">CR_enfants</abbr> que si ce maillon désigne un référent multiple intégrant d'autres référents que <span style="color: DarkOrange">les enfants</span> (ex : <i>toute la famille</i>).</p> 
 
 <p>Si le référent multiple référe uniquement à <span style="color: DarkOrange">les enfants</span>, le maillon de la <abbr title="chaines de reference associée au SN les enfants" style="color : DarkOrange">CR_enfants</abbr> ne reçoit pas le trait <b>groupe</b>. En revanche, si le référent multiple inclut d'autres membres que <span style="color: DarkOrange">les enfants</span>, les maillons de la <abbr title="chaines de reference associée au SN les enfants" style="color : DarkOrange">CR_enfants</abbr> reçoit le trait <b>groupe</b></p>.
 
