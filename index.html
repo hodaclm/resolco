@@ -270,7 +270,7 @@
 		
 <h1><a name="introduction" id="introduction" href="#toc">Présentation</a> <font size="-30%"><a href="#toc">[sommaire]</a></font></h1>
 
-<p>Ce guide a été élaboré dans le cadre d‘un projet de recherche financé par l’Agence Nationale de la Recherche : le projet <a href="http://e-calm.huma-num.fr/le-projet/">É-clam</a>. Ce projet avait pour objectif de structurer et mettre à disposition de la communauté scientifique une grande ressource constituée d’écrits d’élèves et d’étudiants enrichis d’annotations linguistiques.</p>					    
+<p>Ce guide a été élaboré dans le cadre d‘un projet de recherche financé par l’Agence Nationale de la Recherche : le projet <a href="http://e-calm.huma-num.fr/le-projet/">É-calm</a>. Ce projet avait pour objectif de structurer et mettre à disposition de la communauté scientifique une grande ressource constituée d’écrits d’élèves et d’étudiants enrichis d’annotations linguistiques.</p>					    
 										
 <p>Ce guide décrit la tâche d'annotation que vous allez réaliser et qui consiste à annoter les continuités référentielles -- <b>CR</b>. Annoter les CR d'un texte revient à identifier les expressions référentielles qui les composent -- nous parlons de <b>maillons</b> -- et de relier ces expressions entre elles. &Eacute;tant donné la diversité de forme que peuvent prendre les écrits scolaires, l’annotation décrite dans ce guide est dépendante d'une consigne d’écriture spécifique&nbsp; la <a href="#consigne">consigne RésolCo</a>.</p>
 						<p>Un exemple de ressource constituée selon ce guide peut être visualisée au lien suivant : <a href="http://redac.univ-tlse2.fr/corpus/resolco/exploration_coref.html">http://redac.univ-tlse2.fr/corpus/resolco/exploration_coref.html</a></p>
@@ -540,13 +540,13 @@ pour montrer qu'on annote [de Tina] comme coréférent à Tina si Tina est un ma
 
 <h3><a name="cor"></a>Pronoms corrélés</h3>
 <div class="exemple">
-			<span class="ex_head">Maillon de type pronom corrélé suivi d'un maillon de type NPP puis d'un maillon de type pronom personnel. [<a target="_blank" href="http://redac.univ-tlse2.fr/corpus/resolco/copies/html_normalise/CO-3e-2018-VTAC305-D1-R21-V1_N.html">CO-6e-2016-PJPR1-D1-R21-V1_T</a>]</span><br/><br/>
+			<span class="ex_head">Maillon de type pronom corrélé suivi d'un maillon de type NP puis d'un maillon de type pronom personnel. [<a target="_blank" href="http://redac.univ-tlse2.fr/corpus/resolco/copies/html_normalise/CO-3e-2018-VTAC305-D1-R21-V1_N.html">CO-6e-2016-PJPR1-D1-R21-V1_T</a>]</span><br/><br/>
 			<a href="images/img_exemples/6R21_justine pronom_ind2.png" alt="relative">
 			<img src="images/img_exemples/6R21_justine pronom_ind2.png" title="relative" style="width : 100%;max-width:800px;" /></a>
 		</div>
 
 <div class="exemple">
-			<span class="ex_head">Maillon de type pronom corrélé suivi d'un maillon de type NPP puis d'un maillon de type pronom personnel. [<a target="_blank" href="http://redac.univ-tlse2.fr/corpus/resolco/copies/html/CO-4e-2018-LSPJJRD-D1-R10-V1.html">CO-4e-2018-LSPJJRD-D1-R10-V1</a>]</span><br/><br/>
+			<span class="ex_head">Maillon de type NP suivi d'un maillon de type pronom corrélé. [<a target="_blank" href="http://redac.univ-tlse2.fr/corpus/resolco/copies/html/CO-4e-2018-LSPJJRD-D1-R10-V1.html">CO-4e-2018-LSPJJRD-D1-R10-V1</a>]</span><br/><br/>
 			<a href="images/exemples/13_bis.png" alt="relative">
 			<img src="images/exemples/13_bis.png" title="relative" style="width : 100%;max-width:800px;" /></a>
 		</div>
@@ -556,13 +556,13 @@ pour montrer qu'on annote [de Tina] comme coréférent à Tina si Tina est un ma
 
 <h2><a name="NP"></a>Noms Propres (NP) <font size="-30%"><a href="#toc">[sommaire]</a><a href="#CR_maillon">[types de maillons]</a></font></h2>
 <p>Lorsque l'expression référentielle prend la forme d'un nom propre (NP), elle est systématiquement annotée, sauf dans les cas de didascalies nominatives (voir la section sur le <a href="#discDirect">Discours direct</a>).</p>
-<p>Les maillons de forme NPP peuvent être composés d'un prénom suivi nom de famille (<i>Zack Ston</i>), d'un prénom (<i>Zack</i>) ou uniquement d'un nom de famille (<i>Ston</i>). Si le nom propre est précédé d'un titre, le maillon inclut ce titre (<i>Docteur Zack Ston</i>, <i>Mme Ston</i>).</p>
+<p>Les maillons de forme NP peuvent être composés d'un prénom suivi d'un nom de famille (<i>Zack Ston</i>), d'un prénom (<i>Zack</i>) ou uniquement d'un nom de famille (<i>Ston</i>). Si le nom propre est précédé d'un titre, le maillon inclut ce titre (<i>Docteur Zack Ston</i>, <i>Mme Ston</i>).</p>
 <p>Lorsque le nom propre du référent est intégré dans une relative (cas fréquent de type <i>Il était une fois une fille qui s'appelait Pascale</i>), le NP doit être annoté en plus du pronom relatif (voir la section sur les <a href="#rel">pronoms relatifs</a>)&nbsp;: 
 <div class="exemple">
 			<span class="ex_head"><abbr title="chaines de reference associée au pronom Elle" style="color : #00ccff">CR_Elle</abbr> : Maillon de type SNind suivi d'un maillon de type pronom relatif et d'un maillon de type NP.<br/>
 <abbr title="chaines de reference associée au pronom Il" style="color : #00cc33">CR_Il</abbr> : Maillon de type SNind suivi d'un maillon de type pronom relatif et d'un maillon de type NP. Les deux référents sont ensuite regroupés dans des maillons "groupe" (voir section sur les <a href="#coord">Référents multiples</a>)[<a target="_blank" href="http://redac.univ-tlse2.fr/corpus/resolco/copies/html_normalise/EC-CE2-2016-SGLEB-D1-R1-V1_N.html">EC-CE2-2016-SGLEB-D1-R1-V1</a>]</span><br/><br/>
-			<a href="images/exemples/14.png" alt="relativeAvecNPP">
-		<img src="images/exemples/14.png" title="relativeAvecNPP" style="width : 100%;max-width:800px;" /></a>
+			<a href="images/exemples/14.png" alt="relativeAvecNP">
+		<img src="images/exemples/14.png" title="relativeAvecNP" style="width : 100%;max-width:800px;" /></a>
 	</div>
 </p>
 
@@ -572,7 +572,7 @@ pour montrer qu'on annote [de Tina] comme coréférent à Tina si Tina est un ma
 
 <p>Il est fréquent dans les cas de coordination verbale que le sujet ne soit pas répété pour chaque verbe mais uniquement instancié en sujet du premier verbe ("Elle est venue, a vu et a vaincu" <i>vs.</i> "Elle est venue, elle a vu et elle a vaincu"). Dans ces contextes, la seule façon d'annoter le sujet de tous les verbes est d'annoter le groupe verbal. Afin de simplifier la procédure de délimitation lors de l'annotation, nous avons décidé d'inclure dans le maillon l'ensemble du groupe verbal, ce qui peut amener à inclure dans un maillon les marques de négation, les auxiliaires en cas de temps composé, les pronoms réfléchis et certains pronoms clitiques objets (ex : <i>Elle s'est enfuie et [ne s'est jamais remise] de ce drame</i>).
 	<div class="exemple">
-			<span class="ex_head">Maillon de type NPP suivi de 2 maillons de type possessif, d'un <b>maillon sujet zéro</b>, d'un maillon de type possessif, d'un maillon de type pronom, de 2 maillons de type possessif, d'un maillon de type pronom, d'un maillon de type possessif et d'un autre <b>maillon sujet zéro</b> [<a target="_blank" href="http://redac.univ-tlse2.fr/corpus/resolco/copies/html_normalise/CO-3e-2018-FSBJC6-D1-R4-V1_N.html">CO-3e-2018-FSBJC6-D1-R4-V1</a>]</span><br/><br/>
+			<span class="ex_head">Maillon de type NP suivi de 2 maillons de type possessif, d'un <b>maillon sujet zéro</b>, d'un maillon de type possessif, d'un maillon de type pronom, de 2 maillons de type possessif, d'un maillon de type pronom, d'un maillon de type possessif et d'un autre <b>maillon sujet zéro</b> [<a target="_blank" href="http://redac.univ-tlse2.fr/corpus/resolco/copies/html_normalise/CO-3e-2018-FSBJC6-D1-R4-V1_N.html">CO-3e-2018-FSBJC6-D1-R4-V1</a>]</span><br/><br/>
 			<a href="images/exemples/15.png" alt="sujet_zero">
 		<img src="images/exemples/15.png" title="sujet_zero" style="width : 100%;max-width:800px;" /></a>
 	</div>
@@ -580,7 +580,7 @@ pour montrer qu'on annote [de Tina] comme coréférent à Tina si Tina est un ma
 <p>La même situation se rencontre dans les cas de verbes à l'impératif. Dans ces contextes, on annotera le verbe lui-même.
 	
 	<div class="exemple">
-			<span class="ex_head"><abbr title="chaines de reference associée au pronom Il" style="color : #00cc33">CR_Il</abbr>&nbsp;: Maillon de type NPP suivi d'un <b>maillon sujet zéro</b> (verbe à l'impératif) puis d'un maillon de type NPP et de 2 maillons de type pronom [<a target="_blank" href="http://redac.univ-tlse2.fr/corpus/resolco/copies/html_normalise/EC-CM1-2015-TFGLX-D1-R12-V1_N.html">EC-CM1-2015-TFGLX-D1-R12-V1</a>]</span><br/><br/>
+			<span class="ex_head"><abbr title="chaines de reference associée au pronom Il" style="color : #00cc33">CR_Il</abbr>&nbsp;: Maillon de type NP suivi d'un <b>maillon sujet zéro</b> (verbe à l'impératif) puis d'un maillon de type NP et de 2 maillons de type pronom [<a target="_blank" href="http://redac.univ-tlse2.fr/corpus/resolco/copies/html_normalise/EC-CM1-2015-TFGLX-D1-R12-V1_N.html">EC-CM1-2015-TFGLX-D1-R12-V1</a>]</span><br/><br/>
 			<a href="images/exemples/16.png" alt="sujet_zero">
 		<img src="images/exemples/16.png" title="sujet_zero" style="width : 100%;max-width:800px;" /></a>
 </div>
@@ -590,7 +590,7 @@ pour montrer qu'on annote [de Tina] comme coréférent à Tina si Tina est un ma
 <h2><a name="coord"></a>Référents multiples <font size="-30%"><a href="#toc">[sommaire]</a><a href="#CR_maillon">[types de maillons]</a></font></h2>
 														
 <p>Les textes peuvent contenir des référents multiples c'est-à-dire des expressions qui désignent un groupe d'individus. Ces référents peuvent être désignés par des pronoms pluriels (<i>elles</i>, <i>eux</i>, <i>celles-ci</i>, etc.), des SN pluriels (<i>les deux frères</i>, <i>les amis</i>) ou des SN collectifs (<i>le groupe de copines</i>, <i>toute la famille</i>, etc.). Ces référents multiples sont à distinguer des SN coordonnés comme <i>Camille et Manu</i> où chaque individu est mentionné individuellement sans désignation d'un référent commun.</p>
-<p>Si ce référent multiple désigne un groupe intégrant un des référent humain de la consigne, on annote alors ce référent multiple comme un maillon de la CR concernée et on attribue à ce maillon le trait <b>groupe</b>. Ce choix d'annotation permet de conserver l'information de l'existence d'une continuité référentielle (et non d'une coréférence stricte).</p> 
+<p>Si ce référent multiple désigne un groupe intégrant un des référents humains de la consigne, on annote alors ce référent multiple comme un maillon de la CR concernée et on attribue à ce maillon le trait <b>groupe</b>. Ce choix d'annotation permet de conserver l'information de l'existence d'une continuité référentielle (et non d'une coréférence stricte).</p> 
 														
 <p>Dans l'exemple ci-dessous, le référent <span style="color : #00ccff">Elle</span> est <b>introduit</b> dans le texte par le biais du <b>SN collectif</b>&nbsp;: <i>un groupe d'amis composés de deux filles Marie et Jeane et de deux garçons Max et Thomas</i> (<span style="color : #00ccff">Elle</span> correspond à <i>Jeane</i>). On délimite alors le SN désignant tout le référent collectif comme maillon de la <abbr title="chaines de reference associée au pronom Elle" style="color : #00ccff">CR_Elle</abbr> et on lui attribue le trait <b>groupe</b>. Il est important de noter que, même si <i>Jeane</i> est désignée individuellement dans l'expression du référent multiple, c'est le référent <i>groupe d'amis [...]</i> qui est considéré comme le maillon de la <abbr title="chaines de reference associée au pronom Elle" style="color : #00ccff">CR_Elle</abbr>. D'autres maillons sont ensuite annotés: certains avec le trait groupe (<i>ils</i>), d'autres sans (<i>tu</i>, <i>Elle</i>, <i>sa</i>, ...)  
 <div class="exemple">
@@ -615,7 +615,7 @@ pour montrer qu'on annote [de Tina] comme coréférent à Tina si Tina est un ma
 </p>	
 <p>Le référent <b><span style="color: DarkOrange">les enfants</span></b> est en soi un référent multiple. Cependant, le trait <b>groupe</b> n'est associé aux maillons de la <abbr title="chaines de reference associée au SN les enfants" style="color : DarkOrange">CR_enfants</abbr> que si ce maillon désigne un référent multiple intégrant d'autres référents que <span style="color: DarkOrange">les enfants</span> (ex : <i>toute la famille</i>).</p> 
 
-<p>Si le référent multiple référe uniquement à <span style="color: DarkOrange">les enfants</span>, le maillon de la <abbr title="chaines de reference associée au SN les enfants" style="color : DarkOrange">CR_enfants</abbr> ne reçoit pas le trait <b>groupe</b>. En revanche, si le référent multiple inclut d'autres membres que <span style="color: DarkOrange">les enfants</span>, les maillons de la <abbr title="chaines de reference associée au SN les enfants" style="color : DarkOrange">CR_enfants</abbr> reçoit le trait <b>groupe</b></p>.
+<p>Si le référent multiple réfère uniquement à <span style="color: DarkOrange">les enfants</span>, le maillon de la <abbr title="chaines de reference associée au SN les enfants" style="color : DarkOrange">CR_enfants</abbr> ne reçoit pas le trait <b>groupe</b>. En revanche, si le référent multiple inclut d'autres membres que <span style="color: DarkOrange">les enfants</span>, les maillons de la <abbr title="chaines de reference associée au SN les enfants" style="color : DarkOrange">CR_enfants</abbr> reçoivent le trait <b>groupe</b></p>.
 
 <p>&Eacute;tant donné les 3 phrases de la consigne RésolCo, il est tout à fait probable que le référent multiple désigne à la fois <span style="color: DarkOrange">les enfants</span> et un groupe incluant <span style="color: #00ccff">Elle</span> et/ou <span style="color: #00cc33">Il</span>;</p>
 <p>Il faut alors annoter deux, voire trois fois ce référent&nbsp;:
@@ -633,7 +633,7 @@ Dans l'exemple ci-dessous, le référent multiple <i>deux enfants, Marine, la fi
 		<img src="images/img_exemples/3eR6_maillon_groupe_ambigu1.png" title="refCollectif" style="width : 100%;max-width:800px;" /></a>
 </div>
 </p>
-<p>Il peut également arriver que le texte commence directement par un maillon désignant un référent multiple impliquant les référents de la consigne. Dans l'exemple ci-dessous, l'expression coordonnée <i>Camille et Manu</i> est le premier maillon de la <abbr title="chaines de reference associée au SN les enfants" style="color : DarkOrange">CR_enfants</abbr>. Cette CR est ensuite composée des maillons <i>ils, ils, ils, ils, eux, les enfants</i>. Aucun de ces maillons de la <abbr title="chaines de reference associée au SN les enfants" style="color : DarkOrange">CR_enfants</abbr> ne reçoivent pas le trait <b>groupe</b>. </p>
+<p>Il peut également arriver que le texte commence directement par un maillon désignant un référent multiple impliquant les référents de la consigne. Dans l'exemple ci-dessous, l'expression coordonnée <i>Camille et Manu</i> est le premier maillon de la <abbr title="chaines de reference associée au SN les enfants" style="color : DarkOrange">CR_enfants</abbr>. Cette CR est ensuite composée des maillons <i>ils, ils, ils, ils, eux, les enfants</i>. Aucun de ces maillons de la <abbr title="chaines de reference associée au SN les enfants" style="color : DarkOrange">CR_enfants</abbr> ne reçoit le trait <b>groupe</b>. </p>
 <p>Puisque les enfants désignent Camille et Manu (<span style="color : #00ccff"><i>Elle</i></span> et <span style="color : #00cc33"><i>Il</i></span>), les expressions collectives associées à <span style="color: DarkOrange">les enfants</span>, c'est-à-dire <i>ils, ils, ils, ils, eux, les enfants</i> sont également délimitées et rattachées comme maillons de <abbr title="chaines de reference associée au pronom Elle" style="color : #00ccff">CR_Elle</abbr> et de <abbr title="chaines de reference associée au pronom Il" style="color : #00cc33">CR_Il</abbr>. Ces maillons, rattachés à <abbr title="chaines de reference associée au pronom Elle" style="color : #00ccff">CR_Elle</abbr> et <abbr title="chaines de reference associée au pronom Il" style="color : #00cc33">CR_Il</abbr>, reçoivent alors le trait <b>groupe</b>. Le syntagme coordonné "Camille et Manu" n'est pas considéré comme un maillon "groupe" de <abbr title="chaines de reference associée au pronom Elle" style="color : #00ccff">CR_Elle</abbr> oui <abbr title="chaines de reference associée au pronom Il" style="color : #00cc33">CR_Il</abbr> puisqu'aucune expression désignant une entité commune n'est instanciée (un maillon de type groupe pour les référents <span style="color : #00ccff"><i>Elle</i></span> et <span style="color : #00cc33"><i>Il</i></span> auraient été annoté si l'expression avait été <i>Le duo Camille et Manu</i>).
 <br/>		
 	<div class="exemple">
@@ -870,7 +870,7 @@ Dans ce cas, si "Clément" est inclus dans une des CR de la consigne, l'annotate
  
 <h3><a name="zones"></a>Description de l'interface <font size="-30%"><a href="#toc">[sommaire]</a><a href="#glozz">[utiliser glozz]</a></font></h3> 
 		<p>
-		Toutes les pocédures d'annotation se font avec l'interface d'annotation dans laquelle nous distinguons les zones suivantes&nbsp;:<br/>
+		Toutes les procédures d'annotation se font avec l'interface d'annotation dans laquelle nous distinguons les zones suivantes&nbsp;:<br/>
 		<img src="images/interface_icon/glozz2.1.png" alt="interface_glozz" style="width : 100%;max-width:800px;" />
 		</p>
 <ul>
