@@ -255,7 +255,7 @@
 				<li class="tocline">4.<a href="#procedure">Procédure d'annotation des maillons et des CR</a>
 				<ul class="toc">
 					<li class="tocline">4.1 <a href="#premark">Utilisation du prémarquage des maillons-candidats</a></li>
-					<li class="tocline">4.2 <a href="#install">Installer Glozz pour annoter les CR</a></li>
+					<li class="tocline">4.2 <a href="#install">L'interface Glozz pour annoter les CR</a></li>
 					<li class="tocline">4.3 <a href="#glozz">Utilisation de Glozz pour annoter les CR</a>
 				</li>
 				</ul>
@@ -699,7 +699,7 @@ La copie d'écran ci-dessous illustre un cas où l'annotateur a fait le choix d'
 </p>
 
 <div class="exemple">
-			<span class="ex_head">Incertitude de rattachement des maillons à la <abbr title="chaines de reference associée au pronom Il" style="color : #00cc33">CR_Il</abbr> [<a target="_blank" href="http://redac.univ-tlse2.fr/corpus/resolco/copies/html_normalise/CO-3e-2016-VTAC305-D1-R24-V1_N.html">CO-3e-2016-VTAC305-D1-R24-V1</a>]</span><br/><br/>
+			<span class="ex_head"><b>Incertitude de rattachement des maillons à la <abbr title="chaines de reference associée au pronom Il" style="color : #00cc33">CR_Il</abbr></b> [<a target="_blank" href="http://redac.univ-tlse2.fr/corpus/resolco/copies/html_normalise/CO-3e-2016-VTAC305-D1-R24-V1_N.html">CO-3e-2016-VTAC305-D1-R24-V1</a>]</span><br/><br/>
 			<a href="images/exemples/23.png" alt="incertitude"/>
 		<img src="images/exemples/23.png" title="incertitude" style="width : 100%;max-width:800px;" /></a>
 	</div>
@@ -709,7 +709,7 @@ La copie d'écran ci-dessous illustre un cas où l'annotateur a fait le choix d'
 	
 	
 <div class="exemple">
-			<span class="ex_head">Incertitude de rattachement des maillons à la <abbr title="chaines de reference associée au pronom Il" style="color : #00cc33">CR_Il</abbr> [<a target="_blank" href="http://redac.univ-tlse2.fr/corpus/resolco/copies/html_normalise/CO-3e-2016-VTAC305-D1-R24-V1_N.html">CO-3e-2016-VTAC305-D1-R24-V1</a>]</span><br/><br/>
+			<span class="ex_head"><b>Incertitude de rattachement des maillons à la <abbr title="chaines de reference associée au pronom Il" style="color : #00cc33">CR_Il</abbr></b> [<a target="_blank" href="http://redac.univ-tlse2.fr/corpus/resolco/copies/html_normalise/CO-3e-2016-VTAC305-D1-R24-V1_N.html">CO-3e-2016-VTAC305-D1-R24-V1</a>]</span><br/><br/>
 			<a href="images/exemples/24.png" alt="incertitude">
 		<img src="images/exemples/24.png" title="incertitude" style="width : 100%;max-width:800px;" /></a>
 	</div>
@@ -799,10 +799,10 @@ Dans l'exemple ci-dessous, ces expressions n'ont pas été annotées.</p>
 <p>Les maillons-candidats sont à considérer comme des propositions qui sont faites à l'annotateur pour l'assister dans sa tâche d'identification des maillons. Chaque maillon-candidat doit être validé par l'annotateur. Cette validation s'effectue par l'attribution de l'étiquette adéquate. En terme de procédure d'annotation, cela revient à créer une unité maillon_X (voir section <a href="#cue">Créer une annotation "unité" (maillon)</a>) qui se superpose au maillon-candidat. Le prémarquage étant automatique, certains maillons-candidats peuvent parfois paraître surprenants, notamment concernant le prémarquage des noms propres et des pronoms personnels.</p>
 
 <h3>Problèmes liés au prémarquage des noms propres</h3>	
-<p>Tous les NPP ont été considérés comme des maillons-candidats, même ceux pouvant désigner un référent non humain, comme "Vendée" ou "22H" dans l'exemple ci-dessus. Ces maillons-candidats ne doivent évidemment pas faire l'objet d'une validation et peuvent être supprimés au moment de l'annotation (voir section <a href="#suppr">Supprimer une unité</a>)</p>
-<p>Parfois, un NPP n'a pas été prémarqué, comme le nom "Clément" dans l'exemple ci-dessous.
+<p>Tous les NP ont été considérés comme des maillons-candidats, même ceux pouvant désigner un référent non humain, comme "Vendée" ou "22H" dans l'exemple ci-dessus. Ces maillons-candidats ne doivent évidemment pas faire l'objet d'une validation et peuvent être supprimés au moment de l'annotation (voir section <a href="#suppr">Supprimer une unité</a>)</p>
+<p>Parfois, un NP n'a pas été prémarqué, comme le nom "Clément" dans l'exemple ci-dessous.
 	 <div class="exemple">
-			<span class="ex_head">Problème de détection des maillons-candidats de type NPP [<a target="_blank" href="http://redac.univ-tlse2.fr/corpus/resolco/copies/html_normalise/CO-3e-2018-VTAC305-D1-R5-V1_N.html">CO-3e-2018-VTAC305-D1-R5-V1</a>]</span><br/><br/>
+			<span class="ex_head">Problème de détection des maillons-candidats de type NP [<a target="_blank" href="http://redac.univ-tlse2.fr/corpus/resolco/copies/html_normalise/CO-3e-2018-VTAC305-D1-R5-V1_N.html">CO-3e-2018-VTAC305-D1-R5-V1</a>]</span><br/><br/>
 			<a href="images/exemples/28.png" alt="maillonNPPmanquant">
 	 <img src="images/exemples/28.png" title="maillon-candidat NPP manquant" style="width : 100%;max-width:800px;" />
 	 </a>
@@ -812,7 +812,7 @@ Dans ce cas, si "Clément" est inclus dans une des CR de la consigne, l'annotate
 <p>Il se peut également que les noms propres soient prémarqués de façon incomplète, comme le montre l'exemple ci-dessous où "Mr" n'a pas été inclus dans le maillon-candidat "Mr Wilson".
 </p>
 	 <div class="exemple">
-			<span class="ex_head">Problème de délimitation des maillons-candidats de type NPP [<a target="_blank" href="http://redac.univ-tlse2.fr/corpus/resolco/copies/html_normalise/CO-3e-2018-FSBJC6-D1-R5-V1_N.html">CO-3e-2018-FSBJC6-D1-R5-V1</a>]</span><br/><br/>
+			<span class="ex_head">Problème de délimitation des maillons-candidats de type NP [<a target="_blank" href="http://redac.univ-tlse2.fr/corpus/resolco/copies/html_normalise/CO-3e-2018-FSBJC6-D1-R5-V1_N.html">CO-3e-2018-FSBJC6-D1-R5-V1</a>]</span><br/><br/>
 			<a href="images/exemples/29.png" alt="delimitationNPP">
 	 <img src="images/exemples/29.png" title="delimitationNPP" style="width : 100%;max-width:800px;" />
 	 </a>
@@ -820,11 +820,11 @@ Dans ce cas, si "Clément" est inclus dans une des CR de la consigne, l'annotate
 </p>
 
 <h3>Problèmes liés au prémarquage du pronom personnel <i>il</i></h3>	
-<p>Tous les pronoms clitiques sujets <i>il</i> ont été prémarqués, qu'il s'agisse d'un emploi personnel (<i><b>Il</b> se retourna en entendant ce grand bruit</i>) ou impersonnel (<i><b>Il</b> était un fois</i>, <i><b>Il</b> pleut</i>, <i><b>Il</b> est évident que...</i>). Ces maillons-candidats ne doivent évidemment pas faire l'objet d'une validation et peuvent être supprimés au moment de l'annotation (voir section <a href="#suppr">Supprimer une unité</a>).</p>
+<p>Tous les pronoms clitiques sujets <i>il</i> ont été prémarqués, qu'il s'agisse d'un emploi personnel (<i><b>Il</b> se retourna en entendant ce grand bruit</i>) ou impersonnel (<i><b>Il</b> était un fois</i>, <i><b>Il</b> pleut</i>, <i><b>Il</b> est évident que...</i>). Les pronoms en emploi impersonnel ne doivent évidemment pas faire l'objet d'une validation et peuvent être supprimés au moment de l'annotation (voir section <a href="#suppr">Supprimer une unité</a>).</p>
 			
 
 	
-<h2><a name="install"></a>Installer Glozz pour annoter les CR<font size="-30%"><a href="#toc">[sommaire]</a></font></h2>
+<h2><a name="install"></a>L'interface Glozz pour annoter les CR<font size="-30%"><a href="#toc">[sommaire]</a></font></h2>
 		<p>
 		L'annotation des CR se fait en identifiant toutes les <em>UNITÉS</em> (<img src="images/interface_icon/unit.png" align="absmiddle" height="18"/>) qui correspondent aux expressions référentielles référant aux référents humains mentionnés dans les phrases consignes.</p>
 <p>L'annotation consiste à créer trois types d'<em>UNITÉS</em> (<img src="images/interface_icon/unit.png" align="absmiddle" height="18"/>)&nbsp;:
@@ -849,7 +849,7 @@ Dans ce cas, si "Clément" est inclus dans une des CR de la consigne, l'annotate
 
 <h3>Téléchargement et Installation</h3>
 	
-		<p>Pour télécharger le logiciel il faut se rendre sur le site suivant <a href="http://glozz.free.fr/">http://glozz.free.fr/</a> et remplir les champs proposés dans la section <a href="#install">Installer Glozz pour annoter les CR</a>. 
+		<p>Pour télécharger le logiciel il faut se rendre sur le site suivant <a href="http://glozz.free.fr/">http://glozz.free.fr/</a> et remplir les champs proposés dans la section <b><i>Download Glozz</i></b>.
 	<br/>Il faudra également suivre les indications pour demander une clé d'accès à Glozz, sans laquelle vous ne pourrez pas annoter. 
 	Si vous avez des difficultés à trouver ces indications sur le site, suivez les informations ci-dessous&nbsp: </p>
 <div class="exemple">
